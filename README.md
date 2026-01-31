@@ -8,33 +8,63 @@ Software Architects serve as the technical visionaries who define the blueprint 
 
 ---
 
+## Lesson Diagrams
+
+| # | Lesson | Diagrams |
+|---|--------|----------|
+| 01 | Software Design & Architecture | ✅ |
+| 02 | Event-Driven Architecture | ✅ |
+| 03 | Cloud Platforms & Services | ✅ |
+| 04 | Identity & Access Management | ✅ |
+| 05 | DevOps & Platform Engineering | ⬜ |
+| 06 | Security | ⬜ |
+| 07 | Networking | ⬜ |
+| 08 | Databases & Storage | ⬜ |
+| 09 | Observability & Monitoring | ⬜ |
+| 10 | Soft Skills | ⬜ |
+
+**Diagrams: 4/10 lessons completed**
+
+---
+
+## Knowledge Level Legend
+
+| Icon | Meaning |
+|------|---------|
+| ✅ | Good at that |
+| 🆗 | Doing OK |
+| ❓ | Don't know about that |
+| ⛔ | Don't need to know that yet |
+
+---
+
 ## Role Duties & Responsibilities
 
 ### Core Responsibilities (Minimum Scope)
 
 | Duty | Description |
 |------|-------------|
-| **System Design** | Create high-level architecture diagrams, define system components, and establish integration patterns |
-| **Technology Selection** | Evaluate and select appropriate technologies, frameworks, and platforms |
-| **Technical Standards** | Define coding standards, design patterns, and best practices |
-| **Documentation** | Produce architecture decision records (ADRs), technical specifications, and design documents |
-| **Code Review** | Review critical code and ensure alignment with architectural decisions |
-| **Technical Guidance** | Mentor developers and provide technical direction to development teams |
+| **System Design** | ✅✅✅ Create high-level architecture diagrams, ✅ define system components, ✅ establish integration patterns |
+| **Technology Selection** | ✅ Evaluate ✅🆗 select appropriate technologies, ✅✅ frameworks, 🆗 platforms |
+| **Technical Standards** | ✅✅ Define coding standards, ✅ design patterns, ✅ best practices |
+| **Documentation** | ✅ Produce architecture decision records (ADRs), ✅ technical specifications, ✅✅ design documents |
+| **Code Review** | ✅ Review critical code ✅ ensure alignment with architectural decisions |
+| **Technical Guidance** | ✅ Mentor developers ✅ provide technical direction to development teams |
 
 ### Extended Responsibilities (Maximum Scope)
 
 | Duty | Description |
 |------|-------------|
-| **Stakeholder Communication** | Translate business requirements into technical solutions; present to executives |
-| **Capacity Planning** | Forecast system growth and plan for scalability |
-| **Vendor Management** | Evaluate third-party solutions and manage vendor relationships |
-| **Security Architecture** | Design security controls and ensure compliance with regulations |
-| **Performance Engineering** | Define performance benchmarks and optimization strategies |
-| **DevOps Strategy** | Establish CI/CD pipelines, deployment strategies, and infrastructure patterns |
-| **Cost Optimization** | Balance technical decisions with budget constraints |
-| **Risk Assessment** | Identify technical risks and create mitigation strategies |
-| **Team Building** | Participate in hiring and building technical teams |
-| **Research & Innovation** | Explore emerging technologies and drive innovation initiatives |
+| **Stakeholder Communication** | ✅✅ Translate business requirements into technical solutions; present to executives |
+| **Capacity Planning** | ✅✅✅ Forecast system growth ✅✅✅ plan for scalability |
+| **Vendor Management** | ✅✅ Evaluate third-party solutions 🆗 manage vendor relationships |
+| **Security Architecture** | 🆗❓ Design security controls ✅❓ ensure compliance with regulations |
+| **Performance Engineering** | ✅🆗 Define performance benchmarks ✅✅ optimization strategies |
+| **DevOps Strategy** | ✅✅ Establish CI/CD pipelines, ✅✅ deployment strategies, ✅ infrastructure patterns |
+| **Cost Optimization** | ✅ Balance technical decisions with budget constraints |
+| **Risk Assessment** | ✅🆗 Identify technical risks ✅🆗 create mitigation strategies |
+| **Team Building** | 🆗 Participate in hiring ✅✅ building technical teams |
+| **Research & Innovation** | ✅ Explore emerging technologies ❓ drive innovation initiatives |
 
 ---
 
@@ -42,125 +72,125 @@ Software Architects serve as the technical visionaries who define the blueprint 
 
 ### 1. Software Design & Architecture
 
-- **Design Patterns**: Gang of Four (GoF), Enterprise patterns, Domain-Driven Design (DDD)
+- **Design Patterns**: ❓ Gang of Four (GoF), ❓ Enterprise patterns, ❓ Domain-Driven Design (DDD)
 - **Architecture Styles**:
-  - Monolithic
-  - Microservices
-  - Service-Oriented Architecture (SOA)
-  - Serverless
-  - Event-Driven Architecture (EDA)
-- **Architecture Principles**: SOLID, DRY, KISS, YAGNI, Separation of Concerns
-- **API Design**: REST, GraphQL, gRPC, WebSocket
-- **Data Architecture**: Data modeling, ETL/ELT, data warehousing, data lakes
+  - ✅✅ Monolithic
+  - ✅✅ Microservices
+  - ❓ Service-Oriented Architecture (SOA)
+  - ✅✅ Serverless
+  - ✅✅ Event-Driven Architecture (EDA)
+- **Architecture Principles**: 🆗❓ SOLID, 🆗 DRY, ❓ KISS, ❓ YAGNI, ✅ Separation of Concerns
+- **API Design**: ✅ REST, GraphQL, gRPC, WebSocket
+- **Data Architecture**: ❓ Data modeling, 🆗 ETL/ELT, 🆗 data warehousing, 🆗 data lakes
 
 ### 2. Event-Driven Architecture
 
-- **Message Brokers**: Apache Kafka, RabbitMQ, Azure Service Bus, AWS SQS/SNS
+- **Message Brokers**: ✅ Apache Kafka, ✅ RabbitMQ, ⛔ Azure Service Bus, ✅ AWS SQS/SNS
 - **Event Patterns**:
-  - Event Sourcing
-  - CQRS (Command Query Responsibility Segregation)
-  - Saga Pattern
-  - Choreography vs Orchestration
-- **Stream Processing**: Apache Flink, Kafka Streams, Azure Stream Analytics
-- **Async Communication**: Pub/Sub, Message Queues, Event Streams
+  - 🆗❓ Event Sourcing
+  - 🆗 CQRS (Command Query Responsibility Segregation)
+  - ❓ Saga Pattern
+  - ❓ Choreography vs 🆗❓ Orchestration
+- **Stream Processing**: ❓ Apache Flink, ❓ Kafka Streams, ❓ Azure Stream Analytics
+- **Async Communication**: 🆗 Pub/Sub, ✅ Message Queues, ❓ Event Streams
 
 ### 3. Cloud Platforms & Services
 
 | Platform | Key Services |
 |----------|--------------|
 | **Microsoft Azure** | App Service, AKS, Azure Functions, Cosmos DB, Azure SQL |
-| **AWS** | EC2, EKS, Lambda, DynamoDB, RDS, S3 |
-| **Google Cloud** | GKE, Cloud Functions, BigQuery, Cloud Spanner |
+| **AWS** | ✅ EC2, ✅ EKS, ✅ Lambda, ✅ DynamoDB, ✅ RDS, ✅ S3 |
+| **Google Cloud** | ⛔ GKE, ⛔ Cloud Functions, ⛔ BigQuery, ⛔ Cloud Spanner |
 
 ### 4. Identity & Access Management (IAM)
 
 - **Microsoft Entra ID (Azure AD)**:
-  - Authentication protocols: OAuth 2.0, OpenID Connect, SAML
-  - Conditional Access policies
-  - Managed Identities
-  - App registrations & Service Principals
-  - B2B and B2C scenarios
+  - Authentication protocols: ✅ OAuth 2.0, ❓ OpenID Connect, ❓ SAML
+  - ❓ Conditional Access policies
+  - ❓ Managed Identities
+  - ❓ App registrations & Service Principals
+  - ❓ B2B and B2C scenarios
 - **Identity Concepts**:
-  - Single Sign-On (SSO)
-  - Multi-Factor Authentication (MFA)
-  - Role-Based Access Control (RBAC)
-  - Attribute-Based Access Control (ABAC)
-  - Zero Trust Architecture
+  - ✅ Single Sign-On (SSO)
+  - ✅ Multi-Factor Authentication (MFA)
+  - ❓ Role-Based Access Control (RBAC)
+  - 🆗 Attribute-Based Access Control (ABAC)
+  - ❓ Zero Trust Architecture
 
 ### 5. DevOps & Platform Engineering
 
-- **CI/CD Tools**: Azure DevOps, GitHub Actions, GitLab CI, Jenkins
-- **Infrastructure as Code (IaC)**: Terraform, Pulumi, ARM Templates, CloudFormation
-- **Containerization**: Docker, Podman
-- **Container Orchestration**: Kubernetes, Docker Swarm, Azure Container Apps
-- **GitOps**: ArgoCD, Flux
-- **Artifact Management**: Azure Artifacts, Nexus, Artifactory
-- **Configuration Management**: Ansible, Chef, Puppet
+- **CI/CD Tools**: ⛔ Azure DevOps, ✅✅ GitHub Actions, ⛔ GitLab CI, ✅ Jenkins
+- **Infrastructure as Code (IaC)**: ✅✅ Terraform, ⛔ Pulumi, ⛔ ARM Templates, ✅ CloudFormation
+- **Containerization**: 🆗 Docker, ⛔ Podman
+- **Container Orchestration**: 🆗 Kubernetes, ❓ Docker Swarm, ❓ Azure Container Apps
+- **GitOps**: ❓ ArgoCD, ❓ Flux
+- **Artifact Management**: ⛔ Azure Artifacts, ✅ Nexus, Artifactory
+- **Configuration Management**: ❓ Ansible, ❓ Chef, ❓ Puppet
 
 ### 6. Security
 
 #### Application Security
-- OWASP Top 10
-- Secure coding practices
-- Input validation & output encoding
-- Secrets management (Azure Key Vault, HashiCorp Vault)
-- Static Application Security Testing (SAST)
-- Dynamic Application Security Testing (DAST)
+- ❓ OWASP Top 10
+- ❓ Secure coding practices
+- ❓ Input validation & output encoding
+- ✅ Secrets management (Azure Key Vault, HashiCorp Vault)
+- 🆗 Static Application Security Testing (SAST)
+- 🆗 Dynamic Application Security Testing (DAST)
 
 #### Network Security
-- Firewalls & WAF (Web Application Firewall)
-- DDoS protection
-- Network segmentation
-- VPN & Private endpoints
-- TLS/SSL certificates
-- DNS security
+- 🆗 Firewalls & ❓ WAF (Web Application Firewall)
+- 🆗 DDoS protection
+- ❓ Network segmentation
+- 🆗 VPN & ❓ Private endpoints
+- ❓ TLS/SSL certificates
+- ❓ DNS security
 
 #### Compliance & Governance
-- GDPR, HIPAA, SOC 2, PCI-DSS
-- Data classification
-- Audit logging
-- Security incident response
+- ❓ GDPR, ❓ HIPAA, ❓ SOC 2, ❓ PCI-DSS
+- ❓ Data classification
+- ❓ Audit logging
+- ❓ Security incident response
 
 ### 7. Networking
 
-- **Fundamentals**: TCP/IP, DNS, HTTP/HTTPS, Load Balancing
+- **Fundamentals**: 🆗 TCP/IP, 🆗 DNS, 🆗 HTTP/HTTPS, ✅ Load Balancing
 - **Cloud Networking**:
-  - Virtual Networks (VNet/VPC)
-  - Subnets and NSGs
-  - VNet Peering
-  - ExpressRoute / Direct Connect
-  - Private Link / Private Endpoints
-  - Traffic Manager / Global Load Balancer
-- **Service Mesh**: Istio, Linkerd, Consul
-- **API Gateway**: Azure API Management, Kong, AWS API Gateway
+  - ✅ Virtual Networks (VNet/VPC)
+  - 🆗 Subnets and NSGs
+  - ❓ VNet Peering
+  - ❓ ExpressRoute / ✅ Direct Connect
+  - 🆗 Private Link / Private Endpoints
+  - 🆗 Traffic Manager / 🆗 Global Load Balancer
+- **Service Mesh**: ❓ Istio, ❓ Linkerd, ❓ Consul
+- **API Gateway**: ⛔ Azure API Management, ✅ Kong, ✅ AWS API Gateway
 
 ### 8. Databases & Storage
 
 | Type | Technologies |
 |------|--------------|
-| **Relational** | SQL Server, PostgreSQL, MySQL, Oracle |
-| **NoSQL Document** | MongoDB, Cosmos DB, Couchbase |
-| **NoSQL Key-Value** | Redis, DynamoDB, Memcached |
-| **NoSQL Graph** | Neo4j, Azure Cosmos DB (Gremlin) |
-| **NoSQL Column** | Cassandra, HBase |
-| **Time-Series** | InfluxDB, TimescaleDB |
-| **Search Engines** | Elasticsearch, Azure Cognitive Search |
+| **Relational** | ✅ SQL Server, ✅ PostgreSQL, ✅ MySQL, ✅ Oracle |
+| **NoSQL Document** | ✅ MongoDB, ⛔ Cosmos DB, ⛔ Couchbase |
+| **NoSQL Key-Value** | ✅ Redis, ✅ DynamoDB, ⛔ Memcached |
+| **NoSQL Graph** | ❓ Neo4j, ❓ Azure Cosmos DB (Gremlin) |
+| **NoSQL Column** | ❓ Cassandra, ❓ HBase |
+| **Time-Series** | ❓ InfluxDB, ❓ TimescaleDB |
+| **Search Engines** | ✅ Elasticsearch, ⛔ Azure Cognitive Search |
 
 ### 9. Observability & Monitoring
 
-- **Logging**: ELK Stack, Azure Monitor Logs, Splunk
-- **Metrics**: Prometheus, Grafana, Azure Monitor Metrics
-- **Tracing**: Jaeger, Zipkin, Application Insights
-- **APM**: New Relic, Datadog, Dynatrace
-- **Alerting**: PagerDuty, Opsgenie, Azure Alerts
+- **Logging**: ⛔ ELK Stack, ⛔ Azure Monitor Logs, ⛔ Splunk
+- **Metrics**: ⛔ Prometheus, ⛔ Grafana, ⛔ Azure Monitor Metrics
+- **Tracing**: ⛔ Jaeger, Zipkin, ⛔ Application Insights
+- **APM**: ❓ New Relic, ❓ Datadog, ❓ Dynatrace
+- **Alerting**: ❓ PagerDuty, ❓ Opsgenie, ❓ Azure Alerts
 
 ### 10. Soft Skills
 
-- **Communication**: Technical writing, presentations, stakeholder management
-- **Leadership**: Team mentoring, conflict resolution, decision-making
-- **Business Acumen**: Cost-benefit analysis, ROI evaluation, business alignment
-- **Problem Solving**: Root cause analysis, trade-off evaluation
-- **Continuous Learning**: Staying current with industry trends
+- **Communication**: ✅ Technical writing, ✅ presentations, ❓ stakeholder management
+- **Leadership**: ✅ Team mentoring, ✅ conflict resolution, ✅ decision-making
+- **Business Acumen**: ✅ Cost-benefit analysis, ❓ ROI evaluation, ✅ business alignment
+- **Problem Solving**: ✅❓ Root cause analysis, ❓ trade-off evaluation
+- **Continuous Learning**: 🆗 Staying current with industry trends
 
 ---
 
@@ -168,13 +198,13 @@ Software Architects serve as the technical visionaries who define the blueprint 
 
 | Architect Type | Focus Area |
 |----------------|------------|
-| **Solution Architect** | End-to-end solution design for specific business problems |
-| **Enterprise Architect** | Organization-wide technology strategy and standards |
-| **Cloud Architect** | Cloud infrastructure, migration, and cloud-native design |
-| **Security Architect** | Security controls, compliance, and threat modeling |
-| **Data Architect** | Data strategy, modeling, governance, and analytics |
-| **Infrastructure Architect** | Hardware, networking, and platform infrastructure |
-| **Application Architect** | Application design, frameworks, and development practices |
+| **Solution Architect** | ✅🆗 End-to-end solution design for specific business problems |
+| **Enterprise Architect** | ✅🆗 Organization-wide technology strategy standards |
+| **Cloud Architect** | ✅ Cloud infrastructure, 🆗 migration, ❓ cloud-native design |
+| **Security Architect** | Security controls, compliance, threat modeling |
+| **Data Architect** | ✅❓ Data strategy, modeling, governance, ✅✅ analytics |
+| **Infrastructure Architect** | 🆗 Hardware, networking, ✅ platform infrastructure |
+| **Application Architect** | ✅✅ Application design, ✅✅✅ frameworks, ✅✅✅ development practices |
 
 ---
 
