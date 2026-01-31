@@ -1,0 +1,193 @@
+<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="dip" name="Dependency Inversion Principle">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Dependency Inversion Principle (DIP) - Deep Dive" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Without DIP Section -->
+        <mxCell id="without-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="400" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="without-title" value="❌ Without DIP (Tight Coupling)" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="110" y="95" width="260" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bad-high" value="OrderService&#xa;(High-Level Module)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="145" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bad-high-code" value="class OrderService {&#xa;  private mysql: MySQLDatabase;&#xa;  constructor() {&#xa;    this.mysql = new MySQLDatabase();&#xa;  }&#xa;}" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;fontFamily=Courier New;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="75" y="200" width="210" height="85" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bad-low" value="MySQLDatabase&#xa;(Low-Level Module)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="340" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bad-arrow" value="directly depends on" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#b85450;fontSize=10;" parent="1" source="bad-high" target="bad-low" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bad-problems" value="Problems:&#xa;• Cannot switch databases easily&#xa;• Hard to unit test (needs real DB)&#xa;• High-level depends on low-level&#xa;• Changes in MySQL affect OrderService" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="295" y="215" width="130" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- With DIP Section -->
+        <mxCell id="with-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="480" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="with-title" value="✓ With DIP (Loose Coupling)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="600" y="95" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="good-high" value="OrderService&#xa;(High-Level Module)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="645" y="145" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="good-interface" value="«interface»&#xa;IDatabase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=3;" parent="1" vertex="1">
+          <mxGeometry x="645" y="255" width="150" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="good-low1" value="MySQLDatabase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="370" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="good-low2" value="PostgresDatabase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="665" y="370" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="good-low3" value="MongoDatabase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="370" width="110" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="good-arrow1" value="depends on abstraction" style="endArrow=open;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;strokeColor=#82b366;fontSize=10;" parent="1" source="good-high" target="good-interface" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="good-impl1" value="" style="endArrow=block;html=1;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;" parent="1" source="good-low1" target="good-interface" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="good-impl2" value="" style="endArrow=block;html=1;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;" parent="1" source="good-low2" target="good-interface" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="good-impl3" value="" style="endArrow=block;html=1;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;" parent="1" source="good-low3" target="good-interface" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="impl-label" value="implements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="695" y="330" width="50" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- Dependency Injection Section -->
+        <mxCell id="di-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="80" width="360" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="di-title" value="Dependency Injection (DI)" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="95" width="220" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="di-constructor" value="Constructor Injection" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="140" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="di-constructor-code" value="constructor(db: IDatabase) {&#xa;  this.database = db;&#xa;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingTop=2;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;fontFamily=Courier New;" parent="di-constructor" vertex="1">
+          <mxGeometry y="22" width="200" height="53" as="geometry" />
+        </mxCell>
+
+        <mxCell id="di-setter" value="Setter Injection" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="230" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="di-setter-code" value="setDatabase(db: IDatabase) {&#xa;  this.database = db;&#xa;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingTop=2;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;fontFamily=Courier New;" parent="di-setter" vertex="1">
+          <mxGeometry y="22" width="200" height="53" as="geometry" />
+        </mxCell>
+
+        <mxCell id="di-interface" value="Interface Injection" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="320" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="di-interface-code" value="interface IDatabaseAware {&#xa;  injectDatabase(db: IDatabase);&#xa;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingTop=2;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;fontFamily=Courier New;" parent="di-interface" vertex="1">
+          <mxGeometry y="22" width="200" height="53" as="geometry" />
+        </mxCell>
+
+        <mxCell id="di-rec" value="✓ Recommended" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=1;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="150" width="90" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- IoC Container Section -->
+        <mxCell id="ioc-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="490" width="620" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ioc-title" value="IoC Container (Inversion of Control)" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="220" y="505" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ioc-reg" value="1. Register" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="555" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ioc-reg-code" value="container.register&lt;IDatabase&gt;(&#xa;  MySQLDatabase&#xa;);" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;fontFamily=Courier New;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="60" y="590" width="170" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ioc-res" value="2. Resolve" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="555" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ioc-res-code" value="const orderService = &#xa;  container.resolve&lt;OrderService&gt;();&#xa;// Dependencies auto-injected!" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;fontFamily=Courier New;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="250" y="590" width="170" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ioc-pop" value="3. Popular Containers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="555" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ioc-pop-list" value="• .NET: Microsoft.Extensions.DI&#xa;• Java: Spring Framework&#xa;• TypeScript: InversifyJS, TSyringe&#xa;• Python: dependency-injector" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="440" y="590" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Testing Benefits -->
+        <mxCell id="test-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="680" y="490" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="test-title" value="Testing Benefits" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="760" y="505" width="160" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="test-mock" value="Mock Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="545" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="test-mock-code" value="class MockDatabase implements IDatabase {&#xa;  save(data: any) { /* no-op */ }&#xa;  find(id: string) { return mockData; }&#xa;}&#xa;&#xa;// Test with mock&#xa;const service = new OrderService(&#xa;  new MockDatabase()&#xa;);&#xa;expect(service.getOrder('1')).toBe(...);" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;fontFamily=Courier New;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="700" y="565" width="280" height="115" as="geometry" />
+        </mxCell>
+
+        <!-- DIP Rules Summary -->
+        <mxCell id="rules-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="490" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rules-title" value="DIP Rules" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="505" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rule1" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="550" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rule1-text" value="High-level modules should not depend&#xa;on low-level modules" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="550" width="260" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rule2" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="595" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rule2-text" value="Both should depend on abstractions&#xa;(interfaces or abstract classes)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="595" width="260" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rule3" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="640" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rule3-text" value="Abstractions should not depend&#xa;on details (implementations)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="640" width="260" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="structural-patterns" name="Structural Patterns Overview">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Structural Design Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="650" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Adapter Pattern -->
+        <mxCell id="adapter-group" value="Adapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter-desc" value="Converts interface of a class&#xa;to another interface clients expect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="adapter-group" vertex="1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter-client" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="adapter-group" vertex="1">
+          <mxGeometry x="10" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter-target" value="Target&#xa;Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;fontStyle=2;" parent="adapter-group" vertex="1">
+          <mxGeometry x="90" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter-adapter" value="Adapter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="adapter-group" vertex="1">
+          <mxGeometry x="90" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter-adaptee" value="Adaptee" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="adapter-group" vertex="1">
+          <mxGeometry x="180" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter-arrow1" value="" style="endArrow=open;endFill=0;endSize=8;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="adapter-group" source="adapter-client" target="adapter-target" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter-arrow2" value="" style="endArrow=block;endFill=0;endSize=8;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="adapter-group" source="adapter-adapter" target="adapter-target" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter-arrow3" value="" style="endArrow=open;endFill=0;endSize=8;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="adapter-group" source="adapter-adapter" target="adapter-adaptee" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter-use" value="Use: Legacy system integration" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="adapter-group" vertex="1">
+          <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Bridge Pattern -->
+        <mxCell id="bridge-group" value="Bridge" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bridge-desc" value="Separates abstraction from implementation&#xa;so both can vary independently" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="bridge-group" vertex="1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bridge-abstraction" value="Abstraction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="bridge-group" vertex="1">
+          <mxGeometry x="90" y="65" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bridge-refined" value="Refined&#xa;Abstraction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" parent="bridge-group" vertex="1">
+          <mxGeometry x="20" y="110" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="bridge-impl" value="Implementor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;fontStyle=2;" parent="bridge-group" vertex="1">
+          <mxGeometry x="170" y="65" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bridge-concrete" value="Concrete&#xa;Impl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" parent="bridge-group" vertex="1">
+          <mxGeometry x="170" y="110" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="bridge-use" value="Use: Cross-platform applications" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="bridge-group" vertex="1">
+          <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Composite Pattern -->
+        <mxCell id="composite-group" value="Composite" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="600" y="80" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="composite-desc" value="Composes objects into tree structures&#xa;to represent part-whole hierarchies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="composite-group" vertex="1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="composite-component" value="Component" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=2;" parent="composite-group" vertex="1">
+          <mxGeometry x="90" y="65" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="composite-leaf" value="Leaf" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="composite-group" vertex="1">
+          <mxGeometry x="30" y="110" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="composite-composite" value="Composite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="composite-group" vertex="1">
+          <mxGeometry x="170" y="110" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="composite-use" value="Use: File systems, UI hierarchies" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="composite-group" vertex="1">
+          <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Decorator Pattern -->
+        <mxCell id="decorator-group" value="Decorator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="880" y="80" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="decorator-desc" value="Attaches additional responsibilities&#xa;to objects dynamically" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="decorator-group" vertex="1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="decorator-component" value="Component" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=2;" parent="decorator-group" vertex="1">
+          <mxGeometry x="90" y="60" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="decorator-concrete" value="Concrete" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="decorator-group" vertex="1">
+          <mxGeometry x="30" y="100" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="decorator-base" value="Decorator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="decorator-group" vertex="1">
+          <mxGeometry x="170" y="100" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="decorator-use" value="Use: Stream wrappers, Middleware" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="decorator-group" vertex="1">
+          <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Facade Pattern -->
+        <mxCell id="facade-group" value="Facade" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="80" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="facade-desc" value="Provides simplified interface&#xa;to a complex subsystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="facade-group" vertex="1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="facade-client" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="facade-group" vertex="1">
+          <mxGeometry x="20" y="75" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="facade-facade" value="Facade" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="facade-group" vertex="1">
+          <mxGeometry x="100" y="75" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="facade-sub1" value="SubA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" parent="facade-group" vertex="1">
+          <mxGeometry x="180" y="60" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="facade-sub2" value="SubB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" parent="facade-group" vertex="1">
+          <mxGeometry x="180" y="85" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="facade-sub3" value="SubC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" parent="facade-group" vertex="1">
+          <mxGeometry x="180" y="110" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="facade-use" value="Use: API gateways, Libraries" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="facade-group" vertex="1">
+          <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Proxy Pattern -->
+        <mxCell id="proxy-group" value="Proxy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="80" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="proxy-desc" value="Provides surrogate or placeholder&#xa;for another object to control access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="proxy-group" vertex="1">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="proxy-client" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="proxy-group" vertex="1">
+          <mxGeometry x="20" y="80" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="proxy-subject" value="Subject" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=2;" parent="proxy-group" vertex="1">
+          <mxGeometry x="100" y="65" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="proxy-proxy" value="Proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="proxy-group" vertex="1">
+          <mxGeometry x="85" y="105" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="proxy-real" value="RealSubject" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" parent="proxy-group" vertex="1">
+          <mxGeometry x="155" y="105" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="proxy-use" value="Use: Lazy loading, Access control, Caching" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="proxy-group" vertex="1">
+          <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
