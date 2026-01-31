@@ -1,0 +1,189 @@
+<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="eda-overview" name="Event-Driven Architecture Overview">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Event-Driven Architecture (EDA) Overview" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Definition -->
+        <mxCell id="def-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="1320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="def-text" value="Event-Driven Architecture is a software design paradigm where the flow of the program is determined by events—significant changes in state. It enables loosely coupled, scalable, and responsive systems." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="60" y="90" width="1280" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Core Components Flow -->
+        <mxCell id="flow-title" value="Core Components" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="160" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Producer -->
+        <mxCell id="producer-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="210" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="producer-title" value="Producer / Publisher" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="130" y="225" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="producer-icon" value="📤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" parent="1" vertex="1">
+          <mxGeometry x="190" y="260" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="producer-desc" value="• Emits events when something happens&#xa;• Doesn't know who will consume&#xa;• Fire-and-forget model&#xa;• Examples: Order Service, User Service" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="100" y="315" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Event/Broker -->
+        <mxCell id="broker-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="460" y="210" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="broker-title" value="Event Broker / Message Channel" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="510" y="225" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="broker-icon" value="📨" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" parent="1" vertex="1">
+          <mxGeometry x="620" y="260" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="broker-desc" value="• Routes events to interested consumers&#xa;• Decouples producers from consumers&#xa;• Provides reliability, ordering, persistence&#xa;• Examples: Kafka, RabbitMQ, Azure Service Bus" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="480" y="315" width="340" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Event representation inside broker -->
+        <mxCell id="event-visual" value="Event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="275" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="event-visual2" value="Event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="275" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="event-visual3" value="Event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="275" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="event-visual4" value="Event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="275" width="50" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Consumer -->
+        <mxCell id="consumer-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="940" y="210" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="consumer-title" value="Consumer / Subscriber" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="990" y="225" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="consumer-icon" value="📥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="260" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="consumer-desc" value="• Reacts to events of interest&#xa;• Subscribes to specific event types&#xa;• Processes events asynchronously&#xa;• Examples: Notification, Analytics Service" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="960" y="315" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arrow1" value="Publish Event" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#6c8ebf;fontSize=10;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="310" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="Deliver Event" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#82b366;fontSize=10;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="310" as="sourcePoint" />
+            <mxPoint x="940" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Benefits Section -->
+        <mxCell id="benefits-title" value="Key Benefits of EDA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="440" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit1" value="🔗 Loose Coupling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="480" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit1-desc" value="Services don't need to know about each other" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="80" y="515" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit2" value="📈 Scalability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="480" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit2-desc" value="Scale producers/consumers independently" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="240" y="515" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit3" value="⚡ Responsiveness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="480" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit3-desc" value="React to events in real-time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="400" y="515" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit4" value="🛡️ Resilience" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="555" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit4-desc" value="Failures isolated, events persisted" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="80" y="590" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit5" value="🔄 Async Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="555" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit5-desc" value="Non-blocking, better throughput" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="240" y="590" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit6" value="🔌 Extensibility" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="555" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit6-desc" value="Add new consumers without changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="400" y="590" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Use Cases Section -->
+        <mxCell id="usecases-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="600" y="440" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="usecases-title" value="Common Use Cases" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="680" y="455" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="usecases-list" value="• E-commerce order processing&#xa;• Real-time notifications&#xa;• IoT sensor data processing&#xa;• Financial transactions&#xa;• Log aggregation &amp; analytics&#xa;• Microservices communication&#xa;• User activity tracking&#xa;• Inventory management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="620" y="495" width="300" height="135" as="geometry" />
+        </mxCell>
+
+        <!-- Architecture Patterns -->
+        <mxCell id="patterns-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="960" y="440" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="patterns-title" value="Related Patterns" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="455" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pattern1" value="Event Sourcing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="980" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pattern2" value="CQRS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pattern3" value="Saga Pattern" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="980" y="545" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pattern4" value="Pub/Sub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="545" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pattern5" value="Message Queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="980" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pattern6" value="Stream Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom note -->
+        <mxCell id="note" value="EDA shifts from 'request-response' to 'event-reaction' paradigm, enabling truly decoupled and reactive systems" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="660" width="600" height="35" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

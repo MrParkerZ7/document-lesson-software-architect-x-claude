@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
+  <diagram name="EDA Best Practices" id="eda-best-practices">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Event-Driven Architecture Best Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="400" y="15" width="600" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Event Design -->
+        <mxCell id="design-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="420" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="design-title" value="1. Event Design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="175" y="70" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="design-content" value="Event Naming:&#xa;• Use past tense (OrderCreated, PaymentProcessed)&#xa;• Be specific and descriptive&#xa;• Include domain context&#xa;&#xa;Event Content:&#xa;• Include all necessary data (fat events)&#xa;• Or use event + ID for lookup (thin events)&#xa;• Add metadata: timestamp, correlation ID, version&#xa;&#xa;Schema Evolution:&#xa;• Use schema registry (Avro, Protobuf)&#xa;• Maintain backward compatibility&#xa;• Version your event schemas" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="400" height="210" as="geometry" />
+        </mxCell>
+
+        <!-- Idempotency -->
+        <mxCell id="idemp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="60" width="440" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="idemp-title" value="2. Idempotency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="620" y="70" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="idemp-content" value="Why It Matters:&#xa;• Messages may be delivered more than once&#xa;• Network failures cause retries&#xa;• Consumer restarts reprocess messages&#xa;&#xa;Implementation Strategies:&#xa;• Use unique event IDs&#xa;• Track processed IDs (deduplication store)&#xa;• Design operations to be naturally idempotent&#xa;• Use database constraints (UPSERT, unique keys)&#xa;&#xa;Example:&#xa;// Instead of: balance += amount&#xa;// Use: balance = calculateFromEvents()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="420" height="210" as="geometry" />
+        </mxCell>
+
+        <!-- Ordering -->
+        <mxCell id="order-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="940" y="60" width="420" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="order-title" value="3. Ordering &amp; Consistency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="70" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="order-content" value="Ordering Guarantees:&#xa;• Kafka: Order within partition only&#xa;• Use partition keys for related events&#xa;• Design for eventual consistency&#xa;&#xa;Partition Key Selection:&#xa;• Order ID for order events&#xa;• User ID for user events&#xa;• Entity ID in general&#xa;&#xa;Handle Out-of-Order:&#xa;• Include sequence numbers&#xa;• Store and reorder if needed&#xa;• Design tolerant consumers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="950" y="100" width="400" height="210" as="geometry" />
+        </mxCell>
+
+        <!-- Monitoring -->
+        <mxCell id="monitor-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="420" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-title" value="4. Monitoring &amp; Observability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="125" y="350" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-content" value="Key Metrics:&#xa;• Consumer lag (Kafka offset lag)&#xa;• Message throughput (messages/sec)&#xa;• Processing latency (end-to-end)&#xa;• Error rates &amp; DLQ size&#xa;• Queue depth&#xa;&#xa;Distributed Tracing:&#xa;• Correlation IDs across services&#xa;• Use OpenTelemetry/Jaeger/Zipkin&#xa;• Trace event flows end-to-end&#xa;&#xa;Alerting:&#xa;• Alert on consumer lag thresholds&#xa;• Alert on DLQ growth&#xa;• Alert on processing failures" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="380" width="400" height="210" as="geometry" />
+        </mxCell>
+
+        <!-- Error Handling -->
+        <mxCell id="error-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="440" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="error-title" value="5. Error Handling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="615" y="350" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="error-content" value="Retry Strategy:&#xa;• Exponential backoff with jitter&#xa;• Set max retry limits (3-5)&#xa;• Differentiate transient vs permanent errors&#xa;&#xa;Dead Letter Queues:&#xa;• Route failed messages to DLQ&#xa;• Include error context &amp; metadata&#xa;• Monitor and process DLQ regularly&#xa;&#xa;Circuit Breaker:&#xa;• Prevent cascade failures&#xa;• Fail fast when downstream is down&#xa;• Auto-recover when healthy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="420" height="210" as="geometry" />
+        </mxCell>
+
+        <!-- Testing -->
+        <mxCell id="test-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="940" y="340" width="420" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="test-title" value="6. Testing Strategies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="350" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="test-content" value="Unit Testing:&#xa;• Test event handlers in isolation&#xa;• Mock message broker interactions&#xa;• Verify event serialization/deserialization&#xa;&#xa;Integration Testing:&#xa;• Use embedded brokers (Testcontainers)&#xa;• Test end-to-end event flows&#xa;• Verify exactly-once processing&#xa;&#xa;Chaos Testing:&#xa;• Simulate broker failures&#xa;• Test consumer restarts&#xa;• Verify message ordering under load" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="950" y="380" width="400" height="210" as="geometry" />
+        </mxCell>
+
+        <!-- Security -->
+        <mxCell id="sec-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="620" width="660" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sec-title" value="7. Security" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="305" y="630" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sec-content" value="Authentication &amp; Authorization:&#xa;• Use TLS for broker connections&#xa;• Implement ACLs for topic access&#xa;• Authenticate producers/consumers&#xa;&#xa;Data Protection:&#xa;• Encrypt sensitive data in events&#xa;• Consider field-level encryption&#xa;• Implement data masking for PII" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="660" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sec-content2" value="Compliance:&#xa;• Log access for audit trails&#xa;• Implement event retention policies&#xa;• Support GDPR right to erasure&#xa;&#xa;Network Security:&#xa;• Use private networks for brokers&#xa;• Implement IP whitelisting&#xa;• Regular security audits" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="660" width="300" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Performance -->
+        <mxCell id="perf-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#1a1a2e;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="620" width="640" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="perf-title" value="8. Performance Optimization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="905" y="630" width="270" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="perf-content" value="Producer Optimization:&#xa;• Batch messages for throughput&#xa;• Use compression (snappy, lz4)&#xa;• Tune acks settings&#xa;• Async sending when possible" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#ffffff;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="730" y="660" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="perf-content2" value="Consumer Optimization:&#xa;• Parallel processing (partitions)&#xa;• Tune fetch sizes&#xa;• Commit offsets strategically&#xa;• Use consumer groups" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#ffffff;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="940" y="660" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="perf-content3" value="Infrastructure:&#xa;• Scale partitions for parallelism&#xa;• Monitor broker resources&#xa;• Use SSDs for log storage&#xa;• Tune JVM settings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#ffffff;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="660" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Anti-patterns -->
+        <mxCell id="anti-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="1320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="anti-title" value="Common Anti-Patterns to Avoid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="530" y="800" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="anti-content" value="✗ Synchronous calls disguised as events • ✗ Missing idempotency • ✗ No dead letter queue • ✗ Ignoring consumer lag • ✗ Tight coupling through shared databases&#xa;✗ Event storms (too many small events) • ✗ Lack of schema management • ✗ Missing correlation IDs • ✗ No retry/backoff strategy • ✗ Insufficient monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#333333;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="825" width="1280" height="45" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

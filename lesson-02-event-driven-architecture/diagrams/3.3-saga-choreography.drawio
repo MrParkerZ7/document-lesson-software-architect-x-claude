@@ -1,0 +1,228 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
+  <diagram name="Saga Choreography Pattern" id="saga-choreography">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Saga Pattern: Choreography" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="490" y="20" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subtitle" value="Decentralized coordination through events" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="510" y="55" width="380" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- E-commerce Order Saga Example -->
+        <mxCell id="example-title" value="Example: E-commerce Order Processing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Event Bus -->
+        <mxCell id="event-bus" value="Event Bus / Message Broker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#1a1a2e;fontSize=14;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="1000" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Services -->
+        <mxCell id="order-service" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="order-title" value="Order Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="order-actions" value="• Create Order&#xa;• Listen: PaymentCompleted&#xa;• Listen: ShipmentCompleted&#xa;• Publish: OrderCreated" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="50" y="165" width="160" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="payment-service" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="payment-title" value="Payment Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="330" y="140" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="payment-actions" value="• Listen: OrderCreated&#xa;• Process Payment&#xa;• Publish: PaymentCompleted&#xa;• Publish: PaymentFailed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="320" y="165" width="160" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="inventory-service" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="130" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="inventory-title" value="Inventory Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="140" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="inventory-actions" value="• Listen: PaymentCompleted&#xa;• Reserve Inventory&#xa;• Publish: InventoryReserved&#xa;• Publish: InventoryFailed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="590" y="165" width="165" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="shipping-service" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="850" y="130" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="shipping-title" value="Shipping Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="875" y="140" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="shipping-actions" value="• Listen: InventoryReserved&#xa;• Create Shipment&#xa;• Publish: ShipmentCreated&#xa;• Publish: ShipmentFailed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="860" y="165" width="165" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="notification-service" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="130" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="notification-title" value="Notification Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="140" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="notification-actions" value="• Listen: All Events&#xa;• Send Customer Emails&#xa;• Send SMS Alerts&#xa;• Update Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="165" width="160" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows to Event Bus -->
+        <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;startArrow=classic;" edge="1" parent="1" source="order-service" target="event-bus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;startArrow=classic;" edge="1" parent="1" source="payment-service" target="event-bus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;startArrow=classic;" edge="1" parent="1" source="inventory-service" target="event-bus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;strokeWidth=2;endArrow=classic;startArrow=classic;" edge="1" parent="1" source="shipping-service" target="event-bus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=classic;startArrow=classic;" edge="1" parent="1" source="notification-service" target="event-bus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Happy Path Flow -->
+        <mxCell id="flow-title" value="Happy Path Event Flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="320" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="1260" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step1" value="1. OrderCreated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step2" value="2. PaymentCompleted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step3" value="3. InventoryReserved" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="410" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step4" value="4. ShipmentCreated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="410" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step5" value="5. OrderCompleted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="410" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow-arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="step1" target="step2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="step2" target="step3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="step3" target="step4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="step4" target="step5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Failure Compensation Flow -->
+        <mxCell id="fail-title" value="Failure: Inventory Not Available - Compensating Events" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="500" width="500" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fail-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="1260" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fail1" value="1. OrderCreated" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fail2" value="2. PaymentCompleted" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="230" y="570" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fail3" value="3. InventoryFailed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="570" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fail4" value="4. PaymentRefunded" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="570" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fail5" value="5. OrderCancelled" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="570" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fail6" value="6. CustomerNotified" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="570" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fail-arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;" edge="1" parent="1" source="fail1" target="fail2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fail-arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="fail2" target="fail3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fail-arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="fail3" target="fail4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fail-arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="fail4" target="fail5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fail-arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="fail5" target="fail6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Characteristics -->
+        <mxCell id="char-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="670" width="420" height="210" as="geometry" />
+        </mxCell>
+
+        <mxCell id="char-title" value="Choreography Characteristics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="130" y="680" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="char-list" value="• Decentralized - No central coordinator&#xa;• Event-driven - Services react to events&#xa;• Loose coupling - Services don't know each other&#xa;• Each service owns its local transaction&#xa;• Compensating events for rollback&#xa;• Eventual consistency&#xa;• Highly resilient - no single point of failure&#xa;• Services can be developed independently" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="710" width="400" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Pros -->
+        <mxCell id="pros-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="670" width="420" height="210" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pros-title" value="Advantages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="680" width="100" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pros-list" value="✓ Simple implementation for small sagas&#xa;✓ No single point of failure&#xa;✓ Loose coupling between services&#xa;✓ Services evolve independently&#xa;✓ Good for simple, linear workflows&#xa;✓ Natural fit for event-driven systems&#xa;✓ Low latency - direct event handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="710" width="400" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Cons -->
+        <mxCell id="cons-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="670" width="380" height="210" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cons-title" value="Disadvantages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="680" width="120" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cons-list" value="✗ Hard to understand complex flows&#xa;✗ Cyclic dependencies risk&#xa;✗ Testing is difficult&#xa;✗ No single view of saga state&#xa;✗ Complex compensation logic&#xa;✗ Hard to add new steps&#xa;✗ Debugging is challenging" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="930" y="710" width="360" height="160" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

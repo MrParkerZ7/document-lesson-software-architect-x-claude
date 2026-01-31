@@ -1,0 +1,303 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
+  <diagram name="Stream Processing Frameworks Comparison" id="stream-comparison">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Stream Processing Frameworks Comparison" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="400" y="15" width="600" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison Table -->
+        <!-- Header -->
+        <mxCell id="header-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1320" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="h-feature" value="Feature" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h-flink" value="Apache Flink" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h-ks" value="Kafka Streams" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="420" y="60" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h-spark" value="Spark Streaming" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="660" y="60" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h-storm" value="Apache Storm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="900" y="60" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h-pulsar" value="Pulsar Functions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="60" width="240" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1: Processing Model -->
+        <mxCell id="r1-f" value="Processing&#xa;Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="105" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-flink" value="True streaming&#xa;(record-at-a-time)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="105" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-ks" value="True streaming&#xa;(record-at-a-time)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="105" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-spark" value="Micro-batching&#xa;(structured streaming)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="105" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-storm" value="True streaming&#xa;(tuple-at-a-time)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="105" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-pulsar" value="True streaming&#xa;(lightweight functions)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="105" width="240" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2: Latency -->
+        <mxCell id="r2-f" value="Latency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="155" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-flink" value="Very Low&#xa;(milliseconds)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="155" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-ks" value="Very Low&#xa;(milliseconds)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="155" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-spark" value="Medium&#xa;(seconds - batch interval)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="155" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-storm" value="Very Low&#xa;(sub-millisecond)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="155" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-pulsar" value="Low&#xa;(milliseconds)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="155" width="240" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Row 3: Throughput -->
+        <mxCell id="r3-f" value="Throughput" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="205" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-flink" value="Very High&#xa;(millions/sec)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="205" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-ks" value="High&#xa;(limited by Kafka)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="205" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-spark" value="Very High&#xa;(batch efficiency)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="205" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-storm" value="High&#xa;(depends on topology)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="205" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-pulsar" value="High&#xa;(Pulsar's throughput)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="205" width="240" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Row 4: State Management -->
+        <mxCell id="r4-f" value="State&#xa;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="255" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-flink" value="Advanced&#xa;(RocksDB, checkpoints)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="255" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-ks" value="Good&#xa;(RocksDB, changelog)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="255" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-spark" value="Good&#xa;(stateful operators)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="255" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-storm" value="Limited&#xa;(external required)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="255" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-pulsar" value="Basic&#xa;(external or BookKeeper)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="255" width="240" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Row 5: Exactly-Once -->
+        <mxCell id="r5-f" value="Exactly-Once&#xa;Semantics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="305" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-flink" value="Yes&#xa;(native support)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="305" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-ks" value="Yes&#xa;(with Kafka transactions)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="305" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-spark" value="Yes&#xa;(with checkpointing)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="305" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-storm" value="At-least-once&#xa;(Trident for exactly-once)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="305" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-pulsar" value="Yes&#xa;(with Pulsar)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="305" width="240" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Row 6: Deployment -->
+        <mxCell id="r6-f" value="Deployment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="355" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-flink" value="Cluster required&#xa;(YARN, K8s, standalone)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="355" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-ks" value="No cluster&#xa;(embedded library)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="355" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-spark" value="Cluster required&#xa;(YARN, K8s, standalone)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="355" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-storm" value="Cluster required&#xa;(Nimbus + Supervisors)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="355" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-pulsar" value="No cluster&#xa;(runs in Pulsar)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="355" width="240" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Row 7: Language Support -->
+        <mxCell id="r7-f" value="Languages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="405" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-flink" value="Java, Scala, Python, SQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="405" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-ks" value="Java, Scala" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="405" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-spark" value="Scala, Java, Python, R, SQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="405" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-storm" value="Any (multi-lang protocol)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="405" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-pulsar" value="Java, Python, Go" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="405" width="240" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Row 8: Best For -->
+        <mxCell id="r8-f" value="Best For" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="455" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-flink" value="Complex event processing,&#xa;large scale analytics,&#xa;unified batch+stream" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="455" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-ks" value="Kafka ecosystems,&#xa;microservices,&#xa;simple streaming apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="455" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-spark" value="Batch + streaming,&#xa;ML pipelines,&#xa;data engineering" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="455" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-storm" value="Low-latency,&#xa;real-time analytics&#xa;(legacy systems)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="900" y="455" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-pulsar" value="Pulsar ecosystems,&#xa;serverless processing,&#xa;lightweight functions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="455" width="240" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Guide -->
+        <mxCell id="guide-title" value="Decision Guide" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="600" y="545" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="guide-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="1320" height="300" as="geometry" />
+        </mxCell>
+
+        <!-- Decision flow -->
+        <mxCell id="q1" value="Using Kafka as&#xa;primary message bus?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="610" width="140" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="q2" value="Need simple&#xa;processing only?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="610" width="130" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a1" value="Kafka Streams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="730" width="110" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="q3" value="Need batch +&#xa;stream unified?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="610" width="130" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="q4" value="Already have&#xa;Spark expertise?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="700" y="610" width="130" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a2" value="Spark Streaming" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="730" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a3" value="Apache Flink" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="650" width="110" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="q5" value="Using Apache&#xa;Pulsar?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="750" width="120" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a4" value="Pulsar Functions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="840" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arr1" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=1;fontSize=9;" edge="1" parent="1" source="q1" target="q2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;fontSize=9;" edge="1" parent="1" source="q1" target="q5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=1;fontSize=9;" edge="1" parent="1" source="q2" target="a1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr4" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;fontSize=9;" edge="1" parent="1" source="q2" target="q3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=1;fontSize=9;" edge="1" parent="1" source="q3" target="q4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr6" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;fontSize=9;" edge="1" parent="1" source="q3" target="a3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr7" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=1;fontSize=9;" edge="1" parent="1" source="q4" target="a2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;fontSize=9;" edge="1" parent="1" source="q4" target="a3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="710" />
+              <mxPoint x="850" y="710" />
+              <mxPoint x="850" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=1;fontSize=9;" edge="1" parent="1" source="q5" target="a4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Summary boxes -->
+        <mxCell id="sum-flink" value="Flink: Most powerful,&#xa;best for complex cases" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="600" width="140" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sum-ks" value="Kafka Streams: Simplest,&#xa;for Kafka-native apps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="655" width="140" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sum-spark" value="Spark: Best unified&#xa;batch + stream" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="710" width="140" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sum-pulsar" value="Pulsar Functions:&#xa;Lightweight, Pulsar-native" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="765" width="140" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sum-storm" value="Storm: Legacy,&#xa;consider alternatives" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="680" width="140" height="45" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

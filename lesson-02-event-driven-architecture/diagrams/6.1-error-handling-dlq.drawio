@@ -1,0 +1,253 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
+  <diagram name="Error Handling and Dead Letter Queues" id="error-handling-dlq">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Error Handling &amp; Dead Letter Queues (DLQ)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Message Flow with Error Handling -->
+        <mxCell id="flow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="1320" height="280" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow-title" value="Message Processing Flow with Error Handling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="400" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Producer -->
+        <mxCell id="producer" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Main Queue -->
+        <mxCell id="main-queue" value="Main Queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Consumer with retry logic -->
+        <mxCell id="consumer-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="130" width="300" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="consumer" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="145" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="process" value="Process&#xa;Message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="80" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="retry-check" value="Retry&#xa;< Max?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="575" y="200" width="70" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="retry-delay" value="Retry with&#xa;Backoff" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="665" y="210" width="65" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Success path -->
+        <mxCell id="success" value="Success&#xa;(ACK)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="140" width="80" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Dead Letter Queue -->
+        <mxCell id="dlq" value="Dead Letter&#xa;Queue (DLQ)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- DLQ Consumer -->
+        <mxCell id="dlq-consumer" value="DLQ Handler&#xa;(Manual Review)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="980" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Monitoring -->
+        <mxCell id="monitoring" value="Monitoring&#xa;&amp; Alerts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="260" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="producer" target="main-queue">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="main-queue" target="consumer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;" edge="1" parent="1" source="consumer" target="process">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr4" value="Fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;endArrow=classic;fontSize=9;" edge="1" parent="1" source="process" target="retry-check">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=1;endArrow=classic;fontSize=9;" edge="1" parent="1" source="retry-check" target="retry-delay">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=1;endArrow=classic;dashed=1;" edge="1" parent="1" source="retry-delay" target="process">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="698" y="270" />
+              <mxPoint x="450" y="270" />
+              <mxPoint x="450" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr7" value="Success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;fontSize=9;" edge="1" parent="1" source="process" target="success">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr8" value="No (Max retries)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;fontSize=9;" edge="1" parent="1" source="retry-check" target="dlq">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;endArrow=classic;" edge="1" parent="1" source="dlq" target="dlq-consumer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;strokeWidth=1;endArrow=classic;" edge="1" parent="1" source="dlq-consumer" target="monitoring">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Retry Strategies -->
+        <mxCell id="retry-title" value="Retry Strategies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="retry-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="415" width="520" height="210" as="geometry" />
+        </mxCell>
+
+        <mxCell id="retry1" value="Immediate Retry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="425" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="retry1-text" value="• Retry immediately on failure&#xa;• Good for transient errors&#xa;• Risk: Thundering herd" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="445" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="retry2" value="Fixed Delay" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="280" y="425" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="retry2-text" value="• Wait fixed time between retries&#xa;• Example: 5s, 5s, 5s&#xa;• Simple to implement" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="445" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="retry3" value="Exponential Backoff" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="505" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="retry3-text" value="• Increasing delays: 1s, 2s, 4s, 8s...&#xa;• Reduces load on failing systems&#xa;• Recommended approach" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="525" width="210" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="retry4" value="Exponential + Jitter" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="280" y="505" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="retry4-text" value="• Add random jitter to delays&#xa;• Prevents synchronized retries&#xa;• Best for distributed systems" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="525" width="210" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="retry-formula" value="delay = min(cap, base * 2^attempt) + random(0, jitter)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="60" y="585" width="480" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- DLQ Details -->
+        <mxCell id="dlq-title" value="Dead Letter Queue (DLQ)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="760" y="380" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dlq-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="415" width="780" height="210" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dlq-what" value="What Goes to DLQ?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="425" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dlq-what-text" value="• Messages exceeding max retries&#xa;• Poison messages (malformed)&#xa;• Messages causing exceptions&#xa;• Expired messages (TTL exceeded)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="445" width="220" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dlq-handle" value="DLQ Handling Options" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="850" y="425" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dlq-handle-text" value="• Manual inspection &amp; replay&#xa;• Automated re-processing&#xa;• Archive for analysis&#xa;• Alert and investigate" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="850" y="445" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dlq-meta" value="DLQ Message Metadata" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="425" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dlq-meta-text" value="• Original message content&#xa;• Error/exception details&#xa;• Retry count&#xa;• Timestamps&#xa;• Source queue info" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="445" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- DLQ implementations -->
+        <mxCell id="dlq-impl" value="Implementations:&#xa;• AWS SQS: Built-in DLQ support with redrive policy&#xa;• RabbitMQ: x-dead-letter-exchange / x-dead-letter-routing-key&#xa;• Kafka: Topic-based DLQ with custom error handlers&#xa;• Azure Service Bus: Built-in dead-letter sub-queue" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="530" width="740" height="85" as="geometry" />
+        </mxCell>
+
+        <!-- Error Types -->
+        <mxCell id="error-title" value="Error Classification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="580" y="645" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="error-transient" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="transient-title" value="Transient Errors (Retry)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="155" y="690" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="transient-text" value="• Network timeouts&#xa;• Service temporarily unavailable&#xa;• Database connection issues&#xa;• Rate limiting (429 errors)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="715" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="transient-action" value="Action: Retry with backoff" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="180" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="error-permanent" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="permanent-title" value="Permanent Errors (DLQ)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="610" y="690" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="permanent-text" value="• Invalid message format&#xa;• Business validation failures&#xa;• Missing required data&#xa;• Authorization failures" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="715" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="permanent-action" value="Action: Send to DLQ immediately" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="740" y="720" width="190" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="error-unknown" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="960" y="680" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="unknown-title" value="Unknown Errors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="690" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="unknown-text" value="• Unexpected exceptions&#xa;• Unhandled edge cases&#xa;• System/infrastructure errors" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="970" y="715" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="unknown-action" value="Action: Retry, then DLQ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="720" width="160" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Best Practices -->
+        <mxCell id="bp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="1320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-title" value="Best Practices:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="810" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-text" value="• Make consumers idempotent • Set appropriate retry limits (3-5 typically) • Use exponential backoff with jitter • Monitor DLQ size and alert • Include debugging metadata in DLQ messages • Document error handling procedures • Test failure scenarios • Implement circuit breaker patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="835" width="1280" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

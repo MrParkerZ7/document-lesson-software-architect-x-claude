@@ -1,0 +1,245 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
+  <diagram name="Apache Flink vs Kafka Streams" id="flink-kafka-streams">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Stream Processing Frameworks: Flink vs Kafka Streams" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Apache Flink Section -->
+        <mxCell id="flink-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="640" height="380" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flink-title" value="Apache Flink" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flink-subtitle" value="Distributed Stream Processing Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="210" y="115" width="300" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Flink Architecture -->
+        <mxCell id="flink-arch" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="145" width="300" height="170" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flink-arch-title" value="Flink Cluster Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="160" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flink-jm" value="JobManager&#xa;(Master)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#1a1a2e;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flink-tm1" value="TaskManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="flink-tm2" value="TaskManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="flink-tm3" value="TaskManager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="70" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flink-state" value="Checkpoints&#xa;(State Backend)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="270" y="175" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Flink Features -->
+        <mxCell id="flink-features" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="145" width="280" height="170" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flink-feat-title" value="Key Features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flink-feat-list" value="• Exactly-once semantics&#xa;• Event time processing&#xa;• Advanced windowing&#xa;• Stateful computations&#xa;• Batch &amp; Stream unified&#xa;• Low latency (ms)&#xa;• High throughput&#xa;• Savepoints for upgrades" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="390" y="175" width="260" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Flink Use Cases -->
+        <mxCell id="flink-use" value="Best For: Complex event processing, large-scale analytics,&#xa;ML pipelines, real-time data warehousing, stateful apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Flink Pros/Cons -->
+        <mxCell id="flink-pros" value="✓ Very powerful &amp; flexible&#xa;✓ True streaming engine&#xa;✓ Advanced state management&#xa;✓ Source-agnostic" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#82b366;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flink-cons" value="✗ Requires separate cluster&#xa;✗ More complex deployment&#xa;✗ Steeper learning curve&#xa;✗ Additional infrastructure" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#b85450;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Kafka Streams Section -->
+        <mxCell id="ks-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="640" height="380" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ks-title" value="Kafka Streams" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="960" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ks-subtitle" value="Stream Processing Library for Kafka" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="900" y="115" width="280" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Kafka Streams Architecture -->
+        <mxCell id="ks-arch" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="145" width="300" height="170" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ks-arch-title" value="Kafka Streams Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="800" y="150" width="180" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ks-kafka" value="Kafka Cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#1a1a2e;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="840" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ks-app1" value="App&#xa;Instance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="760" y="250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ks-app2" value="App&#xa;Instance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="860" y="250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ks-app3" value="App&#xa;Instance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="960" y="250" width="60" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ks-label" value="Library embedded in your app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#666666;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="295" width="180" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- Kafka Streams Features -->
+        <mxCell id="ks-features" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="145" width="280" height="170" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ks-feat-title" value="Key Features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="150" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ks-feat-list" value="• Exactly-once semantics&#xa;• Event time via timestamps&#xa;• DSL &amp; Processor API&#xa;• Local state stores&#xa;• No separate cluster needed&#xa;• Simple deployment&#xa;• Elastic scaling&#xa;• Interactive queries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="175" width="260" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Kafka Streams Use Cases -->
+        <mxCell id="ks-use" value="Best For: Kafka-centric architectures, microservices,&#xa;simple to medium complexity processing, embedded streaming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="330" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Kafka Streams Pros/Cons -->
+        <mxCell id="ks-pros" value="✓ No separate cluster&#xa;✓ Simple deployment&#xa;✓ Just a library (JAR)&#xa;✓ Kafka-native" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#82b366;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="740" y="380" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ks-cons" value="✗ Kafka-only (source/sink)&#xa;✗ Limited windowing options&#xa;✗ Less powerful than Flink&#xa;✗ No batch processing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#b85450;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="980" y="380" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison Table -->
+        <mxCell id="compare-title" value="Feature Comparison" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Table Header -->
+        <mxCell id="th-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="1320" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="th-feature" value="Feature" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="th-flink" value="Apache Flink" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="560" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="th-ks" value="Kafka Streams" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="800" y="520" width="560" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1 -->
+        <mxCell id="r1-feature" value="Deployment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="555" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-flink" value="Requires dedicated Flink cluster (YARN, K8s, standalone)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="555" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-ks" value="Library embedded in application - no separate cluster" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="555" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2 -->
+        <mxCell id="r2-feature" value="Sources/Sinks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="595" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-flink" value="Many connectors: Kafka, Kinesis, JDBC, Cassandra, Elasticsearch, etc." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="595" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-ks" value="Kafka only (read from Kafka, write to Kafka)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="595" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Row 3 -->
+        <mxCell id="r3-feature" value="State Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="635" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-flink" value="RocksDB, heap, checkpoints to distributed storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="635" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-ks" value="RocksDB local, changelog topics in Kafka for recovery" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="635" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Row 4 -->
+        <mxCell id="r4-feature" value="Windowing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="675" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-flink" value="Advanced: tumbling, sliding, session, custom, global windows" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="675" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-ks" value="Basic: tumbling, hopping, sliding, session windows" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="675" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Row 5 -->
+        <mxCell id="r5-feature" value="Processing Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="715" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-flink" value="Unified batch &amp; stream (DataStream, Table API, SQL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="715" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-ks" value="Stream only (DSL and Processor API)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="715" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Row 6 -->
+        <mxCell id="r6-feature" value="Complexity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#e0e0e0;align=center;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="755" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-flink" value="Higher - more features, more to learn and operate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="755" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-ks" value="Lower - simpler API, easier deployment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="755" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Guide -->
+        <mxCell id="decision-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="815" width="1320" height="65" as="geometry" />
+        </mxCell>
+
+        <mxCell id="decision-text" value="Choose Flink when: Complex processing, multiple sources, batch+stream, advanced windowing, non-Kafka ecosystems&#xa;Choose Kafka Streams when: Kafka-centric architecture, microservices, simpler processing, want to avoid cluster management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="60" y="825" width="1280" height="45" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
