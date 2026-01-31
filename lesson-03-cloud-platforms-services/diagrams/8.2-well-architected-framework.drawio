@@ -1,0 +1,242 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="well-architected" version="22.1.5" type="device">
+  <diagram name="Well-Architected Framework" id="well-architected">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Cloud Well-Architected Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="420" y="15" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Design principles for building reliable, secure, efficient, and cost-effective systems in the cloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="340" y="50" width="620" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Central Hub -->
+        <mxCell id="hub" value="Well-Architected&#xa;Framework" style="ellipse;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="300" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 1: Operational Excellence -->
+        <mxCell id="p1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="85" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-icon" value="⚙️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="55" y="95" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-title" value="1. Operational Excellence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4CAF50;" parent="1" vertex="1">
+          <mxGeometry x="105" y="100" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-desc" value="Run and monitor systems to deliver business value" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="105" y="125" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-content" value="Design Principles:&#xa;• Perform operations as code (IaC)&#xa;• Make frequent, small, reversible changes&#xa;• Refine operations procedures frequently&#xa;• Anticipate failure (game days, chaos engineering)&#xa;• Learn from operational failures&#xa;&#xa;Key Services: CloudWatch, X-Ray, Systems Manager,&#xa;CloudFormation, CodePipeline" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="55" y="150" width="350" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-arrow" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4CAF50;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p1-box" target="hub" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 2: Security -->
+        <mxCell id="p2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#F44336;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="440" y="85" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-icon" value="🔒" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="455" y="95" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-title" value="2. Security" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#F44336;" parent="1" vertex="1">
+          <mxGeometry x="505" y="100" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-desc" value="Protect information, systems, and assets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="505" y="125" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-content" value="Design Principles:&#xa;• Implement strong identity foundation&#xa;• Enable traceability (audit logs)&#xa;• Apply security at all layers&#xa;• Automate security best practices&#xa;• Protect data in transit and at rest&#xa;• Prepare for security events&#xa;&#xa;Key Services: IAM, KMS, WAF, Shield, GuardDuty,&#xa;Security Hub, Macie" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="455" y="150" width="350" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-arrow" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#F44336;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p2-box" target="hub" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 3: Reliability -->
+        <mxCell id="p3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="840" y="85" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-icon" value="🛡️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="855" y="95" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-title" value="3. Reliability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#2196F3;" parent="1" vertex="1">
+          <mxGeometry x="905" y="100" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-desc" value="Recover from failures and meet demand" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="905" y="125" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-content" value="Design Principles:&#xa;• Automatically recover from failure&#xa;• Test recovery procedures&#xa;• Scale horizontally&#xa;• Stop guessing capacity&#xa;• Manage change in automation&#xa;&#xa;Key Services: Auto Scaling, ELB, Route 53, CloudWatch,&#xa;Backup, Multi-AZ, Multi-Region" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="855" y="150" width="350" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-arrow" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2196F3;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p3-box" target="hub" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 4: Performance Efficiency -->
+        <mxCell id="p4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="420" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-icon" value="🚀" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="55" y="430" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-title" value="4. Performance Efficiency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9800;" parent="1" vertex="1">
+          <mxGeometry x="105" y="435" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-desc" value="Use computing resources efficiently" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="105" y="460" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-content" value="Design Principles:&#xa;• Democratize advanced technologies&#xa;• Go global in minutes&#xa;• Use serverless architectures&#xa;• Experiment more often&#xa;• Consider mechanical sympathy&#xa;&#xa;Key Services: Auto Scaling, Lambda, Elasticache,&#xa;CloudFront, Global Accelerator" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="55" y="485" width="350" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-arrow" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF9800;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="p4-box" target="hub" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 5: Cost Optimization -->
+        <mxCell id="p5-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="440" y="420" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-icon" value="💰" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="455" y="430" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-title" value="5. Cost Optimization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#9C27B0;" parent="1" vertex="1">
+          <mxGeometry x="505" y="435" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-desc" value="Avoid unnecessary costs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="505" y="460" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-content" value="Design Principles:&#xa;• Implement cloud financial management&#xa;• Adopt a consumption model&#xa;• Measure overall efficiency&#xa;• Stop spending on undifferentiated heavy lifting&#xa;• Analyze and attribute expenditure&#xa;&#xa;Key Services: Cost Explorer, Budgets, Trusted Advisor,&#xa;Reserved Instances, Spot Instances" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="455" y="485" width="350" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-arrow" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9C27B0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="p5-box" target="hub" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Pillar 6: Sustainability -->
+        <mxCell id="p6-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#009688;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="840" y="420" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-icon" value="🌱" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="855" y="430" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-title" value="6. Sustainability (New)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#009688;" parent="1" vertex="1">
+          <mxGeometry x="905" y="435" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-desc" value="Minimize environmental impact" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="905" y="460" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-content" value="Design Principles:&#xa;• Understand your impact&#xa;• Establish sustainability goals&#xa;• Maximize utilization&#xa;• Use efficient hardware/software&#xa;• Reduce downstream impact&#xa;&#xa;Key Services: Customer Carbon Footprint Tool,&#xa;Graviton instances, Serverless, Right-sizing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="855" y="485" width="350" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-arrow" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#009688;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="p6-box" target="hub" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Cloud Provider Comparison -->
+        <mxCell id="provider-title" value="Well-Architected Frameworks by Cloud Provider" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="460" y="645" width="380" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- AWS WAF -->
+        <mxCell id="aws-waf" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="685" width="420" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-waf-title" value="AWS Well-Architected Framework" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="120" y="695" width="260" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-waf-content" value="• 6 Pillars (includes Sustainability)&#xa;• AWS Well-Architected Tool (free assessment)&#xa;• Lens: specific workload guidance (SaaS, ML, Serverless, etc.)&#xa;• Well-Architected Partner Program&#xa;• Hands-on Labs available&#xa;&#xa;Resources: docs.aws.amazon.com/wellarchitected" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="55" y="730" width="390" height="115" as="geometry" />
+        </mxCell>
+
+        <!-- Azure WAF -->
+        <mxCell id="azure-waf" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0078D4;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="480" y="685" width="420" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="azure-waf-title" value="Azure Well-Architected Framework" style="text;html=1;strokeColor=none;fillColor=#0078D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="555" y="695" width="270" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="azure-waf-content" value="• 5 Pillars (Cost, Operational Excellence, Performance, Reliability, Security)&#xa;• Azure Well-Architected Review (assessment tool)&#xa;• Workload-specific guidance&#xa;• Azure Advisor integration&#xa;&#xa;Resources: learn.microsoft.com/azure/well-architected" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="495" y="730" width="390" height="115" as="geometry" />
+        </mxCell>
+
+        <!-- GCP WAF -->
+        <mxCell id="gcp-waf" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="920" y="685" width="420" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gcp-waf-title" value="Google Cloud Architecture Framework" style="text;html=1;strokeColor=none;fillColor=#4285F4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="980" y="695" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gcp-waf-content" value="• 5 Pillars (Operational Excellence, Security, Reliability, Performance, Cost)&#xa;• Architecture Center with best practices&#xa;• Solution blueprints &amp; reference architectures&#xa;• Active Assist for recommendations&#xa;&#xa;Resources: cloud.google.com/architecture/framework" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="935" y="730" width="390" height="115" as="geometry" />
+        </mxCell>
+
+        <!-- Review Process -->
+        <mxCell id="review-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="875" width="1300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="review-title" value="Well-Architected Review Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="530" y="885" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step1" value="1. Define&#xa;Workload" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="2. Answer&#xa;Questions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="3. Review&#xa;Findings" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" value="4. Prioritize&#xa;Risks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step5" value="5. Create&#xa;Improvement Plan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="920" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step6" value="6. Implement&#xa;Changes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step7" value="7. Measure&#xa;Progress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step8" value="8. Continuous&#xa;Improvement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="920" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="review-arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step1" target="step2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="review-arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step2" target="step3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="review-arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step3" target="step4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="review-arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step4" target="step5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="review-arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step5" target="step6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="review-arr6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step6" target="step7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="review-arr7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step7" target="step8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Best Practice tip -->
+        <mxCell id="tip" value="💡 Best Practice: Run Well-Architected reviews quarterly and before major changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="935" width="230" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

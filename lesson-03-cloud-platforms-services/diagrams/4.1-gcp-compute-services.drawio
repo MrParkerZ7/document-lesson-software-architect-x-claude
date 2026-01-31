@@ -1,0 +1,482 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="gcp-compute-services" version="22.1.5" type="device">
+  <diagram name="GCP Compute Services" id="gcp-compute-services">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Google Cloud Platform - Compute Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Compute Engine Section -->
+        <mxCell id="ce-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ce-icon" value="🖥️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="110" y="90" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ce-title" value="Compute Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
+          <mxGeometry x="65" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ce-desc" value="• Virtual Machines&#xa;• Custom machine types&#xa;• Preemptible/Spot VMs&#xa;• Sole-tenant nodes&#xa;• GPU/TPU support&#xa;• Live migration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="50" y="165" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ce-badge" value="IaaS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="255" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Cloud Functions Section -->
+        <mxCell id="cf-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="260" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cf-icon" value="⚡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="330" y="90" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cf-title" value="Cloud Functions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
+          <mxGeometry x="285" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cf-desc" value="• Serverless functions&#xa;• Event-driven execution&#xa;• HTTP triggers&#xa;• Auto-scaling to zero&#xa;• Gen 1 &amp; Gen 2&#xa;• Multiple languages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="270" y="165" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cf-badge" value="FaaS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A853;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="255" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Cloud Run Section -->
+        <mxCell id="run-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="run-icon" value="🚀" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="550" y="90" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="run-title" value="Cloud Run" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
+          <mxGeometry x="505" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="run-desc" value="• Serverless containers&#xa;• Knative-based&#xa;• Scale to zero&#xa;• Any language/runtime&#xa;• Request-based billing&#xa;• Concurrent requests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="490" y="165" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="run-badge" value="CaaS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EA4335;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="255" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- GKE Section -->
+        <mxCell id="gke-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="700" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gke-icon" value="☸️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="770" y="90" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gke-title" value="GKE (Kubernetes Engine)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
+          <mxGeometry x="710" y="140" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gke-desc" value="• Managed Kubernetes&#xa;• GKE Autopilot mode&#xa;• Node auto-provisioning&#xa;• Multi-cluster mesh&#xa;• Workload Identity&#xa;• Release channels" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="710" y="165" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gke-badge" value="K8s" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBBC04;strokeColor=none;fontColor=#202124;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="255" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- App Engine Section -->
+        <mxCell id="ae-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="920" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ae-icon" value="🔧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="990" y="90" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ae-title" value="App Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
+          <mxGeometry x="945" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ae-desc" value="• Fully managed PaaS&#xa;• Standard &amp; Flexible envs&#xa;• Auto-scaling&#xa;• Version management&#xa;• Traffic splitting&#xa;• Built-in services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="930" y="165" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ae-badge" value="PaaS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9334E6;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="930" y="255" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Batch Section -->
+        <mxCell id="batch-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="batch-icon" value="📦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="90" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="batch-title" value="Cloud Batch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
+          <mxGeometry x="1165" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="batch-desc" value="• Batch processing&#xa;• Job scheduling&#xa;• HPC workloads&#xa;• Spot VM support&#xa;• GPU batch jobs&#xa;• Job dependencies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="165" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="batch-badge" value="Batch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="255" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison Table -->
+        <mxCell id="table-title" value="GCP Compute Services Comparison" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
+          <mxGeometry x="500" y="300" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Table Header -->
+        <mxCell id="header-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="1300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" value="Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" value="Type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="160" y="340" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" value="Best For" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="260" y="340" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="h4" value="Scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="440" y="340" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="h5" value="Startup Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="570" y="340" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="h6" value="Pricing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="670" y="340" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="h7" value="Control" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="810" y="340" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="h8" value="Key Differentiator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="900" y="340" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="h9" value="Use Case" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="340" width="220" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1 - Compute Engine -->
+        <mxCell id="row1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="40" y="375" width="1300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c1" value="Compute Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="40" y="375" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c2" value="IaaS (VMs)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="160" y="375" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c3" value="Full control, legacy apps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="260" y="375" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c4" value="Manual + MIG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="440" y="375" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c5" value="Minutes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="570" y="375" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c6" value="Per second billing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="670" y="375" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c7" value="Full" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="810" y="375" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c8" value="Custom machine types, live migration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="900" y="375" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c9" value="SAP, Windows, GPU/ML workloads" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="375" width="220" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2 - Cloud Functions -->
+        <mxCell id="row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="40" y="410" width="1300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c1" value="Cloud Functions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="40" y="410" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c2" value="FaaS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="160" y="410" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c3" value="Event handlers, webhooks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="260" y="410" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c4" value="Auto (0 to N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="440" y="410" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c5" value="~100ms cold" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="570" y="410" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c6" value="Invocations + compute" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="670" y="410" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c7" value="Low" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="810" y="410" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c8" value="Native GCP event triggers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="900" y="410" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c9" value="Pub/Sub handlers, Cloud Storage triggers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="410" width="220" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 3 - Cloud Run -->
+        <mxCell id="row3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="40" y="445" width="1300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c1" value="Cloud Run" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="40" y="445" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c2" value="CaaS (Serverless)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="160" y="445" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c3" value="Containerized apps, APIs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="260" y="445" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c4" value="Auto (0 to 1000)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="440" y="445" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c5" value="~100ms cold" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="570" y="445" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c6" value="Request + CPU + Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="670" y="445" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c7" value="Medium" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="810" y="445" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c8" value="Concurrent requests per instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="900" y="445" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c9" value="Microservices, APIs, web backends" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="445" width="220" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 4 - GKE -->
+        <mxCell id="row4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="40" y="480" width="1300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c1" value="GKE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="40" y="480" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c2" value="Managed K8s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="160" y="480" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c3" value="Complex microservices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="260" y="480" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c4" value="HPA/VPA + Cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="440" y="480" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c5" value="Minutes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="570" y="480" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c6" value="Cluster + nodes + Autopilot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="670" y="480" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c7" value="High" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="810" y="480" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c8" value="Autopilot - serverless K8s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="900" y="480" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c9" value="Enterprise apps, multi-tenant platforms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="480" width="220" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 5 - App Engine -->
+        <mxCell id="row5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="40" y="515" width="1300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c1" value="App Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="40" y="515" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c2" value="PaaS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="160" y="515" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c3" value="Simple web apps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="260" y="515" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c4" value="Auto (built-in)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="440" y="515" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c5" value="Seconds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="570" y="515" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c6" value="Instance hours" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="670" y="515" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c7" value="Low-Med" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="810" y="515" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c8" value="Traffic splitting, version management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="900" y="515" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c9" value="Rapid prototyping, simple web apps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="515" width="220" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Row 6 - Cloud Batch -->
+        <mxCell id="row6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;" parent="1" vertex="1">
+          <mxGeometry x="40" y="550" width="1300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c1" value="Cloud Batch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="40" y="550" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c2" value="Batch Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="160" y="550" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c3" value="HPC, batch jobs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="260" y="550" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c4" value="Job-based" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="440" y="550" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c5" value="Minutes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="570" y="550" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c6" value="VMs used + time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="670" y="550" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c7" value="Medium" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="810" y="550" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c8" value="Native batch job scheduling, Spot VMs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="900" y="550" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c9" value="Scientific computing, rendering, ETL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="550" width="220" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Guide Flowchart -->
+        <mxCell id="decision-title" value="GCP Compute Decision Guide" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
+          <mxGeometry x="500" y="600" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Start -->
+        <mxCell id="start" value="What are you&#xa;deploying?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Functions Path -->
+        <mxCell id="d1" value="Functions/&#xa;Event handlers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A853;strokeColor=#34A853;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="result1" value="Cloud Functions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A853;strokeColor=#34A853;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="700" width="100" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Container Path -->
+        <mxCell id="d2" value="Containers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EA4335;strokeColor=#EA4335;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="340" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2a" value="Need K8s&#xa;features?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#EA4335;strokeColor=#EA4335;fontColor=#FFFFFF;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="345" y="700" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="result2a" value="Cloud Run" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EA4335;strokeColor=#EA4335;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="700" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="result2b" value="GKE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBBC04;strokeColor=#FBBC04;fontColor=#202124;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="790" width="90" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Web Apps Path -->
+        <mxCell id="d3" value="Web Apps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9334E6;strokeColor=#9334E6;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="600" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d3a" value="Simple or&#xa;Complex?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#9334E6;strokeColor=#9334E6;fontColor=#FFFFFF;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="605" y="700" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="result3a" value="App Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9334E6;strokeColor=#9334E6;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="700" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="result3b" value="Cloud Run / GKE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EA4335;strokeColor=#EA4335;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="790" width="100" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- VMs Path -->
+        <mxCell id="d4" value="VMs / Full&#xa;Control" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="860" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="result4" value="Compute Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="855" y="700" width="110" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Batch Path -->
+        <mxCell id="d5" value="Batch/HPC&#xa;Jobs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#666666;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="result5" value="Cloud Batch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#666666;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="700" width="100" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#34A853;strokeWidth=2;" parent="1" source="start" target="d1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr1b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#34A853;strokeWidth=2;" parent="1" source="d1" target="result1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#EA4335;strokeWidth=2;" parent="1" source="start" target="d2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr2b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#EA4335;strokeWidth=2;" parent="1" source="d2" target="d2a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr2c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#EA4335;strokeWidth=2;" parent="1" source="d2a" target="result2a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr2d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FBBC04;strokeWidth=2;" parent="1" source="d2a" target="result2b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9334E6;strokeWidth=2;" parent="1" source="start" target="d3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="620" />
+              <mxPoint x="650" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr3b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9334E6;strokeWidth=2;" parent="1" source="d3" target="d3a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr3c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9334E6;strokeWidth=2;" parent="1" source="d3a" target="result3a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr3d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#EA4335;strokeWidth=2;" parent="1" source="d3a" target="result3b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4285F4;strokeWidth=2;" parent="1" source="start" target="d4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="620" />
+              <mxPoint x="910" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr4b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4285F4;strokeWidth=2;" parent="1" source="d4" target="result4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="start" target="d5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="620" />
+              <mxPoint x="1050" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr5b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="d5" target="result5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Labels on decision -->
+        <mxCell id="label-no" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#EA4335;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="720" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-yes" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FBBC04;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="775" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-simple" value="Simple" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#9334E6;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="720" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-complex" value="Complex" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#EA4335;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="775" width="45" height="15" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
