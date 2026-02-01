@@ -1,0 +1,370 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" etag="database-selection" version="22.1.5" type="device">
+  <diagram name="Database Selection Guide" id="database-selection-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Database Selection Decision Flowchart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Start -->
+        <mxCell id="start" value="Start:&#xa;New Data&#xa;Requirement" style="ellipse;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="120" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Q1: ACID Transactions -->
+        <mxCell id="q1" value="Need ACID&#xa;transactions?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-start-q1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="start" target="q1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Yes from Q1 - Relational Path -->
+        <mxCell id="q2-rel" value="Complex&#xa;JOINs?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-q1-rel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#27ae60;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q1" target="q2-rel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-yes1" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#27ae60;" vertex="1" parent="1">
+          <mxGeometry x="420" y="195" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- PostgreSQL -->
+        <mxCell id="postgresql" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-title" value="PostgreSQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
+          <mxGeometry x="95" y="185" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pg-desc" value="Rich features, JSONB&#xa;Extensions, Open source" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="85" y="205" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-q2rel-pg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#27ae60;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-rel" target="postgresql">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-yes-pg" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=1;fontColor=#27ae60;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="25" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- MySQL -->
+        <mxCell id="mysql" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mysql-title" value="MySQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
+          <mxGeometry x="270" y="305" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mysql-desc" value="Simple, read-heavy&#xa;Web applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="250" y="325" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-q2rel-mysql" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c0392b;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-rel" target="mysql">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-no-mysql" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=1;fontColor=#c0392b;" vertex="1" parent="1">
+          <mxGeometry x="270" y="270" width="25" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- No from Q1 - NoSQL Path -->
+        <mxCell id="q2-nosql" value="Data&#xa;structure?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="180" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-q1-nosql" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c0392b;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q1" target="q2-nosql">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-no1" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#c0392b;" vertex="1" parent="1">
+          <mxGeometry x="800" y="195" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Document DB Branch -->
+        <mxCell id="mongodb" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="300" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mongo-title" value="MongoDB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
+          <mxGeometry x="830" y="305" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mongo-desc" value="Flexible schema&#xa;Hierarchical data&#xa;Rapid development" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="810" y="325" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-q2-mongo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-nosql" target="mongodb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-doc" value="Documents&#xa;JSON-like" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="795" y="260" width="60" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Key-Value Branch -->
+        <mxCell id="redis" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="960" y="300" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="redis-title" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#922b21;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="305" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="redis-desc" value="Caching, Sessions&#xa;Real-time, Queues&#xa;Leaderboards" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="970" y="325" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-q2-redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-nosql" target="redis">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-kv" value="Key-Value&#xa;Simple" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="960" y="260" width="55" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Graph Branch -->
+        <mxCell id="neo4j" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="300" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="neo4j-title" value="Neo4j" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="305" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="neo4j-desc" value="Relationships&#xa;Social networks&#xa;Recommendations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="325" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-q2-neo4j" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-nosql" target="neo4j">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-graph" value="Graph&#xa;Relations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="230" width="50" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Additional Considerations -->
+        <mxCell id="scale-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="440" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="scale-title" value="Scale &amp; Distribution Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="130" y="430" width="260" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- DynamoDB -->
+        <mxCell id="dynamodb" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dynamo-title" value="DynamoDB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
+          <mxGeometry x="85" y="475" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dynamo-desc" value="Serverless, Auto-scaling&#xa;AWS native, Low latency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="65" y="495" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Cassandra -->
+        <mxCell id="cassandra" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="470" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cass-title" value="Cassandra" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
+          <mxGeometry x="230" y="475" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cass-desc" value="Write-heavy, Time-series&#xa;Multi-datacenter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="205" y="495" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- CockroachDB -->
+        <mxCell id="cockroach" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="470" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cockroach-title" value="CockroachDB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
+          <mxGeometry x="360" y="475" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cockroach-desc" value="Distributed SQL&#xa;Global ACID, PostgreSQL API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="495" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scale-when" value="Consider when: Global distribution, Massive scale, High write throughput, Auto-scaling needed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="555" width="400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Special Purpose Section -->
+        <mxCell id="special-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="440" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="special-title" value="Special Purpose Databases" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="610" y="430" width="220" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Time-Series -->
+        <mxCell id="timescale" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="470" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ts-title" value="TimescaleDB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#922b21;" vertex="1" parent="1">
+          <mxGeometry x="540" y="475" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ts-desc" value="Time-series data&#xa;IoT, Metrics, Logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="525" y="495" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Search -->
+        <mxCell id="elastic" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="470" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="elastic-title" value="Elasticsearch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="475" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="elastic-desc" value="Full-text search&#xa;Log analytics, APM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="665" y="495" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Analytics -->
+        <mxCell id="clickhouse" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="470" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="click-title" value="ClickHouse" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
+          <mxGeometry x="830" y="475" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="click-desc" value="OLAP Analytics&#xa;Fast aggregations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="805" y="495" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="special-when" value="Match database type to data characteristics and query patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="540" y="555" width="360" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Cloud Managed Section -->
+        <mxCell id="managed-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="960" y="420" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="managed-title" value="Cloud-Managed Options" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="430" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="azure-managed" value="Azure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
+          <mxGeometry x="980" y="465" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="azure-list" value="• Azure SQL Database&#xa;• Cosmos DB&#xa;• Azure Cache for Redis" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="980" y="485" width="130" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aws-managed" value="AWS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="465" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-list" value="• RDS / Aurora&#xa;• DynamoDB&#xa;• ElastiCache" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="485" width="100" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gcp-managed" value="GCP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="465" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gcp-list" value="• Cloud SQL / Spanner&#xa;• Firestore&#xa;• Memorystore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="485" width="120" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="managed-benefit" value="Benefits: No infrastructure management, Built-in HA, Auto backups, Scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="990" y="555" width="340" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Summary Table -->
+        <mxCell id="summary-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="1320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-title" value="Quick Reference: When to Use What" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
+          <mxGeometry x="530" y="650" width="340" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Table Headers -->
+        <mxCell id="sh1" value="Requirement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="685" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sh2" value="Best Choice" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="260" y="685" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sh3" value="Why" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="410" y="685" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sh4" value="Requirement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="710" y="685" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sh5" value="Best Choice" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="910" y="685" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sh6" value="Why" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="685" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Left Column Rows -->
+        <mxCell id="sr1c1" value="Complex transactions, JOINs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="715" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1c2" value="PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="715" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr1c3" value="ACID, rich SQL, extensions, JSONB support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="715" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sr2c1" value="Flexible schema, rapid dev" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="750" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr2c2" value="MongoDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr2c3" value="Schema-less, document model, easy iterations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="750" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sr3c1" value="Caching, sessions, real-time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="785" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr3c2" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="785" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr3c3" value="Sub-ms latency, rich data structures, pub/sub" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="785" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sr4c1" value="Relationships, traversals" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="820" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr4c2" value="Neo4j" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="820" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr4c3" value="Native graph, Cypher queries, path finding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="820" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Right Column Rows -->
+        <mxCell id="sr5c1" value="Massive scale, serverless" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="710" y="715" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr5c2" value="DynamoDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="715" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr5c3" value="Auto-scaling, managed, single-digit ms latency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="715" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sr6c1" value="Write-heavy, time-series" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="710" y="750" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr6c2" value="Cassandra / TimescaleDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="750" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr6c3" value="Linear scale, multi-DC, time-optimized queries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="750" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sr7c1" value="Full-text search, logs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="710" y="785" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr7c2" value="Elasticsearch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="785" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr7c3" value="Inverted index, relevance scoring, aggregations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="785" width="280" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sr8c1" value="Global ACID + Scale" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="710" y="820" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr8c2" value="CockroachDB / Spanner" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="820" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="sr8c3" value="Distributed SQL, PostgreSQL wire protocol" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="820" width="280" height="35" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
