@@ -1,0 +1,294 @@
+<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="kubernetes-architecture" name="Kubernetes Architecture">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Kubernetes Cluster Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="450" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Cluster Container -->
+        <mxCell id="cluster-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="1240" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cluster-title" value="Kubernetes Cluster" style="text;html=1;strokeColor=none;fillColor=#333333;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="560" y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Control Plane -->
+        <mxCell id="cp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="140" width="1160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cp-title" value="Control Plane (Master)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="560" y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- API Server -->
+        <mxCell id="api-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="160" y="195" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="api-title" value="API Server" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="205" y="205" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="api-desc" value="• REST API endpoint&#xa;• Authentication/Authorization&#xa;• Entry point for kubectl" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="165" y="235" width="190" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- etcd -->
+        <mxCell id="etcd-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="400" y="195" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="etcd-title" value="etcd" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="445" y="205" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="etcd-desc" value="• Key-value store&#xa;• Cluster state&#xa;• Configuration data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="405" y="235" width="190" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Scheduler -->
+        <mxCell id="sched-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="640" y="195" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="sched-title" value="Scheduler" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="685" y="205" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sched-desc" value="• Assigns pods to nodes&#xa;• Resource-aware scheduling&#xa;• Affinity/Anti-affinity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="645" y="235" width="190" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Controller Manager -->
+        <mxCell id="ctrl-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="880" y="195" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl-title" value="Controller Manager" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="915" y="205" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl-desc" value="• Node Controller&#xa;• ReplicaSet Controller&#xa;• Deployment Controller" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="885" y="235" width="190" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Cloud Controller -->
+        <mxCell id="cloud-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="195" width="140" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud-title" value="Cloud Controller" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="205" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud-desc" value="• Cloud integration&#xa;• Load balancers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="235" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Worker Nodes Section -->
+        <mxCell id="workers-title" value="Worker Nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="320" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Worker Node 1 -->
+        <mxCell id="node1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="360" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="node1-title" value="Worker Node 1" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="230" y="370" width="140" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Kubelet -->
+        <mxCell id="kubelet1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="140" y="410" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="kubelet1-title" value="Kubelet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="415" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kubelet1-desc" value="Node agent&#xa;Pod lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="140" y="435" width="100" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Kube Proxy -->
+        <mxCell id="proxy1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="255" y="410" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="proxy1-title" value="Kube Proxy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="415" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="proxy1-desc" value="Network proxy&#xa;Service routing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="255" y="435" width="100" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Container Runtime -->
+        <mxCell id="runtime1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="370" y="410" width="95" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime1-title" value="containerd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="415" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime1-desc" value="Container&#xa;Runtime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="370" y="435" width="95" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Pods in Node 1 -->
+        <mxCell id="pod1-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="140" y="480" width="95" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="pod1-1-title" value="Pod" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="163" y="487" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="container1-1" value="container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="150" y="515" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="container1-2" value="container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="150" y="540" width="75" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pod1-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="250" y="480" width="95" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="pod1-2-title" value="Pod" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="273" y="487" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="container2-1" value="container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="260" y="515" width="75" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pod1-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="360" y="480" width="95" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="pod1-3-title" value="Pod" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="383" y="487" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="container3-1" value="container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="370" y="515" width="75" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Worker Node 2 -->
+        <mxCell id="node2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="520" y="360" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="node2-title" value="Worker Node 2" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="630" y="370" width="140" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Kubelet 2 -->
+        <mxCell id="kubelet2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="540" y="410" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="kubelet2-title" value="Kubelet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="415" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kubelet2-desc" value="Node agent&#xa;Pod lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="540" y="435" width="100" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Kube Proxy 2 -->
+        <mxCell id="proxy2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="655" y="410" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="proxy2-title" value="Kube Proxy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="655" y="415" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="proxy2-desc" value="Network proxy&#xa;Service routing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="655" y="435" width="100" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Container Runtime 2 -->
+        <mxCell id="runtime2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="770" y="410" width="95" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime2-title" value="containerd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="770" y="415" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime2-desc" value="Container&#xa;Runtime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="770" y="435" width="95" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Pods in Node 2 -->
+        <mxCell id="pod2-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="540" y="480" width="95" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="pod2-1-title" value="Pod" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="563" y="487" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="container4-1" value="container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="550" y="515" width="75" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pod2-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="650" y="480" width="95" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="pod2-2-title" value="Pod" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="673" y="487" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="container5-1" value="container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="660" y="515" width="75" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pod2-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="760" y="480" width="95" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="pod2-3-title" value="Pod" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="783" y="487" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="container6-1" value="container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="770" y="515" width="75" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Additional Components on right -->
+        <mxCell id="addons-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="920" y="360" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="addons-title" value="Add-ons &amp; Services" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="370" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="addon1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="940" y="410" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="addon1-title" value="CoreDNS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="415" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="addon1-desc" value="DNS for service discovery" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="940" y="435" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="addon2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="410" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="addon2-title" value="Ingress Controller" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="415" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="addon2-desc" value="External access routing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="435" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="addon3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="940" y="475" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="addon3-title" value="Metrics Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="480" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="addon3-desc" value="Resource metrics collection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="940" y="500" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="addon4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="475" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="addon4-title" value="CNI (Calico/Cilium)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="480" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="addon4-desc" value="Pod networking" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="500" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="addon5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="940" y="540" width="320" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="addon5-title" value="Storage Classes (CSI Drivers)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="545" width="320" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
