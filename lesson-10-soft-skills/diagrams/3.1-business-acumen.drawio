@@ -1,0 +1,340 @@
+<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="business-acumen" version="21.0.0" type="device">
+  <diagram name="Business Acumen" id="business-acumen">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Business Acumen for Architects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Technical to Business Translation -->
+        <mxCell id="trans-title" value="Technical to Business Translation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="350" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="trans-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="620" height="240" as="geometry" />
+        </mxCell>
+
+        <!-- Header -->
+        <mxCell id="trans-header-tech" value="Technical Decision" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="125" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trans-header-arrow" value="→" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#666666;fontColor=#ffffff;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="360" y="125" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trans-header-biz" value="Business Impact" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="125" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1 -->
+        <mxCell id="row1-tech" value="☁️ Migrate to cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="155" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-arrow" value="→" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="155" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-biz" value="Reduce CapEx, scale with demand, faster TTM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="155" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2 -->
+        <mxCell id="row2-tech" value="⚡ Implement caching" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="185" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-arrow" value="→" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="185" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-biz" value="Better UX, higher conversion, reduced infra cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="185" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Row 3 -->
+        <mxCell id="row3-tech" value="📊 Add monitoring/observability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="215" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-arrow" value="→" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="215" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-biz" value="Reduce downtime costs, faster incident resolution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="215" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Row 4 -->
+        <mxCell id="row4-tech" value="🔧 Refactor legacy code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="245" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-arrow" value="→" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="245" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-biz" value="Faster feature delivery, lower maintenance cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="245" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Row 5 -->
+        <mxCell id="row5-tech" value="🚀 Implement CI/CD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="275" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-arrow" value="→" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="275" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-biz" value="Reduce time to market, lower release risk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="275" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Row 6 -->
+        <mxCell id="row6-tech" value="🔒 Add security controls" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="305" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-arrow" value="→" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="305" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-biz" value="Reduce breach risk, compliance, brand protection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="305" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Risk Matrix Section -->
+        <mxCell id="risk-title" value="Risk Assessment Matrix" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="800" y="70" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="risk-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="750" y="110" width="540" height="240" as="geometry" />
+        </mxCell>
+
+        <!-- Y-axis label -->
+        <mxCell id="risk-y-label" value="Impact" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="745" y="220" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Matrix Grid -->
+        <!-- High Impact Row -->
+        <mxCell id="risk-high-label" value="High" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="780" y="145" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-high-low" value="Medium&#xa;Priority" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="145" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-high-med" value="High&#xa;Priority" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="145" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-high-high" value="Critical&#xa;Priority" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="145" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Medium Impact Row -->
+        <mxCell id="risk-med-label" value="Medium" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="780" y="195" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-med-low" value="Low&#xa;Priority" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="195" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-med-med" value="Medium&#xa;Priority" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="195" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-med-high" value="High&#xa;Priority" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="195" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Low Impact Row -->
+        <mxCell id="risk-low-label" value="Low" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="780" y="245" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-low-low" value="Accept" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="245" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-low-med" value="Low&#xa;Priority" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="245" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-low-high" value="Medium&#xa;Priority" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="245" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- X-axis labels -->
+        <mxCell id="risk-x-low" value="Low" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="860" y="300" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-x-med" value="Medium" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="990" y="300" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-x-high" value="High" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="300" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-x-label" value="Probability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="960" y="320" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Stakeholder Map Section -->
+        <mxCell id="stake-title" value="Stakeholder Mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="stake-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="450" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Y-axis -->
+        <mxCell id="stake-y-label" value="Influence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="95" y="540" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Quadrant: High Influence, Low Interest -->
+        <mxCell id="stake-q1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="440" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q1-title" value="Keep Satisfied" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q1-who" value="CTO, VP Engineering&#xa;Finance Director" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="175" y="475" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q1-action" value="Regular updates&#xa;Address concerns promptly" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#333333;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="165" y="505" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Quadrant: High Influence, High Interest -->
+        <mxCell id="stake-q2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q2-title" value="Manage Closely" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="370" y="450" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q2-who" value="CEO, Project Sponsors&#xa;Key Decision Makers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="355" y="475" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q2-action" value="Active engagement&#xa;Involve in decisions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#333333;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="505" width="130" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Quadrant: Low Influence, Low Interest -->
+        <mxCell id="stake-q3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="540" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q3-title" value="Monitor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="200" y="550" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q3-who" value="General Staff&#xa;Other Departments" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="175" y="575" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q3-action" value="Minimal effort&#xa;Standard communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#333333;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="165" y="605" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Quadrant: Low Influence, High Interest -->
+        <mxCell id="stake-q4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q4-title" value="Keep Informed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="370" y="550" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q4-who" value="Dev Teams, QA&#xa;End Users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="355" y="575" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-q4-action" value="Regular updates&#xa;Answer questions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#333333;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="605" width="130" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Axis labels -->
+        <mxCell id="stake-high-label" value="High" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="115" y="480" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-low-label" value="Low" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="115" y="580" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-x-low" value="Low" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="210" y="645" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-x-high" value="High" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="390" y="645" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stake-x-label" value="Interest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="285" y="665" width="80" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ROI Calculation Section -->
+        <mxCell id="roi-title" value="ROI &amp; Cost-Benefit Analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="roi-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="410" width="710" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Costs Section -->
+        <mxCell id="costs-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="430" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="costs-title" value="💰 COSTS (Year 1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="438" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="costs-content" value="Migration effort:     $200,000&#xa;Cloud infrastructure: $150,000&#xa;Training:             $30,000&#xa;───────────────────&#xa;Total Cost:           $380,000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="615" y="465" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="costs-types" value="One-time + Ongoing costs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#666666;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="555" width="160" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Benefits Section -->
+        <mxCell id="benefits-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="820" y="430" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-title" value="📈 BENEFITS (Annual)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="840" y="438" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-content" value="Hardware savings:     $100,000&#xa;Reduced downtime:     $80,000&#xa;Dev productivity:     $120,000&#xa;───────────────────&#xa;Annual Benefit:       $300,000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="830" y="465" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-types" value="Quantifiable savings &amp; gains" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#666666;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="840" y="555" width="160" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ROI Calculation -->
+        <mxCell id="calc-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="430" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="calc-title" value="📊 ROI CALCULATION" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="438" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="calc-formula" value="ROI = (Benefits - Costs) / Costs" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;fontFamily=Courier New;rounded=1;strokeWidth=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="465" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="calc-results" value="Year 1: ($300K-$380K)/$380K = -21%&#xa;Year 2: ($600K-$530K)/$530K = +13%&#xa;&#xa;Payback Period: ~15 months" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="500" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Timeline visualization -->
+        <mxCell id="timeline-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="605" width="670" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-title" value="Payback Timeline" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="615" y="612" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-line" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="650" as="sourcePoint" />
+            <mxPoint x="1240" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="timeline-y0" value="Year 0&#xa;-$380K" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;fontSize=9;fontColor=#333333;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="632" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-y1" value="Year 1&#xa;-$80K" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=9;fontColor=#333333;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="632" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-bp" value="Break-even&#xa;~15mo" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=9;fontColor=#333333;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="632" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-y2" value="Year 2&#xa;+$70K" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=9;fontColor=#333333;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="632" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-y3" value="Year 3&#xa;+$370K" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=9;fontColor=#333333;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="632" width="50" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
