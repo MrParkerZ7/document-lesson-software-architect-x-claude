@@ -1,0 +1,330 @@
+<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="alerting-strategy" version="21.0.0" type="device">
+  <diagram name="Alerting Strategy" id="alerting-strategy">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Alerting Strategy &amp; Best Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Alerting Pyramid Section -->
+        <mxCell id="pyramid-title" value="Alerting Pyramid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pyramid Shape -->
+        <mxCell id="p1-box" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-label" value="P1 - Critical" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="255" y="125" width="90" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p2-box" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-label" value="P2 - High" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="255" y="175" width="90" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p3-box" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-label" value="P3 - Medium" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="255" y="225" width="90" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p4-box" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-label" value="P4 - Low" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="255" y="275" width="90" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p5-box" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="150" y="310" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-label" value="P5 - Info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="255" y="325" width="90" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Priority Details -->
+        <mxCell id="details-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="450" height="250" as="geometry" />
+        </mxCell>
+
+        <!-- P1 Details -->
+        <mxCell id="p1-detail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="125" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-detail-text" value="P1 Critical (Page immediately): Service down, data loss risk, security breach" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="505" y="130" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- P2 Details -->
+        <mxCell id="p2-detail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="170" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-detail-text" value="P2 High (Page within 15min): Degraded service, high error rate, SLA at risk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="505" y="175" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- P3 Details -->
+        <mxCell id="p3-detail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="215" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-detail-text" value="P3 Medium (Create ticket): Performance degradation, elevated errors, capacity warning" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="505" y="220" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- P4 Details -->
+        <mxCell id="p4-detail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="260" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-detail-text" value="P4 Low (Slack notification): Approaching limits, minor anomalies, batch job delays" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="505" y="265" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- P5 Details -->
+        <mxCell id="p5-detail" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="305" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-detail-text" value="P5 Info (Log only): Deployment completed, config changes, informational events" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="505" y="310" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Key Principles -->
+        <mxCell id="principles-title" value="Key Alerting Principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="980" y="70" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="principles-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="960" y="110" width="330" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="principles-content" value="1. Alert on symptoms, not causes&#xa;   Users care about impact, not internals&#xa;&#xa;2. Every alert should be actionable&#xa;   If no action needed, don't alert&#xa;&#xa;3. User impact &gt; Internal metrics&#xa;   'Checkout failing' not 'DB slow'&#xa;&#xa;4. Include runbook links&#xa;   How to diagnose and resolve&#xa;&#xa;5. Avoid alert fatigue&#xa;   Too many alerts = ignored alerts&#xa;&#xa;6. Test alerts regularly&#xa;   Fire drills and chaos engineering" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="975" y="125" width="300" height="225" as="geometry" />
+        </mxCell>
+
+        <!-- Alert Flow Section -->
+        <mxCell id="flow-title" value="Alert Processing Flow (Prometheus/Alertmanager)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="500" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="1190" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Step 1: Metrics -->
+        <mxCell id="step1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-title" value="1. Metrics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="140" y="460" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-content" value="Prometheus&#xa;collects metrics&#xa;from targets&#xa;&#xa;error_rate: 0.08&#xa;latency_p99: 2.5s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#333333;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="125" y="485" width="120" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="520" as="sourcePoint" />
+            <mxPoint x="290" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 2: Rules -->
+        <mxCell id="step2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="450" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-title" value="2. Alert Rules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-content" value="PromQL evaluation&#xa;&#xa;alert: HighErrorRate&#xa;expr: error_rate &gt; 0.05&#xa;for: 5m&#xa;&#xa;FIRING!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#333333;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="295" y="485" width="140" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="520" as="sourcePoint" />
+            <mxPoint x="480" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 3: Alertmanager -->
+        <mxCell id="step3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-title" value="3. Alertmanager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="505" y="460" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-content" value="• Deduplicate alerts&#xa;• Group by service/team&#xa;• Apply silences&#xa;• Inhibit related alerts&#xa;• Route to receivers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="490" y="485" width="150" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="520" as="sourcePoint" />
+            <mxPoint x="690" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 4: Routing -->
+        <mxCell id="step4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="450" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-title" value="4. Routing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="725" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-content" value="severity: critical&#xa;  → PagerDuty&#xa;&#xa;severity: warning&#xa;  → Slack&#xa;&#xa;team: payments&#xa;  → payments-oncall" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="700" y="485" width="130" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="520" as="sourcePoint" />
+            <mxPoint x="880" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 5: Notifications -->
+        <mxCell id="step5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="880" y="450" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-title" value="5. Notify" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="915" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-content" value="📟 PagerDuty&#xa;💬 Slack&#xa;📧 Email&#xa;📱 SMS&#xa;🔗 Webhook&#xa;📝 JIRA ticket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=11;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="890" y="485" width="130" height="95" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="520" as="sourcePoint" />
+            <mxPoint x="1070" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 6: Response -->
+        <mxCell id="step6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="450" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="step6-title" value="6. Respond" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="460" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="step6-content" value="On-call engineer:&#xa;1. Acknowledge alert&#xa;2. Follow runbook&#xa;3. Mitigate issue&#xa;4. Resolve alert&#xa;5. Post-mortem if needed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="485" width="180" height="95" as="geometry" />
+        </mxCell>
+
+        <!-- Common Alert Examples -->
+        <mxCell id="examples-title" value="Common Alert Examples" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="640" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="examples-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="600" height="260" as="geometry" />
+        </mxCell>
+
+        <!-- Application Alerts -->
+        <mxCell id="app-alerts-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="700" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="app-alerts-title" value="Application Alerts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="190" y="705" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="app-alerts-content" value="• HighErrorRate: error_rate &gt; 5% for 5m&#xa;• HighLatency: p99 &gt; 1s for 10m&#xa;• ServiceDown: up == 0 for 1m&#xa;• LowThroughput: req/s &lt; baseline&#xa;• QueueBacklog: queue_size &gt; 1000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="130" y="730" width="250" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- Infrastructure Alerts -->
+        <mxCell id="infra-alerts-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="700" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="infra-alerts-title" value="Infrastructure Alerts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="480" y="705" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="infra-alerts-content" value="• HighCPU: cpu_usage &gt; 85% for 15m&#xa;• LowMemory: mem_available &lt; 10%&#xa;• LowDiskSpace: disk_free &lt; 10%&#xa;• HighNetworkErrors: errors &gt; 100/s&#xa;• NodeNotReady: k8s node unhealthy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420" y="730" width="250" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- Business Alerts -->
+        <mxCell id="biz-alerts-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="820" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="biz-alerts-title" value="Business Alerts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="190" y="825" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="biz-alerts-content" value="• OrderDropoff: orders/hr &lt; 80% baseline&#xa;• PaymentFailures: failed_payments &gt; 10/m&#xa;• SignupDropoff: signups down 50%&#xa;• RevenueAnomaly: hourly revenue drop" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="130" y="850" width="250" height="65" as="geometry" />
+        </mxCell>
+
+        <!-- SLO Alerts -->
+        <mxCell id="slo-alerts-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="820" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="slo-alerts-title" value="SLO-based Alerts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="480" y="825" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="slo-alerts-content" value="• ErrorBudgetLow: budget &lt; 20% remaining&#xa;• BurnRateCritical: 14.4x normal burn rate&#xa;• AvailabilitySLO: &lt; 99.9% over 1h&#xa;• LatencySLO: p99 &gt; target for 30m" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420" y="850" width="250" height="65" as="geometry" />
+        </mxCell>
+
+        <!-- On-Call Best Practices -->
+        <mxCell id="oncall-title" value="On-Call Best Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="750" y="640" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="oncall-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="570" height="260" as="geometry" />
+        </mxCell>
+
+        <!-- Runbooks -->
+        <mxCell id="runbooks-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="700" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="runbooks-title" value="📋 Runbooks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="825" y="705" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="runbooks-content" value="Every alert should link to a runbook:&#xa;• What does this alert mean?&#xa;• How to diagnose the issue?&#xa;• How to mitigate/resolve?&#xa;• Who to escalate to?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="750" y="730" width="240" height="65" as="geometry" />
+        </mxCell>
+
+        <!-- Escalation -->
+        <mxCell id="escalation-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="700" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="escalation-title" value="📞 Escalation Policy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="705" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="escalation-content" value="0-5min: Primary on-call&#xa;5-15min: Secondary on-call&#xa;15-30min: Team lead&#xa;30min+: Engineering manager&#xa;1hr+: VP Engineering (P1 only)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="730" width="240" height="65" as="geometry" />
+        </mxCell>
+
+        <!-- Post-mortems -->
+        <mxCell id="postmortem-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="810" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="postmortem-title" value="📝 Blameless Post-mortems" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="785" y="815" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="postmortem-content" value="After every significant incident:&#xa;• What happened? (timeline)&#xa;• Why did it happen? (root cause)&#xa;• How did we respond?&#xa;• What will we do to prevent it?&#xa;• Action items with owners" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="750" y="840" width="240" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- Alert Fatigue -->
+        <mxCell id="fatigue-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="810" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fatigue-title" value="⚠️ Avoiding Alert Fatigue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="815" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fatigue-content" value="• Review alerts monthly: delete unused&#xa;• Track alert-to-action ratio&#xa;• Tune thresholds based on data&#xa;• Group related alerts&#xa;• Use proper inhibition rules&#xa;• Target: &lt; 2 pages/week/person" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="840" width="240" height="75" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,190 @@
+<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="three-pillars" version="21.0.0" type="device">
+  <diagram name="Three Pillars of Observability" id="three-pillars-overview">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Three Pillars of Observability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="450" y="30" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Overview Box -->
+        <mxCell id="overview-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="1200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="overview-title" value="Observability = Understanding Internal State from External Outputs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="700" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Logs Pillar -->
+        <mxCell id="logs-pillar" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="logs-icon" value="📝" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="150" y="145" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="logs-title" value="LOGS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="logs-desc" value="• Events &amp; Errors&#xa;• Debug Information&#xa;• Audit Trail&#xa;&#xa;Answers: WHAT happened?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="175" width="270" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Metrics Pillar -->
+        <mxCell id="metrics-pillar" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="140" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-icon" value="📊" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="540" y="145" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-title" value="METRICS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="590" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-desc" value="• Counters &amp; Gauges&#xa;• Histograms &amp; Summaries&#xa;• Aggregated Data&#xa;&#xa;Answers: HOW MUCH / HOW MANY?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="175" width="270" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Traces Pillar -->
+        <mxCell id="traces-pillar" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="140" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="traces-icon" value="🔍" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="930" y="145" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="traces-title" value="TRACES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="980" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="traces-desc" value="• Request Flow&#xa;• Latency Breakdown&#xa;• Service Dependencies&#xa;&#xa;Answers: WHERE / WHY the problem?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="980" y="175" width="270" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Questions Each Pillar Answers -->
+        <mxCell id="questions-title" value="Questions Each Pillar Answers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="500" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Logs Question Box -->
+        <mxCell id="logs-q-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="logs-q-title" value="📝 Logs Answer: What Happened?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="360" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="logs-q-content" value="• Error: &quot;User authentication failed&quot;&#xa;• Info: &quot;Order #123 created&quot;&#xa;• Debug: &quot;Cache miss for key user:456&quot;&#xa;• Warn: &quot;Retry attempt 2 of 3&quot;&#xa;&#xa;Rich context with timestamps &amp; details" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="350" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Metrics Question Box -->
+        <mxCell id="metrics-q-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-q-title" value="📊 Metrics Answer: How Much?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="360" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-q-content" value="• Request rate: 1,500 req/s&#xa;• Error rate: 0.5%&#xa;• p99 latency: 245ms&#xa;• CPU usage: 78%&#xa;&#xa;Numeric aggregations over time" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="380" width="350" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Traces Question Box -->
+        <mxCell id="traces-q-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="340" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="traces-q-title" value="🔍 Traces Answer: Where &amp; Why?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="930" y="350" width="360" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="traces-q-content" value="• Request took 2s, 1.8s in DB query&#xa;• Order Service → Payment Service → DB&#xa;• Latency spike from Redis timeout&#xa;• Failed at Payment validation step&#xa;&#xa;End-to-end request journey" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="940" y="380" width="350" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- How They Work Together -->
+        <mxCell id="together-title" value="How They Work Together" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="450" y="510" width="500" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Integration Flow -->
+        <mxCell id="flow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="550" width="1200" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Step 1: Alert -->
+        <mxCell id="step1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="580" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-title" value="1️⃣ Alert Triggered" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="150" y="590" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-content" value="Metrics show:&#xa;Error rate &gt; 5%&#xa;p99 latency &gt; 2s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="150" y="620" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="630" as="sourcePoint" />
+            <mxPoint x="410" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 2: Investigate Traces -->
+        <mxCell id="step2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="580" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-title" value="2️⃣ Check Traces" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="430" y="590" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-content" value="Find slow requests&#xa;See: DB queries taking&#xa;1.8s (normally 50ms)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="430" y="620" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="630" as="sourcePoint" />
+            <mxPoint x="690" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 3: Check Logs -->
+        <mxCell id="step3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="580" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-title" value="3️⃣ Analyze Logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="710" y="590" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-content" value="Filter by trace ID&#xa;Find: &quot;Lock wait timeout&#xa;exceeded on table orders&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="710" y="620" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="630" as="sourcePoint" />
+            <mxPoint x="970" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Step 4: Root Cause -->
+        <mxCell id="step4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="980" y="580" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-title" value="4️⃣ Root Cause Found" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="990" y="590" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-content" value="Long-running batch job&#xa;holding table locks&#xa;→ Fix: Schedule off-peak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="990" y="620" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- Correlation Note -->
+        <mxCell id="correlation-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="710" width="1040" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="correlation-title" value="🔗 Correlation is Key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="720" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="correlation-content" value="• Use consistent trace_id and span_id across all signals&#xa;• Link logs to traces: Include trace context in every log entry&#xa;• Link traces to metrics: Use exemplars to connect metrics to specific traces&#xa;• Unified visualization: Use tools that correlate all three pillars (Grafana, Datadog, etc.)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="745" width="1000" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
