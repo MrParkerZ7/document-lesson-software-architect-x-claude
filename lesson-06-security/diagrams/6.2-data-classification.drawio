@@ -1,0 +1,296 @@
+<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="data-classification" name="Data Classification">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Data Classification Levels &amp; Handling Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="350" y="20" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Classification Pyramid -->
+        <mxCell id="pyramid-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="500" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pyramid-title" value="Data Classification Levels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="90" width="260" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Restricted (Top) -->
+        <mxCell id="restricted" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="130" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="restricted-label" value="RESTRICTED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="270" y="170" width="120" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Confidential -->
+        <mxCell id="confidential" value="" style="trapezoid;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;size=30;" parent="1" vertex="1">
+          <mxGeometry x="190" y="230" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="confidential-label" value="CONFIDENTIAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="260" y="255" width="140" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Internal -->
+        <mxCell id="internal" value="" style="trapezoid;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;size=30;" parent="1" vertex="1">
+          <mxGeometry x="150" y="310" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="internal-label" value="INTERNAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="280" y="335" width="100" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Public (Bottom) -->
+        <mxCell id="public" value="" style="trapezoid;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;size=30;" parent="1" vertex="1">
+          <mxGeometry x="110" y="390" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="public-label" value="PUBLIC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="290" y="415" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Risk Arrow -->
+        <mxCell id="risk-arrow" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="520" y="200" width="30" height="200" as="geometry">
+            <mxPoint x="520" y="400" as="sourcePoint" />
+            <mxPoint x="520" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="risk-label" value="Sensitivity&#xa;&amp; Risk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="505" y="280" width="60" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Volume Arrow -->
+        <mxCell id="volume-arrow" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="30" height="200" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="100" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="volume-label" value="Data&#xa;Volume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="90" y="280" width="50" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Percentages -->
+        <mxCell id="perc1" value="~5%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="440" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="perc2" value="~10%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="470" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="perc3" value="~35%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="510" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="perc4" value="~50%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="540" y="420" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Examples Section -->
+        <mxCell id="examples-title" value="Examples by Classification" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="490" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ex-restricted" value="Restricted: PII, PHI, Payment data, Credentials, Encryption keys" style="text;html=1;strokeColor=#b85450;fillColor=#fff5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="100" y="515" width="460" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ex-confidential" value="Confidential: Customer data, Financial reports, Contracts, Source code" style="text;html=1;strokeColor=#d79b00;fillColor=#fffaf0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="100" y="542" width="460" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ex-internal" value="Internal: Internal policies, Training materials, Non-sensitive business data" style="text;html=1;strokeColor=#d6b656;fillColor=#fffef5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="100" y="569" width="460" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ex-public" value="Public: Marketing materials, Public documentation, Press releases" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+          <mxGeometry x="100" y="596" width="460" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Handling Requirements Table -->
+        <mxCell id="table-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="80" width="700" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="table-title" value="Data Handling Requirements by Classification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="90" width="300" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Table Headers -->
+        <mxCell id="th-control" value="Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="130" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="th-restricted" value="Restricted" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="130" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="th-confidential" value="Confidential" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="910" y="130" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="th-internal" value="Internal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="130" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="th-public" value="Public" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="130" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Encryption at Rest -->
+        <mxCell id="r1-label" value="Encryption at Rest" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="165" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-c1" value="Required (AES-256)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="780" y="165" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-c2" value="Required" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="910" y="165" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-c3" value="Recommended" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="165" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-c4" value="Optional" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="165" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Encryption in Transit -->
+        <mxCell id="r2-label" value="Encryption in Transit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="200" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-c1" value="Required (TLS 1.2+)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="780" y="200" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-c2" value="Required (TLS 1.2+)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="910" y="200" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-c3" value="Required" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="200" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-c4" value="Recommended" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="200" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Access Control -->
+        <mxCell id="r3-label" value="Access Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="235" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-c1" value="Need-to-know + MFA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="780" y="235" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-c2" value="Role-based (RBAC)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="910" y="235" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-c3" value="Authenticated users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="235" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-c4" value="No restriction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="235" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Audit Logging -->
+        <mxCell id="r4-label" value="Audit Logging" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="270" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-c1" value="All access logged" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="780" y="270" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-c2" value="All access logged" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="910" y="270" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-c3" value="Write access logged" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="270" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-c4" value="Optional" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="270" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Data Masking -->
+        <mxCell id="r5-label" value="Data Masking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="305" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-c1" value="Required in non-prod" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="780" y="305" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-c2" value="Required in non-prod" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="910" y="305" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-c3" value="Recommended" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="305" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-c4" value="Not required" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="305" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Retention Period -->
+        <mxCell id="r6-label" value="Retention Period" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="340" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-c1" value="Minimized, defined" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="780" y="340" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-c2" value="Policy-defined" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="910" y="340" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-c3" value="Business need" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="340" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-c4" value="Indefinite" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="340" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Disposal Method -->
+        <mxCell id="r7-label" value="Disposal Method" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="375" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-c1" value="Secure wipe/shred" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="780" y="375" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-c2" value="Secure wipe" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="910" y="375" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-c3" value="Standard delete" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="375" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r7-c4" value="No requirement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="375" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Sharing External -->
+        <mxCell id="r8-label" value="External Sharing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="410" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-c1" value="Prohibited / NDA req" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="780" y="410" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-c2" value="NDA required" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="910" y="410" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-c3" value="Approval required" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="410" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r8-c4" value="Allowed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="410" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Breach Notification -->
+        <mxCell id="r9-label" value="Breach Notification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=10;fontStyle=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="445" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r9-c1" value="24-72 hours" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="780" y="445" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r9-c2" value="72 hours" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="910" y="445" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r9-c3" value="Per policy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="445" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r9-c4" value="Not required" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="445" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Label Requirements Legend -->
+        <mxCell id="legend-title" value="Labeling Requirements:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="500" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-text" value="• All documents must be labeled with classification level&#xa;• Email subjects should include [RESTRICTED], [CONFIDENTIAL], etc.&#xa;• Database fields should have classification metadata&#xa;• File systems should use classification tags" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="525" width="650" height="70" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

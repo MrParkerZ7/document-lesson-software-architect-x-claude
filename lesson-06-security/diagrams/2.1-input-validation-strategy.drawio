@@ -1,0 +1,270 @@
+<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="input-validation" name="Input Validation Strategy">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Input Validation &amp; Output Encoding Strategy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="350" y="20" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Input Validation Flow -->
+        <mxCell id="flow-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="1240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-title" value="Input Validation Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="90" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- User Input -->
+        <mxCell id="user-input" value="User&#xa;Input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Client Validation -->
+        <mxCell id="client-val" value="Client-Side&#xa;Validation&#xa;(UX only)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="240" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="client-note" value="Not for security!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="240" y="205" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Server Validation -->
+        <mxCell id="server-val" value="Server-Side&#xa;Validation&#xa;(REQUIRED)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Type Check -->
+        <mxCell id="type-check" value="Type&#xa;Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="520" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Length Check -->
+        <mxCell id="length-check" value="Length&#xa;Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="620" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Format Check -->
+        <mxCell id="format-check" value="Format&#xa;Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="720" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Range Check -->
+        <mxCell id="range-check" value="Range&#xa;Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="820" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Whitelist -->
+        <mxCell id="whitelist" value="Whitelist&#xa;Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="920" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Decision -->
+        <mxCell id="decision" value="Valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="120" width="80" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Process -->
+        <mxCell id="process" value="Process&#xa;Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Reject -->
+        <mxCell id="reject" value="Reject&#xa;Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="170" as="sourcePoint" />
+            <mxPoint x="240" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="170" as="sourcePoint" />
+            <mxPoint x="380" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="170" as="sourcePoint" />
+            <mxPoint x="520" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="150" as="sourcePoint" />
+            <mxPoint x="620" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="150" as="sourcePoint" />
+            <mxPoint x="720" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr6" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="150" as="sourcePoint" />
+            <mxPoint x="820" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr7" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="150" as="sourcePoint" />
+            <mxPoint x="920" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr8" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="150" as="sourcePoint" />
+            <mxPoint x="1030" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr9" value="Yes" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="150" as="sourcePoint" />
+            <mxPoint x="1150" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr10" value="No" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#b85450;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="180" as="sourcePoint" />
+            <mxPoint x="1070" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Output Encoding Section -->
+        <mxCell id="output-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="300" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="output-title" value="Context-Aware Output Encoding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="310" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- HTML Context -->
+        <mxCell id="html-ctx" value="HTML Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="html-enc" value="&amp;lt; → &amp;amp;lt;&#xa;&amp;gt; → &amp;amp;gt;&#xa;&amp;amp; → &amp;amp;amp;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#f0f5ff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="100" y="400" width="120" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- JavaScript Context -->
+        <mxCell id="js-ctx" value="JavaScript Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="js-enc" value="Use JSON.stringify()&#xa;Escape special chars&#xa;\\x hex encoding" style="text;html=1;strokeColor=#d6b656;fillColor=#fffef5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="240" y="400" width="120" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- URL Context -->
+        <mxCell id="url-ctx" value="URL Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="url-enc" value="encodeURIComponent()&#xa;space → %20&#xa;&amp; → %26" style="text;html=1;strokeColor=#82b366;fillColor=#f0f7f0;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="380" y="400" width="130" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- CSS Context -->
+        <mxCell id="css-ctx" value="CSS Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="css-enc" value="\\hex encoding&#xa;Escape non-alphanum&#xa;Validate properties" style="text;html=1;strokeColor=#9673a6;fillColor=#f5f0f7;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="530" y="400" width="120" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- Key Principles -->
+        <mxCell id="principles-title" value="Key Principles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="475" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="principle1" value="1. Always validate on server side (client validation is for UX only)" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="500" width="350" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="principle2" value="2. Whitelist over blacklist (define what's allowed, not what's blocked)" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="527" width="350" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="principle3" value="3. Reject invalid input (don't try to sanitize and fix it)" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="554" width="350" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Validation Schema Example -->
+        <mxCell id="schema-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="300" width="620" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="schema-title" value="Validation Schema Example (Zod)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="310" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="schema-code" value="const UserSchema = z.object({&#xa;  email: z.string()&#xa;           .email()&#xa;           .max(255),&#xa;&#xa;  password: z.string()&#xa;             .min(8)&#xa;             .max(128),&#xa;&#xa;  age: z.number()&#xa;        .int()&#xa;        .min(18)&#xa;        .max(120),&#xa;&#xa;  username: z.string()&#xa;             .regex(/^[a-zA-Z0-9_]{3,20}$/)&#xa;});" style="text;html=1;strokeColor=#6c8ebf;fillColor=#f0f5ff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=11;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="720" y="345" width="280" height="220" as="geometry" />
+        </mxCell>
+
+        <!-- Validation annotations -->
+        <mxCell id="ann1" value="Email format" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="360" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ann2" value="Length limits" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="415" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ann3" value="Type &amp; range" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="470" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ann4" value="Regex pattern" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="525" width="70" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Common Validation Libraries -->
+        <mxCell id="libs-title" value="Common Libraries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="345" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lib1" value="• Zod (TypeScript)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="370" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lib2" value="• Joi (JavaScript)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="395" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lib3" value="• Pydantic (Python)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lib4" value="• FluentValidation (.NET)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="445" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lib5" value="• Bean Validation (Java)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="470" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Error Handling -->
+        <mxCell id="error-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#b85450;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="1240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="error-title" value="Secure Error Handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="100" y="610" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bad-example" value="BAD: Exposes internals" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="100" y="640" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bad-code" value="return str(e), 500  // Exposes stack trace" style="text;html=1;strokeColor=#b85450;fillColor=#ffe5e5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="100" y="665" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="good-example" value="GOOD: Generic message, log details" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="420" y="640" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="good-code" value="logger.error(f&quot;Error {error_id}: {str(e)}&quot;)&#xa;return {&quot;error&quot;: &quot;An error occurred&quot;, &quot;error_id&quot;: error_id}, 500" style="text;html=1;strokeColor=#82b366;fillColor=#e5ffe5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="420" y="665" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="error-tips" value="Tips: Log detailed errors server-side • Return generic messages to client • Include error ID for support reference" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="880" y="665" width="420" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

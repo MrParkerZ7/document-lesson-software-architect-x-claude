@@ -1,0 +1,153 @@
+<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="owasp-top-10" name="OWASP Top 10">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="OWASP Top 10 (2021) - Web Application Security Risks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="350" y="20" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Critical Section (A01-A03) -->
+        <mxCell id="critical-header" value="CRITICAL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=14;fontStyle=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="80" width="100" height="210" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a01" value="A01: Broken Access Control" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="80" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a01-desc" value="Users acting outside intended permissions&#xa;• URL parameter manipulation&#xa;• Privilege escalation&#xa;• CORS misconfiguration" style="text;html=1;strokeColor=#b85450;fillColor=#fff5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="80" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a01-fix" value="Fix: Authorization checks, RBAC, deny by default" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="730" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a02" value="A02: Cryptographic Failures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="150" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a02-desc" value="Failures leading to data exposure&#xa;• Weak encryption algorithms&#xa;• Plaintext password storage&#xa;• Missing TLS" style="text;html=1;strokeColor=#b85450;fillColor=#fff5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="140" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a02-fix" value="Fix: TLS 1.2+, AES-256, bcrypt/Argon2" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="730" y="160" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a03" value="A03: Injection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="220" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a03-desc" value="Untrusted data to interpreter&#xa;• SQL, NoSQL, Command injection&#xa;• LDAP, XPath injection" style="text;html=1;strokeColor=#b85450;fillColor=#fff5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="210" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a03-fix" value="Fix: Parameterized queries, ORM, input validation" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="730" y="230" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- High Section (A04-A07) -->
+        <mxCell id="high-header" value="HIGH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=14;fontStyle=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="310" width="100" height="280" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a04" value="A04: Insecure Design" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="310" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a04-desc" value="Missing security controls in design&#xa;• No threat modeling&#xa;• Lack of security requirements" style="text;html=1;strokeColor=#d79b00;fillColor=#fffaf0;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="305" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a04-fix" value="Fix: STRIDE threat modeling, secure design patterns" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="730" y="315" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a05" value="A05: Security Misconfiguration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="380" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a05-desc" value="Insecure defaults, missing hardening&#xa;• Default credentials&#xa;• Verbose errors, missing headers" style="text;html=1;strokeColor=#d79b00;fillColor=#fffaf0;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="375" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a05-fix" value="Fix: Security headers, hardening guides, automation" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="730" y="385" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a06" value="A06: Vulnerable Components" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="450" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a06-desc" value="Using components with known CVEs&#xa;• Outdated libraries&#xa;• Unpatched frameworks" style="text;html=1;strokeColor=#d79b00;fillColor=#fffaf0;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="445" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a06-fix" value="Fix: npm audit, Dependabot, Trivy scanning" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="730" y="455" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a07" value="A07: Auth Failures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="520" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a07-desc" value="Authentication weaknesses&#xa;• Weak password policies&#xa;• Missing MFA, session issues" style="text;html=1;strokeColor=#d79b00;fillColor=#fffaf0;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="515" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a07-fix" value="Fix: MFA, rate limiting, secure session config" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="730" y="525" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Medium Section (A08-A10) -->
+        <mxCell id="medium-header" value="MEDIUM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=14;fontStyle=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="610" width="100" height="210" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a08" value="A08: Integrity Failures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="610" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a08-desc" value="Missing integrity verification&#xa;• Unsigned updates&#xa;• Insecure CI/CD pipelines" style="text;html=1;strokeColor=#d6b656;fillColor=#fffef5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="605" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a08-fix" value="Fix: SRI, code signing, secure pipelines" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="730" y="615" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a09" value="A09: Logging Failures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="680" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a09-desc" value="Insufficient logging &amp; monitoring&#xa;• Missing audit trails&#xa;• No alerting on breaches" style="text;html=1;strokeColor=#d6b656;fillColor=#fffef5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="675" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a09-fix" value="Fix: Security events logging, SIEM, alerting" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="730" y="685" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a10" value="A10: SSRF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="750" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a10-desc" value="Server-Side Request Forgery&#xa;• Unvalidated URL fetching&#xa;• Internal network access" style="text;html=1;strokeColor=#d6b656;fillColor=#fffef5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="745" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a10-fix" value="Fix: URL allowlist, block private IPs" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="730" y="755" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Legend -->
+        <mxCell id="legend-title" value="Severity Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="80" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-critical" value="Critical (A01-A03)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="110" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-high" value="High (A04-A07)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="145" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-medium" value="Medium (A08-A10)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="180" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-fix" value="Mitigation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="215" width="120" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Note -->
+        <mxCell id="note" value="Source: OWASP Foundation (2021)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="500" y="830" width="200" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

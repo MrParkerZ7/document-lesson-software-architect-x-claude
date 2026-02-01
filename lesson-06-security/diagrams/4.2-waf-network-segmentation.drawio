@@ -1,0 +1,261 @@
+<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="waf-network" name="WAF &amp; Network Segmentation">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="WAF Rules &amp; Network Segmentation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- WAF Section -->
+        <mxCell id="waf-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="600" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-title" value="Web Application Firewall (WAF)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- OWASP CRS -->
+        <mxCell id="crs-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="130" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="crs-title" value="OWASP Core Rule Set (CRS)" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="140" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="crs1" value="SQL Injection Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="175" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="crs2" value="XSS Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="205" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="crs3" value="Command Injection Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="235" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="crs4" value="Path Traversal Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="265" width="220" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Custom Rules -->
+        <mxCell id="custom-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="400" y="130" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="custom-title" value="Custom Rules" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="140" width="120" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="custom1" value="Rate Limiting (requests/min)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="420" y="175" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="custom2" value="Geo-blocking (by country)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="420" y="205" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="custom3" value="Bot Protection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="420" y="235" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="custom4" value="IP Allowlist / Blocklist" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="420" y="265" width="220" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- WAF Mode -->
+        <mxCell id="mode-title" value="WAF Modes:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="330" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mode-detect" value="Detection Mode - Log only, don't block" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="355" width="230" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mode-prevent" value="Prevention Mode - Block malicious requests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="385" width="230" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="waf-providers" value="Providers: Azure WAF, AWS WAF, Cloudflare, Akamai" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="390" width="300" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Network Segmentation Section -->
+        <mxCell id="net-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="80" width="600" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="net-title" value="Network Segmentation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- DMZ -->
+        <mxCell id="dmz" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;opacity=70;" parent="1" vertex="1">
+          <mxGeometry x="750" y="130" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz-label" value="DMZ Subnet&#xa;(Public-facing)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="770" y="140" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-lb" value="WAF / Load&#xa;Balancer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="780" y="185" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- App Subnet -->
+        <mxCell id="app-subnet" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;opacity=70;" parent="1" vertex="1">
+          <mxGeometry x="940" y="130" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="app-label" value="App Subnet&#xa;(Internal)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="app-servers" value="App Servers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="970" y="185" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Data Subnet -->
+        <mxCell id="data-subnet" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;opacity=70;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="130" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="data-label" value="Data Subnet&#xa;(Isolated)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="databases" value="Databases" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#ffffff;strokeColor=#82b366;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="180" width="70" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows between subnets -->
+        <mxCell id="arr-dmz-app" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="210" as="sourcePoint" />
+            <mxPoint x="940" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr-app-data" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="210" as="sourcePoint" />
+            <mxPoint x="1130" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- NSG Rules -->
+        <mxCell id="nsg-title" value="NSG Rules:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="280" width="80" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nsg1" value="DMZ → App: HTTPS only (443)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="750" y="305" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nsg2" value="App → Data: DB port only (5432)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="750" y="335" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nsg3" value="Data → Internet: BLOCKED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="750" y="365" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Zero Trust -->
+        <mxCell id="zt-title" value="Zero Trust Principles:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="280" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zt1" value="• Never trust, always verify" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="980" y="305" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zt2" value="• Assume breach" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="980" y="325" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zt3" value="• Least privilege access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="980" y="345" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zt4" value="• Micro-segmentation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="980" y="365" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zt5" value="• Continuous verification" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="980" y="385" width="180" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Security Headers Section -->
+        <mxCell id="headers-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="440" width="1240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="headers-title" value="Essential Security Headers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="450" width="320" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Header 1 -->
+        <mxCell id="h1" value="X-Frame-Options" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="495" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h1-val" value="DENY" style="text;html=1;strokeColor=#6c8ebf;fillColor=#f0f5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="100" y="530" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h1-desc" value="Prevents clickjacking" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="100" y="555" width="130" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Header 2 -->
+        <mxCell id="h2" value="X-Content-Type-Options" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="495" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2-val" value="nosniff" style="text;html=1;strokeColor=#82b366;fillColor=#f0fff0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="250" y="530" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h2-desc" value="Prevents MIME sniffing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="250" y="555" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Header 3 -->
+        <mxCell id="h3" value="Strict-Transport-Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="495" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3-val" value="max-age=31536000; includeSubDomains" style="text;html=1;strokeColor=#d6b656;fillColor=#fffef5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=8;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="410" y="530" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h3-desc" value="Enforces HTTPS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="410" y="555" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Header 4 -->
+        <mxCell id="h4" value="Content-Security-Policy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="495" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h4-val" value="default-src 'self'; script-src 'self'" style="text;html=1;strokeColor=#d79b00;fillColor=#fffaf0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=8;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="580" y="530" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h4-desc" value="Prevents XSS, data injection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="580" y="555" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Header 5 -->
+        <mxCell id="h5" value="Referrer-Policy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="495" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h5-val" value="strict-origin-when-cross-origin" style="text;html=1;strokeColor=#b85450;fillColor=#fff5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=8;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="740" y="530" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h5-desc" value="Controls referrer info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="740" y="555" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Header 6 -->
+        <mxCell id="h6" value="Permissions-Policy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="495" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h6-val" value="geolocation=(), camera=()" style="text;html=1;strokeColor=#9673a6;fillColor=#f5f0f7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=8;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="900" y="530" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h6-desc" value="Controls browser features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="900" y="555" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Header 7 -->
+        <mxCell id="h7" value="X-XSS-Protection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="495" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-val" value="1; mode=block" style="text;html=1;strokeColor=#6c8ebf;fillColor=#f0f5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="530" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h7-desc" value="XSS filter (legacy)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="555" width="130" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Test Tool -->
+        <mxCell id="test-note" value="Test your headers: securityheaders.com | observatory.mozilla.org" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="500" y="590" width="400" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
