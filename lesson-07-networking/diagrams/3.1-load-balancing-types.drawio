@@ -1,0 +1,344 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" etag="load-balancing-types" version="22.1.5" type="device">
+  <diagram name="Load Balancing Types" id="load-balancing-types-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Load Balancing: Layer 4 vs Layer 7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 4 Section -->
+        <mxCell id="l4-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="640" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-title" value="Layer 4 (Transport) Load Balancing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- L4 Client -->
+        <mxCell id="l4-client" value="Client&#xa;192.168.1.100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- L4 Load Balancer -->
+        <mxCell id="l4-lb" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-lb-title" value="L4 Load Balancer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-lb-vip" value="VIP: 10.0.0.1:80" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="185" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-lb-info" value="Decisions based on:&#xa;- Source/Dest IP&#xa;- Source/Dest Port&#xa;- Protocol (TCP/UDP)&#xa;&#xa;No packet inspection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="235" y="210" width="170" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- L4 Servers -->
+        <mxCell id="l4-server1" value="Server 1&#xa;10.0.1.10:80" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-server2" value="Server 2&#xa;10.0.1.11:80" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="210" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-server3" value="Server 3&#xa;10.0.1.12:80" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- L4 Connections -->
+        <mxCell id="l4-conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="l4-client" target="l4-lb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="l4-lb" target="l4-server1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-conn3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="l4-lb" target="l4-server2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-conn4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="l4-lb" target="l4-server3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- L4 Characteristics -->
+        <mxCell id="l4-char-title" value="Characteristics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-char1" value="+ Very fast (no content parsing)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#27ae60;" vertex="1" parent="1">
+          <mxGeometry x="60" y="375" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-char2" value="+ Low latency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#27ae60;" vertex="1" parent="1">
+          <mxGeometry x="60" y="395" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-char3" value="+ Simple configuration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#27ae60;" vertex="1" parent="1">
+          <mxGeometry x="60" y="415" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-char4" value="- No content-based routing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#c0392b;" vertex="1" parent="1">
+          <mxGeometry x="60" y="435" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l4-use-title" value="Use Cases" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-use1" value="Database clusters" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="375" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-use2" value="TCP/UDP services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="395" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-use3" value="Gaming servers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="415" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-use4" value="VoIP / Real-time" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="435" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l4-examples" value="Examples: Azure LB, AWS NLB, HAProxy (TCP mode)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 7 Section -->
+        <mxCell id="l7-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="640" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-title" value="Layer 7 (Application) Load Balancing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
+          <mxGeometry x="840" y="90" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- L7 Client -->
+        <mxCell id="l7-client" value="Client&#xa;GET /api/users" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="740" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- L7 Load Balancer -->
+        <mxCell id="l7-lb" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="130" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-lb-title" value="L7 Load Balancer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="140" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-lb-info" value="Decisions based on:&#xa;- URL path&#xa;- HTTP headers&#xa;- Cookies&#xa;- Query strings&#xa;- Request body&#xa;- Host header&#xa;&#xa;Full packet inspection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="915" y="170" width="170" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- L7 Server Groups -->
+        <mxCell id="l7-api-group" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="130" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-api-label" value="/api/* → API Pool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="135" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-api1" value="API 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="160" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-api2" value="API 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="160" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-api3" value="API 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="160" width="50" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l7-web-group" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="230" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-web-label" value="/* → Web Pool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="235" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-web1" value="Web 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="260" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-web2" value="Web 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="260" width="50" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- L7 Connections -->
+        <mxCell id="l7-conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="l7-client" target="l7-lb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="l7-lb" target="l7-api-group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-conn3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="l7-lb" target="l7-web-group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- L7 Characteristics -->
+        <mxCell id="l7-char-title" value="Characteristics" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="350" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-char1" value="+ Content-based routing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#27ae60;" vertex="1" parent="1">
+          <mxGeometry x="740" y="375" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-char2" value="+ SSL termination" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#27ae60;" vertex="1" parent="1">
+          <mxGeometry x="740" y="395" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-char3" value="+ Request/response modification" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#27ae60;" vertex="1" parent="1">
+          <mxGeometry x="740" y="415" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-char4" value="- Higher latency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#c0392b;" vertex="1" parent="1">
+          <mxGeometry x="740" y="435" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l7-use-title" value="Use Cases" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="350" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-use1" value="Web applications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="375" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-use2" value="API gateways" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="395" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-use3" value="Microservices routing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="415" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-use4" value="A/B testing, Canary" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="435" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l7-examples" value="Examples: Azure App GW, AWS ALB, NGINX, Traefik" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="350" width="220" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Load Balancing Algorithms Section -->
+        <mxCell id="algo-title" value="Load Balancing Algorithms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="500" y="500" width="400" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Round Robin -->
+        <mxCell id="rr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rr-title" value="Round Robin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="560" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rr-desc" value="Requests distributed&#xa;sequentially across servers&#xa;&#xa;1 → S1&#xa;2 → S2&#xa;3 → S3&#xa;4 → S1 (repeat)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="55" y="590" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rr-use" value="Simple, equal distribution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="695" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Weighted Round Robin -->
+        <mxCell id="wrr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="550" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wrr-title" value="Weighted Round Robin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="560" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wrr-desc" value="Higher weight = more requests&#xa;&#xa;S1 (weight=3): 60%&#xa;S2 (weight=1): 20%&#xa;S3 (weight=1): 20%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="275" y="590" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wrr-use" value="Heterogeneous servers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="275" y="695" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Least Connections -->
+        <mxCell id="lc-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="550" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lc-title" value="Least Connections" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="560" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="lc-desc" value="Routes to server with&#xa;fewest active connections&#xa;&#xa;S1: 5 conn → skip&#xa;S2: 2 conn → SELECT&#xa;S3: 4 conn → skip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="495" y="590" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lc-use" value="Variable request duration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="495" y="695" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- IP Hash -->
+        <mxCell id="ih-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="550" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ih-title" value="IP Hash" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="560" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ih-desc" value="Hash of client IP determines&#xa;server (session affinity)&#xa;&#xa;192.168.1.1 → S1&#xa;192.168.1.2 → S3&#xa;192.168.1.1 → S1 (same)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="715" y="590" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ih-use" value="Stateful applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="715" y="695" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Least Response Time -->
+        <mxCell id="lrt-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="550" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lrt-title" value="Least Response Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="560" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="lrt-desc" value="Routes to fastest server&#xa;(health probes measure)&#xa;&#xa;S1: 50ms → skip&#xa;S2: 15ms → SELECT&#xa;S3: 30ms → skip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="935" y="590" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lrt-use" value="Performance-sensitive apps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="935" y="695" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Random -->
+        <mxCell id="rand-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="550" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rand-title" value="Random" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="560" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rand-desc" value="Randomly selects a server&#xa;&#xa;Statistically even over&#xa;large number of requests&#xa;&#xa;Simple implementation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="590" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rand-use" value="Simple scenarios, testing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="695" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Health Checks -->
+        <mxCell id="health-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="1300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="health-title" value="Health Checks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="600" y="770" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tcp-check" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="810" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tcp-check-title" value="TCP Health Check" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="815" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tcp-check-desc" value="Attempts TCP connection to port&#xa;Server is healthy if connection succeeds&#xa;&#xa;Interval: 5-30 seconds&#xa;Timeout: 5-10 seconds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="75" y="845" width="250" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="http-check" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="810" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="http-check-title" value="HTTP Health Check" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="815" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="http-check-desc" value="Sends HTTP request to health endpoint&#xa;Expects specific status code (200 OK)&#xa;&#xa;Path: /health or /healthz&#xa;Can validate response body" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="375" y="845" width="250" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="https-check" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="810" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="https-check-title" value="HTTPS Health Check" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="815" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="https-check-desc" value="Same as HTTP but with TLS&#xa;Validates SSL certificate (optional)&#xa;&#xa;Higher overhead than HTTP&#xa;More realistic for HTTPS apps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="675" y="845" width="250" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="custom-check" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="810" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="custom-check-title" value="Custom / Composite Check" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="815" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="custom-check-desc" value="Application-specific health logic&#xa;&#xa;Examples: Database connectivity, Downstream services&#xa;Liveness vs Readiness probes (Kubernetes)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="975" y="845" width="330" height="70" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
