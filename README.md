@@ -12,6 +12,7 @@ Software Architects serve as the technical visionaries who define the blueprint 
 
 | # | Lesson | Diagrams |
 |---|--------|----------|
+| 00 | Software Architect Overview | ✅ |
 | 01 | Software Design & Architecture | ✅ |
 | 02 | Event-Driven Architecture | ✅ |
 | 03 | Cloud Platforms & Services | ✅ |
@@ -23,7 +24,7 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 09 | Observability & Monitoring | ⬜ |
 | 10 | Soft Skills | ⬜ |
 
-**Diagrams: 4/10 lessons completed**
+**Diagrams: 5/11 lessons completed**
 
 ---
 
@@ -140,9 +141,9 @@ Software Architects serve as the technical visionaries who define the blueprint 
 #### Network Security
 - 🆗 Firewalls & ❓ WAF (Web Application Firewall)
 - 🆗 DDoS protection
-- ❓ Network segmentation
+- ✅ Network segmentation
 - 🆗 VPN & ❓ Private endpoints
-- ❓ TLS/SSL certificates
+- 🆗 TLS/SSL certificates
 - ❓ DNS security
 
 #### Compliance & Governance
