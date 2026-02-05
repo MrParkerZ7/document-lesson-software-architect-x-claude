@@ -282,7 +282,58 @@ Command ──▶ Aggregate ──▶ Events ──▶ Event Store
 | **Customer Orders** | All orders by customer |
 | **Daily Revenue** | Aggregated sales data |
 
-### 3.3 Saga Pattern
+### 3.3 Event Patterns Comparison
+
+These four patterns are often confused but serve **different purposes**:
+
+| Pattern | Category | What It Is | Key Question |
+|---------|----------|------------|--------------|
+| **Domain Events** | Data Structure | Record of something that happened | "What happened?" |
+| **Event Bus** | Infrastructure | Transport mechanism for events | "How do events get delivered?" |
+| **Event Sourcing** | Storage Pattern | State as sequence of events | "How do we persist state?" |
+| **CQRS** | Architecture | Separate read/write models | "How do we optimize reads vs writes?" |
+
+**Key Distinctions**:
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    How They Work Together                           │
+│                                                                     │
+│  Command → Aggregate → Domain Event → Event Store → Event Bus       │
+│                           │              │              │           │
+│                           │      Event Sourcing    Transport        │
+│                           │              │              │           │
+│                     The "WHAT"    The "STORAGE"   The "HOW"         │
+│                                                         │           │
+│                                              ┌──────────┴───────┐   │
+│                                              │                  │   │
+│                                         Projection 1     Projection 2│
+│                                              │                  │   │
+│                                         Read Model 1    Read Model 2 │
+│                                              └──────────┬───────┘   │
+│                                                    CQRS              │
+│                                              The "SEPARATION"        │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**Independence**: These patterns can be used independently:
+- Domain Events work without Event Sourcing (in-memory, fire-and-forget)
+- Event Sourcing works without CQRS (single model rebuilt from events)
+- CQRS works without Event Sourcing (traditional DB sync between models)
+- Event Bus works without any of the above (just message transport)
+
+**When to Use Each**:
+
+| Use This Pattern | When You Need |
+|-----------------|---------------|
+| Domain Events | Loose coupling, audit trail, DDD implementation |
+| Event Bus | Distributed systems, async communication, multiple subscribers |
+| Event Sourcing | Complete history, time-travel queries, event replay |
+| CQRS | High read/write asymmetry, complex queries, independent scaling |
+
+> **📊 Diagram**: See `diagrams/3.6-event-patterns-comparison.drawio` for a visual comparison
+
+### 3.4 Saga Pattern
 
 **Description**: Manage distributed transactions through a sequence of local transactions.
 
@@ -330,7 +381,7 @@ Compensation (if Payment fails):
   ProcessPayment fails → ReleaseInventory → CancelOrder
 ```
 
-### 3.4 Choreography vs Orchestration
+### 3.5 Choreography vs Orchestration
 
 | Aspect | Choreography | Orchestration |
 |--------|--------------|---------------|
