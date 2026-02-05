@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
 
         <!-- Title -->
-        <mxCell id="title" value="AWS Reference Architecture - Modern Web Application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#232F3E;" parent="1" vertex="1">
+        <mxCell id="title" value="☁️ AWS Reference Architecture - Modern Web Application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#232F3E;" parent="1" vertex="1">
           <mxGeometry x="400" y="15" width="500" height="35" as="geometry" />
         </mxCell>
 

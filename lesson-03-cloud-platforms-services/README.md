@@ -1,12 +1,12 @@
-# Lesson 03: Cloud Platforms & Services
+# Lesson 03: Cloud Platforms & Services ☁️
 
-## Overview
+## 📋 Overview
 
 Cloud computing has transformed how organizations build, deploy, and scale applications. As a Software Architect, understanding major cloud platforms and their services is essential for designing cost-effective, scalable, and resilient solutions.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -18,7 +18,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 1. Cloud Computing Fundamentals
+## 1. 💡 Cloud Computing Fundamentals
 
 ### 1.1 Service Models
 
@@ -58,7 +58,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 2. Microsoft Azure
+## 2. 🔷 Microsoft Azure
 
 ### 2.1 Compute Services
 
@@ -126,7 +126,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 3. Amazon Web Services (AWS)
+## 3. 🟠 Amazon Web Services (AWS)
 
 ### 3.1 Compute Services
 
@@ -191,7 +191,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 4. Google Cloud Platform (GCP)
+## 4. 🔵 Google Cloud Platform (GCP)
 
 ### 4.1 Compute Services
 
@@ -226,7 +226,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 5. Service Comparison
+## 5. ⚖️ Service Comparison
 
 ### 5.1 Compute Comparison
 
@@ -259,7 +259,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 6. Cloud-Native Design Principles
+## 6. 🏗️ Cloud-Native Design Principles
 
 ### 6.1 The Twelve-Factor App
 
@@ -306,7 +306,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 7. Multi-Cloud & Hybrid Strategies
+## 7. 🌐 Multi-Cloud & Hybrid Strategies
 
 ### 7.1 Multi-Cloud Architecture
 
@@ -349,7 +349,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 8. Cost Optimization
+## 8. 💰 Cost Optimization
 
 ### 8.1 Cost Management Strategies
 
@@ -373,7 +373,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 9. Well-Architected Frameworks
+## 9. 🏆 Well-Architected Frameworks
 
 ### 9.1 Common Pillars
 
@@ -394,7 +394,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Practical Exercises
+## 🏋️ Practical Exercises
 
 1. **Service Mapping**: Map an on-premises architecture to equivalent cloud services
 2. **Cost Estimation**: Use pricing calculators to estimate monthly costs for a workload
@@ -403,7 +403,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Further Reading
+## 📖 Further Reading
 
 - "Cloud Native Patterns" - Cornelia Davis
 - "Architecting the Cloud" - Michael Kavis
@@ -413,6 +413,6 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Summary
+## 📝 Summary
 
 Cloud platforms provide a vast array of services that enable organizations to build scalable, resilient applications without managing physical infrastructure. Understanding the service landscape across major providers, cloud-native design principles, and cost optimization strategies is essential for modern software architects. The key is matching services to requirements while maintaining flexibility and avoiding unnecessary complexity.

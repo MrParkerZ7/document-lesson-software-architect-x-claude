@@ -1,12 +1,12 @@
-# Lesson 02: Event-Driven Architecture
+# Lesson 02: Event-Driven Architecture 📨
 
-## Overview
+## 📋 Overview
 
 Event-Driven Architecture (EDA) is a software design paradigm where the flow of the program is determined by events—significant changes in state or occurrences. This architecture style enables loosely coupled, scalable, and responsive systems.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -17,7 +17,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 1. Core Concepts
+## 1. 💡 Core Concepts
 
 ### 1.1 What is an Event?
 
@@ -67,7 +67,7 @@ An **event** is a record of something that happened in the system. Events are:
 
 ---
 
-## 2. Message Brokers
+## 2. 📬 Message Brokers
 
 ### 2.1 Apache Kafka
 
@@ -208,7 +208,7 @@ enable.auto.commit=false
 
 ---
 
-## 3. Event Patterns
+## 3. 🔄 Event Patterns
 
 ### 3.1 Event Sourcing
 
@@ -394,7 +394,7 @@ Compensation (if Payment fails):
 
 ---
 
-## 4. Stream Processing
+## 4. 🌊 Stream Processing
 
 ### 4.1 Apache Flink
 
@@ -464,7 +464,7 @@ HAVING COUNT(*) > 10
 
 ---
 
-## 5. Async Communication Patterns
+## 5. ⚡ Async Communication Patterns
 
 ### 5.1 Pub/Sub (Publish/Subscribe)
 
@@ -518,7 +518,7 @@ Producer ──▶ Stream ──▶ Consumer A (offset: 100)
 
 ---
 
-## 6. Best Practices
+## 6. ✅ Best Practices
 
 ### 6.1 Event Design
 
@@ -560,7 +560,7 @@ Key metrics to track:
 
 ---
 
-## Practical Exercises
+## 🏋️ Practical Exercises
 
 1. **Kafka Setup**: Deploy a local Kafka cluster and produce/consume messages
 2. **Event Sourcing**: Implement a simple bank account with event sourcing
@@ -569,7 +569,7 @@ Key metrics to track:
 
 ---
 
-## Further Reading
+## 📖 Further Reading
 
 - "Designing Data-Intensive Applications" - Martin Kleppmann
 - "Enterprise Integration Patterns" - Gregor Hohpe
@@ -579,6 +579,6 @@ Key metrics to track:
 
 ---
 
-## Summary
+## 📝 Summary
 
 Event-Driven Architecture enables building scalable, loosely coupled systems that can react to changes in real-time. Understanding message brokers, event patterns like Event Sourcing and CQRS, and stream processing technologies is essential for modern distributed systems. The key is choosing the right patterns and tools based on your specific requirements for consistency, latency, and complexity.

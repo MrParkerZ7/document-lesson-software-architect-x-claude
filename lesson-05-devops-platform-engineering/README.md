@@ -1,12 +1,12 @@
-# Lesson 05: DevOps & Platform Engineering
+# Lesson 05: DevOps & Platform Engineering 🔄
 
-## Overview
+## 📋 Overview
 
 DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle while delivering features, fixes, and updates frequently. Platform Engineering extends this by providing self-service capabilities to development teams through internal developer platforms.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -19,7 +19,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 1. DevOps Fundamentals
+## 1. 💡 DevOps Fundamentals
 
 ### 1.1 DevOps Lifecycle
 
@@ -66,7 +66,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 2. CI/CD Tools
+## 2. 🚀 CI/CD Tools
 
 ### 2.1 Azure DevOps
 
@@ -301,7 +301,7 @@ pipeline {
 
 ---
 
-## 3. Infrastructure as Code (IaC)
+## 3. 📦 Infrastructure as Code (IaC)
 
 ### 3.1 Terraform
 
@@ -505,7 +505,7 @@ Outputs:
 
 ---
 
-## 4. Containerization
+## 4. 🐳 Containerization
 
 ### 4.1 Docker
 
@@ -632,7 +632,7 @@ volumes:
 
 ---
 
-## 5. Container Orchestration
+## 5. ☸️ Container Orchestration
 
 ### 5.1 Kubernetes
 
@@ -802,7 +802,7 @@ properties:
 
 ---
 
-## 6. GitOps
+## 6. 🔀 GitOps
 
 ### 6.1 GitOps Principles
 
@@ -887,7 +887,7 @@ spec:
 
 ---
 
-## 7. Artifact Management
+## 7. 📁 Artifact Management
 
 ### 7.1 Container Registries
 
@@ -911,7 +911,7 @@ spec:
 
 ---
 
-## 8. Platform Engineering
+## 8. 🏗️ Platform Engineering
 
 ### 8.1 Internal Developer Platform (IDP)
 
@@ -956,7 +956,7 @@ spec:
 
 ---
 
-## Practical Exercises
+## 🏋️ Practical Exercises
 
 1. **CI/CD Pipeline**: Create a complete pipeline with build, test, and deploy stages
 2. **Terraform Module**: Build a reusable Terraform module for a web application
@@ -965,7 +965,7 @@ spec:
 
 ---
 
-## Further Reading
+## 📖 Further Reading
 
 - "The DevOps Handbook" - Gene Kim, et al.
 - "Infrastructure as Code" - Kief Morris
@@ -975,6 +975,6 @@ spec:
 
 ---
 
-## Summary
+## 📝 Summary
 
 DevOps and Platform Engineering are essential disciplines for modern software delivery. By automating CI/CD pipelines, managing infrastructure as code, leveraging containers and orchestration, and implementing GitOps practices, organizations can achieve faster, more reliable software delivery. Platform Engineering extends these capabilities by providing self-service platforms that empower developers while maintaining governance and standards.

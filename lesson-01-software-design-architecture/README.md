@@ -1,12 +1,12 @@
-# Lesson 01: Software Design & Architecture
+# Lesson 01: Software Design & Architecture 🎨
 
-## Overview
+## 📋 Overview
 
 Software Design & Architecture is the foundation of building scalable, maintainable, and robust systems. As a Software Architect, mastering design patterns, architecture styles, and principles is essential for making informed decisions that impact the entire software lifecycle.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -18,7 +18,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 1. Design Patterns
+## 1. 🧩 Design Patterns
 
 Design patterns are reusable solutions to commonly occurring problems in software design.
 
@@ -185,7 +185,7 @@ An **Aggregate** is a cluster of domain objects treated as a single unit for dat
 
 ---
 
-## 2. Architecture Styles
+## 2. 🏛️ Architecture Styles
 
 ### 2.1 Monolithic Architecture
 
@@ -306,7 +306,7 @@ An **Aggregate** is a cluster of domain objects treated as a single unit for dat
 
 ---
 
-## 3. Architecture Principles
+## 3. 📐 Architecture Principles
 
 ### 3.1 SOLID Principles
 
@@ -332,7 +332,7 @@ An **Aggregate** is a cluster of domain objects treated as a single unit for dat
 
 ---
 
-## 4. API Design
+## 4. 🔌 API Design
 
 ### 4.1 REST (Representational State Transfer)
 
@@ -416,7 +416,7 @@ service UserService {
 
 ---
 
-## 5. Data Architecture
+## 5. 🗄️ Data Architecture
 
 ### 5.1 Data Modeling
 
@@ -446,7 +446,7 @@ service UserService {
 
 ---
 
-## Practical Exercises
+## 🏋️ Practical Exercises
 
 1. **Design Pattern Exercise**: Implement a payment processing system using the Strategy pattern
 2. **Architecture Decision**: Given a startup scenario, justify choosing between monolithic and microservices
@@ -455,7 +455,7 @@ service UserService {
 
 ---
 
-## Further Reading
+## 📖 Further Reading
 
 - "Design Patterns: Elements of Reusable Object-Oriented Software" - Gang of Four
 - "Domain-Driven Design" - Eric Evans
@@ -465,7 +465,7 @@ service UserService {
 
 ---
 
-## Diagrams Reference
+## 📊 Diagrams Reference
 
 All diagrams are located in the `diagrams/` folder in Draw.io format.
 
@@ -518,6 +518,6 @@ All diagrams are located in the `diagrams/` folder in Draw.io format.
 
 ---
 
-## Summary
+## 📝 Summary
 
 Software Design & Architecture forms the backbone of any successful software system. Understanding patterns, principles, and styles enables architects to make informed decisions that balance immediate needs with long-term maintainability. The key is choosing the right approach for the specific context rather than applying one-size-fits-all solutions.

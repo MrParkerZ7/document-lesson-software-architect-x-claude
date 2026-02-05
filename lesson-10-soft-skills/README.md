@@ -1,12 +1,12 @@
-# Lesson 10: Soft Skills
+# Lesson 10: Soft Skills 💬
 
-## Overview
+## 📋 Overview
 
 Technical expertise alone doesn't make a great Software Architect. Soft skills—communication, leadership, business acumen, and problem-solving—are equally critical for success. This lesson covers the non-technical skills that enable architects to influence decisions, lead teams, and deliver value to the organization.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -18,7 +18,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 1. Communication
+## 1. 🗣️ Communication
 
 ### 1.1 Communication Matrix
 
@@ -169,7 +169,7 @@ We will use PostgreSQL 15 as our primary database.
 
 ---
 
-## 2. Leadership
+## 2. 👑 Leadership
 
 ### 2.1 Leadership Styles for Architects
 
@@ -259,7 +259,7 @@ We will use PostgreSQL 15 as our primary database.
 
 ---
 
-## 3. Business Acumen
+## 3. 💼 Business Acumen
 
 ### 3.1 Understanding Business Value
 
@@ -363,7 +363,7 @@ We will use PostgreSQL 15 as our primary database.
 
 ---
 
-## 4. Decision Making
+## 4. 🤔 Decision Making
 
 ### 4.1 Decision Frameworks
 
@@ -431,7 +431,7 @@ We will use PostgreSQL 15 as our primary database.
 
 ---
 
-## 5. Problem Solving
+## 5. 🧩 Problem Solving
 
 ### 5.1 Root Cause Analysis
 
@@ -510,7 +510,7 @@ Solution: Implement mandatory DBA review for schema changes
 
 ---
 
-## 6. Continuous Learning
+## 6. 📚 Continuous Learning
 
 ### 6.1 Learning Strategies
 
@@ -579,7 +579,7 @@ Solution: Implement mandatory DBA review for schema changes
 
 ---
 
-## 7. Work-Life Balance
+## 7. ⚖️ Work-Life Balance
 
 ### 7.1 Avoiding Burnout
 
@@ -623,7 +623,7 @@ Solution: Implement mandatory DBA review for schema changes
 
 ---
 
-## Practical Exercises
+## 🏋️ Practical Exercises
 
 1. **ADR Writing**: Write an ADR for a technology decision in your project
 2. **Presentation Practice**: Present a technical concept to a non-technical audience
@@ -633,7 +633,7 @@ Solution: Implement mandatory DBA review for schema changes
 
 ---
 
-## Further Reading
+## 📖 Further Reading
 
 - "The Software Architect Elevator" - Gregor Hohpe
 - "Crucial Conversations" - Patterson, Grenny, et al.
@@ -643,7 +643,7 @@ Solution: Implement mandatory DBA review for schema changes
 
 ---
 
-## Summary
+## 📝 Summary
 
 Soft skills are the multiplier for technical expertise. An architect who can communicate clearly, lead effectively, understand business context, make sound decisions, and continuously learn will have far greater impact than one with only technical skills. Developing these skills takes deliberate practice and self-reflection, but they are essential for career growth and organizational success.
 

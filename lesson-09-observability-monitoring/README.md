@@ -1,12 +1,12 @@
-# Lesson 09: Observability & Monitoring
+# Lesson 09: Observability & Monitoring 📊
 
-## Overview
+## 📋 Overview
 
 Observability is the ability to understand the internal state of a system by examining its external outputs. For Software Architects, implementing proper observability is crucial for maintaining reliable, performant systems and quickly diagnosing issues in production.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -18,7 +18,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 1. Three Pillars of Observability
+## 1. 🔭 Three Pillars of Observability
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -42,7 +42,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 2. Logging
+## 2. 📝 Logging
 
 ### 2.1 Logging Levels
 
@@ -203,7 +203,7 @@ exceptions
 
 ---
 
-## 3. Metrics
+## 3. 📈 Metrics
 
 ### 3.1 Metric Types
 
@@ -348,7 +348,7 @@ histogram_quantile(0.99,
 
 ---
 
-## 4. Distributed Tracing
+## 4. 🔍 Distributed Tracing
 
 ### 4.1 Tracing Concepts
 
@@ -511,7 +511,7 @@ public class OrderService
 
 ---
 
-## 5. Alerting
+## 5. 🚨 Alerting
 
 ### 5.1 Alerting Strategy
 
@@ -663,7 +663,7 @@ inhibit_rules:
 
 ---
 
-## 6. Observability Architecture
+## 6. 🏗️ Observability Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -705,7 +705,7 @@ inhibit_rules:
 
 ---
 
-## Practical Exercises
+## 🏋️ Practical Exercises
 
 1. **Structured Logging**: Implement structured logging in an application
 2. **Prometheus Setup**: Set up Prometheus and create custom metrics
@@ -715,7 +715,7 @@ inhibit_rules:
 
 ---
 
-## Further Reading
+## 📖 Further Reading
 
 - "Observability Engineering" - Charity Majors, Liz Fong-Jones
 - "Site Reliability Engineering" - Google
@@ -725,6 +725,6 @@ inhibit_rules:
 
 ---
 
-## Summary
+## 📝 Summary
 
 Observability is essential for operating reliable systems at scale. The three pillars—logs, metrics, and traces—provide complementary views into system behavior. Effective observability enables teams to quickly detect, diagnose, and resolve issues, reducing mean time to recovery (MTTR) and improving overall system reliability. The key is implementing comprehensive instrumentation while avoiding alert fatigue through thoughtful alerting strategies.

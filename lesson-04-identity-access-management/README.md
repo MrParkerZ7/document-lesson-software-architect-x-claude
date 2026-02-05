@@ -1,12 +1,12 @@
-# Lesson 04: Identity & Access Management (IAM)
+# Lesson 04: Identity & Access Management (IAM) 🔑
 
-## Overview
+## 📋 Overview
 
 Identity and Access Management (IAM) is the security discipline that ensures the right individuals have appropriate access to technology resources. As a Software Architect, understanding authentication, authorization, and identity federation is critical for building secure systems.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -18,7 +18,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 1. Core Concepts
+## 1. 💡 Core Concepts
 
 ### 1.1 Authentication vs Authorization
 
@@ -53,7 +53,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 2. Authentication Protocols
+## 2. 🔐 Authentication Protocols
 
 ### 2.1 OAuth 2.0
 
@@ -189,7 +189,7 @@ OAuth 2.0 + OpenID Connect
 
 ---
 
-## 3. Microsoft Entra ID (Azure AD)
+## 3. 🔷 Microsoft Entra ID (Azure AD)
 
 ### 3.1 Overview
 
@@ -318,7 +318,7 @@ App Registration
 
 ---
 
-## 4. Access Control Models
+## 4. 🛡️ Access Control Models
 
 ### 4.1 Role-Based Access Control (RBAC)
 
@@ -393,7 +393,7 @@ App Registration
 
 ---
 
-## 5. Zero Trust Architecture
+## 5. 🚫 Zero Trust Architecture
 
 ### 5.1 Principles
 
@@ -456,7 +456,7 @@ App Registration
 
 ---
 
-## 6. B2B and B2C Scenarios
+## 6. 🤝 B2B and B2C Scenarios
 
 ### 6.1 B2B (Business-to-Business)
 
@@ -525,7 +525,7 @@ App Registration
 
 ---
 
-## 7. Best Practices
+## 7. ✅ Best Practices
 
 ### 7.1 Authentication Best Practices
 
@@ -567,7 +567,7 @@ DON'T:
 
 ---
 
-## Practical Exercises
+## 🏋️ Practical Exercises
 
 1. **App Registration**: Register an application in Entra ID and configure authentication
 2. **Conditional Access**: Create a policy requiring MFA for admin users
@@ -576,7 +576,7 @@ DON'T:
 
 ---
 
-## Further Reading
+## 📖 Further Reading
 
 - "OAuth 2.0 in Action" - Justin Richer
 - Microsoft Entra ID Documentation
@@ -585,6 +585,6 @@ DON'T:
 
 ---
 
-## Summary
+## 📝 Summary
 
 Identity and Access Management is a cornerstone of application security. Understanding authentication protocols like OAuth 2.0 and OpenID Connect, implementing proper access control with RBAC or ABAC, and applying Zero Trust principles enables architects to build systems that protect user identities and organizational resources while maintaining usability.

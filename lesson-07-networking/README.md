@@ -1,12 +1,12 @@
-# Lesson 07: Networking
+# Lesson 07: Networking 🌐
 
-## Overview
+## 📋 Overview
 
 Networking knowledge is fundamental for Software Architects designing distributed systems and cloud-native applications. This lesson covers networking fundamentals, cloud networking concepts, and modern networking patterns like service mesh.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -18,7 +18,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 1. Networking Fundamentals
+## 1. 💡 Networking Fundamentals
 
 ### 1.1 OSI Model
 
@@ -145,7 +145,7 @@ Client                    Server
 
 ---
 
-## 2. Cloud Networking
+## 2. ☁️ Cloud Networking
 
 ### 2.1 Virtual Networks
 
@@ -289,7 +289,7 @@ Features:
 
 ---
 
-## 3. Load Balancing
+## 3. ⚖️ Load Balancing
 
 ### 3.1 Load Balancing Types
 
@@ -409,7 +409,7 @@ Features:
 
 ---
 
-## 4. Service Mesh
+## 4. 🕸️ Service Mesh
 
 ### 4.1 What is a Service Mesh?
 
@@ -551,7 +551,7 @@ spec:
 
 ---
 
-## 5. API Gateway
+## 5. 🚪 API Gateway
 
 ### 5.1 API Gateway Functions
 
@@ -673,7 +673,7 @@ services:
 
 ---
 
-## Practical Exercises
+## 🏋️ Practical Exercises
 
 1. **VNet Design**: Design a hub-spoke network topology for a multi-tier application
 2. **Load Balancer**: Configure Application Gateway with path-based routing
@@ -682,7 +682,7 @@ services:
 
 ---
 
-## Further Reading
+## 📖 Further Reading
 
 - "Computer Networking: A Top-Down Approach" - Kurose & Ross
 - "Network Programmability and Automation" - Jason Edelman
@@ -692,6 +692,6 @@ services:
 
 ---
 
-## Summary
+## 📝 Summary
 
 Networking is the backbone of distributed systems and cloud architectures. Understanding fundamentals like TCP/IP, DNS, and HTTP, combined with cloud networking concepts like VNets, load balancing, and private connectivity, enables architects to design secure, performant, and resilient network architectures. Modern patterns like service mesh and API gateways provide additional capabilities for managing complex microservices environments.

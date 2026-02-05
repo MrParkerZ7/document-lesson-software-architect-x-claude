@@ -1,12 +1,12 @@
-# Lesson 08: Databases & Storage
+# Lesson 08: Databases & Storage 🗄️
 
-## Overview
+## 📋 Overview
 
 Data is at the heart of most applications. Software Architects must understand various database types, their strengths and weaknesses, and how to design data architectures that meet performance, scalability, and consistency requirements.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -18,7 +18,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 1. Database Types Overview
+## 1. 📊 Database Types Overview
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -45,7 +45,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 2. Relational Databases
+## 2. 🔷 Relational Databases
 
 ### 2.1 When to Use Relational
 
@@ -163,7 +163,7 @@ USING GIN (metadata jsonb_path_ops);
 
 ---
 
-## 3. NoSQL Databases
+## 3. 📦 NoSQL Databases
 
 ### 3.1 Document Databases
 
@@ -405,7 +405,7 @@ GROUP BY hour, sensor_id;
 
 ---
 
-## 4. CAP Theorem & Consistency
+## 4. ⚖️ CAP Theorem & Consistency
 
 ### 4.1 CAP Theorem
 
@@ -468,7 +468,7 @@ GROUP BY hour, sensor_id;
 
 ---
 
-## 5. Caching
+## 5. ⚡ Caching
 
 ### 5.1 Caching Strategies
 
@@ -549,7 +549,7 @@ def get_user(user_id):
 
 ---
 
-## 6. Storage Solutions
+## 6. 💾 Storage Solutions
 
 ### 6.1 Object Storage
 
@@ -585,7 +585,7 @@ def get_user(user_id):
 
 ---
 
-## 7. Database Selection Guide
+## 7. 🧭 Database Selection Guide
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -614,7 +614,7 @@ def get_user(user_id):
 
 ---
 
-## Practical Exercises
+## 🏋️ Practical Exercises
 
 1. **Schema Design**: Design a database schema for a social media platform
 2. **NoSQL Modeling**: Model an e-commerce system in MongoDB with proper embedding/referencing
@@ -623,7 +623,7 @@ def get_user(user_id):
 
 ---
 
-## Further Reading
+## 📖 Further Reading
 
 - "Designing Data-Intensive Applications" - Martin Kleppmann
 - "Database Internals" - Alex Petrov
@@ -632,6 +632,6 @@ def get_user(user_id):
 
 ---
 
-## Summary
+## 📝 Summary
 
 Choosing the right database is crucial for application success. Relational databases excel at complex queries and transactions, while NoSQL databases offer flexibility and scalability for specific use cases. Understanding CAP theorem, consistency models, and caching strategies enables architects to design data architectures that meet performance, availability, and consistency requirements.

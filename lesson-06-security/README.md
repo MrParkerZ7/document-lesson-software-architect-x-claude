@@ -1,12 +1,12 @@
-# Lesson 06: Security
+# Lesson 06: Security 🔒
 
-## Overview
+## 📋 Overview
 
 Security is a critical concern for Software Architects. This lesson covers application security, network security, and compliance requirements that architects must understand to design secure systems that protect data and maintain user trust.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
 By the end of this lesson, you will be able to:
 
@@ -19,7 +19,7 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## 1. Application Security
+## 1. 🛡️ Application Security
 
 ### 1.1 OWASP Top 10 (2021)
 
@@ -329,7 +329,7 @@ def is_safe_url(url):
 
 ---
 
-## 2. Secure Coding Practices
+## 2. 💻 Secure Coding Practices
 
 ### 2.1 Input Validation
 
@@ -419,7 +419,7 @@ def handle_error(e):
 
 ---
 
-## 3. Secrets Management
+## 3. 🔐 Secrets Management
 
 ### 3.1 Azure Key Vault
 
@@ -482,7 +482,7 @@ password := secret.Data["data"].(map[string]interface{})["password"]
 
 ---
 
-## 4. Network Security
+## 4. 🌐 Network Security
 
 ### 4.1 Defense in Depth
 
@@ -592,7 +592,7 @@ resolver 8.8.8.8 8.8.4.4 valid=300s;
 
 ---
 
-## 5. Security Testing
+## 5. 🧪 Security Testing
 
 ### 5.1 Static Application Security Testing (SAST)
 
@@ -694,7 +694,7 @@ jobs:
 
 ---
 
-## 6. Compliance & Governance
+## 6. 📋 Compliance & Governance
 
 ### 6.1 Regulatory Frameworks
 
@@ -769,7 +769,7 @@ jobs:
 
 ---
 
-## Practical Exercises
+## 🏋️ Practical Exercises
 
 1. **OWASP Exercise**: Identify and fix vulnerabilities in a sample application
 2. **Threat Modeling**: Perform threat modeling for an e-commerce application
@@ -778,7 +778,7 @@ jobs:
 
 ---
 
-## Further Reading
+## 📖 Further Reading
 
 - "The Web Application Hacker's Handbook" - Dafydd Stuttard
 - OWASP Testing Guide
@@ -788,6 +788,6 @@ jobs:
 
 ---
 
-## Summary
+## 📝 Summary
 
 Security must be integrated throughout the software development lifecycle. Understanding common vulnerabilities (OWASP Top 10), implementing secure coding practices, managing secrets properly, and designing secure network architectures are essential skills for Software Architects. Regular security testing and compliance with regulatory requirements ensure that systems remain secure as threats evolve.
