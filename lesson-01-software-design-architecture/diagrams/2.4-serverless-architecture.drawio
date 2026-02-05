@@ -130,14 +130,14 @@
         </mxCell>
 
         <!-- Characteristics -->
-        <mxCell id="chars" value="Serverless Benefits" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="chars" value="✨ Serverless Benefits" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="680" y="430" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="chars-list" value="✓ No server management&#xa;✓ Auto-scaling&#xa;✓ Pay-per-use&#xa;✓ High availability&#xa;✓ Reduced ops&#xa;✓ Faster time-to-market" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;spacingTop=5;" parent="chars" vertex="1">
           <mxGeometry y="25" width="150" height="125" as="geometry" />
         </mxCell>
 
-        <mxCell id="challenges" value="Challenges" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="challenges" value="⚠️ Challenges" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="850" y="430" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="challenges-list" value="✗ Cold start latency&#xa;✗ Vendor lock-in&#xa;✗ Limited execution time&#xa;✗ Debugging difficulty&#xa;✗ State management&#xa;✗ Testing complexity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;spacingTop=5;" parent="challenges" vertex="1">

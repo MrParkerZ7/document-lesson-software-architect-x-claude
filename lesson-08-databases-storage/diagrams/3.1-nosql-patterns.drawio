@@ -14,7 +14,7 @@
         <mxCell id="doc-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="650" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="doc-title" value="Document Database Patterns (MongoDB, Cosmos DB)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
+        <mxCell id="doc-title" value="🎯 Document Database Patterns (MongoDB, Cosmos DB)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
           <mxGeometry x="150" y="90" width="430" height="25" as="geometry" />
         </mxCell>
 
@@ -22,7 +22,7 @@
         <mxCell id="embed-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="60" y="125" width="300" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="embed-title" value="Embedding Pattern (1:Few)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
+        <mxCell id="embed-title" value="🔹 Embedding Pattern (1:Few)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
           <mxGeometry x="110" y="130" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="embed-doc" value="{&#xa;  &quot;_id&quot;: &quot;post_1&quot;,&#xa;  &quot;title&quot;: &quot;My Blog Post&quot;,&#xa;  &quot;content&quot;: &quot;...&quot;,&#xa;  &quot;comments&quot;: [&#xa;    { &quot;user&quot;: &quot;alice&quot;, &quot;text&quot;: &quot;Great!&quot; },&#xa;    { &quot;user&quot;: &quot;bob&quot;, &quot;text&quot;: &quot;Nice post&quot; }&#xa;  ]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
@@ -39,7 +39,7 @@
         <mxCell id="ref-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="375" y="125" width="300" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ref-title" value="Referencing Pattern (1:Many, M:N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
+        <mxCell id="ref-title" value="🔹 Referencing Pattern (1:Many, M:N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
           <mxGeometry x="415" y="130" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ref-doc1" value="{&#xa;  &quot;_id&quot;: &quot;order_1&quot;,&#xa;  &quot;customerId&quot;: &quot;cust_123&quot;,&#xa;  &quot;items&quot;: [&#xa;    { &quot;productId&quot;: &quot;prod_1&quot; },&#xa;    { &quot;productId&quot;: &quot;prod_2&quot; }&#xa;  ]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
@@ -56,7 +56,7 @@
         <mxCell id="bucket-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="60" y="295" width="300" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="bucket-title" value="Bucket Pattern (Time-Series)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
+        <mxCell id="bucket-title" value="🔹 Bucket Pattern (Time-Series)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
           <mxGeometry x="115" y="300" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bucket-doc" value="{&#xa;  &quot;sensor_id&quot;: &quot;sensor_1&quot;,&#xa;  &quot;date&quot;: &quot;2026-01-15&quot;,&#xa;  &quot;readings&quot;: [&#xa;    { &quot;time&quot;: &quot;10:00&quot;, &quot;temp&quot;: 23.5 },&#xa;    { &quot;time&quot;: &quot;10:05&quot;, &quot;temp&quot;: 24.1 },&#xa;    { &quot;time&quot;: &quot;10:10&quot;, &quot;temp&quot;: 23.8 }&#xa;  ]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
@@ -70,7 +70,7 @@
         <mxCell id="extref-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="375" y="295" width="300" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="extref-title" value="Extended Reference (Denormalized)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
+        <mxCell id="extref-title" value="🔹 Extended Reference (Denormalized)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
           <mxGeometry x="415" y="300" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="extref-doc" value="{&#xa;  &quot;_id&quot;: &quot;order_1&quot;,&#xa;  &quot;customer&quot;: {&#xa;    &quot;_id&quot;: &quot;cust_123&quot;,&#xa;    &quot;name&quot;: &quot;John Doe&quot;,   // copied&#xa;    &quot;email&quot;: &quot;john@...&quot;   // copied&#xa;  },&#xa;  &quot;items&quot;: [...]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
@@ -84,7 +84,7 @@
         <mxCell id="kv-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="710" y="80" width="650" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="kv-title" value="Key-Value &amp; DynamoDB Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
+        <mxCell id="kv-title" value="🎯 Key-Value &amp; DynamoDB Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
           <mxGeometry x="870" y="90" width="330" height="25" as="geometry" />
         </mxCell>
 
@@ -92,7 +92,7 @@
         <mxCell id="redis-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="730" y="125" width="300" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="redis-title" value="Redis Data Structures" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#922b21;" vertex="1" parent="1">
+        <mxCell id="redis-title" value="📦 Redis Data Structures" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#922b21;" vertex="1" parent="1">
           <mxGeometry x="810" y="130" width="140" height="20" as="geometry" />
         </mxCell>
 
@@ -116,7 +116,7 @@
         <mxCell id="dynamo-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1045" y="125" width="300" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dynamo-title" value="DynamoDB Single-Table Design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
+        <mxCell id="dynamo-title" value="🎯 DynamoDB Single-Table Design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
           <mxGeometry x="1100" y="130" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dynamo-header" value="PK              | SK                  | Attrs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
@@ -142,7 +142,7 @@
         <mxCell id="access-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="730" y="295" width="300" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="access-title" value="DynamoDB Access Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
+        <mxCell id="access-title" value="💡 DynamoDB Access Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
           <mxGeometry x="800" y="300" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="access-content" value="Get user profile:&#xa;  PK = USER#123, SK = PROFILE&#xa;&#xa;Get user's orders:&#xa;  PK = USER#123, SK begins_with ORDER#&#xa;&#xa;Get orders by date (GSI):&#xa;  GSI1PK = ORDER, GSI1SK = 2026-01-15" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;fontFamily=Courier New;" vertex="1" parent="1">
@@ -153,7 +153,7 @@
         <mxCell id="gsi-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1045" y="295" width="300" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="gsi-title" value="Global Secondary Index (GSI)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
+        <mxCell id="gsi-title" value="📦 Global Secondary Index (GSI)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
           <mxGeometry x="1105" y="300" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gsi-content" value="Main Table: PK=USER#id, SK=PROFILE&#xa;GSI1: PK=email (for login by email)&#xa;GSI2: PK=status, SK=created_at&#xa;&#xa;Enables alternate query patterns&#xa;without scanning entire table" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
@@ -173,7 +173,7 @@
         <mxCell id="decision-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="1320" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="decision-title" value="Pattern Selection Guide" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="decision-title" value="🎯 Pattern Selection Guide" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="580" y="490" width="240" height="25" as="geometry" />
         </mxCell>
 
@@ -251,7 +251,7 @@
         <mxCell id="principles-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="525" width="530" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="principles-title" value="NoSQL Data Modeling Principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
+        <mxCell id="principles-title" value="✨ NoSQL Data Modeling Principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
           <mxGeometry x="940" y="535" width="270" height="25" as="geometry" />
         </mxCell>
         <mxCell id="principles-content" value="1. Model for your QUERIES, not your entities&#xa;   • List all access patterns first&#xa;   • Design schema around read patterns&#xa;&#xa;2. Denormalize for READ performance&#xa;   • Duplicate data is OK in NoSQL&#xa;   • Optimize for common queries&#xa;&#xa;3. Embrace eventual consistency&#xa;   • Not all data needs strong consistency&#xa;   • Design for the 99% case" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">

@@ -24,7 +24,7 @@
         </mxCell>
 
         <!-- Core Objects -->
-        <mxCell id="objects-title" value="Core Directory Objects" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
+        <mxCell id="objects-title" value="🏢 Core Directory Objects" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
           <mxGeometry x="80" y="160" width="250" height="25" as="geometry" />
         </mxCell>
 
@@ -35,7 +35,7 @@
         <mxCell id="users-icon" value="👤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;" parent="1" vertex="1">
           <mxGeometry x="155" y="195" width="50" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="users-title" value="Users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
+        <mxCell id="users-title" value="👤 Users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
           <mxGeometry x="115" y="230" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="users-list" value="• Member users (employees)&#xa;• Guest users (B2B)&#xa;• Synced from on-prem AD&#xa;• Cloud-only users" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="groups-icon" value="👥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;" parent="1" vertex="1">
           <mxGeometry x="375" y="195" width="50" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="groups-title" value="Groups" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
+        <mxCell id="groups-title" value="👤 Groups" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
           <mxGeometry x="335" y="230" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="groups-list" value="• Security groups&#xa;• Microsoft 365 groups&#xa;• Dynamic membership&#xa;• Nested groups" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -63,7 +63,7 @@
         <mxCell id="apps-icon" value="📱" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;" parent="1" vertex="1">
           <mxGeometry x="595" y="195" width="50" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="apps-title" value="Applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
+        <mxCell id="apps-title" value="⚙️ Applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
           <mxGeometry x="555" y="230" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="apps-list" value="• App registrations&#xa;• Enterprise apps (gallery)&#xa;• Service principals&#xa;• Managed identities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -77,7 +77,7 @@
         <mxCell id="devices-icon" value="💻" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;" parent="1" vertex="1">
           <mxGeometry x="815" y="195" width="50" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="devices-title" value="Devices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
+        <mxCell id="devices-title" value="🏢 Devices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
           <mxGeometry x="775" y="230" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="devices-list" value="• Azure AD registered&#xa;• Azure AD joined&#xa;• Hybrid Azure AD joined&#xa;• Intune managed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -91,7 +91,7 @@
         <mxCell id="roles-icon" value="🔐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;" parent="1" vertex="1">
           <mxGeometry x="1035" y="195" width="50" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="roles-title" value="Roles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
+        <mxCell id="roles-title" value="👤 Roles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
           <mxGeometry x="995" y="230" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="roles-list" value="• Global Administrator&#xa;• User Administrator&#xa;• Application Admin&#xa;• Custom roles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -105,7 +105,7 @@
         <mxCell id="policies-icon" value="📋" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;" parent="1" vertex="1">
           <mxGeometry x="1255" y="195" width="50" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="policies-title" value="Policies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
+        <mxCell id="policies-title" value="🔐 Policies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
           <mxGeometry x="1215" y="230" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="policies-list" value="• Conditional Access&#xa;• Authentication methods&#xa;• Password policies&#xa;• MFA settings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -113,7 +113,7 @@
         </mxCell>
 
         <!-- Key Features -->
-        <mxCell id="features-title" value="Key Features &amp; Capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
+        <mxCell id="features-title" value="✨ Key Features &amp; Capabilities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#0078d4;" parent="1" vertex="1">
           <mxGeometry x="80" y="325" width="250" height="25" as="geometry" />
         </mxCell>
 

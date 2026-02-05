@@ -122,7 +122,7 @@
         </mxCell>
 
         <!-- Legend -->
-        <mxCell id="legend" value="Context Relationship Patterns" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="legend" value="🎯 Context Relationship Patterns" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="920" y="480" width="280" height="180" as="geometry" />
         </mxCell>
         <mxCell id="legend-desc" value="• Partnership: Teams cooperate equally&#xa;• Customer/Supplier: Upstream/downstream&#xa;• Conformist: Downstream follows upstream&#xa;• ACL: Translate between models&#xa;• Shared Kernel: Shared subset of model&#xa;• Open Host: Published API&#xa;• Published Language: Standard protocol" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;spacingTop=5;" parent="legend" vertex="1">

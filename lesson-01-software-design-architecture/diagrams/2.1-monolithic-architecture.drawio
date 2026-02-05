@@ -113,7 +113,7 @@
         </mxCell>
 
         <!-- Characteristics -->
-        <mxCell id="chars" value="Characteristics" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="chars" value="🎯 Characteristics" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="880" y="250" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="char-list" value="✓ Single deployable unit&#xa;✓ Shared memory space&#xa;✓ Single database&#xa;✓ All code in one codebase&#xa;✓ Direct function calls&#xa;✓ Simple deployment&#xa;✓ Easy debugging&#xa;✗ Hard to scale individually&#xa;✗ Technology lock-in&#xa;✗ Long build times" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;spacingTop=5;" parent="chars" vertex="1">
@@ -121,7 +121,7 @@
         </mxCell>
 
         <!-- Best For -->
-        <mxCell id="best-for" value="Best For" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="best-for" value="💡 Best For" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="880" y="460" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="best-list" value="• Small to medium apps&#xa;• Startups / MVPs&#xa;• Small teams (2-5 devs)&#xa;• Simple domains&#xa;• Rapid prototyping&#xa;• Limited budget" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;spacingTop=5;" parent="best-for" vertex="1">

@@ -201,7 +201,7 @@
         <mxCell id="bp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1040" y="290" width="280" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="bp-title" value="Best Practices" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="bp-title" value="🎯 Best Practices" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1100" y="300" width="160" height="25" as="geometry" />
         </mxCell>
         <mxCell id="bp-list" value="• Use remote state backend&#xa;&#xa;• Enable state locking&#xa;&#xa;• Use workspaces for environments&#xa;&#xa;• Modularize configurations&#xa;&#xa;• Version control everything&#xa;&#xa;• Use variables and locals&#xa;&#xa;• Tag all resources&#xa;&#xa;• Review plan before apply&#xa;&#xa;• Use terraform fmt" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">

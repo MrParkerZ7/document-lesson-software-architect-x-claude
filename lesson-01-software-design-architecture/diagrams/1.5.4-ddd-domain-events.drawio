@@ -23,7 +23,7 @@
         <mxCell id="def-desc" value="A record of something significant that happened&#xa;in the domain. It's an immutable fact about the past." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="100" y="145" width="310" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="event-example" value="OrderPlacedEvent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="event-example" value="⚡ OrderPlacedEvent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="145" y="185" width="180" height="68" as="geometry" />
         </mxCell>
         <mxCell id="event-id" value="+ orderId: OrderId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" parent="event-example" vertex="1">

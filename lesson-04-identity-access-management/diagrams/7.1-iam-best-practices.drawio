@@ -27,7 +27,7 @@
         <mxCell id="mfa-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="85" y="150" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mfa-title" value="Require Multi-Factor Authentication (MFA)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+        <mxCell id="mfa-title" value="🔐 Require Multi-Factor Authentication (MFA)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
           <mxGeometry x="125" y="145" width="350" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mfa-desc" value="• Enforce for all users, especially admins • Use phishing-resistant methods (FIDO2, Authenticator)&#xa;• Avoid SMS/phone when possible • Enable number matching" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -41,7 +41,7 @@
         <mxCell id="pl-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="85" y="225" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pl-title" value="Go Passwordless" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+        <mxCell id="pl-title" value="🔑 Go Passwordless" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
           <mxGeometry x="125" y="220" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pl-desc" value="• Use FIDO2 keys, Windows Hello, Authenticator app • Passkeys for consumer apps&#xa;• Reduces phishing and credential theft risk significantly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -55,7 +55,7 @@
         <mxCell id="sso-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="85" y="290" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sso-title" value="Implement Single Sign-On (SSO)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+        <mxCell id="sso-title" value="🔐 Implement Single Sign-On (SSO)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
           <mxGeometry x="125" y="285" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sso-desc" value="• One identity for all apps • Reduces password fatigue • Better security posture&#xa;• Easier offboarding (revoke once)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -69,7 +69,7 @@
         <mxCell id="token-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="85" y="355" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="token-title" value="Secure Token Handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+        <mxCell id="token-title" value="🔑 Secure Token Handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
           <mxGeometry x="125" y="350" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="token-desc" value="• Short-lived access tokens • Store in memory (not localStorage) • Use PKCE for SPAs&#xa;• Validate tokens on every request • Implement token refresh properly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -83,7 +83,7 @@
         <mxCell id="legacy-check" value="✗" style="text;html=1;strokeColor=none;fillColor=#f44336;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="85" y="420" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="legacy-title" value="Block Legacy Authentication" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#c62828;" parent="1" vertex="1">
+        <mxCell id="legacy-title" value="🔐 Block Legacy Authentication" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#c62828;" parent="1" vertex="1">
           <mxGeometry x="125" y="415" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="legacy-desc" value="• Disable IMAP, POP3, SMTP Basic Auth • Use modern auth for all clients&#xa;• Legacy protocols don't support MFA - major security risk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -106,7 +106,7 @@
         <mxCell id="lp-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="150" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lp-title" value="Apply Least Privilege Principle" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
+        <mxCell id="lp-title" value="🎯 Apply Least Privilege Principle" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
           <mxGeometry x="645" y="145" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lp-desc" value="• Grant minimum necessary permissions • Regular access reviews • Remove unused permissions&#xa;• Use role-based access (RBAC) • Avoid permanent admin access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -120,7 +120,7 @@
         <mxCell id="jit-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="225" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jit-title" value="Use Just-In-Time (JIT) Access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
+        <mxCell id="jit-title" value="🎯 Use Just-In-Time (JIT) Access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
           <mxGeometry x="645" y="220" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jit-desc" value="• Privileged Identity Management (PIM) for admin roles • Time-bound elevation&#xa;• Require justification and approval • Audit all activations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -134,7 +134,7 @@
         <mxCell id="ar-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="290" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ar-title" value="Conduct Regular Access Reviews" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
+        <mxCell id="ar-title" value="👤 Conduct Regular Access Reviews" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
           <mxGeometry x="645" y="285" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ar-desc" value="• Quarterly reviews for sensitive groups • Manager attestation • Auto-remove on deny&#xa;• Guest user reviews • Application permission reviews" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -148,7 +148,7 @@
         <mxCell id="sod-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="355" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sod-title" value="Implement Separation of Duties" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
+        <mxCell id="sod-title" value="🎯 Implement Separation of Duties" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
           <mxGeometry x="645" y="350" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sod-desc" value="• Split critical functions across roles • No single person controls entire process&#xa;• Request ≠ Approve pattern • Audit sensitive operations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -162,7 +162,7 @@
         <mxCell id="central-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="420" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="central-title" value="Centralize Identity Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
+        <mxCell id="central-title" value="🏢 Centralize Identity Management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
           <mxGeometry x="645" y="415" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="central-desc" value="• Single source of truth for identities • Consistent policies across all apps&#xa;• Simplified audit and compliance • Automated provisioning/deprovisioning" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -185,7 +185,7 @@
         <mxCell id="mon-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="145" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mon-title" value="Monitor and Alert" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
+        <mxCell id="mon-title" value="⚙️ Monitor and Alert" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
           <mxGeometry x="1165" y="140" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mon-desc" value="• Sign-in logs and audit logs • Alert on suspicious activity • SIEM integration&#xa;• Track failed logins and lockouts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -199,7 +199,7 @@
         <mxCell id="bg-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="210" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bg-title" value="Maintain Break-Glass Accounts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
+        <mxCell id="bg-title" value="🔐 Maintain Break-Glass Accounts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
           <mxGeometry x="1165" y="205" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bg-desc" value="• 2+ emergency admin accounts • Exclude from all policies • Complex passwords&#xa;• Monitor usage • Secure storage of credentials" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -213,7 +213,7 @@
         <mxCell id="lc-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="275" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lc-title" value="Automate Identity Lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
+        <mxCell id="lc-title" value="⚙️ Automate Identity Lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
           <mxGeometry x="1165" y="270" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lc-desc" value="• HR-driven provisioning/deprovisioning • SCIM for SaaS apps&#xa;• Lifecycle workflows • Immediate offboarding on termination" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -227,7 +227,7 @@
         <mxCell id="sb-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="340" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sb-title" value="Establish Security Baselines" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
+        <mxCell id="sb-title" value="🔐 Establish Security Baselines" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
           <mxGeometry x="1165" y="335" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sb-desc" value="• Use Security Defaults or Conditional Access • Regular security posture assessment&#xa;• Follow CIS benchmarks • Track Secure Score" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -241,7 +241,7 @@
         <mxCell id="test-check" value="✓" style="text;html=1;strokeColor=none;fillColor=#4caf50;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="410" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="test-title" value="Test Before Production" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
+        <mxCell id="test-title" value="⚙️ Test Before Production" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
           <mxGeometry x="1165" y="400" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="test-desc" value="• Report-only mode for Conditional Access • What-If tool before enabling policies&#xa;• Staged rollout to pilot groups • Document all policy changes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">

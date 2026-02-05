@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Challenges Section -->
-        <mxCell id="challenges-header" value="COMMON CHALLENGES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="challenges-header" value="⚠️ COMMON CHALLENGES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="620" height="35" as="geometry" />
         </mxCell>
 
@@ -82,12 +82,12 @@
         </mxCell>
 
         <!-- Anti-patterns Section -->
-        <mxCell id="antipattern-header" value="ANTI-PATTERNS TO AVOID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="antipattern-header" value="🚫 ANTI-PATTERNS TO AVOID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="400" width="620" height="35" as="geometry" />
         </mxCell>
 
         <!-- Anti-pattern 1 -->
-        <mxCell id="ap1" value="Architecture Astronaut" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ap1" value="🚀 Architecture Astronaut" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="80" y="450" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ap1-bad" value="✗ Over-engineering&#xa;✗ Premature abstraction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#b85450;spacingLeft=10;" parent="ap1" vertex="1">
@@ -98,7 +98,7 @@
         </mxCell>
 
         <!-- Anti-pattern 2 -->
-        <mxCell id="ap2" value="Rubber Stamp Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ap2" value="📌 Rubber Stamp Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="270" y="450" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ap2-bad" value="✗ Approving everything&#xa;✗ No real engagement" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#b85450;spacingLeft=10;" parent="ap2" vertex="1">
@@ -109,7 +109,7 @@
         </mxCell>
 
         <!-- Anti-pattern 3 -->
-        <mxCell id="ap3" value="PowerPoint Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ap3" value="📊 PowerPoint Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="460" y="450" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ap3-bad" value="✗ Only presentations&#xa;✗ No real technical work" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#b85450;spacingLeft=10;" parent="ap3" vertex="1">
@@ -120,7 +120,7 @@
         </mxCell>
 
         <!-- Anti-pattern 4 -->
-        <mxCell id="ap4" value="One-Size-Fits-All" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ap4" value="📦 One-Size-Fits-All" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="80" y="560" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ap4-bad" value="✗ Same solution everywhere&#xa;✗ Ignoring context" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#b85450;spacingLeft=10;" parent="ap4" vertex="1">
@@ -131,7 +131,7 @@
         </mxCell>
 
         <!-- Anti-pattern 5 -->
-        <mxCell id="ap5" value="Big Bang Architecture" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ap5" value="💥 Big Bang Architecture" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="270" y="560" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ap5-bad" value="✗ Complete upfront design&#xa;✗ No iteration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#b85450;spacingLeft=10;" parent="ap5" vertex="1">
@@ -142,7 +142,7 @@
         </mxCell>
 
         <!-- Anti-pattern 6 -->
-        <mxCell id="ap6" value="Technology Hype Chaser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ap6" value="🔥 Technology Hype Chaser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="460" y="560" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ap6-bad" value="✗ Adopting every new tech&#xa;✗ Resume-driven development" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#b85450;spacingLeft=10;" parent="ap6" vertex="1">

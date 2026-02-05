@@ -215,7 +215,7 @@
         </mxCell>
 
         <!-- Decision Flow -->
-        <mxCell id="decision-title" value="When to Use Which Tool?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="decision-title" value="💡 When to Use Which Tool?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="570" width="300" height="30" as="geometry" />
         </mxCell>
 
@@ -223,7 +223,7 @@
         <mxCell id="dec1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="80" y="620" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dec1-title" value="Use Terraform when:" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="dec1-title" value="💡 Use Terraform when:" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="120" y="630" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dec1-desc" value="• Multi-cloud strategy&#xa;• Need vendor neutrality&#xa;• Large ecosystem needed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;" parent="1" vertex="1">
@@ -233,7 +233,7 @@
         <mxCell id="dec2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="360" y="620" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dec2-title" value="Use Pulumi when:" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="dec2-title" value="💡 Use Pulumi when:" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="400" y="630" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dec2-desc" value="• Team knows TypeScript/Python&#xa;• Complex logic needed&#xa;• Standard testing required" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;" parent="1" vertex="1">
@@ -243,7 +243,7 @@
         <mxCell id="dec3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="640" y="620" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dec3-title" value="Use ARM/Bicep when:" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="dec3-title" value="💡 Use ARM/Bicep when:" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="680" y="630" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dec3-desc" value="• Azure-only environment&#xa;• First-party support needed&#xa;• Azure Policy integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;" parent="1" vertex="1">
@@ -253,7 +253,7 @@
         <mxCell id="dec4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="920" y="620" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dec4-title" value="Use CloudFormation when:" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="dec4-title" value="💡 Use CloudFormation when:" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="960" y="630" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dec4-desc" value="• AWS-only environment&#xa;• AWS support needed&#xa;• StackSets for multi-region" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;" parent="1" vertex="1">

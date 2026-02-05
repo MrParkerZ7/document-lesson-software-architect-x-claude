@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Audience Communication Matrix -->
-        <mxCell id="matrix-title" value="Audience Communication Matrix" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="matrix-title" value="💬 Audience Communication Matrix" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="100" y="70" width="300" height="30" as="geometry" />
         </mxCell>
 
@@ -91,7 +91,7 @@
         </mxCell>
 
         <!-- C4 Model Section -->
-        <mxCell id="c4-title" value="C4 Model for Visual Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="c4-title" value="📊 C4 Model for Visual Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="750" y="70" width="300" height="30" as="geometry" />
         </mxCell>
 
@@ -198,7 +198,7 @@
         </mxCell>
 
         <!-- Presentation Structure Section -->
-        <mxCell id="pres-title" value="Technical Presentation Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="pres-title" value="📋 Technical Presentation Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="100" y="430" width="300" height="30" as="geometry" />
         </mxCell>
 
@@ -291,7 +291,7 @@
         </mxCell>
 
         <!-- ADR Section -->
-        <mxCell id="adr-title" value="Architecture Decision Records (ADRs)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="adr-title" value="📝 Architecture Decision Records (ADRs)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="750" y="430" width="350" height="30" as="geometry" />
         </mxCell>
 
@@ -314,7 +314,7 @@
         <mxCell id="adr-benefits" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="490" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="adr-ben-title" value="Why Write ADRs?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="adr-ben-title" value="✨ Why Write ADRs?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1095" y="495" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="adr-ben-content" value="✓ Capture decision rationale&#xa;✓ Onboard new team members&#xa;✓ Avoid revisiting decisions&#xa;✓ Document trade-offs made&#xa;✓ Enable future review" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
@@ -325,7 +325,7 @@
         <mxCell id="doc-principles" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="610" width="250" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="doc-title" value="Documentation Principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="doc-title" value="✅ Documentation Principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1065" y="615" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="doc-content" value="📝 Audience-first: Write for reader&#xa;✂️ Concise: Remove fluff&#xa;📊 Structured: Headings, lists, diagrams&#xa;🔄 Maintained: Keep current&#xa;🔍 Accessible: Easy to find" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">

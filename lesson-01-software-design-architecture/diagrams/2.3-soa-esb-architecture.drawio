@@ -133,13 +133,13 @@
                 <mxCell id="shipping-db" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" parent="1" vertex="1">
                     <mxGeometry x="855" y="510" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="principles" value="SOA Principles" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+                <mxCell id="principles" value="🎯 SOA Principles" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
                     <mxGeometry x="1050" y="180" width="200" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="principles-list" value="• Service Contract (WSDL)&#xa;• Loose Coupling&#xa;• Service Abstraction&#xa;• Service Reusability&#xa;• Service Autonomy&#xa;• Service Statelessness&#xa;• Service Discoverability&#xa;• Service Composability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;spacingTop=5;" parent="principles" vertex="1">
                     <mxGeometry y="25" width="200" height="155" as="geometry"/>
                 </mxCell>
-                <mxCell id="comparison" value="SOA vs Microservices" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                <mxCell id="comparison" value="🔹 SOA vs Microservices" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
                     <mxGeometry x="1050" y="390" width="200" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="comparison-list" value="SOA:&#xa;• Centralized ESB&#xa;• Enterprise-wide scope&#xa;• SOAP/WSDL&#xa;• Shared databases OK&#xa;&#xa;Microservices:&#xa;• Decentralized (smart endpoints)&#xa;• Application scope&#xa;• REST/lightweight protocols&#xa;• Database per service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;spacingTop=5;" parent="comparison" vertex="1">

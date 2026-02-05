@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Singleton Pattern -->
-        <mxCell id="singleton-group" value="Singleton" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="singleton-group" value="🎯 Singleton" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="40" y="100" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="singleton-desc" value="Ensures a class has only one instance&#xa;and provides global access to it" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="singleton-group" vertex="1">
@@ -26,12 +26,12 @@
         <mxCell id="singleton-instance" value="-instance: Singleton&#xa;+getInstance(): Singleton" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="singleton-group" vertex="1">
           <mxGeometry x="92" y="100" width="96" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="singleton-use" value="Use: Database connections, Loggers, Config" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="singleton-group" vertex="1">
+        <mxCell id="singleton-use" value="💡 Use: Database connections, Loggers, Config" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="singleton-group" vertex="1">
           <mxGeometry x="15" y="160" width="250" height="30" as="geometry" />
         </mxCell>
 
         <!-- Factory Method Pattern -->
-        <mxCell id="factory-group" value="Factory Method" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="factory-group" value="🎯 Factory Method" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="340" y="100" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="factory-desc" value="Creates objects without specifying&#xa;the exact class to instantiate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="factory-group" vertex="1">
@@ -49,12 +49,12 @@
         <mxCell id="factory-product3" value="Product" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="factory-group" vertex="1">
           <mxGeometry x="190" y="125" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="factory-use" value="Use: Plugin systems, UI components" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="factory-group" vertex="1">
+        <mxCell id="factory-use" value="💡 Use: Plugin systems, UI components" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="factory-group" vertex="1">
           <mxGeometry x="15" y="160" width="250" height="30" as="geometry" />
         </mxCell>
 
         <!-- Abstract Factory Pattern -->
-        <mxCell id="abstract-factory-group" value="Abstract Factory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="abstract-factory-group" value="🎯 Abstract Factory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="640" y="100" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="abstract-desc" value="Creates families of related objects&#xa;without specifying concrete classes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="abstract-factory-group" vertex="1">
@@ -69,12 +69,12 @@
         <mxCell id="concrete-factory2" value="MacFactory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="abstract-factory-group" vertex="1">
           <mxGeometry x="170" y="115" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="abstract-use" value="Use: Cross-platform UI toolkits" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="abstract-factory-group" vertex="1">
+        <mxCell id="abstract-use" value="💡 Use: Cross-platform UI toolkits" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="abstract-factory-group" vertex="1">
           <mxGeometry x="15" y="160" width="250" height="30" as="geometry" />
         </mxCell>
 
         <!-- Builder Pattern -->
-        <mxCell id="builder-group" value="Builder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="builder-group" value="🎯 Builder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="940" y="100" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="builder-desc" value="Constructs complex objects step by step&#xa;separating construction from representation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="builder-group" vertex="1">
@@ -89,12 +89,12 @@
         <mxCell id="builder-product" value="Product" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="builder-group" vertex="1">
           <mxGeometry x="200" y="100" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="builder-use" value="Use: Configuration objects, Query builders" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="builder-group" vertex="1">
+        <mxCell id="builder-use" value="💡 Use: Configuration objects, Query builders" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="builder-group" vertex="1">
           <mxGeometry x="15" y="160" width="250" height="30" as="geometry" />
         </mxCell>
 
         <!-- Prototype Pattern -->
-        <mxCell id="prototype-group" value="Prototype" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="prototype-group" value="🎯 Prototype" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1240" y="100" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="prototype-desc" value="Creates new objects by cloning&#xa;existing objects (prototypes)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="prototype-group" vertex="1">
@@ -109,7 +109,7 @@
         <mxCell id="prototype-concrete2" value="ConcreteB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="prototype-group" vertex="1">
           <mxGeometry x="170" y="115" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="prototype-use" value="Use: Object caching, Expensive object creation" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="prototype-group" vertex="1">
+        <mxCell id="prototype-use" value="💡 Use: Object caching, Expensive object creation" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="prototype-group" vertex="1">
           <mxGeometry x="15" y="160" width="250" height="30" as="geometry" />
         </mxCell>
 

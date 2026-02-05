@@ -29,21 +29,21 @@
           <mxGeometry x="140" y="165" width="220" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="dw-table1" value="customers" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=16;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" parent="1" vertex="1">
+        <mxCell id="dw-table1" value="📦 customers" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=16;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="80" y="195" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dw-table1-cols" value="id INT&#xa;name VARCHAR&#xa;email VARCHAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingTop=2;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=7;" parent="dw-table1" vertex="1">
           <mxGeometry y="16" width="80" height="44" as="geometry" />
         </mxCell>
 
-        <mxCell id="dw-table2" value="orders" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=16;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" parent="1" vertex="1">
+        <mxCell id="dw-table2" value="📦 orders" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=16;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="180" y="195" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dw-table2-cols" value="id INT&#xa;customer_id INT&#xa;amount DECIMAL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingTop=2;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=7;" parent="dw-table2" vertex="1">
           <mxGeometry y="16" width="80" height="44" as="geometry" />
         </mxCell>
 
-        <mxCell id="dw-table3" value="products" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=16;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" parent="1" vertex="1">
+        <mxCell id="dw-table3" value="📦 products" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=16;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="280" y="195" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dw-table3-cols" value="id INT&#xa;name VARCHAR&#xa;price DECIMAL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingTop=2;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=7;" parent="dw-table3" vertex="1">

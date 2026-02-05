@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Metric Types Section -->
-        <mxCell id="types-title" value="Metric Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="types-title" value="📊 Metric Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="100" y="70" width="200" height="30" as="geometry" />
         </mxCell>
 
@@ -19,7 +19,7 @@
         <mxCell id="counter-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="100" y="110" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="counter-title" value="Counter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="counter-title" value="🔹 Counter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="200" y="115" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="counter-graph" value="" style="shape=mxgraph.charts2.line.lineChart;html=1;axisColor=#666666;axisWidth=1;gridColor=#eeeeee;gridWidth=1;dx=11;dy=0;seriesStrokeWidth=2;seriesColors=#6c8ebf;seriesShape=line;fillColor=none;strokeColor=none;fillOpacity=30;" vertex="1" parent="1">
@@ -33,7 +33,7 @@
         <mxCell id="gauge-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="400" y="110" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gauge-title" value="Gauge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="gauge-title" value="🔹 Gauge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="500" y="115" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="gauge-desc" value="Current value - can go up or down&#xa;&#xa;Examples:&#xa;• CPU usage: 78%&#xa;• Active connections: 150&#xa;• Queue size: 42" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
@@ -44,7 +44,7 @@
         <mxCell id="histogram-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="700" y="110" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="histogram-title" value="Histogram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="histogram-title" value="🔹 Histogram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="800" y="115" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="histogram-desc" value="Distribution of values (buckets)&#xa;&#xa;Examples:&#xa;• Request latency percentiles&#xa;• Response size distribution&#xa;• Provides p50, p90, p99" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
@@ -55,7 +55,7 @@
         <mxCell id="summary-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1000" y="110" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="summary-title" value="Summary" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="summary-title" value="🔹 Summary" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1100" y="115" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="summary-desc" value="Pre-calculated quantiles (client-side)&#xa;&#xa;Examples:&#xa;• Similar to histogram&#xa;• Calculated on client&#xa;• Cannot aggregate across instances" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
@@ -63,7 +63,7 @@
         </mxCell>
 
         <!-- RED vs USE Methods -->
-        <mxCell id="methods-title" value="Monitoring Methods" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="methods-title" value="🎯 Monitoring Methods" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="550" y="250" width="300" height="30" as="geometry" />
         </mxCell>
 
@@ -174,7 +174,7 @@
         </mxCell>
 
         <!-- Prometheus Architecture -->
-        <mxCell id="prom-title" value="Prometheus Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="prom-title" value="⚙️ Prometheus Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="550" y="490" width="300" height="30" as="geometry" />
         </mxCell>
 
@@ -183,7 +183,7 @@
         </mxCell>
 
         <!-- Targets -->
-        <mxCell id="targets-title" value="Targets (Exporters)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="targets-title" value="⚙️ Targets (Exporters)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="120" y="545" width="150" height="20" as="geometry" />
         </mxCell>
 
@@ -233,7 +233,7 @@
         <mxCell id="prom-server" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="340" y="560" width="200" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="prom-server-title" value="Prometheus Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="prom-server-title" value="⚙️ Prometheus Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="360" y="570" width="160" height="25" as="geometry" />
         </mxCell>
 
@@ -273,7 +273,7 @@
         <mxCell id="alertmanager" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="610" y="610" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="am-title" value="Alertmanager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="am-title" value="⚠️ Alertmanager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="630" y="620" width="110" height="25" as="geometry" />
         </mxCell>
         <mxCell id="am-content" value="• Deduplication&#xa;• Grouping&#xa;• Routing&#xa;• Silencing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
@@ -291,7 +291,7 @@
         <mxCell id="notif-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="610" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="notif-title" value="Notifications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="notif-title" value="⚠️ Notifications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="835" y="620" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="notif-content" value="📧 Email&#xa;💬 Slack&#xa;📟 PagerDuty&#xa;📱 SMS&#xa;🔗 Webhooks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
@@ -313,7 +313,7 @@
         <mxCell id="grafana-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="980" y="560" width="280" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="grafana-title" value="Grafana" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="grafana-title" value="📊 Grafana" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1070" y="570" width="100" height="25" as="geometry" />
         </mxCell>
 

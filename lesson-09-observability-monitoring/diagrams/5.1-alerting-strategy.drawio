@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Alerting Pyramid Section -->
-        <mxCell id="pyramid-title" value="Alerting Pyramid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="pyramid-title" value="⚠️ Alerting Pyramid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="200" y="70" width="200" height="30" as="geometry" />
         </mxCell>
 
@@ -97,7 +97,7 @@
         </mxCell>
 
         <!-- Key Principles -->
-        <mxCell id="principles-title" value="Key Alerting Principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="principles-title" value="🎯 Key Alerting Principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="980" y="70" width="250" height="30" as="geometry" />
         </mxCell>
 
@@ -109,7 +109,7 @@
         </mxCell>
 
         <!-- Alert Flow Section -->
-        <mxCell id="flow-title" value="Alert Processing Flow (Prometheus/Alertmanager)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="flow-title" value="⚙️ Alert Processing Flow (Prometheus/Alertmanager)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="400" y="380" width="500" height="30" as="geometry" />
         </mxCell>
 
@@ -121,7 +121,7 @@
         <mxCell id="step1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="120" y="450" width="130" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="step1-title" value="1. Metrics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="step1-title" value="📊 1. Metrics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="140" y="460" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="step1-content" value="Prometheus&#xa;collects metrics&#xa;from targets&#xa;&#xa;error_rate: 0.08&#xa;latency_p99: 2.5s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#333333;fontFamily=Courier New;" vertex="1" parent="1">
@@ -139,7 +139,7 @@
         <mxCell id="step2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="290" y="450" width="150" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="step2-title" value="2. Alert Rules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="step2-title" value="⚠️ 2. Alert Rules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="310" y="460" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="step2-content" value="PromQL evaluation&#xa;&#xa;alert: HighErrorRate&#xa;expr: error_rate &gt; 0.05&#xa;for: 5m&#xa;&#xa;FIRING!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#333333;fontFamily=Courier New;" vertex="1" parent="1">
@@ -157,7 +157,7 @@
         <mxCell id="step3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="480" y="450" width="170" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="step3-title" value="3. Alertmanager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="step3-title" value="⚠️ 3. Alertmanager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="505" y="460" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="step3-content" value="• Deduplicate alerts&#xa;• Group by service/team&#xa;• Apply silences&#xa;• Inhibit related alerts&#xa;• Route to receivers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">

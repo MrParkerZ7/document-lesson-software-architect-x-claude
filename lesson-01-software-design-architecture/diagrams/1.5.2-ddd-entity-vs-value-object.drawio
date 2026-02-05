@@ -22,7 +22,7 @@
         </mxCell>
 
         <!-- Entity Example -->
-        <mxCell id="entity-example" value="User (Entity)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="entity-example" value="📦 User (Entity)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="120" y="175" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="user-id" value="- id: UserId (unique identity)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" parent="entity-example" vertex="1">
@@ -77,7 +77,7 @@
         </mxCell>
 
         <!-- Value Object Example -->
-        <mxCell id="vo-example" value="Money (Value Object)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="vo-example" value="🔹 Money (Value Object)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="740" y="175" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="money-amount" value="- amount: decimal (immutable)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" parent="vo-example" vertex="1">

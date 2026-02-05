@@ -14,7 +14,7 @@
         <mxCell id="norm-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="660" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="norm-title" value="Database Normalization Forms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
+        <mxCell id="norm-title" value="🎯 Database Normalization Forms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
           <mxGeometry x="200" y="90" width="340" height="30" as="geometry" />
         </mxCell>
 
@@ -22,7 +22,7 @@
         <mxCell id="nf1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="60" y="130" width="300" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="nf1-title" value="1NF - First Normal Form" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
+        <mxCell id="nf1-title" value="🔹 1NF - First Normal Form" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
           <mxGeometry x="110" y="140" width="200" height="25" as="geometry" />
         </mxCell>
         <mxCell id="nf1-rule" value="Rule: Atomic values, no repeating groups" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=2;" vertex="1" parent="1">
@@ -49,7 +49,7 @@
         <mxCell id="nf2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="380" y="130" width="300" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="nf2-title" value="2NF - Second Normal Form" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
+        <mxCell id="nf2-title" value="🔹 2NF - Second Normal Form" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
           <mxGeometry x="420" y="140" width="220" height="25" as="geometry" />
         </mxCell>
         <mxCell id="nf2-rule" value="Rule: 1NF + No partial dependencies&#xa;(Non-key depends on WHOLE primary key)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;" vertex="1" parent="1">
@@ -79,7 +79,7 @@
         <mxCell id="nf3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="60" y="300" width="300" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="nf3-title" value="3NF - Third Normal Form" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
+        <mxCell id="nf3-title" value="🔹 3NF - Third Normal Form" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
           <mxGeometry x="110" y="310" width="200" height="25" as="geometry" />
         </mxCell>
         <mxCell id="nf3-rule" value="Rule: 2NF + No transitive dependencies&#xa;(Non-key depends ONLY on primary key)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontStyle=2;" vertex="1" parent="1">
@@ -109,7 +109,7 @@
         <mxCell id="balance-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="380" y="300" width="300" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="balance-title" value="Normalization Trade-offs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
+        <mxCell id="balance-title" value="⚖️ Normalization Trade-offs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
           <mxGeometry x="430" y="310" width="200" height="25" as="geometry" />
         </mxCell>
         <mxCell id="balance-content" value="Normalize for WRITES:&#xa;• Less redundancy&#xa;• Easier updates&#xa;• Data integrity&#xa;&#xa;Denormalize for READS:&#xa;• Fewer JOINs&#xa;• Better performance&#xa;• Pre-computed data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
@@ -123,7 +123,7 @@
         <mxCell id="index-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="720" y="80" width="640" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="index-title" value="Indexing Strategies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
+        <mxCell id="index-title" value="🎯 Indexing Strategies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
           <mxGeometry x="940" y="90" width="200" height="30" as="geometry" />
         </mxCell>
 
@@ -131,7 +131,7 @@
         <mxCell id="btree-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="130" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="btree-title" value="B-Tree Index (Default)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
+        <mxCell id="btree-title" value="📦 B-Tree Index (Default)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
           <mxGeometry x="820" y="135" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="btree-desc" value="• Equality: WHERE id = 123&#xa;• Range: WHERE price &gt; 100&#xa;• Sorting: ORDER BY name&#xa;• LIKE prefix: WHERE name LIKE 'John%'" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
@@ -163,7 +163,7 @@
         <mxCell id="hash-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="130" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hash-title" value="Hash Index" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
+        <mxCell id="hash-title" value="📦 Hash Index" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
           <mxGeometry x="1150" y="135" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hash-desc" value="• Equality ONLY: WHERE id = 123&#xa;• O(1) lookup time&#xa;• NOT for ranges or sorting&#xa;• Memory-optimized tables" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
@@ -177,7 +177,7 @@
         <mxCell id="gin-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="260" width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gin-title" value="GIN Index (Generalized Inverted)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
+        <mxCell id="gin-title" value="📦 GIN Index (Generalized Inverted)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
           <mxGeometry x="780" y="265" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gin-desc" value="• Arrays: WHERE tags @&gt; '{tech}'&#xa;• JSONB: WHERE data-&gt;&gt;'key' = 'value'&#xa;• Full-text search&#xa;• Composite values" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
@@ -191,7 +191,7 @@
         <mxCell id="gist-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="260" width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gist-title" value="GiST Index (Generalized Search Tree)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
+        <mxCell id="gist-title" value="📦 GiST Index (Generalized Search Tree)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
           <mxGeometry x="1080" y="265" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gist-desc" value="• Geometric data (PostGIS)&#xa;• Range types&#xa;• Full-text search (alternative)&#xa;• Nearest neighbor queries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
@@ -202,7 +202,7 @@
         </mxCell>
 
         <!-- Special Indexes -->
-        <mxCell id="special-title" value="Special Index Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="special-title" value="⚙️ Special Index Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="920" y="370" width="140" height="20" as="geometry" />
         </mxCell>
 
@@ -238,7 +238,7 @@
         <mxCell id="practices-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="500" width="1320" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="practices-title" value="Indexing Best Practices &amp; Anti-Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="practices-title" value="✨ Indexing Best Practices &amp; Anti-Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="520" y="510" width="360" height="25" as="geometry" />
         </mxCell>
 

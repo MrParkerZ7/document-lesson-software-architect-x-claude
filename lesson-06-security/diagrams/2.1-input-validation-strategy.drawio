@@ -14,7 +14,7 @@
         <mxCell id="flow-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="1240" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="flow-title" value="Input Validation Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-title" value="🔄 Input Validation Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="90" width="200" height="25" as="geometry" />
         </mxCell>
 
@@ -142,7 +142,7 @@
         <mxCell id="output-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="300" width="600" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="output-title" value="Context-Aware Output Encoding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="output-title" value="🔐 Context-Aware Output Encoding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="310" width="250" height="25" as="geometry" />
         </mxCell>
 
@@ -179,7 +179,7 @@
         </mxCell>
 
         <!-- Key Principles -->
-        <mxCell id="principles-title" value="Key Principles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="principles-title" value="🎯 Key Principles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="475" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="principle1" value="1. Always validate on server side (client validation is for UX only)" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
@@ -196,7 +196,7 @@
         <mxCell id="schema-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="300" width="620" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="schema-title" value="Validation Schema Example (Zod)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="schema-title" value="💻 Validation Schema Example (Zod)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="310" width="280" height="25" as="geometry" />
         </mxCell>
 
@@ -219,7 +219,7 @@
         </mxCell>
 
         <!-- Common Validation Libraries -->
-        <mxCell id="libs-title" value="Common Libraries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="libs-title" value="⚙️ Common Libraries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="345" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lib1" value="• Zod (TypeScript)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
@@ -242,18 +242,18 @@
         <mxCell id="error-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#b85450;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="600" width="1240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="error-title" value="Secure Error Handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="error-title" value="⚠️ Secure Error Handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="100" y="610" width="200" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="bad-example" value="BAD: Exposes internals" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="bad-example" value="❌ BAD: Exposes internals" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="100" y="640" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bad-code" value="return str(e), 500  // Exposes stack trace" style="text;html=1;strokeColor=#b85450;fillColor=#ffe5e5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
           <mxGeometry x="100" y="665" width="280" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="good-example" value="GOOD: Generic message, log details" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="good-example" value="✅ GOOD: Generic message, log details" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="420" y="640" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="good-code" value="logger.error(f&quot;Error {error_id}: {str(e)}&quot;)&#xa;return {&quot;error&quot;: &quot;An error occurred&quot;, &quot;error_id&quot;: error_id}, 500" style="text;html=1;strokeColor=#82b366;fillColor=#e5ffe5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">

@@ -14,7 +14,7 @@
         <mxCell id="overview-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="100" y="90" width="1200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="overview-title" value="Observability = Understanding Internal State from External Outputs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="overview-title" value="🔹 Observability = Understanding Internal State from External Outputs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="350" y="100" width="700" height="30" as="geometry" />
         </mxCell>
 
@@ -25,7 +25,7 @@
         <mxCell id="logs-icon" value="📝" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
           <mxGeometry x="150" y="145" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="logs-title" value="LOGS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="logs-title" value="📝 LOGS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="200" y="150" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="logs-desc" value="• Events &amp; Errors&#xa;• Debug Information&#xa;• Audit Trail&#xa;&#xa;Answers: WHAT happened?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
@@ -39,7 +39,7 @@
         <mxCell id="metrics-icon" value="📊" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
           <mxGeometry x="540" y="145" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="metrics-title" value="METRICS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="metrics-title" value="📊 METRICS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="590" y="150" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="metrics-desc" value="• Counters &amp; Gauges&#xa;• Histograms &amp; Summaries&#xa;• Aggregated Data&#xa;&#xa;Answers: HOW MUCH / HOW MANY?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
@@ -53,7 +53,7 @@
         <mxCell id="traces-icon" value="🔍" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
           <mxGeometry x="930" y="145" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="traces-title" value="TRACES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="traces-title" value="🔍 TRACES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="980" y="150" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="traces-desc" value="• Request Flow&#xa;• Latency Breakdown&#xa;• Service Dependencies&#xa;&#xa;Answers: WHERE / WHY the problem?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#333333;whiteSpace=wrap;" vertex="1" parent="1">
@@ -61,7 +61,7 @@
         </mxCell>
 
         <!-- Questions Each Pillar Answers -->
-        <mxCell id="questions-title" value="Questions Each Pillar Answers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="questions-title" value="🎯 Questions Each Pillar Answers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="450" y="300" width="500" height="30" as="geometry" />
         </mxCell>
 
@@ -99,7 +99,7 @@
         </mxCell>
 
         <!-- How They Work Together -->
-        <mxCell id="together-title" value="How They Work Together" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="together-title" value="🎯 How They Work Together" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="450" y="510" width="500" height="30" as="geometry" />
         </mxCell>
 

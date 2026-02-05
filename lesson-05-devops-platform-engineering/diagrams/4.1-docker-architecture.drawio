@@ -195,14 +195,14 @@
         <mxCell id="benefits-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1100" y="110" width="240" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="benefits-title" value="Multi-Stage Benefits" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="benefits-title" value="✨ Multi-Stage Benefits" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1150" y="120" width="140" height="25" as="geometry" />
         </mxCell>
 
         <mxCell id="benefit1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1115" y="160" width="210" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="benefit1-title" value="Smaller Images" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="benefit1-title" value="✨ Smaller Images" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1115" y="165" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="benefit1-desc" value="Only production artifacts&#xa;No build tools in final image" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -212,7 +212,7 @@
         <mxCell id="benefit2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1115" y="225" width="210" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="benefit2-title" value="Better Security" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="benefit2-title" value="✨ Better Security" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1115" y="230" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="benefit2-desc" value="Reduced attack surface&#xa;Non-root user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -222,7 +222,7 @@
         <mxCell id="benefit3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1115" y="290" width="210" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="benefit3-title" value="Layer Caching" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="benefit3-title" value="✨ Layer Caching" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1115" y="295" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="benefit3-desc" value="Dependencies cached&#xa;Faster rebuilds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -232,7 +232,7 @@
         <mxCell id="benefit4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1115" y="355" width="210" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="benefit4-title" value="Single Dockerfile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="benefit4-title" value="✨ Single Dockerfile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1115" y="360" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="benefit4-desc" value="Build and runtime in one file&#xa;Simplified CI/CD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">

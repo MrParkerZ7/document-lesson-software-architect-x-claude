@@ -226,7 +226,7 @@
           <mxGeometry x="880" y="300" width="250" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="clients" value="Connected Clients" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="clients" value="👤 Connected Clients" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="770" y="340" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="clients-list" value="Client 1 ✓&#xa;Client 2 ✓&#xa;Client 3 ✓&#xa;..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingTop=2;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="clients" vertex="1">

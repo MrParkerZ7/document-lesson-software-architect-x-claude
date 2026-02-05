@@ -25,7 +25,7 @@
         <mxCell id="layer1-icon" value="🖼️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" parent="1" vertex="1">
           <mxGeometry x="270" y="145" width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="layer1-title" value="Image Security" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="layer1-title" value="🔹 Image Security" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="210" y="190" width="180" height="30" as="geometry" />
         </mxCell>
 
@@ -76,7 +76,7 @@
         <mxCell id="layer2-icon" value="🔒" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" parent="1" vertex="1">
           <mxGeometry x="670" y="145" width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="layer2-title" value="Runtime Security" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="layer2-title" value="🔹 Runtime Security" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="610" y="190" width="180" height="30" as="geometry" />
         </mxCell>
 
@@ -127,7 +127,7 @@
         <mxCell id="layer3-icon" value="🏪" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" parent="1" vertex="1">
           <mxGeometry x="1070" y="145" width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="layer3-title" value="Registry Security" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="layer3-title" value="🔹 Registry Security" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1010" y="190" width="180" height="30" as="geometry" />
         </mxCell>
 
@@ -172,7 +172,7 @@
         </mxCell>
 
         <!-- Security Best Practices -->
-        <mxCell id="bp-title" value="Security Best Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="bp-title" value="🎯 Security Best Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="360" width="300" height="30" as="geometry" />
         </mxCell>
 

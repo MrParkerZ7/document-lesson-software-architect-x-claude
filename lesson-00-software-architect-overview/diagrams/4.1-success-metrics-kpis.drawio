@@ -19,7 +19,7 @@
         </mxCell>
 
         <!-- Technical Health Box -->
-        <mxCell id="tech-health" value="TECHNICAL HEALTH" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="tech-health" value="⚙️ TECHNICAL HEALTH" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="120" y="140" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="th-item1" value="System Availability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;" parent="tech-health" vertex="1">
@@ -54,7 +54,7 @@
         </mxCell>
 
         <!-- Delivery Impact Box -->
-        <mxCell id="delivery" value="DELIVERY IMPACT" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="delivery" value="🔧 DELIVERY IMPACT" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="410" y="140" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="del-item1" value="Sprint Velocity Trend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;" parent="delivery" vertex="1">
@@ -89,7 +89,7 @@
         </mxCell>
 
         <!-- Stakeholder Satisfaction Box -->
-        <mxCell id="stakeholder" value="STAKEHOLDER SATISFACTION" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="stakeholder" value="👤 STAKEHOLDER SATISFACTION" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="700" y="140" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="st-item1" value="Product NPS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;" parent="stakeholder" vertex="1">
@@ -124,7 +124,7 @@
         </mxCell>
 
         <!-- Team Growth Box -->
-        <mxCell id="growth" value="TEAM GROWTH &amp; KNOWLEDGE" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="growth" value="📈 TEAM GROWTH &amp; KNOWLEDGE" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="120" y="360" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="gr-item1" value="Knowledge Sessions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;" parent="growth" vertex="1">

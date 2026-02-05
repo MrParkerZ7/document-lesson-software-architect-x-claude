@@ -157,7 +157,7 @@
         </mxCell>
 
         <!-- Characteristics -->
-        <mxCell id="chars" value="Characteristics" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="chars" value="🎯 Characteristics" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="1080" y="160" width="220" height="200" as="geometry" />
         </mxCell>
         <mxCell id="char-list" value="✓ Independent deployment&#xa;✓ Technology diversity&#xa;✓ Independent scaling&#xa;✓ Fault isolation&#xa;✓ Team autonomy&#xa;✓ Database per service&#xa;✗ Distributed complexity&#xa;✗ Network latency&#xa;✗ Data consistency&#xa;✗ Operational overhead&#xa;✗ Testing complexity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;spacingTop=5;" parent="chars" vertex="1">
@@ -165,7 +165,7 @@
         </mxCell>
 
         <!-- Best For -->
-        <mxCell id="best-for" value="Best For" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="best-for" value="💡 Best For" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1080" y="390" width="220" height="140" as="geometry" />
         </mxCell>
         <mxCell id="best-list" value="• Large, complex applications&#xa;• Multiple development teams&#xa;• Need independent scaling&#xa;• Polyglot persistence&#xa;• Continuous delivery&#xa;• Cloud-native applications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;spacingTop=5;" parent="best-for" vertex="1">
