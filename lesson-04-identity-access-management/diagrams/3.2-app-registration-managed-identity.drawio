@@ -1,406 +1,337 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2025-01-01T00:00:00.000Z" agent="Claude" version="21.0.0">
-  <diagram name="App Registration and Managed Identity" id="app-reg-mi">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-
-        <!-- Title -->
-        <mxCell id="title" value="🔑 App Registrations, Service Principals &amp; Managed Identities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1a1a2e;" parent="1" vertex="1">
-          <mxGeometry x="300" y="20" width="1000" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- App Registration Section -->
-        <mxCell id="app-reg-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="50" y="80" width="750" height="450" as="geometry" />
-        </mxCell>
-
-        <mxCell id="app-reg-title" value="App Registration" style="text;html=1;strokeColor=none;fillColor=#1565c0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="95" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="app-reg-subtitle" value="Define your application's identity in Entra ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=2;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="250" y="125" width="300" height="20" as="geometry" />
-        </mxCell>
-
-        <!-- App Registration Components -->
-        <mxCell id="app-obj" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976d2;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="80" y="160" width="690" height="180" as="geometry" />
-        </mxCell>
-
-        <mxCell id="app-obj-title" value="📱 Application Object" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="165" width="200" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="app-obj-desc" value="Global definition of your app (exists in home tenant only)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=2;fontColor=#616161;" parent="1" vertex="1">
-          <mxGeometry x="100" y="185" width="350" height="20" as="geometry" />
-        </mxCell>
-
-        <!-- IDs -->
-        <mxCell id="ids-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="210" width="200" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="ids-title" value="Identifiers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
-          <mxGeometry x="150" y="215" width="100" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="ids-content" value="Application (Client) ID&#xa;Object ID&#xa;Directory (Tenant) ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="115" y="235" width="150" height="45" as="geometry" />
-        </mxCell>
-
-        <!-- Authentication -->
-        <mxCell id="auth-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="210" width="200" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="auth-title" value="Authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="215" width="100" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="auth-content" value="Redirect URIs&#xa;Platform configs (Web, SPA, Mobile)&#xa;ID tokens, Access tokens" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="335" y="235" width="170" height="45" as="geometry" />
-        </mxCell>
-
-        <!-- Secrets/Certs -->
-        <mxCell id="creds-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="210" width="210" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="creds-title" value="Certificates &amp; Secrets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
-          <mxGeometry x="575" y="215" width="140" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="creds-content" value="Client secrets (password)&#xa;Certificates (x509)&#xa;Federated credentials" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="555" y="235" width="180" height="45" as="geometry" />
-        </mxCell>
-
-        <!-- Permissions -->
-        <mxCell id="perms-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="295" width="310" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="perms-title" value="API Permissions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="300" width="110" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="perms-content" value="Delegated permissions (on behalf of user)  |  Application permissions (app's own identity)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="110" y="320" width="290" height="30" as="geometry" />
-        </mxCell>
-
-        <!-- Expose API -->
-        <mxCell id="expose-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="295" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="expose-title" value="Expose an API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
-          <mxGeometry x="540" y="300" width="100" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="expose-content" value="Application ID URI  |  Scopes/Roles  |  Authorized client applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="445" y="320" width="290" height="30" as="geometry" />
-        </mxCell>
-
-        <!-- Service Principal Relationship -->
-        <mxCell id="sp-relationship" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ff8f00;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="80" y="375" width="690" height="140" as="geometry" />
-        </mxCell>
-
-        <mxCell id="sp-title" value="⚙️ Service Principal (Enterprise Application)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
-          <mxGeometry x="100" y="380" width="350" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="sp-desc" value="Local instance of the app in each tenant that uses it (created when app is used or consented to)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=2;fontColor=#616161;" parent="1" vertex="1">
-          <mxGeometry x="100" y="405" width="550" height="20" as="geometry" />
-        </mxCell>
-
-        <!-- SP Details -->
-        <mxCell id="sp-home" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffb74d;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="430" width="220" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="sp-home-title" value="Home Tenant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
-          <mxGeometry x="160" y="435" width="100" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="sp-home-content" value="App Registration creates SP&#xa;Full control over app settings&#xa;Can grant admin consent" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="115" y="455" width="190" height="40" as="geometry" />
-        </mxCell>
-
-        <mxCell id="sp-arrow" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="465" as="sourcePoint" />
-            <mxPoint x="400" y="465" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sp-arrow-label" value="Multi-tenant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#e65100;" parent="1" vertex="1">
-          <mxGeometry x="335" y="445" width="60" height="15" as="geometry" />
-        </mxCell>
-
-        <mxCell id="sp-other" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffb74d;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="430" width="345" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="sp-other-title" value="Other Tenants" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
-          <mxGeometry x="535" y="435" width="100" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="sp-other-content" value="SP created on first user consent  |  Enterprise App settings apply  |  Can disable/delete locally" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="425" y="455" width="315" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- Managed Identity Section -->
-        <mxCell id="mi-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="820" y="80" width="730" height="450" as="geometry" />
-        </mxCell>
-
-        <mxCell id="mi-title" value="Managed Identities" style="text;html=1;strokeColor=none;fillColor=#2e7d32;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="95" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mi-subtitle" value="Azure-managed identity for Azure resources - No credential management!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=2;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="960" y="125" width="450" height="20" as="geometry" />
-        </mxCell>
-
-        <!-- System-assigned -->
-        <mxCell id="sami-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="850" y="160" width="320" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="sami-title" value="System-Assigned Managed Identity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
-          <mxGeometry x="870" y="165" width="280" height="25" as="geometry" />
-        </mxCell>
-
-        <mxCell id="sami-resource" value="Azure Resource&#xa;(e.g., VM, App Service)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=11;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="870" y="200" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sami-identity" value="🔐 Identity&#xa;(1:1 bound)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d6a7;strokeColor=#66bb6a;fontSize=11;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="200" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sami-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1005" y="225" as="sourcePoint" />
-            <mxPoint x="1015" y="225" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-
-        <mxCell id="sami-features" value="✓ Created with resource (enable in settings)&#xa;✓ Deleted when resource is deleted&#xa;✓ Cannot be shared across resources&#xa;✓ Best for single-resource scenarios" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="870" y="265" width="280" height="65" as="geometry" />
-        </mxCell>
-
-        <!-- User-assigned -->
-        <mxCell id="uami-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="160" width="340" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="uami-title" value="User-Assigned Managed Identity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="165" width="260" height="25" as="geometry" />
-        </mxCell>
-
-        <mxCell id="uami-identity" value="🔐 Identity&#xa;(Standalone)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d6a7;strokeColor=#66bb6a;fontSize=11;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="200" width="100" height="50" as="geometry" />
-        </mxCell>
-
-        <mxCell id="uami-r1" value="VM 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="195" width="60" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="uami-r2" value="VM 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="225" width="60" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="uami-r3" value="App Svc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="195" width="60" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="uami-r4" value="Function" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="225" width="60" height="25" as="geometry" />
-        </mxCell>
-
-        <mxCell id="uami-a1" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1275" y="207" as="sourcePoint" />
-            <mxPoint x="1305" y="215" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uami-a2" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1275" y="237" as="sourcePoint" />
-            <mxPoint x="1305" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uami-a3" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1415" y="215" as="sourcePoint" />
-            <mxPoint x="1435" y="207" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uami-a4" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1415" y="230" as="sourcePoint" />
-            <mxPoint x="1435" y="237" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-
-        <mxCell id="uami-features" value="✓ Created as standalone Azure resource&#xa;✓ Independent lifecycle from resources&#xa;✓ Can be shared across multiple resources&#xa;✓ Best for shared access scenarios" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="265" width="300" height="65" as="geometry" />
-        </mxCell>
-
-        <!-- How MI Works -->
-        <mxCell id="mi-how-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="850" y="355" width="680" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="mi-how-title" value="How Managed Identity Works" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
-          <mxGeometry x="1070" y="360" width="240" height="25" as="geometry" />
-        </mxCell>
-
-        <!-- Flow -->
-        <mxCell id="mi-f1" value="1️⃣&#xa;Azure Resource" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="870" y="400" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mi-fa1" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="975" y="425" as="sourcePoint" />
-            <mxPoint x="1015" y="425" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mi-fa1-label" value="Request token&#xa;(IMDS endpoint)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#2e7d32;" parent="1" vertex="1">
-          <mxGeometry x="975" y="395" width="70" height="25" as="geometry" />
-        </mxCell>
-
-        <mxCell id="mi-f2" value="2️⃣&#xa;Azure IMDS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d6a7;strokeColor=#66bb6a;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="400" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mi-fa2" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1125" y="425" as="sourcePoint" />
-            <mxPoint x="1165" y="425" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mi-fa2-label" value="Authenticate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#2e7d32;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="405" width="50" height="15" as="geometry" />
-        </mxCell>
-
-        <mxCell id="mi-f3" value="3️⃣&#xa;Entra ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078d4;strokeColor=#005a9e;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="400" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mi-fa3" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1275" y="425" as="sourcePoint" />
-            <mxPoint x="1315" y="425" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mi-fa3-label" value="Access Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#2e7d32;" parent="1" vertex="1">
-          <mxGeometry x="1275" y="405" width="60" height="15" as="geometry" />
-        </mxCell>
-
-        <mxCell id="mi-f4" value="4️⃣&#xa;Target Resource" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7b1fa2;strokeColor=#4a148c;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="400" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mi-fa4" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1425" y="425" as="sourcePoint" />
-            <mxPoint x="1465" y="425" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mi-fa4-label" value="Use token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#2e7d32;" parent="1" vertex="1">
-          <mxGeometry x="1425" y="405" width="50" height="15" as="geometry" />
-        </mxCell>
-
-        <mxCell id="mi-f5" value="5️⃣&#xa;Key Vault/SQL&#xa;Storage, etc." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00897b;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="395" width="90" height="60" as="geometry" />
-        </mxCell>
-
-        <mxCell id="mi-how-note" value="IMDS = Instance Metadata Service (169.254.169.254) - Local endpoint for acquiring tokens without storing credentials" style="text;html=1;strokeColor=none;fillColor=#c8e6c9;align=center;verticalAlign=middle;fontSize=10;fontColor=#1b5e20;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="470" width="550" height="25" as="geometry" />
-        </mxCell>
-
-        <!-- Comparison Section -->
-        <mxCell id="compare-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#616161;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="50" y="550" width="1500" height="210" as="geometry" />
-        </mxCell>
-
-        <mxCell id="compare-title" value="When to Use What?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#424242;" parent="1" vertex="1">
-          <mxGeometry x="680" y="560" width="240" height="25" as="geometry" />
-        </mxCell>
-
-        <!-- Table -->
-        <mxCell id="ct-h1" value="Scenario" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#616161;strokeColor=#424242;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="80" y="595" width="200" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-h2" value="Use This" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#616161;strokeColor=#424242;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="280" y="595" width="180" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-h3" value="Why" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#616161;strokeColor=#424242;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="460" y="595" width="380" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-h4" value="Example" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#616161;strokeColor=#424242;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="840" y="595" width="680" height="35" as="geometry" />
-        </mxCell>
-
-        <!-- Row 1 -->
-        <mxCell id="ct-r1c1" value="Azure resource accessing another Azure resource" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#c8e6c9;fontSize=10;fontStyle=1;align=left;spacingLeft=5;" parent="1" vertex="1">
-          <mxGeometry x="80" y="630" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-r1c2" value="Managed Identity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#c8e6c9;fontSize=10;fontColor=#2e7d32;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="630" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-r1c3" value="No credentials to manage, automatic token refresh, built-in security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#c8e6c9;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="460" y="630" width="380" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-r1c4" value="App Service → Key Vault, VM → Storage Account, Function → SQL Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#c8e6c9;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="840" y="630" width="680" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- Row 2 -->
-        <mxCell id="ct-r2c1" value="Web app with user sign-in" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#bbdefb;fontSize=10;fontStyle=1;align=left;spacingLeft=5;" parent="1" vertex="1">
-          <mxGeometry x="80" y="670" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-r2c2" value="App Registration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#bbdefb;fontSize=10;fontColor=#1565c0;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="670" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-r2c3" value="Need to authenticate users via OIDC/OAuth, get delegated permissions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#bbdefb;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="460" y="670" width="380" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-r2c4" value="SPA calling Graph API on behalf of user, Web app with SSO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#bbdefb;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="840" y="670" width="680" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- Row 3 -->
-        <mxCell id="ct-r3c1" value="Background service/daemon calling APIs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffe0b2;fontSize=10;fontStyle=1;align=left;spacingLeft=5;" parent="1" vertex="1">
-          <mxGeometry x="80" y="710" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-r3c2" value="App Reg + Client Credentials" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffe0b2;fontSize=10;fontColor=#e65100;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="710" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-r3c3" value="No user context, app-only permissions, not running on Azure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffe0b2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="460" y="710" width="380" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ct-r3c4" value="On-prem scheduled job calling Graph API, CI/CD pipeline accessing Azure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffe0b2;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="840" y="710" width="680" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- Code Examples Section -->
-        <mxCell id="code-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eceff1;strokeColor=#546e7a;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="50" y="780" width="1500" height="280" as="geometry" />
-        </mxCell>
-
-        <mxCell id="code-title" value="Code Examples" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#37474f;" parent="1" vertex="1">
-          <mxGeometry x="680" y="790" width="240" height="25" as="geometry" />
-        </mxCell>
-
-        <!-- MI Code -->
-        <mxCell id="mi-code-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2e7d32;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="80" y="825" width="460" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="mi-code-title" value="Using Managed Identity (C# / .NET)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
-          <mxGeometry x="160" y="830" width="300" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="mi-code" value="// No credentials needed!&#xa;var credential = new DefaultAzureCredential();&#xa;&#xa;// Access Key Vault&#xa;var client = new SecretClient(&#xa;    new Uri(&quot;https://myvault.vault.azure.net&quot;),&#xa;    credential&#xa;);&#xa;var secret = await client.GetSecretAsync(&quot;MySecret&quot;);&#xa;&#xa;// Access Storage&#xa;var blobClient = new BlobServiceClient(&#xa;    new Uri(&quot;https://mystorage.blob.core.windows.net&quot;),&#xa;    credential&#xa;);&#xa;&#xa;// Works locally (VS/CLI login) and in Azure (Managed Identity)" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;fontFamily=Courier New;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="95" y="855" width="430" height="180" as="geometry" />
-        </mxCell>
-
-        <!-- App Reg Code -->
-        <mxCell id="app-code-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1565c0;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="560" y="825" width="470" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="app-code-title" value="Using App Registration - Client Credentials" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
-          <mxGeometry x="640" y="830" width="310" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="app-code" value="// Using client secret (less secure)&#xa;var credential = new ClientSecretCredential(&#xa;    tenantId: &quot;your-tenant-id&quot;,&#xa;    clientId: &quot;your-client-id&quot;,&#xa;    clientSecret: &quot;your-client-secret&quot;&#xa;);&#xa;&#xa;// Using certificate (more secure)&#xa;var credential = new ClientCertificateCredential(&#xa;    tenantId: &quot;your-tenant-id&quot;,&#xa;    clientId: &quot;your-client-id&quot;,&#xa;    certificatePath: &quot;/path/to/cert.pem&quot;&#xa;);&#xa;&#xa;// Call Graph API&#xa;var graphClient = new GraphServiceClient(credential);" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;fontFamily=Courier New;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="575" y="855" width="440" height="180" as="geometry" />
-        </mxCell>
-
-        <!-- User Auth Code -->
-        <mxCell id="user-code-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7b1fa2;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="825" width="470" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="user-code-title" value="Using App Registration - User Sign-in (OIDC)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#7b1fa2;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="830" width="290" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="user-code" value="// ASP.NET Core - Program.cs&#xa;builder.Services.AddAuthentication(&#xa;    OpenIdConnectDefaults.AuthenticationScheme)&#xa;    .AddMicrosoftIdentityWebApp(&#xa;        builder.Configuration.GetSection(&quot;AzureAd&quot;)&#xa;    );&#xa;&#xa;// appsettings.json&#xa;{&#xa;  &quot;AzureAd&quot;: {&#xa;    &quot;Instance&quot;: &quot;https://login.microsoftonline.com/&quot;,&#xa;    &quot;TenantId&quot;: &quot;your-tenant-id&quot;,&#xa;    &quot;ClientId&quot;: &quot;your-client-id&quot;,&#xa;    &quot;CallbackPath&quot;: &quot;/signin-oidc&quot;&#xa;  }&#xa;}" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;fontFamily=Courier New;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1065" y="855" width="440" height="180" as="geometry" />
-        </mxCell>
-
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="App Registration and Managed Identity" id="app-reg-mi">
+        <mxGraphModel dx="2138" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="🔑 App Registrations, Service Principals &amp; Managed Identities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1a1a2e;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="20" width="1000" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="app-reg-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="80" width="750" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="app-reg-title" value="App Registration" style="text;html=1;strokeColor=none;fillColor=#1565c0;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="95" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="app-reg-subtitle" value="Define your application&#39;s identity in Entra ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=2;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="125" width="300" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="app-obj" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976d2;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="160" width="690" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="app-obj-title" value="📱 Application Object" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="165" width="200" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="app-obj-desc" value="Global definition of your app (exists in home tenant only)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=2;fontColor=#616161;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="185" width="350" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="ids-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="210" width="200" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="ids-title" value="Identifiers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="215" width="100" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="ids-content" value="Application (Client) ID&#xa;Object ID&#xa;Directory (Tenant) ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="235" width="150" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="auth-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="210" width="200" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="auth-title" value="Authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="215" width="100" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="auth-content" value="Redirect URIs&#xa;Platform configs (Web, SPA, Mobile)&#xa;ID tokens, Access tokens" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="235" width="170" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="creds-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="210" width="210" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="creds-title" value="Certificates &amp; Secrets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="215" width="140" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="creds-content" value="Client secrets (password)&#xa;Certificates (x509)&#xa;Federated credentials" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="235" width="180" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="perms-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="295" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="perms-title" value="API Permissions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="300" width="110" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="perms-content" value="Delegated permissions (on behalf of user)  |  Application permissions (app&#39;s own identity)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="320" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="expose-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="295" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="expose-title" value="Expose an API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="300" width="100" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="expose-content" value="Application ID URI  |  Scopes/Roles  |  Authorized client applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="445" y="320" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="sp-relationship" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ff8f00;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="375" width="690" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="sp-title" value="⚙️ Service Principal (Enterprise Application)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="380" width="350" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="sp-desc" value="Local instance of the app in each tenant that uses it (created when app is used or consented to)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=2;fontColor=#616161;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="405" width="550" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="sp-home" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffb74d;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="430" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="sp-home-title" value="Home Tenant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="435" width="100" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="sp-home-content" value="App Registration creates SP&#xa;Full control over app settings&#xa;Can grant admin consent" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="455" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="sp-arrow" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="465" as="sourcePoint"/>
+                        <mxPoint x="400" y="465" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sp-arrow-label" value="Multi-tenant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#e65100;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="445" width="60" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="sp-other" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffb74d;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="430" width="345" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="sp-other-title" value="Other Tenants" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="435" width="100" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="sp-other-content" value="SP created on first user consent  |  Enterprise App settings apply  |  Can disable/delete locally" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="455" width="315" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="80" width="780" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-title" value="Managed Identities" style="text;html=1;strokeColor=none;fillColor=#2e7d32;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="95" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-subtitle" value="Azure-managed identity for Azure resources - No credential management!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=2;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="125" width="450" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="sami-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="850" y="160" width="320" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="sami-title" value="System-Assigned Managed Identity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="165" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="sami-resource" value="Azure Resource&#xa;(e.g., VM, App Service)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="200" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="sami-identity" value="🔐 Identity&#xa;(1:1 bound)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d6a7;strokeColor=#66bb6a;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1020" y="200" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="sami-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1005" y="225" as="sourcePoint"/>
+                        <mxPoint x="1015" y="225" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sami-features" value="✓ Created with resource (enable in settings)&#xa;✓ Deleted when resource is deleted&#xa;✓ Cannot be shared across resources&#xa;✓ Best for single-resource scenarios" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="265" width="280" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="uami-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="160" width="340" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="uami-title" value="User-Assigned Managed Identity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="165" width="260" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="uami-identity" value="🔐 Identity&#xa;(Standalone)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d6a7;strokeColor=#66bb6a;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1310" y="200" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="uami-r1" value="VM 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="195" width="60" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="uami-r2" value="VM 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="225" width="60" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="uami-r3" value="App Svc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1440" y="195" width="60" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="uami-r4" value="Function" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1440" y="225" width="60" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="uami-a1" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1275" y="207" as="sourcePoint"/>
+                        <mxPoint x="1305" y="215" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uami-a2" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1275" y="237" as="sourcePoint"/>
+                        <mxPoint x="1305" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uami-a3" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1415" y="215" as="sourcePoint"/>
+                        <mxPoint x="1435" y="207" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uami-a4" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1415" y="230" as="sourcePoint"/>
+                        <mxPoint x="1435" y="237" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uami-features" value="✓ Created as standalone Azure resource&#xa;✓ Independent lifecycle from resources&#xa;✓ Can be shared across multiple resources&#xa;✓ Best for shared access scenarios" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="265" width="300" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-how-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="850" y="355" width="730" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-how-title" value="How Managed Identity Works" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="1070" y="360" width="240" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-f1" value="1️⃣&#xa;Azure Resource" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#66bb6a;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="400" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-fa1" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="975" y="425" as="sourcePoint"/>
+                        <mxPoint x="1015" y="425" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mi-fa1-label" value="Request token&#xa;(IMDS endpoint)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="975" y="395" width="70" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-f2" value="2️⃣&#xa;Azure IMDS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d6a7;strokeColor=#66bb6a;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1020" y="400" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-fa2" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1125" y="425" as="sourcePoint"/>
+                        <mxPoint x="1165" y="425" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mi-fa2-label" value="Authenticate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="1130" y="405" width="50" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-f3" value="3️⃣&#xa;Entra ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078d4;strokeColor=#005a9e;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1170" y="400" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-fa3" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1275" y="425" as="sourcePoint"/>
+                        <mxPoint x="1315" y="425" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mi-fa3-label" value="Access Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="1275" y="405" width="60" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-f4" value="4️⃣&#xa;Target Resource" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7b1fa2;strokeColor=#4a148c;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="400" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-fa4" value="" style="endArrow=classic;html=1;strokeColor=#2e7d32;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1425" y="425" as="sourcePoint"/>
+                        <mxPoint x="1465" y="425" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mi-fa4-label" value="Use token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="1425" y="405" width="50" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-f5" value="5️⃣&#xa;Key Vault/SQL&#xa;Storage, etc." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00897b;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1470" y="395" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-how-note" value="IMDS = Instance Metadata Service (169.254.169.254) - Local endpoint for acquiring tokens without storing credentials" style="text;html=1;strokeColor=none;fillColor=#c8e6c9;align=center;verticalAlign=middle;fontSize=10;fontColor=#1b5e20;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="470" width="550" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="compare-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#616161;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="550" width="1500" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="compare-title" value="When to Use What?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#424242;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="560" width="240" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-h1" value="Scenario" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#616161;strokeColor=#424242;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="595" width="200" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-h2" value="Use This" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#616161;strokeColor=#424242;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="595" width="180" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-h3" value="Why" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#616161;strokeColor=#424242;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="595" width="380" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-h4" value="Example" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#616161;strokeColor=#424242;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="595" width="680" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r1c1" value="Azure resource accessing another Azure resource" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#c8e6c9;fontSize=10;fontStyle=1;align=left;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="630" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r1c2" value="Managed Identity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#c8e6c9;fontSize=10;fontColor=#2e7d32;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="630" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r1c3" value="No credentials to manage, automatic token refresh, built-in security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#c8e6c9;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="630" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r1c4" value="App Service → Key Vault, VM → Storage Account, Function → SQL Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#c8e6c9;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="630" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r2c1" value="Web app with user sign-in" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#bbdefb;fontSize=10;fontStyle=1;align=left;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="670" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r2c2" value="App Registration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#bbdefb;fontSize=10;fontColor=#1565c0;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="670" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r2c3" value="Need to authenticate users via OIDC/OAuth, get delegated permissions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#bbdefb;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="670" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r2c4" value="SPA calling Graph API on behalf of user, Web app with SSO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#bbdefb;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="670" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r3c1" value="Background service/daemon calling APIs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffe0b2;fontSize=10;fontStyle=1;align=left;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="710" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r3c2" value="App Reg + Client Credentials" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffe0b2;fontSize=10;fontColor=#e65100;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="710" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r3c3" value="No user context, app-only permissions, not running on Azure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffe0b2;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="710" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ct-r3c4" value="On-prem scheduled job calling Graph API, CI/CD pipeline accessing Azure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ffe0b2;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="710" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="code-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eceff1;strokeColor=#546e7a;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="780" width="1500" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="code-title" value="Code Examples" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#37474f;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="790" width="240" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-code-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2e7d32;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="825" width="460" height="255" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-code-title" value="Using Managed Identity (C# / .NET)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="830" width="300" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="mi-code" value="// No credentials needed!&#xa;var credential = new DefaultAzureCredential();&#xa;&#xa;// Access Key Vault&#xa;var client = new SecretClient(&#xa;    new Uri(&quot;https://myvault.vault.azure.net&quot;),&#xa;    credential&#xa;);&#xa;var secret = await client.GetSecretAsync(&quot;MySecret&quot;);&#xa;&#xa;// Access Storage&#xa;var blobClient = new BlobServiceClient(&#xa;    new Uri(&quot;https://mystorage.blob.core.windows.net&quot;),&#xa;    credential&#xa;);&#xa;&#xa;// Works locally (VS/CLI login) and in Azure (Managed Identity)" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;fontFamily=Courier New;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="95" y="855" width="430" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="app-code-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1565c0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="825" width="470" height="245" as="geometry"/>
+                </mxCell>
+                <mxCell id="app-code-title" value="Using App Registration - Client Credentials" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="830" width="310" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="app-code" value="// Using client secret (less secure)&#xa;var credential = new ClientSecretCredential(&#xa;    tenantId: &quot;your-tenant-id&quot;,&#xa;    clientId: &quot;your-client-id&quot;,&#xa;    clientSecret: &quot;your-client-secret&quot;&#xa;);&#xa;&#xa;// Using certificate (more secure)&#xa;var credential = new ClientCertificateCredential(&#xa;    tenantId: &quot;your-tenant-id&quot;,&#xa;    clientId: &quot;your-client-id&quot;,&#xa;    certificatePath: &quot;/path/to/cert.pem&quot;&#xa;);&#xa;&#xa;// Call Graph API&#xa;var graphClient = new GraphServiceClient(credential);" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;fontFamily=Courier New;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="855" width="440" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="user-code-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7b1fa2;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="825" width="470" height="245" as="geometry"/>
+                </mxCell>
+                <mxCell id="user-code-title" value="Using App Registration - User Sign-in (OIDC)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#7b1fa2;" parent="1" vertex="1">
+                    <mxGeometry x="1140" y="830" width="290" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="user-code" value="// ASP.NET Core - Program.cs&#xa;builder.Services.AddAuthentication(&#xa;    OpenIdConnectDefaults.AuthenticationScheme)&#xa;    .AddMicrosoftIdentityWebApp(&#xa;        builder.Configuration.GetSection(&quot;AzureAd&quot;)&#xa;    );&#xa;&#xa;// appsettings.json&#xa;{&#xa;  &quot;AzureAd&quot;: {&#xa;    &quot;Instance&quot;: &quot;https://login.microsoftonline.com/&quot;,&#xa;    &quot;TenantId&quot;: &quot;your-tenant-id&quot;,&#xa;    &quot;ClientId&quot;: &quot;your-client-id&quot;,&#xa;    &quot;CallbackPath&quot;: &quot;/signin-oidc&quot;&#xa;  }&#xa;}" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;fontFamily=Courier New;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="1065" y="855" width="440" height="180" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
