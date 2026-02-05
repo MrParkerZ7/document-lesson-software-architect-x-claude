@@ -17,12 +17,12 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 02 | Event-Driven Architecture | ✅ |
 | 03 | Cloud Platforms & Services | ✅ |
 | 04 | Identity & Access Management | ✅ |
-| 05 | DevOps & Platform Engineering | ⬜ |
-| 06 | Security | ⬜ |
-| 07 | Networking | ⬜ |
-| 08 | Databases & Storage | ⬜ |
-| 09 | Observability & Monitoring | ⬜ |
-| 10 | Soft Skills | ⬜ |
+| 05 | DevOps & Platform Engineering | ✅ |
+| 06 | Security | ✅ |
+| 07 | Networking | ✅ |
+| 08 | Databases & Storage | ✅ |
+| 09 | Observability & Monitoring | ✅ |
+| 10 | Soft Skills | ✅ |
 
 **Diagrams: 5/11 lessons completed**
 
