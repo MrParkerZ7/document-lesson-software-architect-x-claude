@@ -1,250 +1,214 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="multi-cloud-architecture" version="22.1.5" type="device">
-  <diagram name="Multi-Cloud Architecture" id="multi-cloud-architecture">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-
-        <!-- Title -->
-        <mxCell id="title" value="☁️ Multi-Cloud Architecture Strategy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="450" y="15" width="400" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- Multi-Cloud Architecture Diagram -->
-        <mxCell id="arch-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="40" y="70" width="1320" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="arch-title" value="Multi-Cloud Reference Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="540" y="80" width="280" height="25" as="geometry" />
-        </mxCell>
-
-        <!-- Users -->
-        <mxCell id="users" value="👥 Global Users" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="115" width="140" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- Global Load Balancer / DNS -->
-        <mxCell id="glb" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#999999;strokeWidth=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="170" width="680" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="glb-label" value="Global Load Balancer / Traffic Manager / DNS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="530" y="175" width="300" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="cloudflare" value="Cloudflare" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F38020;strokeColor=#F38020;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="195" width="80" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="route53" value="Route 53" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="195" width="80" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="azure-tm" value="Azure Traffic&#xa;Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#0078D4;fontColor=#FFFFFF;fontSize=9;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="195" width="80" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="gcp-lb" value="Cloud DNS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="195" width="80" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="akamai" value="Akamai GTM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A1E0;strokeColor=#00A1E0;fontColor=#FFFFFF;fontSize=9;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="195" width="80" height="28" as="geometry" />
-        </mxCell>
-
-        <!-- Arrow from users to GLB -->
-        <mxCell id="arr-users" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="users" target="glb" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-
-        <!-- AWS Cloud -->
-        <mxCell id="aws-cloud" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="60" y="250" width="380" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="aws-cloud-label" value="AWS (Primary - US/EU)" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="150" y="260" width="180" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="aws-compute" value="EKS / Fargate&#xa;(Compute)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aws-db" value="Aurora&#xa;(Database)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aws-storage" value="S3&#xa;(Storage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aws-queue" value="SQS/SNS&#xa;(Messaging)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aws-cache" value="ElastiCache&#xa;(Cache)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aws-ml" value="SageMaker&#xa;(ML)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-
-        <!-- GCP Cloud -->
-        <mxCell id="gcp-cloud" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="460" y="250" width="380" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="gcp-cloud-label" value="GCP (Secondary - APAC)" style="text;html=1;strokeColor=none;fillColor=#4285F4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="555" y="260" width="180" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="gcp-compute" value="GKE / Cloud Run&#xa;(Compute)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gcp-db" value="Cloud Spanner&#xa;(Database)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gcp-storage" value="Cloud Storage&#xa;(Storage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gcp-queue" value="Pub/Sub&#xa;(Messaging)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gcp-bq" value="BigQuery&#xa;(Analytics)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gcp-ai" value="Vertex AI&#xa;(ML)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-
-        <!-- Azure Cloud -->
-        <mxCell id="azure-cloud" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0078D4;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="860" y="250" width="380" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="azure-cloud-label" value="Azure (DR / Specific Workloads)" style="text;html=1;strokeColor=none;fillColor=#0078D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="930" y="260" width="230" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="azure-compute" value="AKS&#xa;(Compute)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="azure-db" value="Cosmos DB&#xa;(Database)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="azure-storage" value="Blob Storage&#xa;(Storage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="azure-ad" value="Azure AD&#xa;(Identity)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="azure-devops" value="Azure DevOps&#xa;(CI/CD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="azure-ml" value="Azure ML&#xa;(ML)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-
-        <!-- Cross-Cloud Connections -->
-        <mxCell id="conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aws-cloud" target="gcp-cloud" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gcp-cloud" target="azure-cloud" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="conn-label" value="VPN / Interconnect / Direct Connect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="530" y="445" width="200" height="20" as="geometry" />
-        </mxCell>
-
-        <!-- Multi-Cloud Management Layer -->
-        <mxCell id="mgmt-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="40" y="490" width="660" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="mgmt-title" value="Multi-Cloud Management &amp; Abstraction Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="180" y="500" width="340" height="25" as="geometry" />
-        </mxCell>
-
-        <mxCell id="terraform" value="Terraform / Pulumi&#xa;(IaC)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7B42F6;strokeColor=#5E35B1;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="540" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="k8s" value="Kubernetes&#xa;(Portable Compute)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#326CE5;strokeColor=#1565C0;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="540" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="crossplane" value="Crossplane&#xa;(Cloud Control)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1DA1F2;strokeColor=#0D8ECF;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="540" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="vault" value="HashiCorp Vault&#xa;(Secrets)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#333333;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="540" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="datadog" value="Datadog / Grafana&#xa;(Observability)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#632CA6;strokeColor=#4A1D8A;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="605" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="consul" value="Consul&#xa;(Service Mesh)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CA2171;strokeColor=#A11B5C;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="605" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gitlab" value="GitLab / GitHub&#xa;(GitOps)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FC6D26;strokeColor=#E24329;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="605" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="argocd" value="ArgoCD / Flux&#xa;(CD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EF7B4D;strokeColor=#D96230;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="605" width="120" height="50" as="geometry" />
-        </mxCell>
-
-        <!-- Strategy Considerations -->
-        <mxCell id="strategy-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="720" y="490" width="300" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="strategy-title" value="Multi-Cloud Strategy" style="text;html=1;strokeColor=none;fillColor=#4CAF50;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="790" y="500" width="160" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="strategy-content" value="✅ Reasons to use Multi-Cloud:&#xa;• Avoid vendor lock-in&#xa;• Best-of-breed services&#xa;• Geographic requirements&#xa;• Compliance &amp; data residency&#xa;• Business continuity / DR&#xa;• Cost optimization&#xa;• M&amp;A integrations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="735" y="530" width="270" height="130" as="geometry" />
-        </mxCell>
-
-        <!-- Challenges -->
-        <mxCell id="challenges-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#EF5350;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="490" width="300" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="challenges-title" value="Multi-Cloud Challenges" style="text;html=1;strokeColor=none;fillColor=#EF5350;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1105" y="500" width="170" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="challenges-content" value="⚠️ Considerations:&#xa;• Increased complexity&#xa;• Higher operational costs&#xa;• Skills gap (multiple platforms)&#xa;• Data synchronization&#xa;• Network latency&#xa;• Security surface area&#xa;• Inconsistent tooling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="1055" y="530" width="270" height="130" as="geometry" />
-        </mxCell>
-
-        <!-- Patterns Section -->
-        <mxCell id="patterns-title" value="Multi-Cloud Deployment Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="520" y="690" width="260" height="25" as="geometry" />
-        </mxCell>
-
-        <!-- Pattern 1: Arbitrage -->
-        <mxCell id="p1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="725" width="300" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="p1-title" value="💰 Arbitrage Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#1976D2;" parent="1" vertex="1">
-          <mxGeometry x="115" y="735" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="p1-desc" value="Run workloads where cheapest&#xa;&#xa;• Spot/preemptible pricing differences&#xa;• Reserved capacity optimization&#xa;• Region-specific pricing&#xa;• Service-specific cost advantages&#xa;&#xa;Tools: Spot.io, Flexera, CloudHealth" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="55" y="760" width="270" height="105" as="geometry" />
-        </mxCell>
-
-        <!-- Pattern 2: Best-of-Breed -->
-        <mxCell id="p2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="725" width="300" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="p2-title" value="⭐ Best-of-Breed Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#7B1FA2;" parent="1" vertex="1">
-          <mxGeometry x="435" y="735" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="p2-desc" value="Use each cloud's strengths&#xa;&#xa;• AWS: Broadest services, enterprise&#xa;• GCP: Data/ML, BigQuery, GKE&#xa;• Azure: Microsoft stack, hybrid&#xa;&#xa;Example: GCP BigQuery + AWS Lambda + Azure AD" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="375" y="760" width="270" height="105" as="geometry" />
-        </mxCell>
-
-        <!-- Pattern 3: Active-Active -->
-        <mxCell id="p3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="725" width="300" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="p3-title" value="🔄 Active-Active Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9800;" parent="1" vertex="1">
-          <mxGeometry x="755" y="735" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="p3-desc" value="Run identical stacks on multiple clouds&#xa;&#xa;• Both clouds serve traffic&#xa;• GSLB routes based on latency/health&#xa;• Data replication between clouds&#xa;• Highest availability, highest cost&#xa;&#xa;Req: Portable apps (containers, K8s)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="695" y="760" width="270" height="105" as="geometry" />
-        </mxCell>
-
-        <!-- Pattern 4: DR -->
-        <mxCell id="p4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#E91E63;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="725" width="300" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="p4-title" value="🆘 DR / Failover Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#E91E63;" parent="1" vertex="1">
-          <mxGeometry x="1075" y="735" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="p4-desc" value="Primary on one cloud, DR on another&#xa;&#xa;• Secondary cloud for disaster recovery&#xa;• Async data replication&#xa;• Lower cost than active-active&#xa;• RTO/RPO depends on replication&#xa;&#xa;Example: AWS primary → Azure DR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="1015" y="760" width="270" height="105" as="geometry" />
-        </mxCell>
-
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="Multi-Cloud Architecture" id="multi-cloud-architecture">
+        <mxGraphModel dx="2566" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="☁️ Multi-Cloud Architecture Strategy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="15" width="400" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="arch-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="70" width="1220" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="arch-title" value="Multi-Cloud Reference Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="80" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="users" value="👥 Global Users" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="115" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="glb" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#999999;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="170" width="680" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="glb-label" value="Global Load Balancer / Traffic Manager / DNS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#666666;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="175" width="300" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="cloudflare" value="Cloudflare" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F38020;strokeColor=#F38020;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="195" width="80" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="route53" value="Route 53" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="195" width="80" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-tm" value="Azure Traffic&#xa;Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#0078D4;fontColor=#FFFFFF;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="195" width="80" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp-lb" value="Cloud DNS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="195" width="80" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="akamai" value="Akamai GTM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00A1E0;strokeColor=#00A1E0;fontColor=#FFFFFF;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="195" width="80" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="arr-users" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="users" target="glb" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="aws-cloud" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="250" width="380" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="aws-cloud-label" value="AWS (Primary - US/EU)" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="260" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="aws-compute" value="EKS / Fargate&#xa;(Compute)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="aws-db" value="Aurora&#xa;(Database)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="aws-storage" value="S3&#xa;(Storage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="aws-queue" value="SQS/SNS&#xa;(Messaging)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="370" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="aws-cache" value="ElastiCache&#xa;(Cache)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="370" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="aws-ml" value="SageMaker&#xa;(ML)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#E68A00;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="370" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp-cloud" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="250" width="380" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp-cloud-label" value="GCP (Secondary - APAC)" style="text;html=1;strokeColor=none;fillColor=#4285F4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="260" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp-compute" value="GKE / Cloud Run&#xa;(Compute)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp-db" value="Cloud Spanner&#xa;(Database)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp-storage" value="Cloud Storage&#xa;(Storage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp-queue" value="Pub/Sub&#xa;(Messaging)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="370" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp-bq" value="BigQuery&#xa;(Analytics)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="370" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp-ai" value="Vertex AI&#xa;(ML)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#3367D6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="370" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-cloud" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0078D4;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="250" width="380" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-cloud-label" value="Azure (DR / Specific Workloads)" style="text;html=1;strokeColor=none;fillColor=#0078D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="260" width="230" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-compute" value="AKS&#xa;(Compute)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-db" value="Cosmos DB&#xa;(Database)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-storage" value="Blob Storage&#xa;(Storage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-ad" value="Azure AD&#xa;(Identity)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="370" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-devops" value="Azure DevOps&#xa;(CI/CD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="370" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="azure-ml" value="Azure ML&#xa;(ML)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#005A9E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="370" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aws-cloud" target="gcp-cloud" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gcp-cloud" target="azure-cloud" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="conn-label" value="VPN / Interconnect / Direct Connect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;fontStyle=2;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="445" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgmt-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="490" width="660" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="mgmt-title" value="Multi-Cloud Management &amp; Abstraction Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="500" width="340" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="terraform" value="Terraform / Pulumi&#xa;(IaC)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7B42F6;strokeColor=#5E35B1;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="540" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="k8s" value="Kubernetes&#xa;(Portable Compute)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#326CE5;strokeColor=#1565C0;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="540" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="crossplane" value="Crossplane&#xa;(Cloud Control)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1DA1F2;strokeColor=#0D8ECF;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="540" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="vault" value="HashiCorp Vault&#xa;(Secrets)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#333333;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="540" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="datadog" value="Datadog / Grafana&#xa;(Observability)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#632CA6;strokeColor=#4A1D8A;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="605" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="consul" value="Consul&#xa;(Service Mesh)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CA2171;strokeColor=#A11B5C;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="605" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="gitlab" value="GitLab / GitHub&#xa;(GitOps)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FC6D26;strokeColor=#E24329;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="605" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="argocd" value="ArgoCD / Flux&#xa;(CD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EF7B4D;strokeColor=#D96230;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="605" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="strategy-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="490" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="strategy-title" value="Multi-Cloud Strategy" style="text;html=1;strokeColor=none;fillColor=#4CAF50;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="790" y="500" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="strategy-content" value="✅ Reasons to use Multi-Cloud:&#xa;• Avoid vendor lock-in&#xa;• Best-of-breed services&#xa;• Geographic requirements&#xa;• Compliance &amp; data residency&#xa;• Business continuity / DR&#xa;• Cost optimization&#xa;• M&amp;A integrations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="530" width="185" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="challenges-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#EF5350;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="490" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="challenges-title" value="Multi-Cloud Challenges" style="text;html=1;strokeColor=none;fillColor=#EF5350;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1065" y="500" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="challenges-content" value="⚠️ Considerations:&#xa;• Increased complexity&#xa;• Higher operational costs&#xa;• Skills gap (multiple platforms)&#xa;• Data synchronization&#xa;• Network latency&#xa;• Security surface area&#xa;• Inconsistent tooling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="1015" y="530" width="185" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="patterns-title" value="Multi-Cloud Deployment Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="690" width="260" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="725" width="300" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-title" value="💰 Arbitrage Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#1976D2;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="735" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-desc" value="Run workloads where cheapest&#xa;&#xa;• Spot/preemptible pricing differences&#xa;• Reserved capacity optimization&#xa;• Region-specific pricing&#xa;• Service-specific cost advantages&#xa;&#xa;Tools: Spot.io, Flexera, CloudHealth" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="55" y="760" width="270" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="725" width="300" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-title" value="⭐ Best-of-Breed Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#7B1FA2;" parent="1" vertex="1">
+                    <mxGeometry x="435" y="735" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-desc" value="Use each cloud&#39;s strengths&#xa;&#xa;• AWS: Broadest services, enterprise&#xa;• GCP: Data/ML, BigQuery, GKE&#xa;• Azure: Microsoft stack, hybrid&#xa;&#xa;Example: GCP BigQuery + AWS Lambda + Azure AD" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="375" y="760" width="270" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="725" width="300" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-title" value="🔄 Active-Active Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9800;" parent="1" vertex="1">
+                    <mxGeometry x="755" y="735" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-desc" value="Run identical stacks on multiple clouds&#xa;&#xa;• Both clouds serve traffic&#xa;• GSLB routes based on latency/health&#xa;• Data replication between clouds&#xa;• Highest availability, highest cost&#xa;&#xa;Req: Portable apps (containers, K8s)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="695" y="760" width="270" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#E91E63;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="725" width="300" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-title" value="🆘 DR / Failover Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#E91E63;" parent="1" vertex="1">
+                    <mxGeometry x="1075" y="735" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4-desc" value="Primary on one cloud, DR on another&#xa;&#xa;• Secondary cloud for disaster recovery&#xa;• Async data replication&#xa;• Lower cost than active-active&#xa;• RTO/RPO depends on replication&#xa;&#xa;Example: AWS primary → Azure DR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="1015" y="760" width="270" height="105" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
