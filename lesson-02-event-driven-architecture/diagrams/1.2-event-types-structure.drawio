@@ -1,207 +1,169 @@
-<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
-  <diagram id="event-types" name="Event Types and Structure">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-
-        <!-- Title -->
-        <mxCell id="title" value="📨 Event Types and Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="450" y="20" width="400" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- What is an Event -->
-        <mxCell id="event-def" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="40" y="80" width="500" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="event-def-title" value="What is an Event?" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="170" y="95" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="event-def-text" value="An event is a record of something that happened in the system - a fact that occurred at a specific point in time." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="60" y="130" width="460" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="event-props" value="• Immutable - Cannot be changed once created&#xa;• Past tense - Represent something that already occurred&#xa;• Self-contained - Include all necessary information" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
-          <mxGeometry x="60" y="155" width="460" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- Event Types -->
-        <mxCell id="types-title" value="Event Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="85" width="200" height="30" as="geometry" />
-        </mxCell>
-
-        <!-- Domain Event -->
-        <mxCell id="domain-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="560" y="120" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="domain-title" value="Domain Event" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="620" y="130" width="140" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="domain-desc" value="Business-significant occurrence within a bounded context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="575" y="155" width="230" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="domain-examples" value="OrderPlaced, PaymentReceived, UserRegistered" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="575" y="175" width="230" height="20" as="geometry" />
-        </mxCell>
-
-        <!-- Integration Event -->
-        <mxCell id="integration-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="840" y="120" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="integration-title" value="Integration Event" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="900" y="130" width="140" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="integration-desc" value="Cross-boundary communication between services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="855" y="155" width="230" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="integration-examples" value="CustomerCreated (shared), InventoryUpdated" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="855" y="175" width="230" height="20" as="geometry" />
-        </mxCell>
-
-        <!-- System Event -->
-        <mxCell id="system-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="120" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="system-title" value="System Event" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="130" width="140" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="system-desc" value="Technical/infrastructure occurrences" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1135" y="155" width="210" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="system-examples" value="ServiceStarted, HealthCheckPassed, ErrorOccurred" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="175" width="220" height="20" as="geometry" />
-        </mxCell>
-
-        <!-- Event Structure -->
-        <mxCell id="structure-title" value="Event Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="220" width="200" height="30" as="geometry" />
-        </mxCell>
-
-        <mxCell id="json-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="40" y="260" width="500" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="json-title" value="Event JSON Example" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="170" y="275" width="200" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="json-code" value="{&#xa;  &quot;eventId&quot;: &quot;evt_123456&quot;,&#xa;  &quot;eventType&quot;: &quot;OrderPlaced&quot;,&#xa;  &quot;eventVersion&quot;: &quot;1.0&quot;,&#xa;  &quot;timestamp&quot;: &quot;2026-01-31T10:30:00Z&quot;,&#xa;  &quot;source&quot;: &quot;order-service&quot;,&#xa;  &#xa;  &quot;data&quot;: {&#xa;    &quot;orderId&quot;: &quot;ord_789&quot;,&#xa;    &quot;customerId&quot;: &quot;cust_456&quot;,&#xa;    &quot;totalAmount&quot;: 150.00,&#xa;    &quot;currency&quot;: &quot;USD&quot;,&#xa;    &quot;items&quot;: [...]&#xa;  },&#xa;  &#xa;  &quot;metadata&quot;: {&#xa;    &quot;correlationId&quot;: &quot;corr_abc&quot;,&#xa;    &quot;causationId&quot;: &quot;evt_123455&quot;,&#xa;    &quot;userId&quot;: &quot;user_001&quot;,&#xa;    &quot;traceId&quot;: &quot;trace_xyz&quot;&#xa;  }&#xa;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Courier New;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
-          <mxGeometry x="60" y="310" width="250" height="280" as="geometry" />
-        </mxCell>
-
-        <!-- Structure explanation -->
-        <mxCell id="explain-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="310" width="200" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="explain-title" value="Field Descriptions" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="350" y="320" width="140" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="explain-content" value="eventId: Unique identifier&#xa;&#xa;eventType: What happened&#xa;&#xa;eventVersion: Schema version&#xa;&#xa;timestamp: When it occurred&#xa;&#xa;source: Origin service&#xa;&#xa;data: Business payload&#xa;&#xa;metadata: Tracing info" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;spacingTop=10;" parent="1" vertex="1">
-          <mxGeometry x="330" y="350" width="180" height="230" as="geometry" />
-        </mxCell>
-
-        <!-- Event Envelope -->
-        <mxCell id="envelope-title" value="Event Envelope Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="220" width="200" height="30" as="geometry" />
-        </mxCell>
-
-        <mxCell id="envelope-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="560" y="260" width="340" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="envelope-label" value="Event Envelope" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="660" y="275" width="140" height="25" as="geometry" />
-        </mxCell>
-
-        <!-- Header -->
-        <mxCell id="header-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="315" width="300" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="header-title" value="Header (Routing)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="665" y="325" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="header-content" value="• eventId, eventType&#xa;• timestamp, source&#xa;• eventVersion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
-          <mxGeometry x="590" y="350" width="280" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- Payload -->
-        <mxCell id="payload-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="410" width="300" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="payload-title" value="Payload (Data)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="665" y="420" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="payload-content" value="• Business data&#xa;• Domain-specific fields&#xa;• Event-specific information" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
-          <mxGeometry x="590" y="445" width="280" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- Metadata -->
-        <mxCell id="meta-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="505" width="300" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="meta-title" value="Metadata (Tracing)" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="665" y="515" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="meta-content" value="• correlationId, causationId&#xa;• traceId, spanId&#xa;• userId, tenantId" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
-          <mxGeometry x="590" y="540" width="280" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- Fat vs Thin Events -->
-        <mxCell id="fat-thin-title" value="Fat Events vs Thin Events" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="220" width="220" height="30" as="geometry" />
-        </mxCell>
-
-        <!-- Fat Event -->
-        <mxCell id="fat-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="920" y="260" width="220" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="fat-title" value="Fat Event ✓" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="970" y="275" width="120" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="fat-desc" value="Contains all necessary data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="935" y="305" width="190" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="fat-pros" value="✓ Self-contained&#xa;✓ No additional lookups&#xa;✓ Replay-friendly&#xa;✗ Larger payload size&#xa;✗ More bandwidth" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
-          <mxGeometry x="935" y="330" width="190" height="90" as="geometry" />
-        </mxCell>
-
-        <!-- Thin Event -->
-        <mxCell id="thin-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="260" width="220" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="thin-title" value="Thin Event" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="275" width="120" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="thin-desc" value="Contains only IDs/references" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="1175" y="305" width="190" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="thin-pros" value="✓ Smaller payload&#xa;✓ Less bandwidth&#xa;✗ Requires additional API calls&#xa;✗ Coupling to source&#xa;✗ Harder to replay" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
-          <mxGeometry x="1175" y="330" width="190" height="90" as="geometry" />
-        </mxCell>
-
-        <!-- Naming Conventions -->
-        <mxCell id="naming-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="920" y="450" width="460" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="naming-title" value="Event Naming Conventions" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="465" width="200" height="25" as="geometry" />
-        </mxCell>
-
-        <mxCell id="naming-good" value="✓ Good (Past Tense)" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="940" y="500" width="130" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="naming-good-examples" value="OrderPlaced&#xa;PaymentReceived&#xa;UserRegistered&#xa;ItemShipped" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
-          <mxGeometry x="940" y="530" width="130" height="60" as="geometry" />
-        </mxCell>
-
-        <mxCell id="naming-bad" value="✗ Bad (Imperative)" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="500" width="130" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="naming-bad-examples" value="CreateOrder&#xa;ProcessPayment&#xa;RegisterUser&#xa;ShipItem" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="530" width="130" height="60" as="geometry" />
-        </mxCell>
-
-        <mxCell id="naming-note" value="Events = Facts (past) | Commands = Intents (imperative)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="530" width="140" height="50" as="geometry" />
-        </mxCell>
-
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="event-types" name="Event Types and Structure">
+        <mxGraphModel dx="1222" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="📨 Event Types and Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="20" width="400" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="event-def" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="80" width="500" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="event-def-title" value="What is an Event?" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="95" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="event-def-text" value="An event is a record of something that happened in the system - a fact that occurred at a specific point in time." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="130" width="460" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="event-props" value="• Immutable - Cannot be changed once created&#xa;• Past tense - Represent something that already occurred&#xa;• Self-contained - Include all necessary information" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="155" width="460" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="types-title" value="Event Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="85" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="domain-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="120" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="domain-title" value="Domain Event" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="130" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="domain-desc" value="Business-significant occurrence within a bounded context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="155" width="230" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="domain-examples" value="OrderPlaced, PaymentReceived, UserRegistered" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="175" width="230" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="integration-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="120" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="integration-title" value="Integration Event" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="130" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="integration-desc" value="Cross-boundary communication between services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="855" y="155" width="230" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="integration-examples" value="CustomerCreated (shared), InventoryUpdated" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+                    <mxGeometry x="855" y="175" width="230" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="system-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="120" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="system-title" value="System Event" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1170" y="130" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="system-desc" value="Technical/infrastructure occurrences" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1135" y="155" width="210" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="system-examples" value="ServiceStarted, HealthCheckPassed, ErrorOccurred" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+                    <mxGeometry x="1130" y="175" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="structure-title" value="Event Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="220" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="json-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="260" width="500" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="json-title" value="Event JSON Example" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="275" width="200" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="json-code" value="{&#xa;  &quot;eventId&quot;: &quot;evt_123456&quot;,&#xa;  &quot;eventType&quot;: &quot;OrderPlaced&quot;,&#xa;  &quot;eventVersion&quot;: &quot;1.0&quot;,&#xa;  &quot;timestamp&quot;: &quot;2026-01-31T10:30:00Z&quot;,&#xa;  &quot;source&quot;: &quot;order-service&quot;,&#xa;  &#xa;  &quot;data&quot;: {&#xa;    &quot;orderId&quot;: &quot;ord_789&quot;,&#xa;    &quot;customerId&quot;: &quot;cust_456&quot;,&#xa;    &quot;totalAmount&quot;: 150.00,&#xa;    &quot;currency&quot;: &quot;USD&quot;,&#xa;    &quot;items&quot;: [...]&#xa;  },&#xa;  &#xa;  &quot;metadata&quot;: {&#xa;    &quot;correlationId&quot;: &quot;corr_abc&quot;,&#xa;    &quot;causationId&quot;: &quot;evt_123455&quot;,&#xa;    &quot;userId&quot;: &quot;user_001&quot;,&#xa;    &quot;traceId&quot;: &quot;trace_xyz&quot;&#xa;  }&#xa;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Courier New;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="310" width="250" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="explain-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="310" width="200" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="explain-title" value="Field Descriptions" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="320" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="explain-content" value="eventId: Unique identifier&#xa;&#xa;eventType: What happened&#xa;&#xa;eventVersion: Schema version&#xa;&#xa;timestamp: When it occurred&#xa;&#xa;source: Origin service&#xa;&#xa;data: Business payload&#xa;&#xa;metadata: Tracing info" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;spacingTop=10;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="350" width="180" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="envelope-title" value="Event Envelope Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="220" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="envelope-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="260" width="340" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="envelope-label" value="Event Envelope" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="275" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="header-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="315" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="header-title" value="Header (Routing)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="665" y="325" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="header-content" value="• eventId, eventType&#xa;• timestamp, source&#xa;• eventVersion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="350" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="payload-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="410" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="payload-title" value="Payload (Data)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="665" y="420" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="payload-content" value="• Business data&#xa;• Domain-specific fields&#xa;• Event-specific information" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="445" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="meta-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="505" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="meta-title" value="Metadata (Tracing)" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="665" y="515" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="meta-content" value="• correlationId, causationId&#xa;• traceId, spanId&#xa;• userId, tenantId" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="540" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="fat-thin-title" value="Fat Events vs Thin Events" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="220" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fat-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="260" width="220" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="fat-title" value="Fat Event ✓" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="275" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="fat-desc" value="Contains all necessary data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+                    <mxGeometry x="935" y="305" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="fat-pros" value="✓ Self-contained&#xa;✓ No additional lookups&#xa;✓ Replay-friendly&#xa;✗ Larger payload size&#xa;✗ More bandwidth" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+                    <mxGeometry x="935" y="330" width="190" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="thin-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="260" width="220" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="thin-title" value="Thin Event" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1210" y="275" width="120" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="thin-desc" value="Contains only IDs/references" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+                    <mxGeometry x="1175" y="305" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="thin-pros" value="✓ Smaller payload&#xa;✓ Less bandwidth&#xa;✗ Requires additional API calls&#xa;✗ Coupling to source&#xa;✗ Harder to replay" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+                    <mxGeometry x="1175" y="330" width="190" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="naming-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="450" width="460" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="naming-title" value="Event Naming Conventions" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="465" width="200" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="naming-good" value="✓ Good (Past Tense)" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="940" y="500" width="130" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="naming-good-examples" value="OrderPlaced&#xa;PaymentReceived&#xa;UserRegistered&#xa;ItemShipped" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
+                    <mxGeometry x="940" y="530" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="naming-bad" value="✗ Bad (Imperative)" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="500" width="130" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="naming-bad-examples" value="CreateOrder&#xa;ProcessPayment&#xa;RegisterUser&#xa;ShipItem" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
+                    <mxGeometry x="1100" y="530" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="naming-note" value="Events = Facts (past) | Commands = Intents (imperative)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="530" width="140" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>

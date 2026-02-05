@@ -1,337 +1,286 @@
-<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
-  <diagram id="websocket" name="WebSocket Communication">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-
-        <!-- Title -->
-        <mxCell id="title" value="🎨 WebSocket Communication Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="400" y="20" width="500" height="40" as="geometry" />
-        </mxCell>
-
-        <!-- WebSocket Overview -->
-        <mxCell id="overview-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="40" y="80" width="400" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="overview-title" value="WebSocket Overview" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="140" y="95" width="200" height="30" as="geometry" />
-        </mxCell>
-
-        <mxCell id="ov-desc" value="Full-duplex, persistent connection over TCP for real-time, bidirectional communication between client and server." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="55" y="130" width="370" height="30" as="geometry" />
-        </mxCell>
-
-        <mxCell id="ov1" value="Full-Duplex" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="55" y="170" width="85" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="ov2" value="Low Latency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="170" width="85" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="ov3" value="Persistent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="170" width="85" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="ov4" value="Event-Driven" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="170" width="85" height="25" as="geometry" />
-        </mxCell>
-
-        <mxCell id="ov-protocol" value="Protocol: ws:// (unencrypted) or wss:// (TLS encrypted)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
-          <mxGeometry x="55" y="200" width="370" height="20" as="geometry" />
-        </mxCell>
-
-        <!-- HTTP vs WebSocket -->
-        <mxCell id="compare-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="460" y="80" width="450" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="compare-title" value="HTTP vs WebSocket" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="585" y="95" width="200" height="30" as="geometry" />
-        </mxCell>
-
-        <!-- HTTP -->
-        <mxCell id="http-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="475" y="135" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="http-title" value="HTTP (Request-Response)" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="490" y="140" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="http-c" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="490" y="170" width="40" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="http-s" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="620" y="170" width="40" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="http-arr1" value="Request" style="endArrow=classic;html=1;fontSize=8;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="530" y="180" as="sourcePoint" />
-            <mxPoint x="620" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="http-arr2" value="Response" style="endArrow=classic;html=1;fontSize=8;dashed=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="195" as="sourcePoint" />
-            <mxPoint x="530" y="195" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-
-        <!-- WebSocket -->
-        <mxCell id="ws-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="695" y="135" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ws-title" value="WebSocket (Bidirectional)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="710" y="140" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ws-c" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="710" y="170" width="40" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="ws-s" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="840" y="170" width="40" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="ws-arr1" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=8;strokeColor=#82b366;strokeWidth=2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="187.5" as="sourcePoint" />
-            <mxPoint x="840" y="187.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ws-label" value="Persistent Connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="755" y="195" width="80" height="15" as="geometry" />
-        </mxCell>
-
-        <!-- Use Cases -->
-        <mxCell id="use-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="930" y="80" width="320" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="use-title" value="WebSocket Use Cases" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="95" width="160" height="30" as="geometry" />
-        </mxCell>
-
-        <mxCell id="use1" value="💬 Real-time Chat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="945" y="135" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="use2" value="📊 Live Dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1055" y="135" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="use3" value="🎮 Online Gaming" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1165" y="135" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="use4" value="📈 Stock Tickers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="945" y="175" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="use5" value="🔔 Notifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1055" y="175" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="use6" value="📝 Collaborative Editing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1165" y="175" width="100" height="30" as="geometry" />
-        </mxCell>
-
-        <!-- Connection Lifecycle -->
-        <mxCell id="lifecycle-title" value="WebSocket Connection Lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="250" width="300" height="30" as="geometry" />
-        </mxCell>
-
-        <!-- Client -->
-        <mxCell id="client" value="Client&#xa;(Browser)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-
-        <!-- Server -->
-        <mxCell id="server" value="WebSocket&#xa;Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="300" width="100" height="50" as="geometry" />
-        </mxCell>
-
-        <!-- Timeline -->
-        <mxCell id="timeline-c" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#6c8ebf;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="360" as="sourcePoint" />
-            <mxPoint x="150" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="timeline-s" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#82b366;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="360" as="sourcePoint" />
-            <mxPoint x="650" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-
-        <!-- Handshake -->
-        <mxCell id="handshake-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="370" width="560" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="handshake-label" value="1. HTTP Upgrade Handshake" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="330" y="375" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="handshake-req" value="HTTP GET /chat&#xa;Upgrade: websocket&#xa;Connection: Upgrade" style="endArrow=classic;html=1;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="server" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="405" as="sourcePoint" />
-            <mxPoint x="650" y="405" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="handshake-res" value="HTTP 101 Switching Protocols&#xa;Upgrade: websocket" style="endArrow=classic;html=1;fontSize=8;dashed=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="425" as="sourcePoint" />
-            <mxPoint x="150" y="425" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-
-        <!-- Connected -->
-        <mxCell id="connected-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="450" width="560" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="connected-label" value="2. WebSocket Connection Established" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="310" y="455" width="200" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="msg1" value="Message (Text/Binary)" style="endArrow=classic;html=1;fontSize=8;strokeColor=#82b366;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="490" as="sourcePoint" />
-            <mxPoint x="650" y="490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="msg2" value="Push Data" style="endArrow=classic;html=1;fontSize=8;strokeColor=#82b366;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="510" as="sourcePoint" />
-            <mxPoint x="150" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="msg3" value="Ping" style="endArrow=classic;html=1;fontSize=8;strokeColor=#666666;dashed=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="530" as="sourcePoint" />
-            <mxPoint x="650" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="msg4" value="Pong" style="endArrow=classic;html=1;fontSize=8;strokeColor=#666666;dashed=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="540" as="sourcePoint" />
-            <mxPoint x="150" y="540" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-
-        <!-- Close -->
-        <mxCell id="close-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="560" width="560" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="close-label" value="3. Connection Close" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="340" y="565" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="close-msg" value="Close Frame (status code)" style="endArrow=classic;html=1;fontSize=8;strokeColor=#b85450;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="595" as="sourcePoint" />
-            <mxPoint x="650" y="595" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-
-        <!-- Server Architecture -->
-        <mxCell id="arch-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="750" y="290" width="510" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="arch-title" value="WebSocket Server Architecture" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="880" y="300" width="250" height="25" as="geometry" />
-        </mxCell>
-
-        <mxCell id="clients" value="👤 Connected Clients" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="770" y="340" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="clients-list" value="Client 1 ✓&#xa;Client 2 ✓&#xa;Client 3 ✓&#xa;..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingTop=2;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="clients" vertex="1">
-          <mxGeometry y="20" width="100" height="60" as="geometry" />
-        </mxCell>
-
-        <mxCell id="ws-server" value="WebSocket Server&#xa;(Connection Manager)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="900" y="355" width="120" height="50" as="geometry" />
-        </mxCell>
-
-        <mxCell id="handler" value="Event Handlers&#xa;onConnect&#xa;onMessage&#xa;onClose&#xa;onError" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="340" width="90" height="80" as="geometry" />
-        </mxCell>
-
-        <mxCell id="broadcast" value="Broadcast&#xa;(Room/Channel)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="355" width="80" height="50" as="geometry" />
-        </mxCell>
-
-        <!-- Rooms -->
-        <mxCell id="rooms-title" value="Rooms / Channels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="430" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="room1" value="Room: general" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="780" y="455" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="room2" value="Room: support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="875" y="455" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="room3" value="Room: game-123" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="970" y="455" width="80" height="30" as="geometry" />
-        </mxCell>
-
-        <!-- Arrows -->
-        <mxCell id="arr-clients-server" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" source="clients" target="ws-server" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="arr-server-handler" value="" style="endArrow=classic;html=1;" parent="1" source="ws-server" target="handler" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="arr-handler-broadcast" value="" style="endArrow=classic;html=1;" parent="1" source="handler" target="broadcast" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-
-        <!-- Code Examples -->
-        <mxCell id="code-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="40" y="640" width="400" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="code-title" value="Client Code (JavaScript)" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="140" y="655" width="200" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="code-content" value="const ws = new WebSocket('wss://example.com/chat');&#xa;&#xa;ws.onopen = () =&gt; console.log('Connected');&#xa;ws.onmessage = (event) =&gt; console.log(event.data);&#xa;ws.onclose = () =&gt; console.log('Disconnected');&#xa;ws.onerror = (error) =&gt; console.error(error);&#xa;&#xa;ws.send(JSON.stringify({ type: 'chat', msg: 'Hi!' }));" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Courier New;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
-          <mxGeometry x="55" y="690" width="370" height="90" as="geometry" />
-        </mxCell>
-
-        <!-- Server Code -->
-        <mxCell id="server-code-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="460" y="640" width="400" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="server-code-title" value="Server Code (Node.js)" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="560" y="655" width="200" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="server-code-content" value="const WebSocket = require('ws');&#xa;const wss = new WebSocket.Server({ port: 8080 });&#xa;&#xa;wss.on('connection', (ws) =&gt; {&#xa;  ws.on('message', (message) =&gt; {&#xa;    // Broadcast to all clients&#xa;    wss.clients.forEach(client =&gt; {&#xa;      if (client.readyState === WebSocket.OPEN) {&#xa;        client.send(message);&#xa;      }&#xa;    });&#xa;  });&#xa;});" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Courier New;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
-          <mxGeometry x="475" y="685" width="370" height="100" as="geometry" />
-        </mxCell>
-
-        <!-- Scaling -->
-        <mxCell id="scale-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="880" y="520" width="380" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="scale-title" value="Scaling WebSocket Servers" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="980" y="535" width="180" height="25" as="geometry" />
-        </mxCell>
-
-        <mxCell id="lb" value="Load Balancer&#xa;(Sticky Sessions)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="575" width="100" height="40" as="geometry" />
-        </mxCell>
-
-        <mxCell id="ws1" value="WS Server 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="900" y="640" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ws2" value="WS Server 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="1015" y="640" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ws3" value="WS Server 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="640" width="70" height="30" as="geometry" />
-        </mxCell>
-
-        <mxCell id="redis" value="Redis Pub/Sub&#xa;(Message Broker)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="685" width="100" height="40" as="geometry" />
-        </mxCell>
-
-        <mxCell id="arr-lb-ws1" value="" style="endArrow=classic;html=1;" parent="1" source="lb" target="ws1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="arr-lb-ws2" value="" style="endArrow=classic;html=1;" parent="1" source="lb" target="ws2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="arr-lb-ws3" value="" style="endArrow=classic;html=1;" parent="1" source="lb" target="ws3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="arr-ws-redis" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" source="ws2" target="redis" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="websocket" name="WebSocket Communication">
+        <mxGraphModel dx="1466" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="🎨 WebSocket Communication Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="20" width="500" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="overview-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="80" width="400" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="overview-title" value="WebSocket Overview" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="95" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ov-desc" value="Full-duplex, persistent connection over TCP for real-time, bidirectional communication between client and server." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="55" y="130" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ov1" value="Full-Duplex" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="55" y="170" width="85" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="ov2" value="Low Latency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="170" width="85" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="ov3" value="Persistent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="245" y="170" width="85" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="ov4" value="Event-Driven" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="170" width="85" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="ov-protocol" value="Protocol: ws:// (unencrypted) or wss:// (TLS encrypted)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+                    <mxGeometry x="55" y="200" width="370" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="compare-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="80" width="450" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="compare-title" value="HTTP vs WebSocket" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="585" y="95" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="http-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="135" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="http-title" value="HTTP (Request-Response)" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="140" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="http-c" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="170" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="http-s" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="170" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="http-arr1" value="Request" style="endArrow=classic;html=1;fontSize=8;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="180" as="sourcePoint"/>
+                        <mxPoint x="620" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="http-arr2" value="Response" style="endArrow=classic;html=1;fontSize=8;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="195" as="sourcePoint"/>
+                        <mxPoint x="530" y="195" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ws-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="695" y="135" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="ws-title" value="WebSocket (Bidirectional)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="140" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="ws-c" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="170" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="ws-s" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="170" width="40" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="ws-arr1" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=8;strokeColor=#82b366;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="750" y="187.5" as="sourcePoint"/>
+                        <mxPoint x="840" y="187.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ws-label" value="Persistent Connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="755" y="195" width="80" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="use-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="80" width="350" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="use-title" value="WebSocket Use Cases" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="95" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="use1" value="💬 Real-time Chat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="945" y="135" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="use2" value="📊 Live Dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1055" y="135" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="use3" value="🎮 Online Gaming" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1165" y="135" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="use4" value="📈 Stock Tickers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="945" y="175" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="use5" value="🔔 Notifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1055" y="175" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="use6" value="📝 Collaborative Editing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="1165" y="175" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="lifecycle-title" value="WebSocket Connection Lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="250" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="client" value="Client&#xa;(Browser)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="server" value="WebSocket&#xa;Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="timeline-c" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#6c8ebf;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="360" as="sourcePoint"/>
+                        <mxPoint x="150" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="timeline-s" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#82b366;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="360" as="sourcePoint"/>
+                        <mxPoint x="650" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="handshake-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="370" width="560" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="handshake-label" value="1. HTTP Upgrade Handshake" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="375" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="handshake-req" value="HTTP GET /chat&#xa;Upgrade: websocket&#xa;Connection: Upgrade" style="endArrow=classic;html=1;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="server" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="405" as="sourcePoint"/>
+                        <mxPoint x="650" y="405" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="handshake-res" value="HTTP 101 Switching Protocols&#xa;Upgrade: websocket" style="endArrow=classic;html=1;fontSize=8;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="425" as="sourcePoint"/>
+                        <mxPoint x="150" y="425" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="connected-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="450" width="560" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="connected-label" value="2. WebSocket Connection Established" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="455" width="200" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="msg1" value="Message (Text/Binary)" style="endArrow=classic;html=1;fontSize=8;strokeColor=#82b366;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="490" as="sourcePoint"/>
+                        <mxPoint x="650" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg2" value="Push Data" style="endArrow=classic;html=1;fontSize=8;strokeColor=#82b366;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="510" as="sourcePoint"/>
+                        <mxPoint x="150" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg3" value="Ping" style="endArrow=classic;html=1;fontSize=8;strokeColor=#666666;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="530" as="sourcePoint"/>
+                        <mxPoint x="650" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="msg4" value="Pong" style="endArrow=classic;html=1;fontSize=8;strokeColor=#666666;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="540" as="sourcePoint"/>
+                        <mxPoint x="150" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="close-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="560" width="560" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="close-label" value="3. Connection Close" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="565" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="close-msg" value="Close Frame (status code)" style="endArrow=classic;html=1;fontSize=8;strokeColor=#b85450;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="595" as="sourcePoint"/>
+                        <mxPoint x="650" y="595" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="arch-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="290" width="510" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="arch-title" value="WebSocket Server Architecture" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="300" width="250" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="clients" value="👤 Connected Clients" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="340" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="clients-list" value="Client 1 ✓&#xa;Client 2 ✓&#xa;Client 3 ✓&#xa;..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingTop=2;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="clients" vertex="1">
+                    <mxGeometry y="20" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ws-server" value="WebSocket Server&#xa;(Connection Manager)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="355" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="handler" value="Event Handlers&#xa;onConnect&#xa;onMessage&#xa;onClose&#xa;onError" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="340" width="90" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="broadcast" value="Broadcast&#xa;(Room/Channel)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="355" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="rooms-title" value="Rooms / Channels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="430" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="room1" value="Room: general" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="455" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="room2" value="Room: support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="875" y="455" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="room3" value="Room: game-123" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="455" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="arr-clients-server" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" source="clients" target="ws-server" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arr-server-handler" value="" style="endArrow=classic;html=1;" parent="1" source="ws-server" target="handler" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arr-handler-broadcast" value="" style="endArrow=classic;html=1;" parent="1" source="handler" target="broadcast" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="code-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="640" width="400" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="code-title" value="Client Code (JavaScript)" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="655" width="200" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="code-content" value="const ws = new WebSocket(&#39;wss://example.com/chat&#39;);&#xa;&#xa;ws.onopen = () =&gt; console.log(&#39;Connected&#39;);&#xa;ws.onmessage = (event) =&gt; console.log(event.data);&#xa;ws.onclose = () =&gt; console.log(&#39;Disconnected&#39;);&#xa;ws.onerror = (error) =&gt; console.error(error);&#xa;&#xa;ws.send(JSON.stringify({ type: &#39;chat&#39;, msg: &#39;Hi!&#39; }));" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Courier New;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+                    <mxGeometry x="55" y="690" width="370" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="server-code-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="640" width="400" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="server-code-title" value="Server Code (Node.js)" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="655" width="200" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="server-code-content" value="const WebSocket = require(&#39;ws&#39;);&#xa;const wss = new WebSocket.Server({ port: 8080 });&#xa;&#xa;wss.on(&#39;connection&#39;, (ws) =&gt; {&#xa;  ws.on(&#39;message&#39;, (message) =&gt; {&#xa;    // Broadcast to all clients&#xa;    wss.clients.forEach(client =&gt; {&#xa;      if (client.readyState === WebSocket.OPEN) {&#xa;        client.send(message);&#xa;      }&#xa;    });&#xa;  });&#xa;});" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Courier New;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="685" width="370" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="scale-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="520" width="340" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="scale-title" value="Scaling WebSocket Servers" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="535" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="lb" value="Load Balancer&#xa;(Sticky Sessions)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="575" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ws1" value="WS Server 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="640" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ws2" value="WS Server 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="1015" y="640" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="ws3" value="WS Server 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
+                    <mxGeometry x="1130" y="640" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="redis" value="Redis Pub/Sub&#xa;(Message Broker)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="685" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="arr-lb-ws1" value="" style="endArrow=classic;html=1;" parent="1" source="lb" target="ws1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arr-lb-ws2" value="" style="endArrow=classic;html=1;" parent="1" source="lb" target="ws2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arr-lb-ws3" value="" style="endArrow=classic;html=1;" parent="1" source="lb" target="ws3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arr-ws-redis" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" source="ws2" target="redis" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
