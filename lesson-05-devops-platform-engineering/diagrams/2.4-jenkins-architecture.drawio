@@ -1,0 +1,375 @@
+<mxfile host="app.diagrams.net" modified="2026-02-06T00:00:00.000Z" agent="Claude" version="21.0.0">
+  <diagram name="Jenkins Architecture" id="jenkins-architecture">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🔄 Jenkins Architecture &amp; Pipeline Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1a1a2e;" parent="1" vertex="1">
+          <mxGeometry x="450" y="20" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Jenkins Controller Section -->
+        <mxCell id="controller-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="50" y="80" width="500" height="380" as="geometry" />
+        </mxCell>
+
+        <mxCell id="controller-title" value="🎛️ Jenkins Controller (Master)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#d68910;" parent="1" vertex="1">
+          <mxGeometry x="150" y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Controller Components -->
+        <mxCell id="web-ui" value="🌐 Web UI&#xa;Dashboard &amp; Configuration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rest-api" value="🔌 REST API&#xa;Remote Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cli" value="⌨️ CLI&#xa;Command Line" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Core Services -->
+        <mxCell id="core-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#f4d03f;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="220" width="460" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="core-title" value="⚙️ Core Services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#d68910;" parent="1" vertex="1">
+          <mxGeometry x="80" y="225" width="120" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scheduler" value="📅 Scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#f4d03f;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="85" y="255" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="queue" value="📋 Build Queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#f4d03f;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="185" y="255" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="executor" value="▶️ Executors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#f4d03f;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="285" y="255" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scm" value="📁 SCM Polling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#f4d03f;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="385" y="255" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Plugin System -->
+        <mxCell id="plugins-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8daef;strokeColor=#8e44ad;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="340" width="460" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="plugins-title" value="🔌 Plugin Ecosystem (1800+ plugins)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#8e44ad;" parent="1" vertex="1">
+          <mxGeometry x="80" y="345" width="250" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="plugin1" value="Pipeline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7bde2;strokeColor=#8e44ad;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="85" y="375" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="plugin2" value="Git" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7bde2;strokeColor=#8e44ad;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="160" y="375" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="plugin3" value="Docker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7bde2;strokeColor=#8e44ad;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="220" y="375" width="55" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="plugin4" value="K8s" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7bde2;strokeColor=#8e44ad;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="285" y="375" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="plugin5" value="Slack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7bde2;strokeColor=#8e44ad;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="340" y="375" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="plugin6" value="SonarQube" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7bde2;strokeColor=#8e44ad;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="400" y="375" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="plugin7" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d7bde2;strokeColor=#8e44ad;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="475" y="375" width="35" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Jenkins Agents Section -->
+        <mxCell id="agents-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#27ae60;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="600" y="80" width="550" height="380" as="geometry" />
+        </mxCell>
+
+        <mxCell id="agents-title" value="🖥️ Jenkins Agents (Workers)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#27ae60;" parent="1" vertex="1">
+          <mxGeometry x="750" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Agent Types -->
+        <mxCell id="agent-perm" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#27ae60;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="135" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-perm-title" value="🏠 Permanent Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#27ae60;" parent="1" vertex="1">
+          <mxGeometry x="630" y="145" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-perm-desc" value="• Always connected&#xa;• Dedicated hardware&#xa;• Fixed environment&#xa;• Good for special builds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="630" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-perm-icon" value="🖥️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="665" y="240" width="50" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="agent-cloud" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#27ae60;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="795" y="135" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-cloud-title" value="☁️ Cloud Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#27ae60;" parent="1" vertex="1">
+          <mxGeometry x="805" y="145" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-cloud-desc" value="• On-demand provisioning&#xa;• Auto-scaling&#xa;• AWS/Azure/GCP&#xa;• Cost-effective" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="805" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-cloud-icon" value="☁️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="850" y="240" width="50" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="agent-k8s" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#27ae60;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="135" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-k8s-title" value="☸️ Kubernetes Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#27ae60;" parent="1" vertex="1">
+          <mxGeometry x="980" y="145" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-k8s-desc" value="• Pod-based agents&#xa;• Dynamic containers&#xa;• Resource isolation&#xa;• Highly scalable" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="980" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-k8s-icon" value="☸️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="240" width="50" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Agent Pool -->
+        <mxCell id="pool-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eafaf1;strokeColor=#27ae60;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="300" width="510" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pool-title" value="🔄 Agent Communication" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#27ae60;" parent="1" vertex="1">
+          <mxGeometry x="630" y="305" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="jnlp" value="JNLP&#xa;(Java Web Start)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#27ae60;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="340" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ssh" value="SSH&#xa;(Secure Shell)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#27ae60;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="755" y="340" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="websocket" value="WebSocket&#xa;(Cloud agents)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#27ae60;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="870" y="340" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="inbound" value="Inbound&#xa;(Agent initiated)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#27ae60;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="985" y="340" width="100" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="labels-note" value="💡 Agents use labels for job routing: e.g., 'linux', 'docker', 'gpu', 'windows'" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#27ae60;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="640" y="395" width="470" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Connection Arrow -->
+        <mxCell id="conn-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#666666;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="270" as="sourcePoint" />
+            <mxPoint x="600" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Pipeline Flow Section -->
+        <mxCell id="pipeline-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f4f8;strokeColor=#3498db;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="50" y="490" width="1100" height="280" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pipeline-title" value="📜 Declarative Pipeline Workflow (Jenkinsfile)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#2980b9;" parent="1" vertex="1">
+          <mxGeometry x="400" y="500" width="400" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Pipeline Stages -->
+        <mxCell id="stage1" value="📥&#xa;Checkout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2980b9;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="100" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeColor=#2980b9;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="595" as="sourcePoint" />
+            <mxPoint x="210" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="stage2" value="📦&#xa;Build" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2980b9;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="560" width="100" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeColor=#2980b9;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="595" as="sourcePoint" />
+            <mxPoint x="340" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="stage3" value="🧪&#xa;Test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2980b9;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="560" width="100" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeColor=#2980b9;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="595" as="sourcePoint" />
+            <mxPoint x="470" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="stage4" value="🔍&#xa;Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2980b9;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="560" width="100" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeColor=#2980b9;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="595" as="sourcePoint" />
+            <mxPoint x="600" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="stage5" value="📤&#xa;Publish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2980b9;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="560" width="100" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeColor=#2980b9;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="595" as="sourcePoint" />
+            <mxPoint x="730" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="stage6" value="🚀&#xa;Deploy&#xa;Staging" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#82e0aa;strokeColor=#27ae60;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="555" width="100" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow6" value="" style="endArrow=classic;html=1;strokeColor=#27ae60;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="595" as="sourcePoint" />
+            <mxPoint x="860" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="stage7" value="✋&#xa;Approval" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#f39c12;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="560" width="100" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow7" value="" style="endArrow=classic;html=1;strokeColor=#27ae60;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="595" as="sourcePoint" />
+            <mxPoint x="990" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="stage8" value="🚀&#xa;Deploy&#xa;Production" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#82e0aa;strokeColor=#27ae60;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="990" y="555" width="110" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Stage Details -->
+        <mxCell id="details-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3498db;strokeWidth=1;strokeDashPattern=3 3;" parent="1" vertex="1">
+          <mxGeometry x="80" y="660" width="1050" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="detail1" value="git checkout&#xa;git pull" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="80" y="670" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="detail2" value="npm install&#xa;npm run build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="210" y="670" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="detail3" value="npm test&#xa;junit reports" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="340" y="670" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="detail4" value="SonarQube&#xa;Code coverage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="470" y="670" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="detail5" value="Docker build&#xa;Push to registry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="600" y="670" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="detail6" value="kubectl apply&#xa;helm upgrade" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="730" y="670" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="detail7" value="input message:&#xa;'Deploy to prod?'" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="860" y="670" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="detail8" value="Blue/Green&#xa;Canary deploy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="990" y="670" width="100" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="post-note" value="📬 Post Actions: always { cleanWs() } | success { slackSend() } | failure { mail to: 'team@...' }" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#2980b9;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="280" y="720" width="600" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Key Features Section -->
+        <mxCell id="features-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdebd0;strokeColor=#e67e22;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="50" y="800" width="540" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="features-title" value="⭐ Key Jenkins Features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#e67e22;" parent="1" vertex="1">
+          <mxGeometry x="220" y="810" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feat1" value="📜 Pipeline as Code&#xa;Jenkinsfile in repo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e67e22;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="feat2" value="🔄 Shared Libraries&#xa;Reusable pipeline code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e67e22;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="feat3" value="📊 Blue Ocean UI&#xa;Modern visualization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e67e22;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="feat4" value="🔐 Credentials&#xa;Secure secrets mgmt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e67e22;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="feat5" value="🌿 Multibranch&#xa;Auto-discover branches" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e67e22;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="910" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="feat6" value="📁 Workspaces&#xa;Isolated build dirs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e67e22;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="910" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="feat7" value="🔁 Parallel Stages&#xa;Concurrent execution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e67e22;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="910" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="feat8" value="📈 Matrix Builds&#xa;Multi-config testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e67e22;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="910" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Best Practices Section -->
+        <mxCell id="practices-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#27ae60;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="610" y="800" width="540" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="practices-title" value="✅ Jenkins Best Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#27ae60;" parent="1" vertex="1">
+          <mxGeometry x="780" y="810" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bp1" value="• Use declarative pipelines over scripted" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="630" y="845" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp2" value="• Keep Jenkinsfile in source control" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="630" y="865" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp3" value="• Use shared libraries for common code" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="630" y="885" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp4" value="• Implement proper agent labeling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="630" y="905" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp5" value="• Use credentials plugin for secrets" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="630" y="925" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp6" value="• Clean workspace after builds" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="890" y="845" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp7" value="• Enable build discarder policy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="890" y="865" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp8" value="• Configure proper timeouts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="890" y="885" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp9" value="• Use stash/unstash for artifact sharing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="890" y="905" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bp10" value="• Implement proper error handling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#424242;" parent="1" vertex="1">
+          <mxGeometry x="890" y="925" width="250" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
