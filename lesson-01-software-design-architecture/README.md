@@ -71,22 +71,112 @@ Design patterns are reusable solutions to commonly occurring problems in softwar
 - **Ubiquitous Language**: Common language between developers and domain experts
 - **Context Mapping**: Relationships between bounded contexts
 
-#### Tactical Design
-- **Entities**: Objects with unique identity
-- **Value Objects**: Objects defined by attributes, no identity
-- **Aggregates**: Cluster of entities and value objects with a root
-- **Domain Events**: Something significant that happened in the domain
-- **Repositories**: Abstraction for data persistence
-- **Domain Services**: Operations that don't belong to entities
+> **Diagrams**: See `1.5-ddd-bounded-context.drawio` and `1.6-ddd-context-mapping.drawio`
+
+#### Tactical Design (Building Blocks)
+
+The tactical patterns are the building blocks for implementing domain models within a Bounded Context.
+
+> **Diagrams**: See `1.5.1-ddd-tactical-overview.drawio` for complete overview
+
+##### Entities vs Value Objects
+
+| Aspect | Entity | Value Object |
+|--------|--------|--------------|
+| **Identity** | Has unique ID | No ID, defined by attributes |
+| **Equality** | By ID only | By all attribute values |
+| **Mutability** | Mutable state | Always immutable |
+| **Lifecycle** | Create → Modify → Delete | Create → Replace |
+| **Example** | `User(id=123)` | `Money(100, USD)` |
+
+**Entity**: Objects with unique identity that persists over time
+- Use when you need to track individual instances
+- Examples: User, Order, Product (with SKU), Account
+
+**Value Object**: Objects defined entirely by their attributes
+- Use when objects are interchangeable if they have same values
+- Examples: Money, Address, DateRange, Email
+
+> **Diagram**: See `1.5.2-ddd-entity-vs-value-object.drawio`
+
+##### Aggregates
+
+An **Aggregate** is a cluster of domain objects treated as a single unit for data changes. It defines a consistency boundary.
+
+**Aggregate Rules**:
+1. Reference other Aggregates by ID only (not object references)
+2. One transaction per Aggregate
+3. Keep Aggregates small (only what's needed for invariants)
+4. Protect invariants through the Aggregate Root
+5. External access only through the Root
 
 ```
 ┌─────────────────────────────────────────────────┐
-│              Bounded Context A                  │
+│              Aggregate Boundary                 │
+│  ┌─────────────────────────────────────────┐   │
+│  │     Order (Aggregate Root)              │◄──── Only entry point
+│  │     - orderId, customerId, status       │   │
+│  │     + addItem(), confirm(), cancel()    │   │
+│  └─────────────────────────────────────────┘   │
+│           │                                     │
+│           ▼                                     │
+│  ┌─────────────────┐  ┌─────────────────┐      │
+│  │ OrderLine       │  │ Money (VO)      │      │
+│  │ (Entity)        │  │ Address (VO)    │      │
+│  └─────────────────┘  └─────────────────┘      │
+└─────────────────────────────────────────────────┘
+```
+
+> **Diagram**: See `1.5.3-ddd-aggregate-design.drawio`
+
+##### Domain Events
+
+**Domain Events** capture something significant that happened in the domain. They enable eventual consistency between Aggregates.
+
+**Characteristics**:
+- Immutable (record of the past)
+- Past-tense naming: `OrderPlaced`, `PaymentReceived`
+- Contains all relevant event data
+- Decouples producer from consumers
+
+**Flow**: Aggregate → publishes Event → Event Bus → Handlers (other Aggregates/Services)
+
+> **Diagram**: See `1.5.4-ddd-domain-events.drawio`
+
+##### Repository & Domain Service
+
+| Pattern | Purpose | Contains |
+|---------|---------|----------|
+| **Repository** | Persist/retrieve Aggregates | Data access logic, mapping |
+| **Domain Service** | Logic that spans entities | Stateless business operations |
+
+**Repository Rules**:
+- One per Aggregate
+- Returns complete Aggregates only
+- Domain-centric interface (not data-centric)
+- Works with Aggregate Roots only
+
+**Domain Service** - Use when:
+- Operation involves multiple Aggregates
+- Logic doesn't naturally belong to any Entity
+- Requires external data for calculation
+
+> **Diagram**: See `1.5.5-ddd-repository-service.drawio`
+
+##### Complete Tactical Pattern Overview
+
+```
+┌─────────────────────────────────────────────────┐
+│              Bounded Context                    │
 │  ┌─────────┐  ┌─────────┐  ┌─────────────────┐ │
 │  │ Entity  │  │ Value   │  │   Aggregate     │ │
 │  │         │  │ Object  │  │   Root          │ │
 │  └─────────┘  └─────────┘  └─────────────────┘ │
 │                    │                            │
+│  ┌─────────────┐   │    ┌──────────────────┐   │
+│  │  Domain     │   │    │  Domain Event    │   │
+│  │  Service    │   │    │  (OrderPlaced)   │   │
+│  └─────────────┘   │    └──────────────────┘   │
 │              ┌─────┴─────┐                      │
 │              │Repository │                      │
 │              └───────────┘                      │
@@ -372,6 +462,59 @@ service UserService {
 - "Clean Architecture" - Robert C. Martin
 - "Building Microservices" - Sam Newman
 - "Fundamentals of Software Architecture" - Mark Richards & Neal Ford
+
+---
+
+## Diagrams Reference
+
+All diagrams are located in the `diagrams/` folder in Draw.io format.
+
+### 1. Design Patterns
+| File | Description |
+|------|-------------|
+| `1.1-creational-patterns-overview.drawio` | Singleton, Factory, Builder, Prototype patterns |
+| `1.2-structural-patterns-overview.drawio` | Adapter, Bridge, Composite, Decorator, Facade, Proxy |
+| `1.3-behavioral-patterns-overview.drawio` | Observer, Strategy, Command, State, Chain of Responsibility |
+| `1.4-enterprise-patterns-layers.drawio` | Repository, Unit of Work, Service Layer, DTO |
+| `1.5-ddd-bounded-context.drawio` | DDD Tactical Patterns Overview (legacy naming) |
+| `1.5.1-ddd-tactical-overview.drawio` | All DDD building blocks overview |
+| `1.5.2-ddd-entity-vs-value-object.drawio` | Entity vs Value Object comparison |
+| `1.5.3-ddd-aggregate-design.drawio` | Aggregate design rules and examples |
+| `1.5.4-ddd-domain-events.drawio` | Domain Events flow and patterns |
+| `1.5.5-ddd-repository-service.drawio` | Repository and Domain Service patterns |
+| `1.6-ddd-context-mapping.drawio` | DDD Strategic - Context Mapping |
+
+### 2. Architecture Styles
+| File | Description |
+|------|-------------|
+| `2.1-monolithic-architecture.drawio` | Monolithic architecture overview |
+| `2.2-microservices-architecture.drawio` | Microservices patterns and communication |
+| `2.3-soa-esb-architecture.drawio` | SOA with Enterprise Service Bus |
+| `2.4-serverless-architecture.drawio` | FaaS and serverless patterns |
+| `2.5-event-driven-architecture.drawio` | Event-driven patterns (intro) |
+| `2.6-architecture-styles-comparison.drawio` | Comparison of all styles |
+
+### 3. Principles
+| File | Description |
+|------|-------------|
+| `3.1-solid-principles.drawio` | SOLID principles visualization |
+| `3.2-dependency-inversion.drawio` | DIP in detail |
+
+### 4. API Design
+| File | Description |
+|------|-------------|
+| `4.1-rest-api-flow.drawio` | REST API request/response flow |
+| `4.2-graphql-flow.drawio` | GraphQL query resolution |
+| `4.3-grpc-communication.drawio` | gRPC bidirectional streaming |
+| `4.4-websocket-flow.drawio` | WebSocket connection lifecycle |
+| `4.5-api-styles-comparison.drawio` | REST vs GraphQL vs gRPC comparison |
+
+### 5. Data Architecture
+| File | Description |
+|------|-------------|
+| `5.1-data-modeling-levels.drawio` | Conceptual, Logical, Physical models |
+| `5.2-etl-vs-elt.drawio` | ETL vs ELT comparison |
+| `5.3-data-warehouse-vs-lake.drawio` | Data Warehouse vs Data Lake |
 
 ---
 

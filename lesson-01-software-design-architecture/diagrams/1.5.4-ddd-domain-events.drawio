@@ -1,0 +1,215 @@
+<mxfile host="app.diagrams.net" modified="2026-02-05T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="domain-events" name="Domain Events Flow">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Domain Events - Cross-Aggregate Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Enabling eventual consistency between aggregates while maintaining transactional boundaries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="350" y="55" width="600" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Domain Event Definition -->
+        <mxCell id="def-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="def-title" value="What is a Domain Event?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="160" y="110" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="def-desc" value="A record of something significant that happened&#xa;in the domain. It's an immutable fact about the past." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="100" y="145" width="310" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="event-example" value="OrderPlacedEvent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="145" y="185" width="180" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="event-id" value="+ orderId: OrderId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" parent="event-example" vertex="1">
+          <mxGeometry y="22" width="180" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="event-time" value="+ occurredAt: DateTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" parent="event-example" vertex="1">
+          <mxGeometry y="40" width="180" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="event-data" value="+ items: List&lt;OrderItem&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" parent="event-example" vertex="1">
+          <mxGeometry y="58" width="180" height="10" as="geometry" />
+        </mxCell>
+
+        <!-- Characteristics -->
+        <mxCell id="char-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="460" y="100" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="char-title" value="Event Characteristics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="520" y="110" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="char-list" value="&#x2713; Immutable (never changes)&#xa;&#x2713; Past tense naming (OrderPlaced, not PlaceOrder)&#xa;&#x2713; Contains all relevant data&#xa;&#x2713; Timestamp of when it occurred&#xa;&#x2713; Can be stored and replayed&#xa;&#x2713; Decouples producer from consumers" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="475" y="140" width="250" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Naming Convention -->
+        <mxCell id="naming-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="770" y="100" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="naming-title" value="Naming Convention" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="830" y="110" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="naming-list" value="Entity + Past Tense Verb&#xa;&#xa;• OrderPlaced&#xa;• PaymentReceived&#xa;• InventoryReserved&#xa;• ShipmentDispatched&#xa;• CustomerRegistered&#xa;• AccountDeactivated" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="785" y="140" width="220" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- Flow Diagram -->
+        <mxCell id="flow-title" value="Domain Event Flow Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="480" y="285" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Order Aggregate -->
+        <mxCell id="order-agg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="340" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="order-label" value="Order Aggregate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="120" y="350" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="order-root" value="Order (Root)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="380" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="order-method" value="place() {&#xa;  // business logic&#xa;  registerEvent(new&#xa;    OrderPlacedEvent(...))&#xa;}" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;fontFamily=Courier New;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="95" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Event -->
+        <mxCell id="event-flow" value="OrderPlacedEvent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="event-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d6b656;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="order-root" target="event-flow" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="publish-label" value="publishes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#d6b656;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="375" width="50" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Event Bus -->
+        <mxCell id="bus" value="Event Bus / Message Broker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="390" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="event-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#9673a6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="event-flow" target="bus" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Inventory Aggregate -->
+        <mxCell id="inv-agg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="310" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="inv-label" value="Inventory Aggregate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="855" y="320" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="inv-root" value="Inventory (Root)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="865" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="inv-action" value="reserveStock()" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="865" y="385" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Notification Service -->
+        <mxCell id="notif-agg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="430" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="notif-label" value="Notification Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="855" y="440" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="notif-action" value="sendConfirmation()" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="865" y="465" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Handler arrows -->
+        <mxCell id="handler-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d79b00;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bus" target="inv-agg" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="handler-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bus" target="notif-agg" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Handler labels -->
+        <mxCell id="handler1-label" value="handles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="755" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="handler2-label" value="handles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="755" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Transaction Boundaries -->
+        <mxCell id="tx1" value="Transaction 1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="500" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tx2" value="Transaction 2" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="415" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tx3" value="Transaction 3" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="505" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Eventual Consistency Note -->
+        <mxCell id="ec-note" value="Eventual Consistency&#xa;&#xa;Each handler runs in its own transaction.&#xa;The system will eventually be consistent&#xa;across all aggregates." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="560" y="460" width="200" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Benefits Section -->
+        <mxCell id="benefits-title" value="Why Use Domain Events?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="200" y="560" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit1-title" value="Decoupling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="140" y="610" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit1-desc" value="Producer doesn't know about&#xa;consumers. Add new handlers&#xa;without changing producer." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="95" y="635" width="170" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="300" y="600" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit2-title" value="Scalability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="360" y="610" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit2-desc" value="Handlers can run in parallel,&#xa;in different services, or&#xa;be scaled independently." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="315" y="635" width="170" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="520" y="600" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit3-title" value="Audit Trail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="580" y="610" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit3-desc" value="Events create a complete&#xa;history of what happened.&#xa;Great for debugging/compliance." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="535" y="635" width="170" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="740" y="600" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit4-title" value="Extensibility" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="800" y="610" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit4-desc" value="Add new reactions without&#xa;modifying existing code.&#xa;Open/Closed principle." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="755" y="635" width="170" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- Implementation Tips -->
+        <mxCell id="tips-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="960" y="600" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tips-title" value="Implementation Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="610" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips-list" value="• Store events before publishing&#xa;• Use Outbox pattern for reliability&#xa;• Consider Event Sourcing&#xa;• Handle idempotency in handlers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="970" y="635" width="200" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
