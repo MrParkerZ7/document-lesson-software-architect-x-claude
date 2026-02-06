@@ -19,6 +19,20 @@ By the end of this lesson, you will be able to:
 
 ---
 
+## Sub-Lessons
+
+| # | Sub-Lesson | Topics | Diagrams |
+|---|----------|--------|----------|
+| 1 | [Application Security](./01-application-security/README.md) | OWASP Top 10, STRIDE | 2 |
+| 2 | [Secure Coding Practices](./02-secure-coding-practices/README.md) | Input Validation | 1 |
+| 3 | [Secrets Management](./03-secrets-management/README.md) | Vault, Key Management | 1 |
+| 4 | [Network Security](./04-network-security/README.md) | Defense in Depth, WAF | 2 |
+| 5 | [Security Testing](./05-security-testing/README.md) | SAST, DAST, SCA | 2 |
+| 6 | [Compliance and Governance](./06-compliance-governance/README.md) | GDPR, HIPAA, Incident Response | 3 |
+
+---
+
+
 ## 1. 🛡️ Application Security
 
 ### 1.1 OWASP Top 10 (2021)
