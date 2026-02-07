@@ -18,6 +18,21 @@ By the end of this lesson, you will be able to:
 
 ---
 
+## Sub-lessons
+
+| # | Topic | Diagrams |
+|---|-------|----------|
+| 01 | [Cloud Computing Fundamentals](./01-cloud-computing-fundamentals/README.md) | 2 |
+| 02 | [Microsoft Azure](./02-microsoft-azure/README.md) | 3 |
+| 03 | [Amazon Web Services](./03-amazon-web-services/README.md) | 3 |
+| 04 | [Google Cloud Platform](./04-google-cloud-platform/README.md) | 2 |
+| 05 | [Service Comparison](./05-service-comparison/README.md) | 3 |
+| 06 | [Cloud-Native Design Principles](./06-cloud-native-design-principles/README.md) | 2 |
+| 07 | [Multi-Cloud & Hybrid Strategies](./07-multi-cloud-hybrid-strategies/README.md) | 2 |
+| 08 | [Cost Optimization & Well-Architected](./08-cost-optimization-well-architected/README.md) | 2 |
+
+---
+
 ## 1. 💡 Cloud Computing Fundamentals
 
 ### 1.1 Service Models

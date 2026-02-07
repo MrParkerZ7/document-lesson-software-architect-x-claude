@@ -18,6 +18,20 @@ By the end of this lesson, you will be able to:
 
 ---
 
+## Sub-lessons
+
+| # | Topic | Diagrams |
+|---|-------|----------|
+| 01 | [Communication](./01-communication/README.md) | 1 |
+| 02 | [Leadership](./02-leadership/README.md) | 1 |
+| 03 | [Business Acumen](./03-business-acumen/README.md) | 1 |
+| 04 | [Decision Making](./04-decision-making/README.md) | 1 |
+| 05 | [Problem Solving](./05-problem-solving/README.md) | 1 |
+| 06 | [Continuous Learning](./06-continuous-learning/README.md) | 1 |
+| 07 | [Work-Life Balance](./07-work-life-balance/README.md) | 0 |
+
+---
+
 ## 1. 🗣️ Communication
 
 ### 1.1 Communication Matrix

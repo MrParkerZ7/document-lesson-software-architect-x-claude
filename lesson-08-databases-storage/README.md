@@ -18,6 +18,20 @@ By the end of this lesson, you will be able to:
 
 ---
 
+## Sub-lessons
+
+| # | Topic | Diagrams |
+|---|-------|----------|
+| 01 | [Database Types Overview](./01-database-types-overview/README.md) | 1 |
+| 02 | [Relational Databases](./02-relational-databases/README.md) | 1 |
+| 03 | [NoSQL Databases](./03-nosql-databases/README.md) | 1 |
+| 04 | [CAP Theorem & Consistency](./04-cap-theorem-consistency/README.md) | 1 |
+| 05 | [Caching](./05-caching/README.md) | 1 |
+| 06 | [Storage Solutions](./06-storage-solutions/README.md) | 1 |
+| 07 | [Database Selection Guide](./07-database-selection-guide/README.md) | 1 |
+
+---
+
 ## 1. 📊 Database Types Overview
 
 ```
