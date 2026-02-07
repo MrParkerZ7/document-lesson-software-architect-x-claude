@@ -247,9 +247,9 @@ Architects typically operate through influence rather than direct authority:
 
 ## Diagrams in This Section
 
-- [2.1-org-structure-small.drawio](./2.1-org-structure-small.drawio) | [PNG](./2.1-org-structure-small.png) | [SVG](./2.1-org-structure-small.svg)
-- [2.2-org-structure-medium.drawio](./2.2-org-structure-medium.drawio) | [PNG](./2.2-org-structure-medium.png) | [SVG](./2.2-org-structure-medium.svg)
-- [2.3-org-structure-large.drawio](./2.3-org-structure-large.drawio) | [PNG](./2.3-org-structure-large.png) | [SVG](./2.3-org-structure-large.svg)
-- [2.4-architect-role-hierarchy.drawio](./2.4-architect-role-hierarchy.drawio) | [PNG](./2.4-architect-role-hierarchy.png) | [SVG](./2.4-architect-role-hierarchy.svg)
-- [2.5-relationship-map.drawio](./2.5-relationship-map.drawio) | [PNG](./2.5-relationship-map.png) | [SVG](./2.5-relationship-map.svg)
-- [2.6-authority-vs-influence.drawio](./2.6-authority-vs-influence.drawio) | [PNG](./2.6-authority-vs-influence.png) | [SVG](./2.6-authority-vs-influence.svg)
+- [2.1-org-structure-small.drawio](./2.1-org-structure-small.drawio)
+- [2.2-org-structure-medium.drawio](./2.2-org-structure-medium.drawio)
+- [2.3-org-structure-large.drawio](./2.3-org-structure-large.drawio)
+- [2.4-architect-role-hierarchy.drawio](./2.4-architect-role-hierarchy.drawio)
+- [2.5-relationship-map.drawio](./2.5-relationship-map.drawio)
+- [2.6-authority-vs-influence.drawio](./2.6-authority-vs-influence.drawio)

@@ -34,6 +34,6 @@
 
 ## Diagrams in This Section
 
-- [5.1-data-modeling-levels.drawio](./5.1-data-modeling-levels.drawio) | [PNG](./5.1-data-modeling-levels.png) | [SVG](./5.1-data-modeling-levels.svg)
-- [5.2-etl-vs-elt.drawio](./5.2-etl-vs-elt.drawio) | [PNG](./5.2-etl-vs-elt.png) | [SVG](./5.2-etl-vs-elt.svg)
-- [5.3-data-warehouse-vs-lake.drawio](./5.3-data-warehouse-vs-lake.drawio) | [PNG](./5.3-data-warehouse-vs-lake.png) | [SVG](./5.3-data-warehouse-vs-lake.svg)
+- [5.1-data-modeling-levels.drawio](./5.1-data-modeling-levels.drawio)
+- [5.2-etl-vs-elt.drawio](./5.2-etl-vs-elt.drawio)
+- [5.3-data-warehouse-vs-lake.drawio](./5.3-data-warehouse-vs-lake.drawio)

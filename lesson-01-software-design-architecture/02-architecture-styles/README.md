@@ -125,9 +125,9 @@
 
 ## Diagrams in This Section
 
-- [2.1-monolithic-architecture.drawio](./2.1-monolithic-architecture.drawio) | [PNG](./2.1-monolithic-architecture.png) | [SVG](./2.1-monolithic-architecture.svg)
-- [2.2-microservices-architecture.drawio](./2.2-microservices-architecture.drawio) | [PNG](./2.2-microservices-architecture.png) | [SVG](./2.2-microservices-architecture.svg)
-- [2.3-soa-esb-architecture.drawio](./2.3-soa-esb-architecture.drawio) | [PNG](./2.3-soa-esb-architecture.png) | [SVG](./2.3-soa-esb-architecture.svg)
-- [2.4-serverless-architecture.drawio](./2.4-serverless-architecture.drawio) | [PNG](./2.4-serverless-architecture.png) | [SVG](./2.4-serverless-architecture.svg)
-- [2.5-event-driven-architecture.drawio](./2.5-event-driven-architecture.drawio) | [PNG](./2.5-event-driven-architecture.png) | [SVG](./2.5-event-driven-architecture.svg)
-- [2.6-architecture-styles-comparison.drawio](./2.6-architecture-styles-comparison.drawio) | [PNG](./2.6-architecture-styles-comparison.png) | [SVG](./2.6-architecture-styles-comparison.svg)
+- [2.1-monolithic-architecture.drawio](./2.1-monolithic-architecture.drawio)
+- [2.2-microservices-architecture.drawio](./2.2-microservices-architecture.drawio)
+- [2.3-soa-esb-architecture.drawio](./2.3-soa-esb-architecture.drawio)
+- [2.4-serverless-architecture.drawio](./2.4-serverless-architecture.drawio)
+- [2.5-event-driven-architecture.drawio](./2.5-event-driven-architecture.drawio)
+- [2.6-architecture-styles-comparison.drawio](./2.6-architecture-styles-comparison.drawio)

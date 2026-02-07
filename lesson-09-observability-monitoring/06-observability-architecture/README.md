@@ -39,8 +39,6 @@ Observability architecture brings together logs, metrics, and traces into a unif
 | Diagram | Description |
 |---------|-------------|
 | [6.1-observability-architecture.drawio](./6.1-observability-architecture.drawio) | Complete observability architecture |
-| [6.1-observability-architecture.png](./6.1-observability-architecture.png) | PNG export |
-| [6.1-observability-architecture.svg](./6.1-observability-architecture.svg) | SVG export |
 
 ## Summary
 

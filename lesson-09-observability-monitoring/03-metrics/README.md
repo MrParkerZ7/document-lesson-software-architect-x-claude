@@ -38,8 +38,6 @@ Metrics are numeric measurements collected at regular intervals that provide qua
 | Diagram | Description |
 |---------|-------------|
 | [3.1-metrics-types.drawio](./3.1-metrics-types.drawio) | Overview of metric types and their applications |
-| [3.1-metrics-types.png](./3.1-metrics-types.png) | PNG export |
-| [3.1-metrics-types.svg](./3.1-metrics-types.svg) | SVG export |
 
 ## Summary
 

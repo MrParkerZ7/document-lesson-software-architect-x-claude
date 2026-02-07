@@ -196,9 +196,9 @@ The architect's involvement varies throughout the Software Development Lifecycle
 
 ## Diagrams in This Section
 
-- [1.1-core-responsibilities.drawio](./1.1-core-responsibilities.drawio) | [PNG](./1.1-core-responsibilities.png) | [SVG](./1.1-core-responsibilities.svg)
-- [1.2-daily-activities-time.drawio](./1.2-daily-activities-time.drawio) | [PNG](./1.2-daily-activities-time.png) | [SVG](./1.2-daily-activities-time.svg)
-- [1.3-key-deliverables.drawio](./1.3-key-deliverables.drawio) | [PNG](./1.3-key-deliverables.png) | [SVG](./1.3-key-deliverables.svg)
-- [1.4-decision-making-process.drawio](./1.4-decision-making-process.drawio) | [PNG](./1.4-decision-making-process.png) | [SVG](./1.4-decision-making-process.svg)
-- [1.5-stakeholder-interactions.drawio](./1.5-stakeholder-interactions.drawio) | [PNG](./1.5-stakeholder-interactions.png) | [SVG](./1.5-stakeholder-interactions.svg)
-- [1.6-sdlc-involvement.drawio](./1.6-sdlc-involvement.drawio) | [PNG](./1.6-sdlc-involvement.png) | [SVG](./1.6-sdlc-involvement.svg)
+- [1.1-core-responsibilities.drawio](./1.1-core-responsibilities.drawio)
+- [1.2-daily-activities-time.drawio](./1.2-daily-activities-time.drawio)
+- [1.3-key-deliverables.drawio](./1.3-key-deliverables.drawio)
+- [1.4-decision-making-process.drawio](./1.4-decision-making-process.drawio)
+- [1.5-stakeholder-interactions.drawio](./1.5-stakeholder-interactions.drawio)
+- [1.6-sdlc-involvement.drawio](./1.6-sdlc-involvement.drawio)

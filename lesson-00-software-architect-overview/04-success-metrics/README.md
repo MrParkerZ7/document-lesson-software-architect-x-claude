@@ -39,4 +39,4 @@
 
 ## Diagrams in This Section
 
-- [4.1-success-metrics-kpis.drawio](./4.1-success-metrics-kpis.drawio) | [PNG](./4.1-success-metrics-kpis.png) | [SVG](./4.1-success-metrics-kpis.svg)
+- [4.1-success-metrics-kpis.drawio](./4.1-success-metrics-kpis.drawio)

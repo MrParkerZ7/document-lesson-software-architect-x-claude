@@ -36,8 +36,6 @@ The three pillars of observability - logs, metrics, and traces - form the founda
 | Diagram | Description |
 |---------|-------------|
 | [1.1-three-pillars.drawio](./1.1-three-pillars.drawio) | Overview of the three pillars of observability |
-| [1.1-three-pillars.png](./1.1-three-pillars.png) | PNG export |
-| [1.1-three-pillars.svg](./1.1-three-pillars.svg) | SVG export |
 
 ## Summary
 

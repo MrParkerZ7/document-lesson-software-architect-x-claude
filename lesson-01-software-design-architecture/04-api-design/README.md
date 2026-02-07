@@ -88,8 +88,8 @@ service UserService {
 
 ## Diagrams in This Section
 
-- [4.1-rest-api-flow.drawio](./4.1-rest-api-flow.drawio) | [PNG](./4.1-rest-api-flow.png) | [SVG](./4.1-rest-api-flow.svg)
-- [4.2-graphql-flow.drawio](./4.2-graphql-flow.drawio) | [PNG](./4.2-graphql-flow.png) | [SVG](./4.2-graphql-flow.svg)
-- [4.3-grpc-communication.drawio](./4.3-grpc-communication.drawio) | [PNG](./4.3-grpc-communication.png) | [SVG](./4.3-grpc-communication.svg)
-- [4.4-websocket-flow.drawio](./4.4-websocket-flow.drawio) | [PNG](./4.4-websocket-flow.png) | [SVG](./4.4-websocket-flow.svg)
-- [4.5-api-styles-comparison.drawio](./4.5-api-styles-comparison.drawio) | [PNG](./4.5-api-styles-comparison.png) | [SVG](./4.5-api-styles-comparison.svg)
+- [4.1-rest-api-flow.drawio](./4.1-rest-api-flow.drawio)
+- [4.2-graphql-flow.drawio](./4.2-graphql-flow.drawio)
+- [4.3-grpc-communication.drawio](./4.3-grpc-communication.drawio)
+- [4.4-websocket-flow.drawio](./4.4-websocket-flow.drawio)
+- [4.5-api-styles-comparison.drawio](./4.5-api-styles-comparison.drawio)

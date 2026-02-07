@@ -31,4 +31,4 @@
 
 ## Diagrams in This Section
 
-- [3.1-challenges-antipatterns.drawio](./3.1-challenges-antipatterns.drawio) | [PNG](./3.1-challenges-antipatterns.png) | [SVG](./3.1-challenges-antipatterns.svg)
+- [3.1-challenges-antipatterns.drawio](./3.1-challenges-antipatterns.drawio)

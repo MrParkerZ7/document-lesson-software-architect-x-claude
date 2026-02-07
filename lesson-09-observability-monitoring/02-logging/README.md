@@ -38,8 +38,6 @@ Logging is the foundation of observability, providing detailed records of events
 | Diagram | Description |
 |---------|-------------|
 | [2.1-logging-stack.drawio](./2.1-logging-stack.drawio) | Logging stack architecture |
-| [2.1-logging-stack.png](./2.1-logging-stack.png) | PNG export |
-| [2.1-logging-stack.svg](./2.1-logging-stack.svg) | SVG export |
 
 ## Summary
 

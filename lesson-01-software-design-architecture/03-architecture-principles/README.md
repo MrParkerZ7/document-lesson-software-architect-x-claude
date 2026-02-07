@@ -30,5 +30,5 @@
 
 ## Diagrams in This Section
 
-- [3.1-solid-principles.drawio](./3.1-solid-principles.drawio) | [PNG](./3.1-solid-principles.png) | [SVG](./3.1-solid-principles.svg)
-- [3.2-dependency-inversion.drawio](./3.2-dependency-inversion.drawio) | [PNG](./3.2-dependency-inversion.png) | [SVG](./3.2-dependency-inversion.svg)
+- [3.1-solid-principles.drawio](./3.1-solid-principles.drawio)
+- [3.2-dependency-inversion.drawio](./3.2-dependency-inversion.drawio)

@@ -38,8 +38,6 @@ Alerting transforms observability data into actionable notifications. An effecti
 | Diagram | Description |
 |---------|-------------|
 | [5.1-alerting-strategy.drawio](./5.1-alerting-strategy.drawio) | Alerting strategy and workflow |
-| [5.1-alerting-strategy.png](./5.1-alerting-strategy.png) | PNG export |
-| [5.1-alerting-strategy.svg](./5.1-alerting-strategy.svg) | SVG export |
 
 ## Summary
 

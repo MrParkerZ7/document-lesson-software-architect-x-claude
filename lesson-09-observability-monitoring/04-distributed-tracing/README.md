@@ -38,8 +38,6 @@ Distributed tracing tracks requests as they flow through multiple services, prov
 | Diagram | Description |
 |---------|-------------|
 | [4.1-distributed-tracing.drawio](./4.1-distributed-tracing.drawio) | Distributed tracing architecture and flow |
-| [4.1-distributed-tracing.png](./4.1-distributed-tracing.png) | PNG export |
-| [4.1-distributed-tracing.svg](./4.1-distributed-tracing.svg) | SVG export |
 
 ## Summary
 
