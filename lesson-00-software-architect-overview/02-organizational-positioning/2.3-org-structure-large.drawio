@@ -6,115 +6,115 @@
         <mxCell id="1" parent="0" />
 
         <!-- Title -->
-        <mxCell id="title" value="🏗️ Architect in Large Enterprise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="title" value="Architect in Large Enterprise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1a1a1a;" parent="1" vertex="1">
           <mxGeometry x="500" y="20" width="500" height="40" as="geometry" />
         </mxCell>
 
         <!-- Org Structure Box -->
-        <mxCell id="org-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="org-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="70" width="1340" height="580" as="geometry" />
         </mxCell>
 
         <!-- Level 1: CTO -->
-        <mxCell id="cto" value="CTO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="cto" value="CTO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="700" y="90" width="100" height="50" as="geometry" />
         </mxCell>
 
         <!-- Level 2: VPs and Chief Architect -->
-        <mxCell id="vp-eng" value="VP of&#xa;Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="vp-eng" value="VP of&#xa;Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="300" y="180" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="chief-arch" value="Chief&#xa;Architect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="chief-arch" value="Chief&#xa;Architect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="700" y="180" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vp-platform" value="VP of&#xa;Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="vp-platform" value="VP of&#xa;Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1100" y="180" width="100" height="50" as="geometry" />
         </mxCell>
 
         <!-- Lines from CTO -->
-        <mxCell id="cto-vpe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;" parent="1" source="cto" target="vp-eng" edge="1">
+        <mxCell id="cto-vpe" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="cto" target="vp-eng" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cto-ca" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;" parent="1" source="cto" target="chief-arch" edge="1">
+        <mxCell id="cto-ca" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="cto" target="chief-arch" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cto-vpp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;" parent="1" source="cto" target="vp-platform" edge="1">
+        <mxCell id="cto-vpp" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="cto" target="vp-platform" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Level 3: Directors and Architect types -->
-        <mxCell id="dir-eng" value="Dir of&#xa;Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="dir-eng" value="Dir of&#xa;Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="180" y="280" width="85" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="enterprise-arch" value="Enterprise&#xa;Architects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="enterprise-arch" value="Enterprise&#xa;Architects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="530" y="280" width="85" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="domain-arch" value="Domain&#xa;Architects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="domain-arch" value="Domain&#xa;Architects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="710" y="280" width="85" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="platform-arch" value="Platform&#xa;Architect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="platform-arch" value="Platform&#xa;Architect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="890" y="280" width="85" height="45" as="geometry" />
         </mxCell>
 
         <!-- Lines from Level 2 to Level 3 -->
-        <mxCell id="vpe-de" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=none;" parent="1" source="vp-eng" target="dir-eng" edge="1">
+        <mxCell id="vpe-de" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="vp-eng" target="dir-eng" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ca-ea" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;strokeWidth=1;endArrow=none;" parent="1" source="chief-arch" target="enterprise-arch" edge="1">
+        <mxCell id="ca-ea" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="chief-arch" target="enterprise-arch" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ca-da" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;strokeWidth=1;endArrow=none;" parent="1" source="chief-arch" target="domain-arch" edge="1">
+        <mxCell id="ca-da" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="chief-arch" target="domain-arch" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ca-pa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;strokeWidth=1;endArrow=none;" parent="1" source="chief-arch" target="platform-arch" edge="1">
+        <mxCell id="ca-pa" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="chief-arch" target="platform-arch" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Level 4 -->
-        <mxCell id="dev-teams" value="Dev&#xa;Teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="dev-teams" value="Dev&#xa;Teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="180" y="370" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sol-arch-1" value="Solution&#xa;Architects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="sol-arch-1" value="Solution&#xa;Architects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="530" y="370" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sol-arch-2" value="Solution&#xa;Architects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="sol-arch-2" value="Solution&#xa;Architects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="710" y="370" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cloud-arch" value="Cloud&#xa;Architects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="cloud-arch" value="Cloud&#xa;Architects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="890" y="370" width="70" height="40" as="geometry" />
         </mxCell>
 
         <!-- Platform side -->
-        <mxCell id="platform-dir" value="Platform&#xa;Director" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="platform-dir" value="Platform&#xa;Director" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1100" y="280" width="85" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="vpp-pd" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=none;" parent="1" source="vp-platform" target="platform-dir" edge="1">
+        <mxCell id="vpp-pd" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="vp-platform" target="platform-dir" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
-        <mxCell id="platform-teams" value="Platform&#xa;Teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="platform-teams" value="Platform&#xa;Teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1100" y="370" width="70" height="40" as="geometry" />
         </mxCell>
 
         <!-- Lines Level 3 to 4 -->
-        <mxCell id="de-dt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=none;" parent="1" source="dir-eng" target="dev-teams" edge="1">
+        <mxCell id="de-dt" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="dir-eng" target="dev-teams" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ea-sa1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;strokeWidth=1;endArrow=none;" parent="1" source="enterprise-arch" target="sol-arch-1" edge="1">
+        <mxCell id="ea-sa1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="enterprise-arch" target="sol-arch-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="da-sa2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;strokeWidth=1;endArrow=none;" parent="1" source="domain-arch" target="sol-arch-2" edge="1">
+        <mxCell id="da-sa2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="domain-arch" target="sol-arch-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pa-ca" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#82b366;strokeWidth=1;endArrow=none;" parent="1" source="platform-arch" target="cloud-arch" edge="1">
+        <mxCell id="pa-ca" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="platform-arch" target="cloud-arch" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pd-pt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=none;" parent="1" source="platform-dir" target="platform-teams" edge="1">
+        <mxCell id="pd-pt" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="platform-dir" target="platform-teams" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Note Box -->
-        <mxCell id="note-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="note-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="450" width="1200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="note-title" value="Characteristics of Large Enterprise Architect Organization:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">

@@ -6,12 +6,12 @@
         <mxCell id="1" parent="0" />
 
         <!-- Title -->
-        <mxCell id="title" value="🏗️ Architect Success Metrics &amp; KPIs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="title" value="Architect Success Metrics and KPIs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1a1a1a;" parent="1" vertex="1">
           <mxGeometry x="400" y="20" width="500" height="40" as="geometry" />
         </mxCell>
 
         <!-- Dashboard Style Layout -->
-        <mxCell id="dashboard" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="dashboard" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="1120" height="520" as="geometry" />
         </mxCell>
         <mxCell id="dash-title" value="Architect KPI Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
@@ -19,7 +19,7 @@
         </mxCell>
 
         <!-- Technical Health Box -->
-        <mxCell id="tech-health" value="⚙️ TECHNICAL HEALTH" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="tech-health" value="TECHNICAL HEALTH" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="140" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="th-item1" value="System Availability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;" parent="tech-health" vertex="1">
@@ -54,7 +54,7 @@
         </mxCell>
 
         <!-- Delivery Impact Box -->
-        <mxCell id="delivery" value="🔧 DELIVERY IMPACT" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="delivery" value="DELIVERY IMPACT" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="140" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="del-item1" value="Sprint Velocity Trend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;" parent="delivery" vertex="1">
@@ -89,7 +89,7 @@
         </mxCell>
 
         <!-- Stakeholder Satisfaction Box -->
-        <mxCell id="stakeholder" value="👤 STAKEHOLDER SATISFACTION" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="stakeholder" value="STAKEHOLDER SATISFACTION" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="140" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="st-item1" value="Product NPS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;" parent="stakeholder" vertex="1">
@@ -124,7 +124,7 @@
         </mxCell>
 
         <!-- Team Growth Box -->
-        <mxCell id="growth" value="📈 TEAM GROWTH &amp; KNOWLEDGE" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="growth" value="TEAM GROWTH AND KNOWLEDGE" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="360" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="gr-item1" value="Knowledge Sessions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;" parent="growth" vertex="1">
@@ -163,39 +163,39 @@
           <mxGeometry x="500" y="360" width="200" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="cat-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" parent="1" vertex="1">
+        <mxCell id="cat-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="410" y="395" width="540" height="145" as="geometry" />
         </mxCell>
 
-        <mxCell id="cat1" value="Technical Quality" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="cat1" value="Technical Quality" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="430" y="410" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cat1-ex" value="Uptime, performance,&#xa;security, code quality" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="430" y="440" width="140" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="cat2" value="Delivery Impact" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="cat2" value="Delivery Impact" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="590" y="410" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cat2-ex" value="Velocity, blockers,&#xa;release frequency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="590" y="440" width="140" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="cat3" value="Team Effectiveness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="cat3" value="Team Effectiveness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="750" y="410" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cat3-ex" value="Knowledge sharing,&#xa;onboarding, mentoring" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="750" y="440" width="140" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="cat4" value="Business Alignment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="cat4" value="Business Alignment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="430" y="480" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cat4-ex" value="Requirements met,&#xa;stakeholder satisfaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="430" y="510" width="140" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="cat5" value="Evolution &amp; Innovation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="cat5" value="Evolution and Innovation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="590" y="480" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cat5-ex" value="Tech debt reduction,&#xa;new tech adoption" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">

@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
 
         <!-- Title -->
-        <mxCell id="title" value="🏗️ Architect Role Hierarchy &amp; Scope" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="title" value="Architect Role Hierarchy and Scope" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1a1a1a;" parent="1" vertex="1">
           <mxGeometry x="400" y="20" width="500" height="40" as="geometry" />
         </mxCell>
 
@@ -33,7 +33,7 @@
         </mxCell>
 
         <!-- Level 1: Chief/Principal -->
-        <mxCell id="chief" value="👤 Chief / Principal Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="chief" value="Chief / Principal Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="100" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="chief-desc" value="Organization-wide technical vision&#xa;Technology strategy &amp; standards&#xa;Architecture governance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="chief" vertex="1">
@@ -41,21 +41,21 @@
         </mxCell>
 
         <!-- Level 2: Specialized Architects -->
-        <mxCell id="enterprise" value="🏢 Enterprise Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="enterprise" value="Enterprise Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="230" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="enterprise-desc" value="Business-IT alignment&#xa;Portfolio strategy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="enterprise" vertex="1">
           <mxGeometry y="25" width="180" height="45" as="geometry" />
         </mxCell>
 
-        <mxCell id="domain" value="🎯 Domain Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="domain" value="Domain Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="230" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="domain-desc" value="Business domain expertise&#xa;Domain-specific solutions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="domain" vertex="1">
           <mxGeometry y="25" width="180" height="45" as="geometry" />
         </mxCell>
 
-        <mxCell id="platform" value="⚙️ Platform Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="platform" value="Platform Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="230" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="platform-desc" value="Infrastructure &amp; cloud&#xa;DevOps &amp; platform services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="platform" vertex="1">
@@ -63,37 +63,37 @@
         </mxCell>
 
         <!-- Connection lines -->
-        <mxCell id="chief-to-ea" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=none;" parent="1" source="chief" target="enterprise" edge="1">
+        <mxCell id="chief-to-ea" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="chief" target="enterprise" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="chief-to-da" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=none;" parent="1" source="chief" target="domain" edge="1">
+        <mxCell id="chief-to-da" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="chief" target="domain" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="chief-to-pa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=none;" parent="1" source="chief" target="platform" edge="1">
+        <mxCell id="chief-to-pa" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="chief" target="platform" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Level 3: Solution Architect -->
-        <mxCell id="solution" value="🔧 Solution Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="solution" value="Solution Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="380" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="solution-desc" value="Project/product specific&#xa;End-to-end solution design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="solution" vertex="1">
           <mxGeometry y="25" width="180" height="45" as="geometry" />
         </mxCell>
 
-        <mxCell id="spec-to-sol" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=none;" parent="1" source="domain" target="solution" edge="1">
+        <mxCell id="spec-to-sol" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="domain" target="solution" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Level 4: Tech Lead -->
-        <mxCell id="techlead" value="🔧 Technical Lead / Application Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="techlead" value="Technical Lead / Application Architect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="520" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="techlead-desc" value="Team level&#xa;Application design &amp; frameworks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="techlead" vertex="1">
           <mxGeometry y="25" width="180" height="45" as="geometry" />
         </mxCell>
 
-        <mxCell id="sol-to-tl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1;endArrow=none;" parent="1" source="solution" target="techlead" edge="1">
+        <mxCell id="sol-to-tl" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=none;jumpStyle=arc;jumpSize=10;" parent="1" source="solution" target="techlead" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 

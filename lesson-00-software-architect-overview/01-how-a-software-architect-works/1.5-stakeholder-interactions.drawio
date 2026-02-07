@@ -6,17 +6,17 @@
         <mxCell id="1" parent="0" />
 
         <!-- Title -->
-        <mxCell id="title" value="🏗️ Software Architect Stakeholder Interactions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="title" value="Software Architect Stakeholder Interactions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1a1a1a;" parent="1" vertex="1">
           <mxGeometry x="400" y="20" width="500" height="40" as="geometry" />
         </mxCell>
 
         <!-- Central Architect -->
-        <mxCell id="architect" value="SOFTWARE&#xa;ARCHITECT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="architect" value="SOFTWARE&#xa;ARCHITECT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="580" y="320" width="140" height="80" as="geometry" />
         </mxCell>
 
         <!-- Executives -->
-        <mxCell id="executives" value="Executives / C-Suite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="executives" value="Executives / C-Suite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="560" y="90" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="exec-comm" value="Strategy alignment&#xa;Budget justification&#xa;Risk communication" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
@@ -25,12 +25,12 @@
         <mxCell id="exec-style" value="High-level, Business-focused, ROI-oriented" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="560" y="195" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="exec-line" style="edgeStyle=none;rounded=1;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" source="executives" target="architect" edge="1">
+        <mxCell id="exec-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="executives" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Product Management -->
-        <mxCell id="product" value="Product Managers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="product" value="Product Managers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="140" y="180" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="product-comm" value="Requirements clarification&#xa;Feasibility assessment&#xa;Timeline estimation" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
@@ -39,12 +39,12 @@
         <mxCell id="product-style" value="Feature-focused, Trade-off discussions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="140" y="285" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="product-line" style="edgeStyle=none;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" source="product" target="architect" edge="1">
+        <mxCell id="product-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="product" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Development Teams -->
-        <mxCell id="devteam" value="Development Teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="devteam" value="Development Teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="140" y="440" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="devteam-comm" value="Technical guidance&#xa;Design reviews&#xa;Mentoring" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
@@ -53,12 +53,12 @@
         <mxCell id="devteam-style" value="Detailed, Technical, Collaborative" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="140" y="545" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="devteam-line" style="edgeStyle=none;rounded=1;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" source="devteam" target="architect" edge="1">
+        <mxCell id="devteam-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="devteam" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Project Manager -->
-        <mxCell id="pm" value="Project Managers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="pm" value="Project Managers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="980" y="180" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pm-comm" value="Estimates &amp; risks&#xa;Planning support&#xa;Progress tracking" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
@@ -67,12 +67,12 @@
         <mxCell id="pm-style" value="Timeline-focused, Risk-aware" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="980" y="285" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pm-line" style="edgeStyle=none;rounded=1;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" source="pm" target="architect" edge="1">
+        <mxCell id="pm-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="pm" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- DevOps -->
-        <mxCell id="devops" value="DevOps / Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="devops" value="DevOps / Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="560" y="560" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="devops-comm" value="Deployment strategy&#xa;Infrastructure decisions&#xa;Operational concerns" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
@@ -81,12 +81,12 @@
         <mxCell id="devops-style" value="Practical, Operations-focused" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="560" y="665" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="devops-line" style="edgeStyle=none;rounded=1;html=1;strokeColor=#9673a6;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" source="devops" target="architect" edge="1">
+        <mxCell id="devops-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#9673a6;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="devops" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Security Team -->
-        <mxCell id="security" value="Security Team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="security" value="Security Team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="980" y="440" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="security-comm" value="Security architecture&#xa;Compliance&#xa;Threat modeling" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
@@ -95,7 +95,7 @@
         <mxCell id="security-style" value="Risk-focused, Compliance-oriented" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="980" y="545" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="security-line" style="edgeStyle=none;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" parent="1" source="security" target="architect" edge="1">
+        <mxCell id="security-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="security" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
