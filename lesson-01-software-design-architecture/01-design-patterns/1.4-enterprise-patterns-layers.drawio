@@ -1,121 +1,121 @@
 <mxfile host="65bd71144e">
     <diagram id="enterprise-patterns" name="Enterprise Patterns Layers">
-        <mxGraphModel dx="1222" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+        <mxGraphModel dx="978" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="title" value="🎨 Enterprise Patterns - Layered Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="400" y="20" width="500" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="presentation-layer" value="🏢 Presentation Layer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                <mxCell id="presentation-layer" value="🏢 Presentation Layer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="200" y="80" width="900" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="presentation-content" value="" style="fillColor=none;strokeColor=none;" parent="presentation-layer" vertex="1">
                     <mxGeometry y="30" width="900" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="controller" value="Controller&#xa;(MVC)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="controller" value="Controller&#xa;(MVC)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="250" y="120" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="viewmodel" value="ViewModel&#xa;(MVVM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="viewmodel" value="ViewModel&#xa;(MVVM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="380" y="120" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="dto-pres" value="DTO&#xa;(Data Transfer)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="dto-pres" value="DTO&#xa;(Data Transfer)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="510" y="120" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="presenter" value="Presenter&#xa;(MVP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="presenter" value="Presenter&#xa;(MVP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="640" y="120" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="service-layer" value="⚙️ Service Layer (Application Layer)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                <mxCell id="service-layer" value="⚙️ Service Layer (Application Layer)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="200" y="200" width="900" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="service-content" value="" style="fillColor=none;strokeColor=none;" parent="service-layer" vertex="1">
                     <mxGeometry y="30" width="900" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="app-service" value="Application&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="app-service" value="Application&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="240" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="facade" value="Facade" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="facade" value="Facade" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="420" y="240" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="dto-service" value="DTO&#xa;Assembler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="dto-service" value="DTO&#xa;Assembler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="560" y="240" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="unit-of-work" value="Unit of Work" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="unit-of-work" value="Unit of Work" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="700" y="240" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="domain-layer" value="📦 Domain Layer (Business Logic)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                <mxCell id="domain-layer" value="📦 Domain Layer (Business Logic)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="200" y="320" width="900" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="domain-content" value="" style="fillColor=none;strokeColor=none;" parent="domain-layer" vertex="1">
                     <mxGeometry y="30" width="900" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="domain-model" value="Domain Model&#xa;(Rich Entities)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+                <mxCell id="domain-model" value="Domain Model&#xa;(Rich Entities)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="250" y="360" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="domain-service" value="Domain&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="domain-service" value="Domain&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="390" y="360" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="value-object" value="Value&#xa;Objects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="value-object" value="Value&#xa;Objects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="520" y="360" width="90" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="aggregate" value="Aggregate&#xa;Root" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+                <mxCell id="aggregate" value="Aggregate&#xa;Root" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="640" y="360" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="domain-events" value="Domain&#xa;Events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="domain-events" value="Domain&#xa;Events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="770" y="360" width="90" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="infra-layer" value="🏢 Infrastructure Layer (Data Access)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                <mxCell id="infra-layer" value="🏢 Infrastructure Layer (Data Access)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="200" y="460" width="900" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="infra-content" value="" style="fillColor=none;strokeColor=none;" parent="infra-layer" vertex="1">
                     <mxGeometry y="30" width="900" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="repository" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+                <mxCell id="repository" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="500" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="data-mapper" value="Data Mapper&#xa;(ORM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="data-mapper" value="Data Mapper&#xa;(ORM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="420" y="500" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="gateway" value="Gateway&#xa;(External API)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="gateway" value="Gateway&#xa;(External API)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="560" y="500" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="query-object" value="Query&#xa;Object" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="query-object" value="Query&#xa;Object" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="700" y="500" width="90" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="database" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                <mxCell id="database" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="470" y="600" width="100" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="external-api" value="External&#xa;Services" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;" parent="1" vertex="1">
+                <mxCell id="external-api" value="External&#xa;Services" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="620" y="600" width="100" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow1" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+                <mxCell id="arrow1" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;shadow=1;flowAnimation=1;jumpStyle=arc;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="520" y="560" as="sourcePoint"/>
                         <mxPoint x="520" y="600" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arrow2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+                <mxCell id="arrow2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;shadow=1;flowAnimation=1;jumpStyle=arc;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="610" y="560" as="sourcePoint"/>
                         <mxPoint x="650" y="600" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="legend" value="📋 Pattern Categories" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+                <mxCell id="legend" value="📋 Pattern Categories" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1120" y="80" width="180" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend1" value="Core Pattern" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="legend" vertex="1">
+                <mxCell id="legend1" value="Core Pattern" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" parent="legend" vertex="1">
                     <mxGeometry y="25" width="180" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend2" value="DDD Pattern" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="legend" vertex="1">
+                <mxCell id="legend2" value="DDD Pattern" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" parent="legend" vertex="1">
                     <mxGeometry y="50" width="180" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend3" value="Data Transfer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="legend" vertex="1">
+                <mxCell id="legend3" value="Data Transfer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" parent="legend" vertex="1">
                     <mxGeometry y="75" width="180" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend4" value="Lifecycle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="legend" vertex="1">
+                <mxCell id="legend4" value="Lifecycle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;shadow=1;" parent="legend" vertex="1">
                     <mxGeometry y="100" width="180" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="legend5" value="Value Type" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="legend" vertex="1">
+                <mxCell id="legend5" value="Value Type" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" parent="legend" vertex="1">
                     <mxGeometry y="125" width="180" height="25" as="geometry"/>
                 </mxCell>
             </root>

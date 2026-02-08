@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Browser -->
-        <mxCell id="browser" value="Browser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="browser" value="Browser" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="100" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="browser-query" value="www.example.com" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;" parent="1" vertex="1">
@@ -19,67 +19,67 @@
         </mxCell>
 
         <!-- Local Cache -->
-        <mxCell id="local-cache" value="Browser&#xa;Cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="local-cache" value="Browser&#xa;Cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="100" width="80" height="50" as="geometry" />
         </mxCell>
 
         <!-- OS Cache -->
-        <mxCell id="os-cache" value="OS&#xa;Cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="os-cache" value="OS&#xa;Cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="100" width="80" height="50" as="geometry" />
         </mxCell>
 
         <!-- Recursive Resolver -->
-        <mxCell id="resolver" value="Recursive&#xa;Resolver&#xa;(ISP/Public)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="resolver" value="Recursive&#xa;Resolver&#xa;(ISP/Public)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="90" width="100" height="70" as="geometry" />
         </mxCell>
 
         <!-- Root DNS -->
-        <mxCell id="root-dns" value="Root DNS&#xa;Server&#xa;(.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="root-dns" value="Root DNS&#xa;Server&#xa;(.)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=11;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="90" width="90" height="70" as="geometry" />
         </mxCell>
 
         <!-- TLD DNS -->
-        <mxCell id="tld-dns" value="TLD DNS&#xa;Server&#xa;(.com)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="tld-dns" value="TLD DNS&#xa;Server&#xa;(.com)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="90" width="90" height="70" as="geometry" />
         </mxCell>
 
         <!-- Authoritative DNS -->
-        <mxCell id="auth-dns" value="Authoritative&#xa;DNS Server&#xa;(example.com)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="auth-dns" value="Authoritative&#xa;DNS Server&#xa;(example.com)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="90" width="110" height="70" as="geometry" />
         </mxCell>
 
         <!-- Arrows - Forward path -->
-        <mxCell id="arr1" value="1" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#6c8ebf;" parent="1" edge="1">
+        <mxCell id="arr1" value="1" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#6c8ebf;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="125" as="sourcePoint" />
             <mxPoint x="260" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr2" value="2" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d6b656;" parent="1" edge="1">
+        <mxCell id="arr2" value="2" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d6b656;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="125" as="sourcePoint" />
             <mxPoint x="400" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr3" value="3" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;" parent="1" edge="1">
+        <mxCell id="arr3" value="3" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="125" as="sourcePoint" />
             <mxPoint x="540" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr4" value="4" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#b85450;" parent="1" edge="1">
+        <mxCell id="arr4" value="4" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#b85450;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="115" as="sourcePoint" />
             <mxPoint x="700" y="115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr5" value="5" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d79b00;" parent="1" edge="1">
+        <mxCell id="arr5" value="5" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d79b00;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="790" y="115" as="sourcePoint" />
             <mxPoint x="850" y="115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr6" value="6" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#9673a6;" parent="1" edge="1">
+        <mxCell id="arr6" value="6" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#9673a6;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="940" y="115" as="sourcePoint" />
             <mxPoint x="1000" y="115" as="targetPoint" />
@@ -87,13 +87,13 @@
         </mxCell>
 
         <!-- Return arrows -->
-        <mxCell id="ret1" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#9673a6;dashed=1;" parent="1" edge="1">
+        <mxCell id="ret1" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#9673a6;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="140" as="sourcePoint" />
             <mxPoint x="640" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ret2" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#82b366;dashed=1;" parent="1" edge="1">
+        <mxCell id="ret2" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#82b366;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="140" as="sourcePoint" />
             <mxPoint x="200" y="140" as="targetPoint" />
@@ -101,50 +101,50 @@
         </mxCell>
 
         <!-- IP Result -->
-        <mxCell id="ip-result" value="93.184.216.34" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="ip-result" value="93.184.216.34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="180" width="100" height="30" as="geometry" />
         </mxCell>
 
         <!-- Step descriptions -->
-        <mxCell id="steps-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="steps-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="230" width="1040" height="150" as="geometry" />
         </mxCell>
         <mxCell id="steps-title" value="Resolution Steps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="240" width="160" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="step1" value="1. Check browser cache" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+        <mxCell id="step1" value="1. Check browser cache" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="275" width="180" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="step2" value="2. Check OS cache (hosts file)" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+        <mxCell id="step2" value="2. Check OS cache (hosts file)" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="302" width="180" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="step3" value="3. Query recursive resolver (ISP/8.8.8.8)" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+        <mxCell id="step3" value="3. Query recursive resolver (ISP/8.8.8.8)" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="329" width="220" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="step4" value="4. Root server returns TLD server address" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+        <mxCell id="step4" value="4. Root server returns TLD server address" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="356" width="220" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="step5" value="5. TLD server returns authoritative server" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+        <mxCell id="step5" value="5. TLD server returns authoritative server" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="275" width="220" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="step6" value="6. Authoritative server returns IP address" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+        <mxCell id="step6" value="6. Authoritative server returns IP address" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="302" width="220" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="step7" value="7. Resolver caches &amp; returns IP to client" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+        <mxCell id="step7" value="7. Resolver caches &amp; returns IP to client" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="329" width="220" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="step8" value="8. Browser connects to IP address" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;" parent="1" vertex="1">
+        <mxCell id="step8" value="8. Browser connects to IP address" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="356" width="220" height="22" as="geometry" />
         </mxCell>
 
         <!-- Note about caching -->
-        <mxCell id="cache-note" value="Caching: Most queries resolved from cache (TTL-based)" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="cache-note" value="Caching: Most queries resolved from cache (TTL-based)" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="340" width="280" height="25" as="geometry" />
         </mxCell>
 
         <!-- DNS Record Types -->
-        <mxCell id="records-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="records-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="400" width="1040" height="250" as="geometry" />
         </mxCell>
         <mxCell id="records-title" value="DNS Record Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
@@ -152,100 +152,100 @@
         </mxCell>
 
         <!-- Headers -->
-        <mxCell id="rth-type" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="rth-type" value="Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="445" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rth-purpose" value="Purpose" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="rth-purpose" value="Purpose" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="445" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rth-example" value="Example" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="rth-example" value="Example" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="445" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rth-usecase" value="Use Case" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="rth-usecase" value="Use Case" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="445" width="320" height="30" as="geometry" />
         </mxCell>
 
         <!-- A Record -->
-        <mxCell id="ra-type" value="A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="ra-type" value="A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="475" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ra-purpose" value="Maps domain to IPv4 address" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f5ff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ra-purpose" value="Maps domain to IPv4 address" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f5ff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="475" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ra-example" value="example.com â†’ 93.184.216.34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="ra-example" value="example.com â†’ 93.184.216.34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="475" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ra-usecase" value="Web servers, primary DNS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ra-usecase" value="Web servers, primary DNS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="475" width="320" height="30" as="geometry" />
         </mxCell>
 
         <!-- AAAA Record -->
-        <mxCell id="raaaa-type" value="AAAA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="raaaa-type" value="AAAA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="505" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="raaaa-purpose" value="Maps domain to IPv6 address" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="raaaa-purpose" value="Maps domain to IPv6 address" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="505" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="raaaa-example" value="example.com â†’ 2606:2800:220:1:..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="raaaa-example" value="example.com â†’ 2606:2800:220:1:..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="505" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="raaaa-usecase" value="IPv6 connectivity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="raaaa-usecase" value="IPv6 connectivity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="505" width="320" height="30" as="geometry" />
         </mxCell>
 
         <!-- CNAME Record -->
-        <mxCell id="rcname-type" value="CNAME" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="rcname-type" value="CNAME" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="535" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcname-purpose" value="Alias (points to another domain)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="rcname-purpose" value="Alias (points to another domain)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="535" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcname-example" value="www.example.com â†’ example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="rcname-example" value="www.example.com â†’ example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="535" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcname-usecase" value="CDN, load balancing aliases" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="rcname-usecase" value="CDN, load balancing aliases" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="535" width="320" height="30" as="geometry" />
         </mxCell>
 
         <!-- MX Record -->
-        <mxCell id="rmx-type" value="MX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="rmx-type" value="MX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="565" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rmx-purpose" value="Mail server for domain" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="rmx-purpose" value="Mail server for domain" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="565" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rmx-example" value="example.com â†’ 10 mail.example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="rmx-example" value="example.com â†’ 10 mail.example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="565" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rmx-usecase" value="Email routing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="rmx-usecase" value="Email routing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="565" width="320" height="30" as="geometry" />
         </mxCell>
 
         <!-- TXT Record -->
-        <mxCell id="rtxt-type" value="TXT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="rtxt-type" value="TXT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="595" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rtxt-purpose" value="Text data (verification, policies)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f0f7;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="rtxt-purpose" value="Text data (verification, policies)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f0f7;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="595" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rtxt-example" value="v=spf1 include:_spf.google.com ~all" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="rtxt-example" value="v=spf1 include:_spf.google.com ~all" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="595" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rtxt-usecase" value="SPF, DKIM, domain verification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="rtxt-usecase" value="SPF, DKIM, domain verification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="595" width="320" height="30" as="geometry" />
         </mxCell>
 
         <!-- NS Record -->
-        <mxCell id="rns-type" value="NS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="rns-type" value="NS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="625" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rns-purpose" value="Authoritative name server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="rns-purpose" value="Authoritative name server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="625" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rns-example" value="example.com â†’ ns1.example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="rns-example" value="example.com â†’ ns1.example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="625" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rns-usecase" value="DNS delegation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="rns-usecase" value="DNS delegation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="625" width="320" height="30" as="geometry" />
         </mxCell>
 

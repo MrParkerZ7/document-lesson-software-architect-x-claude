@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" etag="cap-theorem" version="22.1.5" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" etag="cap-theorem" version="22.1.5" type="device">
   <diagram name="CAP Theorem" id="cap-theorem-diagram">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- CAP Triangle Section -->
-        <mxCell id="cap-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="cap-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="580" height="400" as="geometry" />
         </mxCell>
         <mxCell id="cap-title" value="CAP Theorem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -22,12 +22,12 @@
         </mxCell>
 
         <!-- Triangle -->
-        <mxCell id="triangle" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#333333;strokeWidth=3;rotation=0;" vertex="1" parent="1">
+        <mxCell id="triangle" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#333333;strokeWidth=3;rotation=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="150" width="300" height="260" as="geometry" />
         </mxCell>
 
         <!-- C - Consistency -->
-        <mxCell id="c-node" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="c-node" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;fontSize=24;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="130" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c-label" value="Consistency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
@@ -38,7 +38,7 @@
         </mxCell>
 
         <!-- A - Availability -->
-        <mxCell id="a-node" value="A" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="a-node" value="A" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;fontSize=24;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="380" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a-label" value="Availability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
@@ -49,7 +49,7 @@
         </mxCell>
 
         <!-- P - Partition Tolerance -->
-        <mxCell id="p-node" value="P" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="p-node" value="P" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;fontSize=24;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="380" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p-label" value="Partition&#xa;Tolerance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
@@ -60,7 +60,7 @@
         </mxCell>
 
         <!-- CP -->
-        <mxCell id="cp-area" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;opacity=60;" vertex="1" parent="1">
+        <mxCell id="cp-area" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;opacity=60;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="200" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="cp-label" value="CP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
@@ -71,7 +71,7 @@
         </mxCell>
 
         <!-- AP -->
-        <mxCell id="ap-area" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;opacity=60;" vertex="1" parent="1">
+        <mxCell id="ap-area" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;opacity=60;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="310" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ap-label" value="AP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
@@ -82,7 +82,7 @@
         </mxCell>
 
         <!-- CA -->
-        <mxCell id="ca-area" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;opacity=60;" vertex="1" parent="1">
+        <mxCell id="ca-area" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;opacity=60;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="200" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ca-label" value="CA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
@@ -101,7 +101,7 @@
         </mxCell>
 
         <!-- ACID vs BASE Section -->
-        <mxCell id="acidbase-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="acidbase-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="80" width="720" height="400" as="geometry" />
         </mxCell>
         <mxCell id="acidbase-title" value="ACID vs BASE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -109,14 +109,14 @@
         </mxCell>
 
         <!-- ACID -->
-        <mxCell id="acid-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="acid-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="130" width="330" height="330" as="geometry" />
         </mxCell>
         <mxCell id="acid-title" value="ACID (Relational Databases)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
           <mxGeometry x="720" y="140" width="210" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="acid-a" value="A" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="acid-a" value="A" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="175" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="acid-a-title" value="Atomicity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
@@ -126,7 +126,7 @@
           <mxGeometry x="730" y="195" width="250" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="acid-c" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="acid-c" value="C" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="225" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="acid-c-title" value="Consistency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
@@ -136,7 +136,7 @@
           <mxGeometry x="730" y="245" width="250" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="acid-i" value="I" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="acid-i" value="I" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="275" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="acid-i-title" value="Isolation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
@@ -146,7 +146,7 @@
           <mxGeometry x="730" y="295" width="250" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="acid-d" value="D" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="acid-d" value="D" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="325" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="acid-d-title" value="Durability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
@@ -164,14 +164,14 @@
         </mxCell>
 
         <!-- BASE -->
-        <mxCell id="base-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="base-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="130" width="330" height="330" as="geometry" />
         </mxCell>
         <mxCell id="base-title" value="BASE (NoSQL Databases)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
           <mxGeometry x="1085" y="140" width="180" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="base-b" value="BA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="base-b" value="BA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="175" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="base-b-title" value="Basically Available" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
@@ -181,7 +181,7 @@
           <mxGeometry x="1080" y="195" width="250" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="base-s" value="S" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="base-s" value="S" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="235" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="base-s-title" value="Soft State" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
@@ -191,7 +191,7 @@
           <mxGeometry x="1080" y="255" width="250" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="base-e" value="E" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="base-e" value="E" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="295" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="base-e-title" value="Eventually Consistent" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
@@ -209,7 +209,7 @@
         </mxCell>
 
         <!-- Consistency Models -->
-        <mxCell id="consistency-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="consistency-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="500" width="1320" height="180" as="geometry" />
         </mxCell>
         <mxCell id="consistency-title" value="Consistency Models Spectrum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
@@ -217,7 +217,7 @@
         </mxCell>
 
         <!-- Spectrum Arrow -->
-        <mxCell id="spectrum-arrow" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;strokeColor=#666666;fillColor=#f5f5f5;width=20;endSize=6;startSize=6;" edge="1" parent="1">
+        <mxCell id="spectrum-arrow" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;strokeColor=#666666;fillColor=#f5f5f5;width=20;endSize=6;startSize=6;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="100" y="600" as="sourcePoint" />
             <mxPoint x="1300" y="600" as="targetPoint" />
@@ -231,7 +231,7 @@
         </mxCell>
 
         <!-- Consistency Types -->
-        <mxCell id="strong-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="strong-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="545" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="strong-title" value="Strong Consistency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#922b21;" vertex="1" parent="1">
@@ -241,7 +241,7 @@
           <mxGeometry x="95" y="575" width="170" height="65" as="geometry" />
         </mxCell>
 
-        <mxCell id="causal-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="causal-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="545" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="causal-title" value="Causal Consistency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
@@ -251,7 +251,7 @@
           <mxGeometry x="325" y="575" width="170" height="65" as="geometry" />
         </mxCell>
 
-        <mxCell id="ryw-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="ryw-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="545" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ryw-title" value="Read-Your-Writes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
@@ -261,7 +261,7 @@
           <mxGeometry x="555" y="575" width="170" height="65" as="geometry" />
         </mxCell>
 
-        <mxCell id="monotonic-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="monotonic-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="545" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="monotonic-title" value="Monotonic Reads" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
@@ -271,7 +271,7 @@
           <mxGeometry x="785" y="575" width="170" height="65" as="geometry" />
         </mxCell>
 
-        <mxCell id="eventual-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="eventual-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="545" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="eventual-title" value="Eventual Consistency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">

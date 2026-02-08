@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="gcp-data-services" version="22.1.5" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="gcp-data-services" version="22.1.5" type="device">
   <diagram name="GCP Data Services" id="gcp-data-services">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Cloud SQL Section -->
-        <mxCell id="sql-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="sql-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="sql-icon" value="🗄️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
@@ -25,7 +25,7 @@
         </mxCell>
 
         <!-- Cloud Spanner Section -->
-        <mxCell id="spanner-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="spanner-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="80" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="spanner-icon" value="🌐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
@@ -39,7 +39,7 @@
         </mxCell>
 
         <!-- Firestore Section -->
-        <mxCell id="firestore-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF7E0;strokeColor=#FBBC04;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="firestore-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF7E0;strokeColor=#FBBC04;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="80" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="firestore-icon" value="🔥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
@@ -53,7 +53,7 @@
         </mxCell>
 
         <!-- Bigtable Section -->
-        <mxCell id="bigtable-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF7E0;strokeColor=#FBBC04;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="bigtable-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF7E0;strokeColor=#FBBC04;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="80" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="bigtable-icon" value="📊" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
@@ -67,7 +67,7 @@
         </mxCell>
 
         <!-- BigQuery Section -->
-        <mxCell id="bq-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE8E6;strokeColor=#EA4335;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="bq-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCE8E6;strokeColor=#EA4335;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="80" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="bq-icon" value="🔍" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
@@ -81,7 +81,7 @@
         </mxCell>
 
         <!-- Cloud Storage Section -->
-        <mxCell id="gcs-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#34A853;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="gcs-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#34A853;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1140" y="80" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="gcs-icon" value="🪣" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
@@ -95,7 +95,7 @@
         </mxCell>
 
         <!-- Additional Services Row -->
-        <mxCell id="memorystore-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#34A853;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="memorystore-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#34A853;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="memorystore-title" value="Memorystore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#34A853;" parent="1" vertex="1">
@@ -105,7 +105,7 @@
           <mxGeometry x="50" y="315" width="160" height="95" as="geometry" />
         </mxCell>
 
-        <mxCell id="alloydb-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="alloydb-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="280" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="alloydb-title" value="AlloyDB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
@@ -115,7 +115,7 @@
           <mxGeometry x="250" y="315" width="160" height="95" as="geometry" />
         </mxCell>
 
-        <mxCell id="datastore-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF7E0;strokeColor=#FBBC04;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="datastore-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF7E0;strokeColor=#FBBC04;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="280" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="datastore-title" value="Datastore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#FBBC04;" parent="1" vertex="1">
@@ -131,7 +131,7 @@
         </mxCell>
 
         <!-- Table Header -->
-        <mxCell id="header-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;" parent="1" vertex="1">
+        <mxCell id="header-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="480" width="1300" height="35" as="geometry" />
         </mxCell>
         <mxCell id="h1" value="Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
@@ -169,7 +169,7 @@
         </mxCell>
 
         <!-- Row 1 - Cloud SQL -->
-        <mxCell id="row1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="515" width="1300" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r1c1" value="Cloud SQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
@@ -207,7 +207,7 @@
         </mxCell>
 
         <!-- Row 2 - Cloud Spanner -->
-        <mxCell id="row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="550" width="1300" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r2c1" value="Cloud Spanner" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
@@ -245,7 +245,7 @@
         </mxCell>
 
         <!-- Row 3 - Firestore -->
-        <mxCell id="row3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="585" width="1300" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r3c1" value="Firestore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
@@ -283,7 +283,7 @@
         </mxCell>
 
         <!-- Row 4 - Bigtable -->
-        <mxCell id="row4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="620" width="1300" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r4c1" value="Bigtable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
@@ -321,7 +321,7 @@
         </mxCell>
 
         <!-- Row 5 - BigQuery -->
-        <mxCell id="row5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="655" width="1300" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r5c1" value="BigQuery" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
@@ -359,7 +359,7 @@
         </mxCell>
 
         <!-- Row 6 - Cloud Storage -->
-        <mxCell id="row6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="690" width="1300" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r6c1" value="Cloud Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#202124;" parent="1" vertex="1">
@@ -401,22 +401,22 @@
           <mxGeometry x="500" y="740" width="300" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="guide1" value="SQL + ACID? → Cloud SQL / AlloyDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="guide1" value="SQL + ACID? → Cloud SQL / AlloyDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="775" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="guide2" value="Global SQL? → Cloud Spanner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="guide2" value="Global SQL? → Cloud Spanner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="775" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="guide3" value="Mobile/Web sync? → Firestore" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBBC04;strokeColor=#FBBC04;fontColor=#202124;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="guide3" value="Mobile/Web sync? → Firestore" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBBC04;strokeColor=#FBBC04;fontColor=#202124;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="775" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="guide4" value="Time-series/IoT? → Bigtable" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBBC04;strokeColor=#FBBC04;fontColor=#202124;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="guide4" value="Time-series/IoT? → Bigtable" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBBC04;strokeColor=#FBBC04;fontColor=#202124;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="775" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="guide5" value="Analytics/BI? → BigQuery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EA4335;strokeColor=#EA4335;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="guide5" value="Analytics/BI? → BigQuery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EA4335;strokeColor=#EA4335;fontColor=#FFFFFF;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="775" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="guide6" value="Object storage? → Cloud Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A853;strokeColor=#34A853;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="guide6" value="Object storage? → Cloud Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A853;strokeColor=#34A853;fontColor=#FFFFFF;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="775" width="180" height="30" as="geometry" />
         </mxCell>
 
@@ -425,39 +425,39 @@
           <mxGeometry x="500" y="820" width="300" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="ingest" value="Ingest&#xa;(Pub/Sub, Dataflow)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="ingest" value="Ingest&#xa;(Pub/Sub, Dataflow)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="850" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="process" value="Process&#xa;(Dataflow, Dataproc)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A853;strokeColor=#34A853;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="process" value="Process&#xa;(Dataflow, Dataproc)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34A853;strokeColor=#34A853;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="850" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="store" value="Store&#xa;(GCS, Bigtable)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBBC04;strokeColor=#FBBC04;fontColor=#202124;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="store" value="Store&#xa;(GCS, Bigtable)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBBC04;strokeColor=#FBBC04;fontColor=#202124;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="850" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="warehouse" value="Warehouse&#xa;(BigQuery)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EA4335;strokeColor=#EA4335;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="warehouse" value="Warehouse&#xa;(BigQuery)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EA4335;strokeColor=#EA4335;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="850" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="analyze" value="Analyze&#xa;(Looker, Data Studio)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9334E6;strokeColor=#9334E6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="analyze" value="Analyze&#xa;(Looker, Data Studio)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9334E6;strokeColor=#9334E6;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="850" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ml" value="ML&#xa;(Vertex AI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#202124;strokeColor=#202124;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="ml" value="ML&#xa;(Vertex AI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#202124;strokeColor=#202124;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="850" width="100" height="40" as="geometry" />
         </mxCell>
 
         <!-- Flow arrows -->
-        <mxCell id="f1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="ingest" target="process" edge="1">
+        <mxCell id="f1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" source="ingest" target="process" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="process" target="store" edge="1">
+        <mxCell id="f2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" source="process" target="store" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="store" target="warehouse" edge="1">
+        <mxCell id="f3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" source="store" target="warehouse" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="warehouse" target="analyze" edge="1">
+        <mxCell id="f4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" source="warehouse" target="analyze" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" parent="1" source="warehouse" target="ml" edge="1">
+        <mxCell id="f5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" source="warehouse" target="ml" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 

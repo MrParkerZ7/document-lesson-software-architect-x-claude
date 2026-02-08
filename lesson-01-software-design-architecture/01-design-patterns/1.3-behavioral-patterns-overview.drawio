@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="behavioral-patterns" name="Behavioral Patterns Overview">
     <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -11,161 +11,161 @@
         </mxCell>
 
         <!-- Observer Pattern -->
-        <mxCell id="observer-group" value="🎯 Observer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="observer-group" value="🎯 Observer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="260" height="180" as="geometry" />
         </mxCell>
         <mxCell id="observer-desc" value="Defines one-to-many dependency&#xa;so dependents are notified of changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="observer-group" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="observer-subject" value="Subject" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="observer-group" vertex="1">
+        <mxCell id="observer-subject" value="Subject" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" parent="observer-group" vertex="1">
           <mxGeometry x="90" y="65" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="observer-obs1" value="Observer A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="observer-group" vertex="1">
+        <mxCell id="observer-obs1" value="Observer A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;" parent="observer-group" vertex="1">
           <mxGeometry x="20" y="110" width="65" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="observer-obs2" value="Observer B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="observer-group" vertex="1">
+        <mxCell id="observer-obs2" value="Observer B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;" parent="observer-group" vertex="1">
           <mxGeometry x="95" y="110" width="65" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="observer-obs3" value="Observer C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="observer-group" vertex="1">
+        <mxCell id="observer-obs3" value="Observer C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;" parent="observer-group" vertex="1">
           <mxGeometry x="170" y="110" width="65" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="observer-arrow1" value="notify" style="endArrow=open;endFill=0;endSize=6;html=1;fontSize=8;" parent="observer-group" edge="1">
+        <mxCell id="observer-arrow1" value="notify" style="endArrow=open;endFill=0;endSize=6;html=1;fontSize=8;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="observer-group" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="95" as="sourcePoint" />
             <mxPoint x="52" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="observer-arrow2" value="" style="endArrow=open;endFill=0;endSize=6;html=1;fontSize=8;" parent="observer-group" edge="1">
+        <mxCell id="observer-arrow2" value="" style="endArrow=open;endFill=0;endSize=6;html=1;fontSize=8;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="observer-group" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="130" y="95" as="sourcePoint" />
             <mxPoint x="127" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="observer-arrow3" value="" style="endArrow=open;endFill=0;endSize=6;html=1;fontSize=8;" parent="observer-group" edge="1">
+        <mxCell id="observer-arrow3" value="" style="endArrow=open;endFill=0;endSize=6;html=1;fontSize=8;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="observer-group" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="155" y="95" as="sourcePoint" />
             <mxPoint x="202" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="observer-use" value="💡 Use: Event systems, Reactive programming" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="observer-group" vertex="1">
+        <mxCell id="observer-use" value="💡 Use: Event systems, Reactive programming" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="observer-group" vertex="1">
           <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
         </mxCell>
 
         <!-- Strategy Pattern -->
-        <mxCell id="strategy-group" value="🎯 Strategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="strategy-group" value="🎯 Strategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="320" y="80" width="260" height="180" as="geometry" />
         </mxCell>
         <mxCell id="strategy-desc" value="Defines family of algorithms&#xa;making them interchangeable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="strategy-group" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="strategy-context" value="Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="strategy-group" vertex="1">
+        <mxCell id="strategy-context" value="Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" parent="strategy-group" vertex="1">
           <mxGeometry x="20" y="75" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="strategy-interface" value="Strategy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=2;" parent="strategy-group" vertex="1">
+        <mxCell id="strategy-interface" value="Strategy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=2;shadow=1;" parent="strategy-group" vertex="1">
           <mxGeometry x="130" y="65" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="strategy-a" value="StrategyA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" parent="strategy-group" vertex="1">
+        <mxCell id="strategy-a" value="StrategyA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;shadow=1;" parent="strategy-group" vertex="1">
           <mxGeometry x="100" y="105" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="strategy-b" value="StrategyB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" parent="strategy-group" vertex="1">
+        <mxCell id="strategy-b" value="StrategyB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;shadow=1;" parent="strategy-group" vertex="1">
           <mxGeometry x="175" y="105" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="strategy-use" value="💡 Use: Payment processing, Sorting algorithms" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="strategy-group" vertex="1">
+        <mxCell id="strategy-use" value="💡 Use: Payment processing, Sorting algorithms" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="strategy-group" vertex="1">
           <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
         </mxCell>
 
         <!-- Command Pattern -->
-        <mxCell id="command-group" value="🎯 Command" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="command-group" value="🎯 Command" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="600" y="80" width="260" height="180" as="geometry" />
         </mxCell>
         <mxCell id="command-desc" value="Encapsulates request as object&#xa;allowing parameterization and queuing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="command-group" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="command-invoker" value="Invoker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="command-group" vertex="1">
+        <mxCell id="command-invoker" value="Invoker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" parent="command-group" vertex="1">
           <mxGeometry x="20" y="75" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="command-cmd" value="Command" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=2;" parent="command-group" vertex="1">
+        <mxCell id="command-cmd" value="Command" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=2;shadow=1;" parent="command-group" vertex="1">
           <mxGeometry x="100" y="75" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="command-receiver" value="Receiver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="command-group" vertex="1">
+        <mxCell id="command-receiver" value="Receiver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" parent="command-group" vertex="1">
           <mxGeometry x="185" y="75" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="command-concrete" value="ConcreteCommand" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" parent="command-group" vertex="1">
+        <mxCell id="command-concrete" value="ConcreteCommand" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;shadow=1;" parent="command-group" vertex="1">
           <mxGeometry x="85" y="110" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="command-use" value="💡 Use: Undo/redo, Task queues, Transactions" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="command-group" vertex="1">
+        <mxCell id="command-use" value="💡 Use: Undo/redo, Task queues, Transactions" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="command-group" vertex="1">
           <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
         </mxCell>
 
         <!-- State Pattern -->
-        <mxCell id="state-group" value="🎯 State" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="state-group" value="🎯 State" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="880" y="80" width="260" height="180" as="geometry" />
         </mxCell>
         <mxCell id="state-desc" value="Allows object to alter behavior&#xa;when internal state changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="state-group" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="state-context" value="Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="state-group" vertex="1">
+        <mxCell id="state-context" value="Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" parent="state-group" vertex="1">
           <mxGeometry x="20" y="75" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="state-interface" value="State" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=2;" parent="state-group" vertex="1">
+        <mxCell id="state-interface" value="State" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=2;shadow=1;" parent="state-group" vertex="1">
           <mxGeometry x="130" y="65" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="state-a" value="StateA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="state-group" vertex="1">
+        <mxCell id="state-a" value="StateA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;" parent="state-group" vertex="1">
           <mxGeometry x="100" y="105" width="55" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="state-b" value="StateB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="state-group" vertex="1">
+        <mxCell id="state-b" value="StateB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;" parent="state-group" vertex="1">
           <mxGeometry x="170" y="105" width="55" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="state-use" value="💡 Use: Workflow engines, Game states" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="state-group" vertex="1">
+        <mxCell id="state-use" value="💡 Use: Workflow engines, Game states" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="state-group" vertex="1">
           <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
         </mxCell>
 
         <!-- Template Method Pattern -->
-        <mxCell id="template-group" value="🎯 Template Method" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="template-group" value="🎯 Template Method" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="1160" y="80" width="260" height="180" as="geometry" />
         </mxCell>
         <mxCell id="template-desc" value="Defines skeleton of algorithm&#xa;letting subclasses override steps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="template-group" vertex="1">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="template-abstract" value="AbstractClass&#xa;+templateMethod()&#xa;#step1() #step2()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;fontStyle=2;" parent="template-group" vertex="1">
+        <mxCell id="template-abstract" value="AbstractClass&#xa;+templateMethod()&#xa;#step1() #step2()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;fontStyle=2;shadow=1;" parent="template-group" vertex="1">
           <mxGeometry x="80" y="60" width="100" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="template-concrete1" value="ConcreteA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" parent="template-group" vertex="1">
+        <mxCell id="template-concrete1" value="ConcreteA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;shadow=1;" parent="template-group" vertex="1">
           <mxGeometry x="45" y="115" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="template-concrete2" value="ConcreteB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" parent="template-group" vertex="1">
+        <mxCell id="template-concrete2" value="ConcreteB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;shadow=1;" parent="template-group" vertex="1">
           <mxGeometry x="145" y="115" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="template-use" value="💡 Use: Frameworks, Lifecycle hooks" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="template-group" vertex="1">
+        <mxCell id="template-use" value="💡 Use: Frameworks, Lifecycle hooks" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="template-group" vertex="1">
           <mxGeometry x="10" y="150" width="240" height="20" as="geometry" />
         </mxCell>
 
         <!-- Chain of Responsibility Pattern -->
-        <mxCell id="chain-group" value="🎯 Chain of Responsibility" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="chain-group" value="🎯 Chain of Responsibility" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="1440" y="80" width="280" height="180" as="geometry" />
         </mxCell>
         <mxCell id="chain-desc" value="Passes request along chain of handlers&#xa;until one handles it" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="chain-group" vertex="1">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="chain-handler1" value="Handler A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="chain-group" vertex="1">
+        <mxCell id="chain-handler1" value="Handler A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" parent="chain-group" vertex="1">
           <mxGeometry x="20" y="80" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="chain-handler2" value="Handler B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="chain-group" vertex="1">
+        <mxCell id="chain-handler2" value="Handler B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" parent="chain-group" vertex="1">
           <mxGeometry x="105" y="80" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="chain-handler3" value="Handler C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="chain-group" vertex="1">
+        <mxCell id="chain-handler3" value="Handler C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;shadow=1;" parent="chain-group" vertex="1">
           <mxGeometry x="190" y="80" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="chain-arrow1" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="chain-group" source="chain-handler1" target="chain-handler2" edge="1">
+        <mxCell id="chain-arrow1" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="chain-group" source="chain-handler1" target="chain-handler2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="chain-arrow2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="chain-group" source="chain-handler2" target="chain-handler3" edge="1">
+        <mxCell id="chain-arrow2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="chain-group" source="chain-handler2" target="chain-handler3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="chain-request" value="Request →" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;" parent="chain-group" vertex="1">
           <mxGeometry x="20" y="115" width="60" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="chain-use" value="💡 Use: Middleware, Validation, Event handling" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="chain-group" vertex="1">
+        <mxCell id="chain-use" value="💡 Use: Middleware, Validation, Event handling" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="chain-group" vertex="1">
           <mxGeometry x="15" y="150" width="250" height="20" as="geometry" />
         </mxCell>
 

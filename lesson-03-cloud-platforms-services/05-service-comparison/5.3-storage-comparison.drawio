@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="storage-comparison" version="22.1.5" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="storage-comparison" version="22.1.5" type="device">
   <diagram name="Cross-Cloud Storage Comparison" id="storage-comparison">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0">
       <root>
@@ -16,19 +16,19 @@
         </mxCell>
 
         <!-- Object Storage -->
-        <mxCell id="object-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F3FF;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="object-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F3FF;strokeColor=#4285F4;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="110" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="object-title" value="🪣 Object Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4285F4;" parent="1" vertex="1">
           <mxGeometry x="120" y="120" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="object-aws" value="AWS S3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="object-aws" value="AWS S3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="155" width="80" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="object-azure" value="Azure Blob" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#0078D4;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="object-azure" value="Azure Blob" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#0078D4;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="155" width="80" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="object-gcp" value="Cloud Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="object-gcp" value="Cloud Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="155" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="object-desc" value="• Unstructured data (files, images, videos)&#xa;• 11 9's durability&#xa;• Storage classes (Hot/Cool/Archive)&#xa;• CDN integration&#xa;• Versioning &amp; lifecycle policies&#xa;• Pay per GB stored + requests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -36,19 +36,19 @@
         </mxCell>
 
         <!-- Block Storage -->
-        <mxCell id="block-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="block-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="110" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="block-title" value="💾 Block Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" parent="1" vertex="1">
           <mxGeometry x="460" y="120" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="block-aws" value="EBS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="block-aws" value="EBS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="155" width="80" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="block-azure" value="Managed Disks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#0078D4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="block-azure" value="Managed Disks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#0078D4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="155" width="80" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="block-gcp" value="Persistent Disk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="block-gcp" value="Persistent Disk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="155" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="block-desc" value="• VM disk storage&#xa;• SSD &amp; HDD options&#xa;• Snapshots &amp; cloning&#xa;• Encryption at rest&#xa;• IOPS provisioning&#xa;• Pay per GB provisioned" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -56,19 +56,19 @@
         </mxCell>
 
         <!-- File Storage -->
-        <mxCell id="file-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#34A853;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="file-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#34A853;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="110" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="file-title" value="📁 File Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#34A853;" parent="1" vertex="1">
           <mxGeometry x="800" y="120" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="file-aws" value="EFS / FSx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="file-aws" value="EFS / FSx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="155" width="80" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="file-azure" value="Azure Files" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#0078D4;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="file-azure" value="Azure Files" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#0078D4;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="155" width="80" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="file-gcp" value="Filestore" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="file-gcp" value="Filestore" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="155" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="file-desc" value="• Shared file systems&#xa;• NFS/SMB protocols&#xa;• Multi-attach support&#xa;• POSIX compliant&#xa;• Active Directory integration&#xa;• Pay per GB + throughput" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -76,19 +76,19 @@
         </mxCell>
 
         <!-- Archive Storage -->
-        <mxCell id="archive-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="archive-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="110" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="archive-title" value="🗄️ Archive Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#9C27B0;" parent="1" vertex="1">
           <mxGeometry x="1130" y="120" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="archive-aws" value="S3 Glacier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="archive-aws" value="S3 Glacier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="155" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="archive-azure" value="Archive Tier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#0078D4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="archive-azure" value="Archive Tier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=#0078D4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="155" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="archive-gcp" value="Archive Class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="archive-gcp" value="Archive Class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1260" y="155" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="archive-desc" value="• Long-term retention&#xa;• Lowest cost storage&#xa;• Retrieval time varies&#xa;• Compliance/legal holds&#xa;• Immutability options&#xa;• Pay per GB + retrieval" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -101,7 +101,7 @@
         </mxCell>
 
         <!-- Table Header -->
-        <mxCell id="table-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;" parent="1" vertex="1">
+        <mxCell id="table-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="370" width="1320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="th1" value="Use Case" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
@@ -130,7 +130,7 @@
         </mxCell>
 
         <!-- Row 1 - Hot/Frequent -->
-        <mxCell id="row1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="1320" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r1c1" value="Frequent Access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -159,7 +159,7 @@
         </mxCell>
 
         <!-- Row 2 - Infrequent -->
-        <mxCell id="row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="435" width="1320" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r2c1" value="Infrequent Access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -188,7 +188,7 @@
         </mxCell>
 
         <!-- Row 3 - Cold -->
-        <mxCell id="row3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="470" width="1320" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r3c1" value="Cold Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -217,7 +217,7 @@
         </mxCell>
 
         <!-- Row 4 - Archive -->
-        <mxCell id="row4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="505" width="1320" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r4c1" value="Archive" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -246,7 +246,7 @@
         </mxCell>
 
         <!-- Row 5 - Deep Archive -->
-        <mxCell id="row5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="row5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#CCCCCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="540" width="1320" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r5c1" value="Deep Archive" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -275,7 +275,7 @@
         </mxCell>
 
         <!-- Cost Optimization Tips -->
-        <mxCell id="tips-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9E6;strokeColor=#FBBC04;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="tips-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF9E6;strokeColor=#FBBC04;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="595" width="650" height="180" as="geometry" />
         </mxCell>
         <mxCell id="tips-title" value="💡 Storage Cost Optimization Tips" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -286,7 +286,7 @@
         </mxCell>
 
         <!-- Key Differentiators -->
-        <mxCell id="diff-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#34A853;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="diff-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#34A853;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="595" width="650" height="180" as="geometry" />
         </mxCell>
         <mxCell id="diff-title" value="⭐ Provider Differentiators" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">

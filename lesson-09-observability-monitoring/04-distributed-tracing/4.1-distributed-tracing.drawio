@@ -1,4 +1,4 @@
-<mxfile host="65bd71144e">
+﻿<mxfile host="65bd71144e">
     <diagram name="Distributed Tracing" id="distributed-tracing">
         <mxGraphModel dx="1770" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
             <root>
@@ -10,13 +10,13 @@
                 <mxCell id="anatomy-title" value="🔍 Anatomy of a Distributed Trace" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="100" y="70" width="300" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="trace-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="trace-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="110" width="800" height="370" as="geometry"/>
                 </mxCell>
                 <mxCell id="trace-id" value="Trace ID: abc123def456" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="120" y="120" width="200" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="timeline" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                <mxCell id="timeline" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="140" y="170" as="sourcePoint"/>
                         <mxPoint x="870" y="170" as="targetPoint"/>
@@ -25,7 +25,7 @@
                 <mxCell id="timeline-labels" value="0ms         100ms        200ms        300ms        400ms        500ms" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
                     <mxGeometry x="140" y="175" width="700" height="15" as="geometry"/>
                 </mxCell>
-                <mxCell id="span-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="span-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="140" y="200" width="710" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="span-a-label" value="Span A: API Gateway (Root Span) - 500ms" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -34,7 +34,7 @@
                 <mxCell id="span-a-ids" value="span_id: span_1, parent: none" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
                     <mxGeometry x="650" y="205" width="190" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="span-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="span-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="200" y="250" width="426" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="span-b-label" value="Span B: Order Service - 300ms" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -43,49 +43,49 @@
                 <mxCell id="span-b-ids" value="span_id: span_2, parent: span_1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
                     <mxGeometry x="430" y="255" width="190" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="span-c" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="span-c" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="250" y="300" width="71" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="span-c-label" value="Span C: DB - 50ms" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="255" y="302" width="110" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="span-d" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="span-d" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="340" y="300" width="14" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="span-d-label" value="Span D: Cache 5ms" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="360" y="302" width="110" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="span-e" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="span-e" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="640" y="250" width="210" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="span-e-label" value="Span E: Payment Service - 150ms" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="645" y="255" width="200" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="line-a-b" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" parent="1" edge="1">
+                <mxCell id="line-a-b" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="200" y="235" as="sourcePoint"/>
                         <mxPoint x="200" y="250" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="line-b-c" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" parent="1" edge="1">
+                <mxCell id="line-b-c" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="250" y="285" as="sourcePoint"/>
                         <mxPoint x="250" y="300" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="line-b-d" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" parent="1" edge="1">
+                <mxCell id="line-b-d" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="347" y="285" as="sourcePoint"/>
                         <mxPoint x="347" y="300" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="line-a-e" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" parent="1" edge="1">
+                <mxCell id="line-a-e" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="640" y="235" as="sourcePoint"/>
                         <mxPoint x="640" y="250" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;strokeWidth=1;" parent="1" vertex="1">
+                <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;strokeWidth=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="140" y="350" width="740" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="legend-title" value="🔹 Span Contains:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -97,10 +97,10 @@
                 <mxCell id="otel-title" value="⚙️ OpenTelemetry Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="960" y="70" width="300" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="otel-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="otel-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="930" y="110" width="360" height="340" as="geometry"/>
                 </mxCell>
-                <mxCell id="app-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="app-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="960" y="130" width="300" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="app-title" value="Application + OpenTelemetry SDK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -109,7 +109,7 @@
                 <mxCell id="app-content" value="• Auto-instrumentation (HTTP, DB, etc.)&#xa;• Manual instrumentation (custom spans)&#xa;• Context propagation (W3C Trace Context)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="975" y="160" width="270" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow-otel1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                <mxCell id="arrow-otel1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1110" y="210" as="sourcePoint"/>
                         <mxPoint x="1110" y="240" as="targetPoint"/>
@@ -118,31 +118,31 @@
                 <mxCell id="arrow-otel1-label" value="OTLP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
                     <mxGeometry x="1115" y="215" width="40" height="15" as="geometry"/>
                 </mxCell>
-                <mxCell id="collector-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="collector-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="960" y="240" width="300" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="collector-title" value="⚙️ OpenTelemetry Collector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="1010" y="248" width="200" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="receivers" value="Receivers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=9;" parent="1" vertex="1">
+                <mxCell id="receivers" value="Receivers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=9;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="975" y="275" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="processors" value="Processors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=9;" parent="1" vertex="1">
+                <mxCell id="processors" value="Processors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=9;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="1055" y="275" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="exporters" value="Exporters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=9;" parent="1" vertex="1">
+                <mxCell id="exporters" value="Exporters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=9;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="1135" y="275" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="collector-desc" value="Receive → Process → Export telemetry data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
                     <mxGeometry x="975" y="310" width="270" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow-otel2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                <mxCell id="arrow-otel2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="1110" y="340" as="sourcePoint"/>
                         <mxPoint x="1110" y="370" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="backends-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="backends-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="960" y="370" width="300" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="backends-content" value="Jaeger | Zipkin | Tempo | Datadog | Azure App Insights" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
@@ -151,10 +151,10 @@
                 <mxCell id="tools-title" value="⚙️ Tracing Tools Comparison" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="100" y="520" width="300" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="tools-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="tools-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="560" width="1190" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="jaeger-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="jaeger-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="120" y="580" width="180" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="jaeger-title" value="Jaeger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -166,7 +166,7 @@
                 <mxCell id="jaeger-content" value="✓ Full-featured tracing&#xa;✓ Kubernetes native&#xa;✓ Adaptive sampling&#xa;✓ Service dependency graph&#xa;✓ Root cause analysis&#xa;&#xa;Best for: K8s environments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="130" y="635" width="160" height="115" as="geometry"/>
                 </mxCell>
-                <mxCell id="zipkin-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="zipkin-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="320" y="580" width="180" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="zipkin-title" value="Zipkin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -178,7 +178,7 @@
                 <mxCell id="zipkin-content" value="✓ Simple &amp; lightweight&#xa;✓ Twitter origin&#xa;✓ Multiple storage backends&#xa;✓ Easy to deploy&#xa;✓ REST API&#xa;&#xa;Best for: Simple setups" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="330" y="635" width="160" height="115" as="geometry"/>
                 </mxCell>
-                <mxCell id="appinsights-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="appinsights-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="520" y="580" width="180" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="appinsights-title" value="Azure App Insights" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -190,7 +190,7 @@
                 <mxCell id="appinsights-content" value="✓ Azure integration&#xa;✓ Auto-instrumentation&#xa;✓ Application Map&#xa;✓ Smart detection&#xa;✓ KQL queries&#xa;&#xa;Best for: Azure workloads" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="530" y="635" width="160" height="115" as="geometry"/>
                 </mxCell>
-                <mxCell id="xray-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="xray-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="720" y="580" width="180" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="xray-title" value="AWS X-Ray" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -202,7 +202,7 @@
                 <mxCell id="xray-content" value="✓ AWS service integration&#xa;✓ Lambda support&#xa;✓ Service map&#xa;✓ Annotations &amp; metadata&#xa;✓ Sampling rules&#xa;&#xa;Best for: AWS workloads" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="730" y="635" width="160" height="115" as="geometry"/>
                 </mxCell>
-                <mxCell id="datadog-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="datadog-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="920" y="580" width="180" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="datadog-title" value="Datadog APM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -214,7 +214,7 @@
                 <mxCell id="datadog-content" value="✓ Full platform (logs+metrics)&#xa;✓ Live search&#xa;✓ Service catalog&#xa;✓ Watchdog AI&#xa;✓ Profiling&#xa;&#xa;Best for: Enterprise" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="930" y="635" width="160" height="115" as="geometry"/>
                 </mxCell>
-                <mxCell id="honeycomb-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="honeycomb-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="1120" y="580" width="150" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="honeycomb-title" value="Honeycomb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -229,10 +229,10 @@
                 <mxCell id="context-title" value="🎯 Context Propagation (W3C Trace Context)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="100" y="800" width="400" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="context-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="context-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="840" width="1300" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="svc-a" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="svc-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="130" y="860" width="200" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="svc-a-title" value="Service A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -241,16 +241,16 @@
                 <mxCell id="svc-a-content" value="Creates trace&#xa;trace_id: abc123&#xa;span_id: span_1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#333333;fontFamily=Courier New;" parent="1" vertex="1">
                     <mxGeometry x="145" y="890" width="170" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow-ctx1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                <mxCell id="arrow-ctx1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="330" y="900" as="sourcePoint"/>
                         <mxPoint x="470" y="900" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arrow-ctx1-label" value="traceparent: 00-abc123-span_1-01" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=9;fontColor=#333333;fontFamily=Courier New;rounded=1;strokeWidth=1;strokeColor=#d6b656;" parent="1" vertex="1">
+                <mxCell id="arrow-ctx1-label" value="traceparent: 00-abc123-span_1-01" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=9;fontColor=#333333;fontFamily=Courier New;rounded=1;strokeWidth=1;strokeColor=#d6b656;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="330" y="870" width="200" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="svc-b" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="svc-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="470" y="860" width="200" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="svc-b-title" value="Service B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -259,16 +259,16 @@
                 <mxCell id="svc-b-content" value="Continues trace&#xa;trace_id: abc123&#xa;span_id: span_2 (parent: span_1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#333333;fontFamily=Courier New;" parent="1" vertex="1">
                     <mxGeometry x="480" y="890" width="180" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="arrow-ctx2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+                <mxCell id="arrow-ctx2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="670" y="900" as="sourcePoint"/>
                         <mxPoint x="810" y="900" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arrow-ctx2-label" value="traceparent: 00-abc123-span_2-01" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=9;fontColor=#333333;fontFamily=Courier New;rounded=1;strokeWidth=1;strokeColor=#d6b656;" parent="1" vertex="1">
+                <mxCell id="arrow-ctx2-label" value="traceparent: 00-abc123-span_2-01" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=9;fontColor=#333333;fontFamily=Courier New;rounded=1;strokeWidth=1;strokeColor=#d6b656;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="670" y="870" width="200" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="svc-c" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="svc-c" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="810" y="860" width="200" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="svc-c-title" value="Service C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -277,7 +277,7 @@
                 <mxCell id="svc-c-content" value="Continues trace&#xa;trace_id: abc123&#xa;span_id: span_3 (parent: span_2)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=10;fontColor=#333333;fontFamily=Courier New;" parent="1" vertex="1">
                     <mxGeometry x="820" y="890" width="180" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="key-point" value="Same trace_id = All spans connected in single trace view" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#9673a6;" parent="1" vertex="1">
+                <mxCell id="key-point" value="Same trace_id = All spans connected in single trace view" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#9673a6;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="1040" y="890" width="320" height="30" as="geometry"/>
                 </mxCell>
             </root>

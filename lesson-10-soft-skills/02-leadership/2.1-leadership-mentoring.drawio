@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="leadership-mentoring" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="leadership-mentoring" version="21.0.0" type="device">
   <diagram name="Leadership and Mentoring" id="leadership-mentoring">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -15,12 +15,12 @@
           <mxGeometry x="100" y="70" width="200" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="styles-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="styles-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="110" width="620" height="280" as="geometry" />
         </mxCell>
 
         <!-- Coaching -->
-        <mxCell id="coaching" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="coaching" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="130" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="coaching-icon" value="🎯" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
@@ -37,7 +37,7 @@
         </mxCell>
 
         <!-- Collaborative -->
-        <mxCell id="collaborative" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="collaborative" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="130" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="collaborative-icon" value="🤝" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
@@ -54,7 +54,7 @@
         </mxCell>
 
         <!-- Directive -->
-        <mxCell id="directive" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="directive" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="130" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="directive-icon" value="⚡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
@@ -71,7 +71,7 @@
         </mxCell>
 
         <!-- Visionary -->
-        <mxCell id="visionary" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="visionary" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="260" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="visionary-icon" value="🔭" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
@@ -88,7 +88,7 @@
         </mxCell>
 
         <!-- Delegative -->
-        <mxCell id="delegative" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="delegative" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="260" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="delegative-icon" value="🎁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
@@ -109,15 +109,15 @@
           <mxGeometry x="780" y="70" width="250" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="grow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="grow-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="110" width="540" height="280" as="geometry" />
         </mxCell>
 
         <!-- G - Goal -->
-        <mxCell id="grow-g" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="grow-g" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="130" width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="grow-g-letter" value="G" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;fontColor=#ffffff;fontStyle=1;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="grow-g-letter" value="G" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;fontColor=#ffffff;fontStyle=1;fontSize=24;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="785" y="140" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="grow-g-title" value="Goal" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -128,10 +128,10 @@
         </mxCell>
 
         <!-- R - Reality -->
-        <mxCell id="grow-r" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="grow-r" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="130" width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="grow-r-letter" value="R" style="ellipse;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#82b366;fontColor=#ffffff;fontStyle=1;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="grow-r-letter" value="R" style="ellipse;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#82b366;fontColor=#ffffff;fontStyle=1;fontSize=24;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1045" y="140" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="grow-r-title" value="Reality" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -142,10 +142,10 @@
         </mxCell>
 
         <!-- O - Options -->
-        <mxCell id="grow-o" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="grow-o" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="260" width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="grow-o-letter" value="O" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#d6b656;fontColor=#ffffff;fontStyle=1;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="grow-o-letter" value="O" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#d6b656;fontColor=#ffffff;fontStyle=1;fontSize=24;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="785" y="270" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="grow-o-title" value="Options" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -156,10 +156,10 @@
         </mxCell>
 
         <!-- W - Will -->
-        <mxCell id="grow-w" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="grow-w" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="260" width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="grow-w-letter" value="W" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9673a6;strokeColor=#9673a6;fontColor=#ffffff;fontStyle=1;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="grow-w-letter" value="W" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9673a6;strokeColor=#9673a6;fontColor=#ffffff;fontStyle=1;fontSize=24;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1045" y="270" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="grow-w-title" value="Will / Way Forward" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -170,19 +170,19 @@
         </mxCell>
 
         <!-- Arrows between GROW -->
-        <mxCell id="grow-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="grow-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1010" y="185" as="sourcePoint" />
             <mxPoint x="1030" y="185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="grow-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="grow-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="890" y="240" as="sourcePoint" />
             <mxPoint x="890" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="grow-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="grow-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1010" y="315" as="sourcePoint" />
             <mxPoint x="1030" y="315" as="targetPoint" />
@@ -194,15 +194,15 @@
           <mxGeometry x="100" y="410" width="280" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="conflict-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="conflict-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="450" width="620" height="220" as="geometry" />
         </mxCell>
 
         <!-- Step 1: Acknowledge -->
-        <mxCell id="conf-s1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="conf-s1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="470" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="conf-s1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;fontColor=#ffffff;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="conf-s1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="478" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="conf-s1-title" value="Acknowledge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -213,7 +213,7 @@
         </mxCell>
 
         <!-- Arrow -->
-        <mxCell id="conf-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="conf-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="510" as="sourcePoint" />
             <mxPoint x="250" y="510" as="targetPoint" />
@@ -221,10 +221,10 @@
         </mxCell>
 
         <!-- Step 2: Understand -->
-        <mxCell id="conf-s2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="conf-s2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="470" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="conf-s2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#82b366;fontColor=#ffffff;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="conf-s2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#82b366;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="478" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="conf-s2-title" value="Understand" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -235,7 +235,7 @@
         </mxCell>
 
         <!-- Arrow -->
-        <mxCell id="conf-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="conf-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="510" as="sourcePoint" />
             <mxPoint x="380" y="510" as="targetPoint" />
@@ -243,10 +243,10 @@
         </mxCell>
 
         <!-- Step 3: Explore -->
-        <mxCell id="conf-s3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="conf-s3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="470" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="conf-s3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#d6b656;fontColor=#ffffff;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="conf-s3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#d6b656;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="478" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="conf-s3-title" value="Explore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -257,7 +257,7 @@
         </mxCell>
 
         <!-- Arrow -->
-        <mxCell id="conf-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="conf-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="510" as="sourcePoint" />
             <mxPoint x="510" y="510" as="targetPoint" />
@@ -265,10 +265,10 @@
         </mxCell>
 
         <!-- Step 4: Agree -->
-        <mxCell id="conf-s4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="conf-s4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="470" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="conf-s4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9673a6;strokeColor=#9673a6;fontColor=#ffffff;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="conf-s4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9673a6;strokeColor=#9673a6;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="478" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="conf-s4-title" value="Agree" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -279,7 +279,7 @@
         </mxCell>
 
         <!-- Arrow down -->
-        <mxCell id="conf-arrow4" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="conf-arrow4" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="565" y="550" as="sourcePoint" />
             <mxPoint x="565" y="575" as="targetPoint" />
@@ -287,10 +287,10 @@
         </mxCell>
 
         <!-- Step 5: Follow Up -->
-        <mxCell id="conf-s5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="conf-s5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="575" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="conf-s5-num" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#82b366;fontColor=#ffffff;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="conf-s5-num" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#82b366;fontColor=#ffffff;fontStyle=1;fontSize=12;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="583" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="conf-s5-title" value="Follow Up" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -301,7 +301,7 @@
         </mxCell>
 
         <!-- Key tip -->
-        <mxCell id="conf-tip" value="💡 Focus on interests, not positions. Seek win-win outcomes." style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;" vertex="1" parent="1">
+        <mxCell id="conf-tip" value="💡 Focus on interests, not positions. Seek win-win outcomes." style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="575" width="240" height="30" as="geometry" />
         </mxCell>
 
@@ -310,12 +310,12 @@
           <mxGeometry x="800" y="410" width="280" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="influence-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="influence-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="450" width="540" height="220" as="geometry" />
         </mxCell>
 
         <!-- Technique 1 -->
-        <mxCell id="inf-t1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="inf-t1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="470" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="inf-t1-icon" value="⭐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
@@ -329,7 +329,7 @@
         </mxCell>
 
         <!-- Technique 2 -->
-        <mxCell id="inf-t2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="inf-t2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="470" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="inf-t2-icon" value="🤝" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
@@ -343,7 +343,7 @@
         </mxCell>
 
         <!-- Technique 3 -->
-        <mxCell id="inf-t3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="inf-t3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="470" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="inf-t3-icon" value="🎯" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
@@ -357,7 +357,7 @@
         </mxCell>
 
         <!-- Technique 4 -->
-        <mxCell id="inf-t4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="inf-t4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="545" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="inf-t4-icon" value="🎁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
@@ -371,7 +371,7 @@
         </mxCell>
 
         <!-- Technique 5 -->
-        <mxCell id="inf-t5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="inf-t5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="545" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="inf-t5-icon" value="⏳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
@@ -385,7 +385,7 @@
         </mxCell>
 
         <!-- Technique 6 -->
-        <mxCell id="inf-t6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="inf-t6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="545" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="inf-t6-icon" value="⚔️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
@@ -399,7 +399,7 @@
         </mxCell>
 
         <!-- Key insight -->
-        <mxCell id="inf-insight" value="💡 As an architect, you often need to influence without direct authority. Success comes from relationships, trust, and demonstrating value." style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;rounded=1;" vertex="1" parent="1">
+        <mxCell id="inf-insight" value="💡 As an architect, you often need to influence without direct authority. Success comes from relationships, trust, and demonstrating value." style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;rounded=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="620" width="500" height="35" as="geometry" />
         </mxCell>
 

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
   <diagram name="Compensating Transactions" id="compensating-transactions">
     <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
         </mxCell>
 
         <!-- Concept Explanation -->
-        <mxCell id="concept-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="concept-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="90" width="500" height="140" as="geometry" />
         </mxCell>
 
@@ -28,7 +28,7 @@
         </mxCell>
 
         <!-- Forward vs Compensation -->
-        <mxCell id="forward-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="forward-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="90" width="400" height="140" as="geometry" />
         </mxCell>
 
@@ -45,12 +45,12 @@
           <mxGeometry x="450" y="250" width="500" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="timeline-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="timeline-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="290" width="1320" height="220" as="geometry" />
         </mxCell>
 
         <!-- Timeline axis -->
-        <mxCell id="time-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="time-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="480" as="sourcePoint" />
             <mxPoint x="1340" y="480" as="targetPoint" />
@@ -61,19 +61,19 @@
         </mxCell>
 
         <!-- Forward transactions (T1-T4) -->
-        <mxCell id="t1" value="T1&#xa;Create Order" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="t1" value="T1&#xa;Create Order" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="330" width="90" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="t2" value="T2&#xa;Process Payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="t2" value="T2&#xa;Process Payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="330" width="110" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="t3" value="T3&#xa;Reserve Inventory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="t3" value="T3&#xa;Reserve Inventory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="330" width="110" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="t4-fail" value="T4 FAILS&#xa;Create Shipment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="t4-fail" value="T4 FAILS&#xa;Create Shipment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="330" width="110" height="50" as="geometry" />
         </mxCell>
 
@@ -83,33 +83,33 @@
         </mxCell>
 
         <!-- Compensation transactions (C3, C2, C1) -->
-        <mxCell id="c3" value="C3&#xa;Release Inventory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="c3" value="C3&#xa;Release Inventory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="400" width="110" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="c2" value="C2&#xa;Refund Payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="c2" value="C2&#xa;Refund Payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="400" width="110" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="c1" value="C1&#xa;Cancel Order" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="c1" value="C1&#xa;Cancel Order" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1060" y="400" width="100" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="end-state" value="Saga&#xa;Completed&#xa;(Compensated)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="end-state" value="Saga&#xa;Completed&#xa;(Compensated)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1220" y="395" width="90" height="60" as="geometry" />
         </mxCell>
 
         <!-- Arrows -->
-        <mxCell id="arr-t1-t2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="t1" target="t2">
+        <mxCell id="arr-t1-t2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="t1" target="t2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr-t2-t3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="t2" target="t3">
+        <mxCell id="arr-t2-t3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="t2" target="t3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr-t3-t4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="t3" target="t4-fail">
+        <mxCell id="arr-t3-t4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="t3" target="t4-fail">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr-t4-c3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="t4-fail" target="c3">
+        <mxCell id="arr-t4-c3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="t4-fail" target="c3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="670" y="355" />
@@ -117,13 +117,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr-c3-c2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="c3" target="c2">
+        <mxCell id="arr-c3-c2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="c3" target="c2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr-c2-c1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="c2" target="c1">
+        <mxCell id="arr-c2-c1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="c2" target="c1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr-c1-end" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="c1" target="end-state">
+        <mxCell id="arr-c1-end" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="c1" target="end-state">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
@@ -141,7 +141,7 @@
         </mxCell>
 
         <!-- Semantic Compensation -->
-        <mxCell id="semantic-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="semantic-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="570" width="320" height="160" as="geometry" />
         </mxCell>
 
@@ -154,7 +154,7 @@
         </mxCell>
 
         <!-- Retry with Compensation -->
-        <mxCell id="retry-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="retry-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="570" width="320" height="160" as="geometry" />
         </mxCell>
 
@@ -167,7 +167,7 @@
         </mxCell>
 
         <!-- Idempotency -->
-        <mxCell id="idemp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="idemp-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="570" width="320" height="160" as="geometry" />
         </mxCell>
 
@@ -180,7 +180,7 @@
         </mxCell>
 
         <!-- Ordering -->
-        <mxCell id="order-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="order-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1060" y="570" width="300" height="160" as="geometry" />
         </mxCell>
 
@@ -193,7 +193,7 @@
         </mxCell>
 
         <!-- Best Practices -->
-        <mxCell id="bp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="bp-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="750" width="1320" height="130" as="geometry" />
         </mxCell>
 

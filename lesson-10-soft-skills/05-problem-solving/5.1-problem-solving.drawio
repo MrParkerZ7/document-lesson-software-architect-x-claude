@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="problem-solving" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="problem-solving" version="21.0.0" type="device">
   <diagram name="Problem Solving" id="problem-solving">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -15,17 +15,17 @@
           <mxGeometry x="100" y="70" width="300" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="whys-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="whys-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="110" width="500" height="340" as="geometry" />
         </mxCell>
 
         <!-- Problem -->
-        <mxCell id="problem" value="🔴 Problem: Website is slow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="problem" value="🔴 Problem: Website is slow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="130" width="300" height="35" as="geometry" />
         </mxCell>
 
         <!-- Arrow 1 -->
-        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="165" as="sourcePoint" />
             <mxPoint x="350" y="185" as="targetPoint" />
@@ -33,15 +33,15 @@
         </mxCell>
 
         <!-- Why 1 -->
-        <mxCell id="why1-q" value="Why 1?" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="why1-q" value="Why 1?" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="190" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="why1" value="Database queries are taking too long" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="why1" value="Database queries are taking too long" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="185" width="340" height="30" as="geometry" />
         </mxCell>
 
         <!-- Arrow 2 -->
-        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="215" as="sourcePoint" />
             <mxPoint x="350" y="235" as="targetPoint" />
@@ -49,15 +49,15 @@
         </mxCell>
 
         <!-- Why 2 -->
-        <mxCell id="why2-q" value="Why 2?" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="why2-q" value="Why 2?" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="240" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="why2" value="Queries are scanning full tables" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="why2" value="Queries are scanning full tables" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="235" width="340" height="30" as="geometry" />
         </mxCell>
 
         <!-- Arrow 3 -->
-        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="265" as="sourcePoint" />
             <mxPoint x="350" y="285" as="targetPoint" />
@@ -65,15 +65,15 @@
         </mxCell>
 
         <!-- Why 3 -->
-        <mxCell id="why3-q" value="Why 3?" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="why3-q" value="Why 3?" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="290" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="why3" value="Indexes are missing on frequently queried columns" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="why3" value="Indexes are missing on frequently queried columns" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="285" width="340" height="30" as="geometry" />
         </mxCell>
 
         <!-- Arrow 4 -->
-        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="315" as="sourcePoint" />
             <mxPoint x="350" y="335" as="targetPoint" />
@@ -81,15 +81,15 @@
         </mxCell>
 
         <!-- Why 4 -->
-        <mxCell id="why4-q" value="Why 4?" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="why4-q" value="Why 4?" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="340" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="why4" value="Schema changes weren't reviewed by DBA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="why4" value="Schema changes weren't reviewed by DBA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="335" width="340" height="30" as="geometry" />
         </mxCell>
 
         <!-- Arrow 5 -->
-        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="365" as="sourcePoint" />
             <mxPoint x="350" y="385" as="targetPoint" />
@@ -97,15 +97,15 @@
         </mxCell>
 
         <!-- Why 5 - Root Cause -->
-        <mxCell id="why5-q" value="Why 5?" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="why5-q" value="Why 5?" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="390" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="why5" value="No process for database change reviews" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="why5" value="No process for database change reviews" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="385" width="340" height="30" as="geometry" />
         </mxCell>
 
         <!-- Root Cause & Solution -->
-        <mxCell id="root-cause" value="🎯 Root Cause: Missing database change review process&#xa;✅ Solution: Implement mandatory DBA review for schema changes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;" vertex="1" parent="1">
+        <mxCell id="root-cause" value="🎯 Root Cause: Missing database change review process&#xa;✅ Solution: Implement mandatory DBA review for schema changes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;align=left;spacingLeft=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="425" width="460" height="40" as="geometry" />
         </mxCell>
 
@@ -114,12 +114,12 @@
           <mxGeometry x="680" y="70" width="300" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="fish-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="fish-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="110" width="660" height="340" as="geometry" />
         </mxCell>
 
         <!-- Main spine -->
-        <mxCell id="spine" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#333333;" edge="1" parent="1">
+        <mxCell id="spine" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#333333;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="280" as="sourcePoint" />
             <mxPoint x="1100" y="280" as="targetPoint" />
@@ -127,19 +127,19 @@
         </mxCell>
 
         <!-- Problem box -->
-        <mxCell id="fish-problem" value="Problem:&#xa;System&#xa;Outage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="fish-problem" value="Problem:&#xa;System&#xa;Outage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="250" width="80" height="60" as="geometry" />
         </mxCell>
 
         <!-- Top bones -->
         <!-- People -->
-        <mxCell id="bone-people" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#6c8ebf;" edge="1" parent="1">
+        <mxCell id="bone-people" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#6c8ebf;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="800" y="280" as="sourcePoint" />
             <mxPoint x="720" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cat-people" value="People" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="cat-people" value="People" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="130" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="cause-p1" value="• Lack of training" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#333333;" vertex="1" parent="1">
@@ -153,13 +153,13 @@
         </mxCell>
 
         <!-- Process -->
-        <mxCell id="bone-process" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#82b366;" edge="1" parent="1">
+        <mxCell id="bone-process" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#82b366;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="280" as="sourcePoint" />
             <mxPoint x="850" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cat-process" value="Process" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="cat-process" value="Process" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="815" y="130" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="cause-pr1" value="• No code review" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#333333;" vertex="1" parent="1">
@@ -173,13 +173,13 @@
         </mxCell>
 
         <!-- Technology -->
-        <mxCell id="bone-tech" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#d6b656;" edge="1" parent="1">
+        <mxCell id="bone-tech" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#d6b656;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1010" y="280" as="sourcePoint" />
             <mxPoint x="980" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cat-tech" value="Technology" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="cat-tech" value="Technology" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="945" y="130" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="cause-t1" value="• Legacy system" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#333333;" vertex="1" parent="1">
@@ -194,13 +194,13 @@
 
         <!-- Bottom bones -->
         <!-- Environment -->
-        <mxCell id="bone-env" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#9673a6;" edge="1" parent="1">
+        <mxCell id="bone-env" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#9673a6;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="800" y="280" as="sourcePoint" />
             <mxPoint x="720" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cat-env" value="Environment" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="cat-env" value="Environment" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="405" width="85" height="25" as="geometry" />
         </mxCell>
         <mxCell id="cause-e1" value="• Cloud region issue" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#333333;" vertex="1" parent="1">
@@ -211,13 +211,13 @@
         </mxCell>
 
         <!-- Materials/Data -->
-        <mxCell id="bone-data" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1">
+        <mxCell id="bone-data" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#d79b00;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="280" as="sourcePoint" />
             <mxPoint x="850" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cat-data" value="Data" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="cat-data" value="Data" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#d79b00;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="405" width="60" height="25" as="geometry" />
         </mxCell>
         <mxCell id="cause-d1" value="• Data corruption" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#333333;" vertex="1" parent="1">
@@ -228,13 +228,13 @@
         </mxCell>
 
         <!-- Measurement -->
-        <mxCell id="bone-meas" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1">
+        <mxCell id="bone-meas" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#b85450;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1010" y="280" as="sourcePoint" />
             <mxPoint x="980" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cat-meas" value="Measurement" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="cat-meas" value="Measurement" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;rounded=1;strokeWidth=1;strokeColor=#b85450;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="935" y="405" width="90" height="25" as="geometry" />
         </mxCell>
         <mxCell id="cause-m1" value="• No monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#333333;" vertex="1" parent="1">
@@ -249,15 +249,15 @@
           <mxGeometry x="450" y="470" width="500" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="framework-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="framework-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="510" width="1190" height="240" as="geometry" />
         </mxCell>
 
         <!-- Step 1: Define -->
-        <mxCell id="step1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="step1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="530" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="step1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="step1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;fontColor=#ffffff;fontStyle=1;fontSize=16;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="540" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="step1-title" value="DEFINE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -268,7 +268,7 @@
         </mxCell>
 
         <!-- Arrow -->
-        <mxCell id="fw-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="fw-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="580" as="sourcePoint" />
             <mxPoint x="320" y="580" as="targetPoint" />
@@ -276,10 +276,10 @@
         </mxCell>
 
         <!-- Step 2: Analyze -->
-        <mxCell id="step2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="step2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="530" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="step2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#82b366;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="step2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#82b366;fontColor=#ffffff;fontStyle=1;fontSize=16;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="540" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="step2-title" value="ANALYZE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -290,7 +290,7 @@
         </mxCell>
 
         <!-- Arrow -->
-        <mxCell id="fw-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="fw-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="580" as="sourcePoint" />
             <mxPoint x="520" y="580" as="targetPoint" />
@@ -298,10 +298,10 @@
         </mxCell>
 
         <!-- Step 3: Generate Options -->
-        <mxCell id="step3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="step3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="530" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="step3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#d6b656;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="step3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d6b656;strokeColor=#d6b656;fontColor=#ffffff;fontStyle=1;fontSize=16;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="540" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="step3-title" value="GENERATE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -312,7 +312,7 @@
         </mxCell>
 
         <!-- Arrow -->
-        <mxCell id="fw-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="fw-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="580" as="sourcePoint" />
             <mxPoint x="720" y="580" as="targetPoint" />
@@ -320,10 +320,10 @@
         </mxCell>
 
         <!-- Step 4: Select -->
-        <mxCell id="step4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="step4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="530" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="step4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9673a6;strokeColor=#9673a6;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="step4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9673a6;strokeColor=#9673a6;fontColor=#ffffff;fontStyle=1;fontSize=16;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="540" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="step4-title" value="SELECT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -334,7 +334,7 @@
         </mxCell>
 
         <!-- Arrow -->
-        <mxCell id="fw-arrow4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="fw-arrow4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="580" as="sourcePoint" />
             <mxPoint x="920" y="580" as="targetPoint" />
@@ -342,10 +342,10 @@
         </mxCell>
 
         <!-- Step 5: Implement -->
-        <mxCell id="step5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="step5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="530" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="step5-num" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d79b00;strokeColor=#d79b00;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="step5-num" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d79b00;strokeColor=#d79b00;fontColor=#ffffff;fontStyle=1;fontSize=16;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="540" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="step5-title" value="IMPLEMENT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -356,7 +356,7 @@
         </mxCell>
 
         <!-- Arrow -->
-        <mxCell id="fw-arrow5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="fw-arrow5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="580" as="sourcePoint" />
             <mxPoint x="1100" y="580" as="targetPoint" />
@@ -364,10 +364,10 @@
         </mxCell>
 
         <!-- Step 6: Learn -->
-        <mxCell id="step6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="step6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="530" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="step6-num" value="6" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b85450;strokeColor=#b85450;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="step6-num" value="6" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b85450;strokeColor=#b85450;fontColor=#ffffff;fontStyle=1;fontSize=16;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="540" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="step6-title" value="LEARN" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -378,7 +378,7 @@
         </mxCell>
 
         <!-- Feedback loop -->
-        <mxCell id="feedback" value="" style="curved=1;endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1">
+        <mxCell id="feedback" value="" style="curved=1;endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;shadow=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1180" y="640" as="sourcePoint" />
             <mxPoint x="210" y="640" as="targetPoint" />
@@ -392,7 +392,7 @@
         </mxCell>
 
         <!-- Key insight -->
-        <mxCell id="insight-box" value="💡 The key to effective problem solving: Don't jump to solutions. Invest time in defining the problem and finding the root cause first." style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;rounded=1;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="insight-box" value="💡 The key to effective problem solving: Don't jump to solutions. Invest time in defining the problem and finding the root cause first." style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;rounded=1;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="650" width="1140" height="30" as="geometry" />
         </mxCell>
 

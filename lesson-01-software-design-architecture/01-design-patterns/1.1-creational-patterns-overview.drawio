@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="creational-patterns" name="Creational Patterns Overview">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,13 +11,13 @@
         </mxCell>
 
         <!-- Singleton Pattern -->
-        <mxCell id="singleton-group" value="🎯 Singleton" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="singleton-group" value="🎯 Singleton" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="100" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="singleton-desc" value="Ensures a class has only one instance&#xa;and provides global access to it" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="singleton-group" vertex="1">
           <mxGeometry y="30" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="singleton-diagram" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;" parent="singleton-group" vertex="1">
+        <mxCell id="singleton-diagram" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;" parent="singleton-group" vertex="1">
           <mxGeometry x="90" y="80" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="singleton-class" value="Singleton" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" parent="singleton-group" vertex="1">
@@ -26,90 +26,90 @@
         <mxCell id="singleton-instance" value="-instance: Singleton&#xa;+getInstance(): Singleton" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="singleton-group" vertex="1">
           <mxGeometry x="92" y="100" width="96" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="singleton-use" value="💡 Use: Database connections, Loggers, Config" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;strokeWidth=2;" parent="singleton-group" vertex="1">
+        <mxCell id="singleton-use" value="💡 Use: Database connections, Loggers, Config" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;strokeWidth=2;" parent="singleton-group" vertex="1">
           <mxGeometry x="15" y="160" width="250" height="30" as="geometry" />
         </mxCell>
 
         <!-- Factory Method Pattern -->
-        <mxCell id="factory-group" value="🎯 Factory Method" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="factory-group" value="🎯 Factory Method" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="100" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="factory-desc" value="Creates objects without specifying&#xa;the exact class to instantiate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="factory-group" vertex="1">
           <mxGeometry y="30" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="factory-creator" value="Creator&#xa;+factoryMethod()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;fontSize=10;" parent="factory-group" vertex="1">
+        <mxCell id="factory-creator" value="Creator&#xa;+factoryMethod()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;fontSize=10;" parent="factory-group" vertex="1">
           <mxGeometry x="90" y="75" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="factory-product" value="Product" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;strokeWidth=2;fontSize=10;" parent="factory-group" vertex="1">
+        <mxCell id="factory-product" value="Product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;strokeWidth=2;fontSize=10;" parent="factory-group" vertex="1">
           <mxGeometry x="20" y="125" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="factory-product2" value="Product" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;strokeWidth=2;fontSize=10;" parent="factory-group" vertex="1">
+        <mxCell id="factory-product2" value="Product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;strokeWidth=2;fontSize=10;" parent="factory-group" vertex="1">
           <mxGeometry x="105" y="125" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="factory-product3" value="Product" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;strokeWidth=2;fontSize=10;" parent="factory-group" vertex="1">
+        <mxCell id="factory-product3" value="Product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;strokeWidth=2;fontSize=10;" parent="factory-group" vertex="1">
           <mxGeometry x="190" y="125" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="factory-use" value="💡 Use: Plugin systems, UI components" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;strokeWidth=2;" parent="factory-group" vertex="1">
+        <mxCell id="factory-use" value="💡 Use: Plugin systems, UI components" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;strokeWidth=2;" parent="factory-group" vertex="1">
           <mxGeometry x="15" y="160" width="250" height="30" as="geometry" />
         </mxCell>
 
         <!-- Abstract Factory Pattern -->
-        <mxCell id="abstract-factory-group" value="🎯 Abstract Factory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="abstract-factory-group" value="🎯 Abstract Factory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;strokeWidth=2;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="640" y="100" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="abstract-desc" value="Creates families of related objects&#xa;without specifying concrete classes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="abstract-factory-group" vertex="1">
           <mxGeometry y="30" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="abstract-factory-box" value="AbstractFactory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;fontSize=10;fontStyle=2;" parent="abstract-factory-group" vertex="1">
+        <mxCell id="abstract-factory-box" value="AbstractFactory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;fontSize=10;fontStyle=2;" parent="abstract-factory-group" vertex="1">
           <mxGeometry x="90" y="70" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="concrete-factory1" value="WinFactory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;fontSize=9;" parent="abstract-factory-group" vertex="1">
+        <mxCell id="concrete-factory1" value="WinFactory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;fontSize=9;" parent="abstract-factory-group" vertex="1">
           <mxGeometry x="30" y="115" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="concrete-factory2" value="MacFactory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;fontSize=9;" parent="abstract-factory-group" vertex="1">
+        <mxCell id="concrete-factory2" value="MacFactory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;fontSize=9;" parent="abstract-factory-group" vertex="1">
           <mxGeometry x="170" y="115" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="abstract-use" value="💡 Use: Cross-platform UI toolkits" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;strokeWidth=2;" parent="abstract-factory-group" vertex="1">
+        <mxCell id="abstract-use" value="💡 Use: Cross-platform UI toolkits" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;strokeWidth=2;" parent="abstract-factory-group" vertex="1">
           <mxGeometry x="15" y="160" width="250" height="30" as="geometry" />
         </mxCell>
 
         <!-- Builder Pattern -->
-        <mxCell id="builder-group" value="🎯 Builder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="builder-group" value="🎯 Builder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;strokeWidth=2;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="940" y="100" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="builder-desc" value="Constructs complex objects step by step&#xa;separating construction from representation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="builder-group" vertex="1">
           <mxGeometry y="30" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="builder-director" value="Director" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;fontSize=10;" parent="builder-group" vertex="1">
+        <mxCell id="builder-director" value="Director" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;fontSize=10;" parent="builder-group" vertex="1">
           <mxGeometry x="100" y="70" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="builder-interface" value="Builder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;fontSize=10;fontStyle=2;" parent="builder-group" vertex="1">
+        <mxCell id="builder-interface" value="Builder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;fontSize=10;fontStyle=2;" parent="builder-group" vertex="1">
           <mxGeometry x="100" y="100" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="builder-product" value="Product" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;fontSize=10;" parent="builder-group" vertex="1">
+        <mxCell id="builder-product" value="Product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;fontSize=10;" parent="builder-group" vertex="1">
           <mxGeometry x="200" y="100" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="builder-use" value="💡 Use: Configuration objects, Query builders" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;strokeWidth=2;" parent="builder-group" vertex="1">
+        <mxCell id="builder-use" value="💡 Use: Configuration objects, Query builders" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;strokeWidth=2;" parent="builder-group" vertex="1">
           <mxGeometry x="15" y="160" width="250" height="30" as="geometry" />
         </mxCell>
 
         <!-- Prototype Pattern -->
-        <mxCell id="prototype-group" value="🎯 Prototype" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;strokeWidth=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="prototype-group" value="🎯 Prototype" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;strokeWidth=2;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1240" y="100" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="prototype-desc" value="Creates new objects by cloning&#xa;existing objects (prototypes)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="prototype-group" vertex="1">
           <mxGeometry y="30" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="prototype-interface" value="Prototype&#xa;+clone()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;fontSize=10;fontStyle=2;" parent="prototype-group" vertex="1">
+        <mxCell id="prototype-interface" value="Prototype&#xa;+clone()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;fontSize=10;fontStyle=2;" parent="prototype-group" vertex="1">
           <mxGeometry x="90" y="70" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="prototype-concrete1" value="ConcreteA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;fontSize=9;" parent="prototype-group" vertex="1">
+        <mxCell id="prototype-concrete1" value="ConcreteA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;fontSize=9;" parent="prototype-group" vertex="1">
           <mxGeometry x="40" y="115" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="prototype-concrete2" value="ConcreteB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;fontSize=9;" parent="prototype-group" vertex="1">
+        <mxCell id="prototype-concrete2" value="ConcreteB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;fontSize=9;" parent="prototype-group" vertex="1">
           <mxGeometry x="170" y="115" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="prototype-use" value="💡 Use: Object caching, Expensive object creation" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;strokeWidth=2;" parent="prototype-group" vertex="1">
+        <mxCell id="prototype-use" value="💡 Use: Object caching, Expensive object creation" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;shadow=1;strokeWidth=2;" parent="prototype-group" vertex="1">
           <mxGeometry x="15" y="160" width="250" height="30" as="geometry" />
         </mxCell>
 
@@ -117,13 +117,13 @@
         <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="340" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="legend-interface" value="Interface/Abstract" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="legend-interface" value="Interface/Abstract" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;fontSize=10;fontStyle=2;" parent="1" vertex="1">
           <mxGeometry x="40" y="365" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="legend-concrete" value="Concrete Class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="legend-concrete" value="Concrete Class" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="160" y="365" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="legend-product" value="Product" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="legend-product" value="Product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="280" y="365" width="100" height="25" as="geometry" />
         </mxCell>
 

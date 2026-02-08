@@ -1,4 +1,4 @@
-<mxfile host="65bd71144e">
+﻿<mxfile host="65bd71144e">
     <diagram name="Request-Reply Pattern" id="request-reply-pattern">
         <mxGraphModel dx="1770" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
             <root>
@@ -10,10 +10,10 @@
                 <mxCell id="basic-title" value="Basic Request-Reply via Message Broker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" parent="1" vertex="1">
                     <mxGeometry x="500" y="70" width="400" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="basic-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="basic-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="110" width="1320" height="220" as="geometry"/>
                 </mxCell>
-                <mxCell id="requester" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="requester" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="140" width="200" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="req-title" value="Requester (Client)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#6c8ebf;" parent="1" vertex="1">
@@ -22,25 +22,25 @@
                 <mxCell id="req-steps" value="1. Generate correlation ID&#xa;2. Send request to queue&#xa;3. Include reply-to address&#xa;4. Wait for response&#xa;5. Match by correlation ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=5;" parent="1" vertex="1">
                     <mxGeometry x="70" y="180" width="180" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="broker" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#1a1a2e;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="broker" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#1a1a2e;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="140" width="400" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="broker-title" value="Message Broker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="630" y="150" width="140" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="req-queue" value="Request Queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+                <mxCell id="req-queue" value="Request Queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="190" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="reply-queue" value="Reply Queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+                <mxCell id="reply-queue" value="Reply Queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="750" y="190" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="msg-req" value="Request Msg&#xa;{correlationId: xyz&#xa; replyTo: reply-q}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" parent="1" vertex="1">
+                <mxCell id="msg-req" value="Request Msg&#xa;{correlationId: xyz&#xa; replyTo: reply-q}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="245" width="120" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="msg-reply" value="Reply Msg&#xa;{correlationId: xyz&#xa; result: ...}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;" parent="1" vertex="1">
+                <mxCell id="msg-reply" value="Reply Msg&#xa;{correlationId: xyz&#xa; result: ...}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="750" y="245" width="120" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="replier" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="replier" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="1140" y="140" width="200" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="rep-title" value="Replier (Server)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#82b366;" parent="1" vertex="1">
@@ -49,10 +49,10 @@
                 <mxCell id="rep-steps" value="1. Consume request&#xa;2. Process request&#xa;3. Create response&#xa;4. Copy correlation ID&#xa;5. Send to reply-to address" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=5;" parent="1" vertex="1">
                     <mxGeometry x="1150" y="180" width="180" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="arr1" value="1. Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" parent="1" source="requester" target="req-queue" edge="1">
+                <mxCell id="arr1" value="1. Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="requester" target="req-queue" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="arr2" value="2. Consume" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" parent="1" source="req-queue" target="replier" edge="1">
+                <mxCell id="arr2" value="2. Consume" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="req-queue" target="replier" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="680" y="210"/>
@@ -61,7 +61,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arr3" value="3. Reply" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;" parent="1" source="replier" target="reply-queue" edge="1">
+                <mxCell id="arr3" value="3. Reply" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="replier" target="reply-queue" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1100" y="220"/>
@@ -70,7 +70,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="arr4" value="4. Receive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;" parent="1" source="reply-queue" target="requester" edge="1">
+                <mxCell id="arr4" value="4. Receive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="reply-queue" target="requester" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="440" y="210"/>
@@ -81,7 +81,7 @@
                 <mxCell id="corr-title" value="Correlation ID Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" parent="1" vertex="1">
                     <mxGeometry x="200" y="350" width="200" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="corr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="corr-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="390" width="520" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="corr-explain" value="The Correlation ID is essential for matching requests with responses:&#xa;&#xa;• Client generates unique ID (UUID) for each request&#xa;• ID included in request message header&#xa;• Server copies ID to response message&#xa;• Client uses ID to match response to original request&#xa;• Enables multiple concurrent requests" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontColor=#333333;spacingLeft=10;" parent="1" vertex="1">
@@ -93,7 +93,7 @@
                 <mxCell id="impl-title" value="Implementation Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" parent="1" vertex="1">
                     <mxGeometry x="800" y="350" width="200" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="impl-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="impl-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="600" y="390" width="380" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="impl1" value="Temporary Reply Queue" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#d6b656;" parent="1" vertex="1">
@@ -114,7 +114,7 @@
                 <mxCell id="impl3-text" value="• Pseudo-queue &#39;amq.rabbitmq.reply-to&#39;&#xa;• Optimized for RPC patterns" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;spacingLeft=10;" parent="1" vertex="1">
                     <mxGeometry x="620" y="565" width="340" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="use-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="use-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="1000" y="390" width="360" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="use-title" value="When to Use" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#82b366;" parent="1" vertex="1">
@@ -129,40 +129,40 @@
                 <mxCell id="timeout-title" value="Timeout &amp; Error Handling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1a1a2e;" parent="1" vertex="1">
                     <mxGeometry x="580" y="610" width="240" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="timeout-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="timeout-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="650" width="1320" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="timeout-list" value="• Set timeout on client side - don&#39;t wait forever for responses&#xa;• Handle timeout as a failure case (retry or fail gracefully)&#xa;• Consider dead letter queues for failed requests&#xa;• Implement circuit breaker for repeated failures&#xa;• Log correlation IDs for debugging async flows&#xa;• Consider idempotent operations for retry safety" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontColor=#333333;spacingLeft=20;" parent="1" vertex="1">
                     <mxGeometry x="50" y="660" width="600" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="timeout-flow" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+                <mxCell id="timeout-flow" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="700" y="660" width="640" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-req" value="Request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+                <mxCell id="flow-req" value="Request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="720" y="700" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-wait" value="Wait with&#xa;Timeout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+                <mxCell id="flow-wait" value="Wait with&#xa;Timeout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="830" y="695" width="70" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-resp" value="Response?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+                <mxCell id="flow-resp" value="Response?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="940" y="690" width="80" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-success" value="Success" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+                <mxCell id="flow-success" value="Success" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="1060" y="680" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-timeout" value="Timeout/&#xa;Retry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+                <mxCell id="flow-timeout" value="Timeout/&#xa;Retry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="1060" y="720" width="70" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;" parent="1" source="flow-req" target="flow-wait" edge="1">
+                <mxCell id="flow-arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="flow-req" target="flow-wait" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;" parent="1" source="flow-wait" target="flow-resp" edge="1">
+                <mxCell id="flow-arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="flow-wait" target="flow-resp" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-arr3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=1;endArrow=classic;fontSize=9;" parent="1" source="flow-resp" target="flow-success" edge="1">
+                <mxCell id="flow-arr3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=1;endArrow=classic;fontSize=9;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="flow-resp" target="flow-success" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-arr4" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;endArrow=classic;fontSize=9;" parent="1" source="flow-resp" target="flow-timeout" edge="1">
+                <mxCell id="flow-arr4" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;endArrow=classic;fontSize=9;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="flow-resp" target="flow-timeout" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="impl-list" value="Implementations: RabbitMQ RPC, AWS SQS with response queues, Azure Service Bus request-reply, gRPC over messaging" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#666666;fontStyle=2;" parent="1" vertex="1">

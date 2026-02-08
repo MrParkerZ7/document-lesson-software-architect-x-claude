@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="observability-architecture" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="observability-architecture" version="21.0.0" type="device">
   <diagram name="Observability Architecture" id="observability-architecture">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Main Architecture Box -->
-        <mxCell id="main-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="main-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="70" width="1240" height="580" as="geometry" />
         </mxCell>
 
@@ -20,58 +20,58 @@
           <mxGeometry x="100" y="85" width="120" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="apps-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="apps-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="115" width="1200" height="100" as="geometry" />
         </mxCell>
 
         <!-- Individual Apps -->
-        <mxCell id="app1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="app1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="135" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="app1-title" value="🖥️ Frontend App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="145" y="140" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="app1-sdk" value="OTel SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="app1-sdk" value="OTel SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="163" width="50" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="app2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="app2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="135" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="app2-title" value="⚙️ Order Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="325" y="140" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="app2-sdk" value="OTel SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="app2-sdk" value="OTel SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="163" width="50" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="app3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="app3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="135" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="app3-title" value="💳 Payment Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="505" y="140" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="app3-sdk" value="OTel SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="app3-sdk" value="OTel SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="163" width="50" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="app4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="app4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="135" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="app4-title" value="📦 Inventory Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="685" y="140" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="app4-sdk" value="OTel SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="app4-sdk" value="OTel SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="163" width="50" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="app5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="app5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="135" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="app5-title" value="📧 Notification Svc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="865" y="140" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="app5-sdk" value="OTel SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="app5-sdk" value="OTel SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;fontSize=8;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="163" width="50" height="20" as="geometry" />
         </mxCell>
 
@@ -84,7 +84,7 @@
           <mxGeometry x="1100" y="85" width="120" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="infra-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="infra-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="115" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="infra-items" value="🖥️ Node Exporter&#xa;🐳 cAdvisor&#xa;🗄️ Database Exporter&#xa;🌐 Network Monitor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
@@ -92,7 +92,7 @@
         </mxCell>
 
         <!-- Arrows to Collector -->
-        <mxCell id="arrow-apps" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="arrow-apps" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="215" as="sourcePoint" />
             <mxPoint x="700" y="265" as="targetPoint" />
@@ -103,14 +103,14 @@
         </mxCell>
 
         <!-- OpenTelemetry Collector -->
-        <mxCell id="collector-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="collector-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="265" width="600" height="100" as="geometry" />
         </mxCell>
         <mxCell id="collector-title" value="OpenTelemetry Collector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="580" y="275" width="240" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="receivers" value="Receivers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="receivers" value="Receivers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="310" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="receivers-list" value="OTLP, Jaeger,&#xa;Zipkin, Prom" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#666666;" vertex="1" parent="1">
@@ -121,7 +121,7 @@
           <mxGeometry x="515" y="315" width="30" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="processors" value="Processors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="processors" value="Processors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="310" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="processors-list" value="Batch, Filter,&#xa;Transform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#666666;" vertex="1" parent="1">
@@ -132,7 +132,7 @@
           <mxGeometry x="635" y="315" width="30" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="exporters" value="Exporters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="exporters" value="Exporters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="310" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="exporters-list" value="Loki, Prom,&#xa;Tempo, etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontColor=#666666;" vertex="1" parent="1">
@@ -140,12 +140,12 @@
         </mxCell>
 
         <!-- Connector Extensions -->
-        <mxCell id="connectors" value="Connectors &amp; Extensions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#d6b656;strokeWidth=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="connectors" value="Connectors &amp; Extensions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#d6b656;strokeWidth=1;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="310" width="180" height="35" as="geometry" />
         </mxCell>
 
         <!-- Arrows to Storage -->
-        <mxCell id="arrow-logs" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#dae8fc;" edge="1" parent="1">
+        <mxCell id="arrow-logs" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#dae8fc;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="365" as="sourcePoint" />
             <mxPoint x="240" y="430" as="targetPoint" />
@@ -155,7 +155,7 @@
           <mxGeometry x="330" y="385" width="40" height="15" as="geometry" />
         </mxCell>
 
-        <mxCell id="arrow-metrics" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d5e8d4;" edge="1" parent="1">
+        <mxCell id="arrow-metrics" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d5e8d4;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="365" as="sourcePoint" />
             <mxPoint x="700" y="430" as="targetPoint" />
@@ -165,7 +165,7 @@
           <mxGeometry x="705" y="390" width="50" height="15" as="geometry" />
         </mxCell>
 
-        <mxCell id="arrow-traces" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#ffe6cc;" edge="1" parent="1">
+        <mxCell id="arrow-traces" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#ffe6cc;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="365" as="sourcePoint" />
             <mxPoint x="1160" y="430" as="targetPoint" />
@@ -181,7 +181,7 @@
         </mxCell>
 
         <!-- Loki (Logs) -->
-        <mxCell id="loki-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="loki-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="430" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="loki-title" value="📝 Loki (Logs)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -192,7 +192,7 @@
         </mxCell>
 
         <!-- Prometheus (Metrics) -->
-        <mxCell id="prometheus-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="prometheus-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="430" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="prometheus-title" value="📊 Prometheus (Metrics)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -203,7 +203,7 @@
         </mxCell>
 
         <!-- Tempo (Traces) -->
-        <mxCell id="tempo-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="tempo-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="430" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tempo-title" value="🔍 Tempo (Traces)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -214,19 +214,19 @@
         </mxCell>
 
         <!-- Arrows to Grafana -->
-        <mxCell id="arrow-loki-grafana" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow-loki-grafana" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="510" as="sourcePoint" />
             <mxPoint x="500" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arrow-prom-grafana" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow-prom-grafana" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="510" as="sourcePoint" />
             <mxPoint x="700" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arrow-tempo-grafana" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow-tempo-grafana" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1160" y="510" as="sourcePoint" />
             <mxPoint x="900" y="560" as="targetPoint" />
@@ -234,7 +234,7 @@
         </mxCell>
 
         <!-- Grafana -->
-        <mxCell id="grafana-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="grafana-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="560" width="600" height="70" as="geometry" />
         </mxCell>
         <mxCell id="grafana-title" value="📊 Grafana (Visualization &amp; Dashboards)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -245,7 +245,7 @@
         </mxCell>
 
         <!-- Alertmanager -->
-        <mxCell id="alertmanager-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="alertmanager-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="530" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="alertmanager-title" value="🚨 Alertmanager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -256,7 +256,7 @@
         </mxCell>
 
         <!-- Arrow from Prometheus to Alertmanager -->
-        <mxCell id="arrow-prom-alert" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1">
+        <mxCell id="arrow-prom-alert" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#b85450;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="480" as="sourcePoint" />
             <mxPoint x="280" y="560" as="targetPoint" />
@@ -267,7 +267,7 @@
         </mxCell>
 
         <!-- Notifications -->
-        <mxCell id="notif-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b85450;strokeWidth=1;strokeDasharray=3 3;" vertex="1" parent="1">
+        <mxCell id="notif-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b85450;strokeWidth=1;strokeDasharray=3 3;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="560" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="notif-title" value="Notification Channels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -278,7 +278,7 @@
         </mxCell>
 
         <!-- Arrow from Alertmanager to Notifications -->
-        <mxCell id="arrow-alert-notif" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#b85450;dashed=1;" edge="1" parent="1">
+        <mxCell id="arrow-alert-notif" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#b85450;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="590" as="sourcePoint" />
             <mxPoint x="400" y="590" as="targetPoint" />
@@ -290,12 +290,12 @@
           <mxGeometry x="550" y="670" width="300" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="cloud-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="cloud-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="710" width="1240" height="130" as="geometry" />
         </mxCell>
 
         <!-- Azure Monitor -->
-        <mxCell id="azure-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="azure-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="730" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="azure-title" value="Azure Monitor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -306,7 +306,7 @@
         </mxCell>
 
         <!-- AWS Observability -->
-        <mxCell id="aws-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="aws-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="730" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="aws-title" value="AWS Observability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -317,7 +317,7 @@
         </mxCell>
 
         <!-- GCP Observability -->
-        <mxCell id="gcp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gcp-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="730" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gcp-title" value="Google Cloud Operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -328,7 +328,7 @@
         </mxCell>
 
         <!-- Commercial Solutions -->
-        <mxCell id="commercial-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="commercial-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="730" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="commercial-title" value="Commercial Platforms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -339,7 +339,7 @@
         </mxCell>
 
         <!-- Key Benefits Box -->
-        <mxCell id="benefits-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="benefits-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="860" width="1240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="benefits-title" value="Key Benefits of Unified Observability:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">

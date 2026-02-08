@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Private Endpoint Section -->
-        <mxCell id="pe-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="pe-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="640" height="380" as="geometry" />
         </mxCell>
         <mxCell id="pe-title" value="ðŸ”’ Private Endpoints (Private Link)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -19,7 +19,7 @@
         </mxCell>
 
         <!-- Your VNet -->
-        <mxCell id="your-vnet" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="your-vnet" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="140" width="280" height="300" as="geometry" />
         </mxCell>
         <mxCell id="your-vnet-label" value="ðŸ¢ Your Virtual Network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
@@ -27,62 +27,62 @@
         </mxCell>
 
         <!-- App Subnet -->
-        <mxCell id="app-subnet-pe" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="app-subnet-pe" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;dashed=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="185" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="app-subnet-pe-label" value="Application Subnet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="190" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="app-vm" value="App VM&#xa;10.0.1.10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="app-vm" value="App VM&#xa;10.0.1.10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="220" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="app-vm2" value="App VM&#xa;10.0.1.11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="app-vm2" value="App VM&#xa;10.0.1.11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="220" width="80" height="50" as="geometry" />
         </mxCell>
 
         <!-- Private Endpoint Subnet -->
-        <mxCell id="pe-subnet" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="pe-subnet" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;dashed=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="300" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pe-subnet-label" value="Private Endpoint Subnet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="125" y="305" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pe-storage" value="PE: Storage&#xa;10.0.2.4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="pe-storage" value="PE: Storage&#xa;10.0.2.4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="335" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pe-sql" value="PE: SQL&#xa;10.0.2.5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="pe-sql" value="PE: SQL&#xa;10.0.2.5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="335" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pe-kv" value="PE: KeyVault&#xa;10.0.2.6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="pe-kv" value="PE: KeyVault&#xa;10.0.2.6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="335" width="70" height="50" as="geometry" />
         </mxCell>
 
         <!-- Azure PaaS Services -->
-        <mxCell id="paas-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="paas-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="140" width="220" height="300" as="geometry" />
         </mxCell>
         <mxCell id="paas-label" value="âš™ï¸ Azure PaaS Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="150" width="140" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="storage-paas" value="Azure Storage&#xa;blob.core.windows.net" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="storage-paas" value="Azure Storage&#xa;blob.core.windows.net" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="190" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sql-paas" value="Azure SQL&#xa;database.windows.net" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="sql-paas" value="Azure SQL&#xa;database.windows.net" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="260" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kv-paas" value="Key Vault&#xa;vault.azure.net" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="kv-paas" value="Key Vault&#xa;vault.azure.net" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="330" width="160" height="50" as="geometry" />
         </mxCell>
 
         <!-- Connections -->
-        <mxCell id="conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="pe-storage" target="storage-paas">
+        <mxCell id="conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="pe-storage" target="storage-paas">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="pe-sql" target="sql-paas">
+        <mxCell id="conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="pe-sql" target="sql-paas">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="conn3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="pe-kv" target="kv-paas">
+        <mxCell id="conn3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="pe-kv" target="kv-paas">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
@@ -91,7 +91,7 @@
         </mxCell>
 
         <!-- ExpressRoute / Direct Connect Section -->
-        <mxCell id="er-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="er-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="80" width="640" height="380" as="geometry" />
         </mxCell>
         <mxCell id="er-title" value="ðŸ”— ExpressRoute / Direct Connect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -99,58 +99,58 @@
         </mxCell>
 
         <!-- On-Premises -->
-        <mxCell id="onprem" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="onprem" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="140" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="onprem-label" value="ðŸ¢ On-Premises Data Center" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="150" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="onprem-router" value="Edge Router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="onprem-router" value="Edge Router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="185" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="onprem-servers" value="Internal&#xa;Servers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="onprem-servers" value="Internal&#xa;Servers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="240" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="onprem-db" value="Database&#xa;Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="onprem-db" value="Database&#xa;Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="240" width="70" height="50" as="geometry" />
         </mxCell>
 
         <!-- ExpressRoute Circuit -->
-        <mxCell id="er-circuit" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="er-circuit" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="140" width="120" height="180" as="geometry" />
         </mxCell>
         <mxCell id="er-circuit-label" value="ExpressRoute&#xa;Circuit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="985" y="150" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="er-provider" value="Connectivity&#xa;Provider" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="er-provider" value="Connectivity&#xa;Provider" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="200" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="er-peering" value="Private&#xa;Peering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="er-peering" value="Private&#xa;Peering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="260" width="80" height="50" as="geometry" />
         </mxCell>
 
         <!-- Cloud VNet -->
-        <mxCell id="cloud-vnet" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="cloud-vnet" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="140" width="220" height="180" as="geometry" />
         </mxCell>
         <mxCell id="cloud-vnet-label" value="ðŸ¢ Cloud Virtual Network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="150" width="140" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="er-gw" value="ExpressRoute&#xa;Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="er-gw" value="ExpressRoute&#xa;Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1140" y="185" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cloud-vms" value="Cloud VMs&#xa;&amp; Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="cloud-vms" value="Cloud VMs&#xa;&amp; Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="185" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cloud-apps" value="App Services&#xa;&amp; PaaS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="cloud-apps" value="App Services&#xa;&amp; PaaS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="255" width="80" height="50" as="geometry" />
         </mxCell>
 
         <!-- ER Connections -->
-        <mxCell id="er-conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=3;endArrow=classic;startArrow=classic;" edge="1" parent="1" source="onprem-router" target="er-provider">
+        <mxCell id="er-conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=3;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="onprem-router" target="er-provider">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="er-conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=3;endArrow=classic;startArrow=classic;" edge="1" parent="1" source="er-peering" target="er-gw">
+        <mxCell id="er-conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=3;endArrow=classic;startArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="er-peering" target="er-gw">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
@@ -202,86 +202,86 @@
         </mxCell>
 
         <!-- Table Headers -->
-        <mxCell id="th1" value="Feature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="th1" value="Feature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="520" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="th2" value="Private Endpoint" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="th2" value="Private Endpoint" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="520" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="th3" value="ExpressRoute" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="th3" value="ExpressRoute" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="520" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="th4" value="Site-to-Site VPN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="th4" value="Site-to-Site VPN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="520" width="200" height="35" as="geometry" />
         </mxCell>
 
         <!-- Row 1 -->
-        <mxCell id="r1c1" value="Connection Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="r1c1" value="Connection Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="555" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r1c2" value="VNet to PaaS Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r1c2" value="VNet to PaaS Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="555" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r1c3" value="On-prem to Cloud (Dedicated)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r1c3" value="On-prem to Cloud (Dedicated)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="555" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r1c4" value="On-prem to Cloud (Internet)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r1c4" value="On-prem to Cloud (Internet)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="555" width="200" height="35" as="geometry" />
         </mxCell>
 
         <!-- Row 2 -->
-        <mxCell id="r2c1" value="Bandwidth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="r2c1" value="Bandwidth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="590" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r2c2" value="VNet bandwidth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r2c2" value="VNet bandwidth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="590" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r2c3" value="50 Mbps - 100 Gbps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r2c3" value="50 Mbps - 100 Gbps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="590" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r2c4" value="Up to 10 Gbps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r2c4" value="Up to 10 Gbps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="590" width="200" height="35" as="geometry" />
         </mxCell>
 
         <!-- Row 3 -->
-        <mxCell id="r3c1" value="Latency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="r3c1" value="Latency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="625" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r3c2" value="Very Low (same region)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r3c2" value="Very Low (same region)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="625" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r3c3" value="Low (predictable)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r3c3" value="Low (predictable)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="625" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r3c4" value="Variable (internet-based)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r3c4" value="Variable (internet-based)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="625" width="200" height="35" as="geometry" />
         </mxCell>
 
         <!-- Row 4 -->
-        <mxCell id="r4c1" value="Cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="r4c1" value="Cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="660" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r4c2" value="$ (Per endpoint/hour + data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r4c2" value="$ (Per endpoint/hour + data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="660" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r4c3" value="$$$ (Circuit + gateway + data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r4c3" value="$$$ (Circuit + gateway + data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="660" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r4c4" value="$ (Gateway + data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r4c4" value="$ (Gateway + data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="660" width="200" height="35" as="geometry" />
         </mxCell>
 
         <!-- Row 5 -->
-        <mxCell id="r5c1" value="Setup Complexity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="r5c1" value="Setup Complexity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="695" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r5c2" value="Low (minutes)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r5c2" value="Low (minutes)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="695" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r5c3" value="High (weeks with provider)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r5c3" value="High (weeks with provider)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="695" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r5c4" value="Medium (hours)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r5c4" value="Medium (hours)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="695" width="200" height="35" as="geometry" />
         </mxCell>
 
@@ -289,13 +289,13 @@
         <mxCell id="equiv-title" value="Cloud Provider Equivalents" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="400" y="750" width="600" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="azure-equiv" value="Azure: Private Link / ExpressRoute" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="azure-equiv" value="Azure: Private Link / ExpressRoute" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="790" width="220" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="aws-equiv" value="AWS: PrivateLink / Direct Connect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="aws-equiv" value="AWS: PrivateLink / Direct Connect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="790" width="220" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="gcp-equiv" value="GCP: Private Service Connect / Cloud Interconnect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="gcp-equiv" value="GCP: Private Service Connect / Cloud Interconnect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="790" width="270" height="35" as="geometry" />
         </mxCell>
 

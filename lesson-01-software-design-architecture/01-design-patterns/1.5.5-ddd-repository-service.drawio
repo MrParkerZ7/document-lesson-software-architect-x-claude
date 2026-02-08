@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-02-05T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-02-05T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="repository-service" name="Repository and Domain Service">
     <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Repository Section -->
-        <mxCell id="repo-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="repo-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="620" height="380" as="geometry" />
         </mxCell>
         <mxCell id="repo-title" value="REPOSITORY" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
@@ -22,7 +22,7 @@
         </mxCell>
 
         <!-- Repository Interface -->
-        <mxCell id="repo-interface" value="🗄️ &lt;&lt;interface&gt;&gt;&#xa;OrderRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="repo-interface" value="🗄️ &lt;&lt;interface&gt;&gt;&#xa;OrderRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#b85450;strokeWidth=2;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="110" y="165" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="repo-find" value="+ findById(id: OrderId): Order" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" parent="repo-interface" vertex="1">
@@ -42,13 +42,13 @@
         </mxCell>
 
         <!-- Repository Implementation -->
-        <mxCell id="repo-impl" value="🗄️ SqlOrderRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="repo-impl" value="🗄️ SqlOrderRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="110" y="330" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="impl-db" value="- dbContext: DbContext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" parent="repo-impl" vertex="1">
           <mxGeometry y="26" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="impl-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#666666;" parent="repo-impl" vertex="1">
+        <mxCell id="impl-sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#666666;shadow=1;" parent="repo-impl" vertex="1">
           <mxGeometry y="46" width="260" height="8" as="geometry" />
         </mxCell>
         <mxCell id="impl-find" value="+ findById(id): // SQL/ORM logic" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;fontStyle=2;" parent="repo-impl" vertex="1">
@@ -62,7 +62,7 @@
         </mxCell>
 
         <!-- Implements arrow -->
-        <mxCell id="impl-arrow" value="" style="endArrow=block;endFill=0;html=1;strokeWidth=2;strokeColor=#666666;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="repo-impl" target="repo-interface" edge="1">
+        <mxCell id="impl-arrow" value="" style="endArrow=block;endFill=0;html=1;strokeWidth=2;strokeColor=#666666;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="repo-impl" target="repo-interface" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="impl-label" value="implements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
@@ -73,7 +73,7 @@
         <mxCell id="repo-rules" value="Repository Rules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="460" y="165" width="140" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="repo-rules-list" value="&#x2713; One repository per Aggregate&#xa;&#x2713; Returns complete Aggregates only&#xa;&#x2713; Domain-centric interface (not data-centric)&#xa;&#x2713; Hides persistence mechanism&#xa;&#x2713; No queries for internal entities&#xa;&#x2713; Works with Aggregate Roots only" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+        <mxCell id="repo-rules-list" value="&#x2713; One repository per Aggregate&#xa;&#x2713; Returns complete Aggregates only&#xa;&#x2713; Domain-centric interface (not data-centric)&#xa;&#x2713; Hides persistence mechanism&#xa;&#x2713; No queries for internal entities&#xa;&#x2713; Works with Aggregate Roots only" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=10;spacingTop=8;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="195" width="260" height="110" as="geometry" />
         </mxCell>
 
@@ -81,12 +81,12 @@
         <mxCell id="repo-bad" value="Anti-Patterns (Don't Do):" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="440" y="315" width="180" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="repo-bad-list" value="&#x2717; Generic Repository&lt;T&gt; for everything&#xa;&#x2717; Exposing IQueryable to domain&#xa;&#x2717; findOrderLineById() - internal entity!&#xa;&#x2717; Complex query methods&#xa;&#x2717; Business logic in repository" style="text;html=1;strokeColor=none;fillColor=#ffcccc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+        <mxCell id="repo-bad-list" value="&#x2717; Generic Repository&lt;T&gt; for everything&#xa;&#x2717; Exposing IQueryable to domain&#xa;&#x2717; findOrderLineById() - internal entity!&#xa;&#x2717; Complex query methods&#xa;&#x2717; Business logic in repository" style="text;html=1;strokeColor=none;fillColor=#ffcccc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=10;spacingTop=8;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="345" width="260" height="95" as="geometry" />
         </mxCell>
 
         <!-- Domain Service Section -->
-        <mxCell id="ds-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="ds-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="80" width="480" height="380" as="geometry" />
         </mxCell>
         <mxCell id="ds-title" value="DOMAIN SERVICE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#9673a6;" parent="1" vertex="1">
@@ -97,7 +97,7 @@
         </mxCell>
 
         <!-- Domain Service Example -->
-        <mxCell id="ds-example" value="⚙️ PricingService (Domain Service)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="ds-example" value="⚙️ PricingService (Domain Service)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#9673a6;strokeWidth=2;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="770" y="165" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ds-calc" value="+ calculateTotal(order: Order): Money" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" parent="ds-example" vertex="1">
@@ -111,7 +111,7 @@
         </mxCell>
 
         <!-- Another Service Example -->
-        <mxCell id="ds-example2" value="⚙️ TransferService (Domain Service)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="ds-example2" value="⚙️ TransferService (Domain Service)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#9673a6;strokeWidth=2;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="1070" y="165" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ds-transfer" value="+ transfer(&#xa;   from: Account,&#xa;   to: Account,&#xa;   amount: Money)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" parent="ds-example2" vertex="1">
@@ -122,7 +122,7 @@
         <mxCell id="ds-when" value="When to Use Domain Service:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="850" y="280" width="220" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ds-when-list" value="&#x2713; Operation involves multiple Aggregates&#xa;&#x2713; Doesn't naturally belong to any Entity&#xa;&#x2713; Represents a domain concept (verb)&#xa;&#x2713; Requires external data for calculation&#xa;&#x2713; Complex domain logic orchestration" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+        <mxCell id="ds-when-list" value="&#x2713; Operation involves multiple Aggregates&#xa;&#x2713; Doesn't naturally belong to any Entity&#xa;&#x2713; Represents a domain concept (verb)&#xa;&#x2713; Requires external data for calculation&#xa;&#x2713; Complex domain logic orchestration" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=10;spacingTop=8;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="310" width="250" height="95" as="geometry" />
         </mxCell>
 
@@ -130,12 +130,12 @@
         <mxCell id="ds-char" value="Characteristics:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1060" y="280" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ds-char-list" value="• Stateless&#xa;• Named using&#xa;  Ubiquitous Language&#xa;• Contains domain&#xa;  logic (not CRUD)&#xa;• Can use Repositories" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+        <mxCell id="ds-char-list" value="• Stateless&#xa;• Named using&#xa;  Ubiquitous Language&#xa;• Contains domain&#xa;  logic (not CRUD)&#xa;• Can use Repositories" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=10;spacingTop=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="310" width="140" height="95" as="geometry" />
         </mxCell>
 
         <!-- Warning -->
-        <mxCell id="ds-warning" value="Warning: Anemic Domain&#xa;&#xa;If most logic is in Domain Services,&#xa;you may have an Anemic Domain Model.&#xa;Prefer putting logic in Entities first!" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+        <mxCell id="ds-warning" value="Warning: Anemic Domain&#xa;&#xa;If most logic is in Domain Services,&#xa;you may have an Anemic Domain Model.&#xa;Prefer putting logic in Entities first!" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=left;spacingLeft=5;spacingTop=3;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="415" width="220" height="90" as="geometry" />
         </mxCell>
 
@@ -145,68 +145,68 @@
         </mxCell>
 
         <!-- Comparison Table -->
-        <mxCell id="table-header-aspect" value="Aspect" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="table-header-aspect" value="Aspect" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="535" width="130" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="table-header-repo" value="Repository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b85450;strokeColor=#b85450;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="table-header-repo" value="Repository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b85450;strokeColor=#b85450;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="535" width="260" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="table-header-ds" value="Domain Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9673a6;strokeColor=#9673a6;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="table-header-ds" value="Domain Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9673a6;strokeColor=#9673a6;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="535" width="260" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="table-header-as" value="Application Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;fontColor=#ffffff;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="table-header-as" value="Application Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6c8ebf;strokeColor=#6c8ebf;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="535" width="260" height="35" as="geometry" />
         </mxCell>
 
-        <mxCell id="row1-aspect" value="Purpose" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="row1-aspect" value="Purpose" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="570" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row1-repo" value="Persist and retrieve Aggregates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="row1-repo" value="Persist and retrieve Aggregates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="570" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row1-ds" value="Domain logic that spans entities" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="row1-ds" value="Domain logic that spans entities" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="570" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row1-as" value="Orchestrate use cases, coordinate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="row1-as" value="Orchestrate use cases, coordinate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="570" width="260" height="40" as="geometry" />
         </mxCell>
 
-        <mxCell id="row2-aspect" value="Contains" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="row2-aspect" value="Contains" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="610" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row2-repo" value="Data access logic, mapping" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="row2-repo" value="Data access logic, mapping" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="610" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row2-ds" value="Business/domain logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="row2-ds" value="Business/domain logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="610" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row2-as" value="Transaction management, security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="row2-as" value="Transaction management, security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="610" width="260" height="40" as="geometry" />
         </mxCell>
 
-        <mxCell id="row3-aspect" value="Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="row3-aspect" value="Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="650" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row3-repo" value="Domain / Infrastructure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="row3-repo" value="Domain / Infrastructure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="650" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row3-ds" value="Domain" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="row3-ds" value="Domain" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="650" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row3-as" value="Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="row3-as" value="Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="650" width="260" height="40" as="geometry" />
         </mxCell>
 
-        <mxCell id="row4-aspect" value="Example" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="row4-aspect" value="Example" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="690" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row4-repo" value="OrderRepository.findById()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="row4-repo" value="OrderRepository.findById()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontFamily=Courier New;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="690" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row4-ds" value="PricingService.calculateTotal()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="row4-ds" value="PricingService.calculateTotal()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontFamily=Courier New;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="690" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="row4-as" value="PlaceOrderUseCase.execute()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="row4-as" value="PlaceOrderUseCase.execute()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontFamily=Courier New;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="690" width="260" height="40" as="geometry" />
         </mxCell>
 
@@ -214,34 +214,34 @@
         <mxCell id="flow-title" value="Typical Flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1020" y="490" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="flow-as" value="Application&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-as" value="Application&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="530" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="flow-repo" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-repo" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="530" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="flow-agg" value="Aggregate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-agg" value="Aggregate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="600" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="flow-ds" value="Domain&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-ds" value="Domain&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="670" width="80" height="40" as="geometry" />
         </mxCell>
 
-        <mxCell id="flow-arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="flow-as" target="flow-repo" edge="1">
+        <mxCell id="flow-arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="flow-as" target="flow-repo" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="flow-arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="flow-repo" target="flow-agg" edge="1">
+        <mxCell id="flow-arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="flow-repo" target="flow-agg" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="flow-arr3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="flow-agg" target="flow-ds" edge="1">
+        <mxCell id="flow-arr3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="flow-agg" target="flow-ds" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="flow-arr4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;" parent="1" source="flow-ds" edge="1">
+        <mxCell id="flow-arr4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;shadow=1;flowAnimation=1;jumpStyle=arc" parent="1" source="flow-ds" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1015" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="flow-arr5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" target="flow-agg" edge="1">
+        <mxCell id="flow-arr5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;entryX=0;entryY=1;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" target="flow-agg" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1015" y="620" as="sourcePoint" />
           </mxGeometry>

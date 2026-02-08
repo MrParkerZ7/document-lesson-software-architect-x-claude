@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
   <diagram name="Azure Data Services" id="azure-data">
     <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         </mxCell>
 
         <!-- Azure SQL -->
-        <mxCell id="sql-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="sql-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="100" width="330" height="150" as="geometry" />
         </mxCell>
         <mxCell id="sql-title" value="Azure SQL Database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" vertex="1" parent="1">
@@ -27,7 +27,7 @@
         </mxCell>
 
         <!-- PostgreSQL/MySQL -->
-        <mxCell id="oss-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="oss-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="100" width="330" height="150" as="geometry" />
         </mxCell>
         <mxCell id="oss-title" value="Azure Database for PostgreSQL/MySQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#0078d4;" vertex="1" parent="1">
@@ -43,7 +43,7 @@
         </mxCell>
 
         <!-- Cosmos DB -->
-        <mxCell id="cosmos-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="cosmos-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="295" width="500" height="170" as="geometry" />
         </mxCell>
         <mxCell id="cosmos-title" value="Azure Cosmos DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" vertex="1" parent="1">
@@ -59,7 +59,7 @@
         </mxCell>
 
         <!-- Synapse -->
-        <mxCell id="synapse-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="synapse-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="100" width="620" height="150" as="geometry" />
         </mxCell>
         <mxCell id="synapse-title" value="Azure Synapse Analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" vertex="1" parent="1">
@@ -75,7 +75,7 @@
         </mxCell>
 
         <!-- Redis -->
-        <mxCell id="redis-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="redis-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="295" width="330" height="170" as="geometry" />
         </mxCell>
         <mxCell id="redis-title" value="Azure Cache for Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" vertex="1" parent="1">
@@ -91,7 +91,7 @@
         </mxCell>
 
         <!-- Blob Storage -->
-        <mxCell id="blob-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="blob-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="295" width="450" height="170" as="geometry" />
         </mxCell>
         <mxCell id="blob-title" value="Azure Blob Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#0078d4;" vertex="1" parent="1">
@@ -106,82 +106,82 @@
           <mxGeometry x="540" y="490" width="320" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="flow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="flow-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="525" width="1320" height="230" as="geometry" />
         </mxCell>
 
         <!-- Source -->
-        <mxCell id="source" value="Data Sources&#xa;(Apps, IoT, Logs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="source" value="Data Sources&#xa;(Apps, IoT, Logs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="600" width="100" height="60" as="geometry" />
         </mxCell>
 
         <!-- Ingestion -->
-        <mxCell id="ingest" value="Event Hubs&#xa;/ IoT Hub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="ingest" value="Event Hubs&#xa;/ IoT Hub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="600" width="100" height="60" as="geometry" />
         </mxCell>
 
         <!-- Storage Layer -->
-        <mxCell id="storage-layer" value="Azure Data Lake&#xa;Storage Gen2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="storage-layer" value="Azure Data Lake&#xa;Storage Gen2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="600" width="110" height="60" as="geometry" />
         </mxCell>
 
         <!-- Processing -->
-        <mxCell id="process" value="Azure Synapse&#xa;/ Databricks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="process" value="Azure Synapse&#xa;/ Databricks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="600" width="110" height="60" as="geometry" />
         </mxCell>
 
         <!-- Serving Layer -->
-        <mxCell id="serving-sql" value="Azure SQL&#xa;(OLTP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="serving-sql" value="Azure SQL&#xa;(OLTP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="560" width="90" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="serving-cosmos" value="Cosmos DB&#xa;(NoSQL)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="serving-cosmos" value="Cosmos DB&#xa;(NoSQL)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="615" width="90" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="serving-synapse" value="Synapse&#xa;(Analytics)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="serving-synapse" value="Synapse&#xa;(Analytics)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="670" width="90" height="45" as="geometry" />
         </mxCell>
 
         <!-- Cache -->
-        <mxCell id="cache-layer" value="Azure Cache&#xa;for Redis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="cache-layer" value="Azure Cache&#xa;for Redis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="600" width="100" height="60" as="geometry" />
         </mxCell>
 
         <!-- Apps -->
-        <mxCell id="apps" value="Applications&#xa;&amp; APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="apps" value="Applications&#xa;&amp; APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="600" width="100" height="60" as="geometry" />
         </mxCell>
 
         <!-- BI -->
-        <mxCell id="bi" value="Power BI&#xa;(Visualization)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="bi" value="Power BI&#xa;(Visualization)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="600" width="100" height="60" as="geometry" />
         </mxCell>
 
         <!-- Arrows -->
-        <mxCell id="arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="source" target="ingest">
+        <mxCell id="arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="source" target="ingest">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="ingest" target="storage-layer">
+        <mxCell id="arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="ingest" target="storage-layer">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="storage-layer" target="process">
+        <mxCell id="arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="storage-layer" target="process">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;" edge="1" parent="1" source="process" target="serving-sql">
+        <mxCell id="arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="process" target="serving-sql">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;" edge="1" parent="1" source="process" target="serving-cosmos">
+        <mxCell id="arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="process" target="serving-cosmos">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;" edge="1" parent="1" source="process" target="serving-synapse">
+        <mxCell id="arr6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="process" target="serving-synapse">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="serving-cosmos" target="cache-layer">
+        <mxCell id="arr7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="serving-cosmos" target="cache-layer">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="cache-layer" target="apps">
+        <mxCell id="arr8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="cache-layer" target="apps">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="serving-synapse" target="bi">
+        <mxCell id="arr9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="serving-synapse" target="bi">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="830" y="693" />
@@ -209,7 +209,7 @@
         </mxCell>
 
         <!-- Quick Reference -->
-        <mxCell id="ref-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;" vertex="1" parent="1">
+        <mxCell id="ref-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f2ff;strokeColor=#0078d4;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="770" width="1320" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ref-title" value="Quick Reference: When to Use What" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#0078d4;" vertex="1" parent="1">

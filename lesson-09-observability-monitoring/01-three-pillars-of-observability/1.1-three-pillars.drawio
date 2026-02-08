@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="three-pillars" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="5.0" etag="three-pillars" version="21.0.0" type="device">
   <diagram name="Three Pillars of Observability" id="three-pillars-overview">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Overview Box -->
-        <mxCell id="overview-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="overview-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="90" width="1200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="overview-title" value="🔹 Observability = Understanding Internal State from External Outputs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -19,7 +19,7 @@
         </mxCell>
 
         <!-- Logs Pillar -->
-        <mxCell id="logs-pillar" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="logs-pillar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="140" width="340" height="110" as="geometry" />
         </mxCell>
         <mxCell id="logs-icon" value="📝" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
@@ -33,7 +33,7 @@
         </mxCell>
 
         <!-- Metrics Pillar -->
-        <mxCell id="metrics-pillar" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="metrics-pillar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="140" width="340" height="110" as="geometry" />
         </mxCell>
         <mxCell id="metrics-icon" value="📊" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
@@ -47,7 +47,7 @@
         </mxCell>
 
         <!-- Traces Pillar -->
-        <mxCell id="traces-pillar" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="traces-pillar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="140" width="340" height="110" as="geometry" />
         </mxCell>
         <mxCell id="traces-icon" value="🔍" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
@@ -66,7 +66,7 @@
         </mxCell>
 
         <!-- Logs Question Box -->
-        <mxCell id="logs-q-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="logs-q-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="340" width="380" height="150" as="geometry" />
         </mxCell>
         <mxCell id="logs-q-title" value="📝 Logs Answer: What Happened?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -77,7 +77,7 @@
         </mxCell>
 
         <!-- Metrics Question Box -->
-        <mxCell id="metrics-q-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="metrics-q-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="340" width="380" height="150" as="geometry" />
         </mxCell>
         <mxCell id="metrics-q-title" value="📊 Metrics Answer: How Much?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -88,7 +88,7 @@
         </mxCell>
 
         <!-- Traces Question Box -->
-        <mxCell id="traces-q-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="traces-q-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="340" width="380" height="150" as="geometry" />
         </mxCell>
         <mxCell id="traces-q-title" value="🔍 Traces Answer: Where &amp; Why?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -104,12 +104,12 @@
         </mxCell>
 
         <!-- Integration Flow -->
-        <mxCell id="flow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="flow-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="550" width="1200" height="280" as="geometry" />
         </mxCell>
 
         <!-- Step 1: Alert -->
-        <mxCell id="step1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="step1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="580" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="step1-title" value="1️⃣ Alert Triggered" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -119,7 +119,7 @@
           <mxGeometry x="150" y="620" width="180" height="55" as="geometry" />
         </mxCell>
 
-        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;curved=1;shadow=1;flowAnimation=1;jumpStyle=arc;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="630" as="sourcePoint" />
             <mxPoint x="410" y="630" as="targetPoint" />
@@ -127,7 +127,7 @@
         </mxCell>
 
         <!-- Step 2: Investigate Traces -->
-        <mxCell id="step2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="step2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="580" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="step2-title" value="2️⃣ Check Traces" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -137,7 +137,7 @@
           <mxGeometry x="430" y="620" width="180" height="55" as="geometry" />
         </mxCell>
 
-        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;curved=1;shadow=1;flowAnimation=1;jumpStyle=arc;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="630" y="630" as="sourcePoint" />
             <mxPoint x="690" y="630" as="targetPoint" />
@@ -145,7 +145,7 @@
         </mxCell>
 
         <!-- Step 3: Check Logs -->
-        <mxCell id="step3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="step3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="580" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="step3-title" value="3️⃣ Analyze Logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -155,7 +155,7 @@
           <mxGeometry x="710" y="620" width="180" height="55" as="geometry" />
         </mxCell>
 
-        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;curved=1;shadow=1;flowAnimation=1;jumpStyle=arc;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="910" y="630" as="sourcePoint" />
             <mxPoint x="970" y="630" as="targetPoint" />
@@ -163,7 +163,7 @@
         </mxCell>
 
         <!-- Step 4: Root Cause -->
-        <mxCell id="step4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="step4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="580" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="step4-title" value="4️⃣ Root Cause Found" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -174,7 +174,7 @@
         </mxCell>
 
         <!-- Correlation Note -->
-        <mxCell id="correlation-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="correlation-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="710" width="1040" height="90" as="geometry" />
         </mxCell>
         <mxCell id="correlation-title" value="🔗 Correlation is Key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">

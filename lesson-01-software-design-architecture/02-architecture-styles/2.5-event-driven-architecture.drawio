@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="event-driven" name="Event-Driven Architecture">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -15,58 +15,58 @@
           <mxGeometry x="100" y="80" width="150" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="producer1" value="Order Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="producer1" value="Order Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="120" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="producer2" value="Payment Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="producer2" value="Payment Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="190" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="producer3" value="User Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="producer3" value="User Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="260" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="producer4" value="Inventory Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="producer4" value="Inventory Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="330" width="120" height="50" as="geometry" />
         </mxCell>
 
         <!-- Events -->
-        <mxCell id="event1" value="OrderCreated" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="event1" value="OrderCreated" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="130" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="event2" value="PaymentProcessed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="event2" value="PaymentProcessed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="200" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="event3" value="UserRegistered" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="event3" value="UserRegistered" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="270" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="event4" value="StockUpdated" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="event4" value="StockUpdated" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="340" width="85" height="30" as="geometry" />
         </mxCell>
 
         <!-- Event Broker -->
-        <mxCell id="broker" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="broker" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="100" width="240" height="300" as="geometry" />
         </mxCell>
         <mxCell id="broker-title" value="Event Broker&#xa;(Kafka / RabbitMQ / Event Hubs)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="395" y="110" width="210" height="40" as="geometry" />
         </mxCell>
 
-        <mxCell id="topic1" value="orders-topic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="topic1" value="orders-topic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="160" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="topic2" value="payments-topic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="topic2" value="payments-topic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="160" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="topic3" value="users-topic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="topic3" value="users-topic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="200" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="topic4" value="inventory-topic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="topic4" value="inventory-topic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="200" width="90" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="broker-features" value="Features:&#xa;• Message persistence&#xa;• Ordering guarantees&#xa;• Partitioning&#xa;• Consumer groups&#xa;• Replay capability&#xa;• Dead letter queue" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+        <mxCell id="broker-features" value="Features:&#xa;• Message persistence&#xa;• Ordering guarantees&#xa;• Partitioning&#xa;• Consumer groups&#xa;• Replay capability&#xa;• Dead letter queue" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;spacingTop=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="250" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="broker-patterns" value="Patterns:&#xa;• Pub/Sub&#xa;• Point-to-Point&#xa;• Request/Reply&#xa;• Event Streaming&#xa;• Fan-out" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;spacingTop=5;" parent="1" vertex="1">
+        <mxCell id="broker-patterns" value="Patterns:&#xa;• Pub/Sub&#xa;• Point-to-Point&#xa;• Request/Reply&#xa;• Event Streaming&#xa;• Fan-out" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;spacingLeft=5;spacingTop=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="250" width="80" height="120" as="geometry" />
         </mxCell>
 
@@ -75,53 +75,53 @@
           <mxGeometry x="720" y="80" width="150" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="consumer1" value="Notification&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="consumer1" value="Notification&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="120" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="consumer2" value="Analytics&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="consumer2" value="Analytics&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="120" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="consumer3" value="Shipping&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="consumer3" value="Shipping&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="190" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="consumer4" value="Email&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="consumer4" value="Email&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="190" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="consumer5" value="Reporting&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="consumer5" value="Reporting&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="260" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="consumer6" value="Audit&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="consumer6" value="Audit&#xa;Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="260" width="100" height="50" as="geometry" />
         </mxCell>
 
         <!-- Arrows -->
-        <mxCell id="arr1" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="producer1" target="event1" edge="1">
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="producer1" target="event1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="producer2" target="event2" edge="1">
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="producer2" target="event2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr3" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="producer3" target="event3" edge="1">
+        <mxCell id="arr3" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="producer3" target="event3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="producer4" target="event4" edge="1">
+        <mxCell id="arr4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="producer4" target="event4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="event1" target="broker" edge="1">
+        <mxCell id="arr5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="event1" target="broker" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;" parent="1" source="event2" target="broker" edge="1">
+        <mxCell id="arr6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="event2" target="broker" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="broker" target="consumer1" edge="1">
+        <mxCell id="arr7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="broker" target="consumer1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="broker" target="consumer3" edge="1">
+        <mxCell id="arr8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" source="broker" target="consumer3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Event Structure -->
-        <mxCell id="event-structure" value="📦 Event Structure" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="event-structure" value="📦 Event Structure" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="70" y="430" width="200" height="170" as="geometry" />
         </mxCell>
         <mxCell id="event-json" value="{&#xa;  &quot;eventId&quot;: &quot;uuid&quot;,&#xa;  &quot;eventType&quot;: &quot;OrderCreated&quot;,&#xa;  &quot;timestamp&quot;: &quot;ISO8601&quot;,&#xa;  &quot;source&quot;: &quot;order-service&quot;,&#xa;  &quot;data&quot;: { ... },&#xa;  &quot;metadata&quot;: {&#xa;    &quot;correlationId&quot;: &quot;...&quot;,&#xa;    &quot;causationId&quot;: &quot;...&quot;&#xa;  }&#xa;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Courier New;spacingLeft=5;spacingTop=5;" parent="event-structure" vertex="1">
@@ -129,7 +129,7 @@
         </mxCell>
 
         <!-- Benefits -->
-        <mxCell id="benefits" value="✨ EDA Benefits" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="benefits" value="✨ EDA Benefits" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="300" y="430" width="180" height="170" as="geometry" />
         </mxCell>
         <mxCell id="benefits-list" value="✓ Loose coupling&#xa;✓ Scalability&#xa;✓ Flexibility&#xa;✓ Real-time processing&#xa;✓ Audit trail&#xa;✓ Replay capability&#xa;✓ Easy to add consumers&#xa;✓ Fault tolerance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;spacingTop=5;" parent="benefits" vertex="1">
@@ -137,7 +137,7 @@
         </mxCell>
 
         <!-- Challenges -->
-        <mxCell id="challenges" value="⚠️ Challenges" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="challenges" value="⚠️ Challenges" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="510" y="430" width="180" height="170" as="geometry" />
         </mxCell>
         <mxCell id="challenges-list" value="✗ Eventual consistency&#xa;✗ Debugging complexity&#xa;✗ Event ordering&#xa;✗ Duplicate handling&#xa;✗ Schema evolution&#xa;✗ Infrastructure costs&#xa;✗ Monitoring overhead" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;spacingTop=5;" parent="challenges" vertex="1">
@@ -145,7 +145,7 @@
         </mxCell>
 
         <!-- Use Cases -->
-        <mxCell id="usecases" value="💡 Best Use Cases" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="usecases" value="💡 Best Use Cases" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;rounded=0" parent="1" vertex="1">
           <mxGeometry x="720" y="340" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="usecases-list" value="• Real-time analytics&#xa;• IoT data processing&#xa;• Microservices integration&#xa;• Audit logging&#xa;• Notification systems&#xa;• Order processing&#xa;• Financial transactions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=10;spacingTop=5;" parent="usecases" vertex="1">

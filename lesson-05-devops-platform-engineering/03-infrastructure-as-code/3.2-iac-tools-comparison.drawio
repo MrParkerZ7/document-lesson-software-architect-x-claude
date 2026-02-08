@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="iac-comparison" name="IaC Tools Comparison">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -12,16 +12,16 @@
 
         <!-- Tool Cards Row 1 -->
         <!-- Terraform -->
-        <mxCell id="tf-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="tf-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="90" width="300" height="220" as="geometry" />
         </mxCell>
         <mxCell id="tf-logo" value="⚡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
           <mxGeometry x="200" y="95" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tf-title" value="Terraform" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="tf-title" value="Terraform" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="135" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tf-lang" value="HCL (HashiCorp Configuration Language)" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="tf-lang" value="HCL (HashiCorp Configuration Language)" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="175" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tf-features" value="• Multi-cloud (AWS, Azure, GCP, +)&#xa;• Declarative syntax&#xa;• State management&#xa;• Large provider ecosystem&#xa;• Modules for reusability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
@@ -29,16 +29,16 @@
         </mxCell>
 
         <!-- Pulumi -->
-        <mxCell id="pulumi-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="pulumi-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="90" width="300" height="220" as="geometry" />
         </mxCell>
         <mxCell id="pulumi-logo" value="🔮" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
           <mxGeometry x="520" y="95" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pulumi-title" value="Pulumi" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="pulumi-title" value="Pulumi" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="135" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pulumi-lang" value="TypeScript, Python, Go, C#, Java" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="pulumi-lang" value="TypeScript, Python, Go, C#, Java" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="175" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pulumi-features" value="• Real programming languages&#xa;• Multi-cloud support&#xa;• Familiar tooling (npm, pip, etc.)&#xa;• Testing with standard frameworks&#xa;• State management" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
@@ -46,16 +46,16 @@
         </mxCell>
 
         <!-- ARM/Bicep -->
-        <mxCell id="arm-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="arm-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="90" width="300" height="220" as="geometry" />
         </mxCell>
         <mxCell id="arm-logo" value="☁️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
           <mxGeometry x="840" y="95" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="arm-title" value="ARM / Bicep" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="arm-title" value="ARM / Bicep" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="135" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="arm-lang" value="JSON (ARM) / Bicep DSL" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="arm-lang" value="JSON (ARM) / Bicep DSL" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="175" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="arm-features" value="• Azure native&#xa;• First-party support&#xa;• Bicep: cleaner syntax&#xa;• Azure-managed state&#xa;• What-if deployments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
@@ -63,16 +63,16 @@
         </mxCell>
 
         <!-- CloudFormation -->
-        <mxCell id="cf-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="cf-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="90" width="300" height="220" as="geometry" />
         </mxCell>
         <mxCell id="cf-logo" value="🏗️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
           <mxGeometry x="1160" y="95" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cf-title" value="CloudFormation" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="cf-title" value="CloudFormation" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="135" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cf-lang" value="YAML / JSON" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="cf-lang" value="YAML / JSON" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="175" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cf-features" value="• AWS native&#xa;• First-party support&#xa;• Stack management&#xa;• Drift detection&#xa;• StackSets for multi-region" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
@@ -85,7 +85,7 @@
         </mxCell>
 
         <!-- Table Header -->
-        <mxCell id="th-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;" parent="1" vertex="1">
+        <mxCell id="th-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="370" width="1260" height="35" as="geometry" />
         </mxCell>
         <mxCell id="th1" value="Feature" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
@@ -111,33 +111,33 @@
         </mxCell>
 
         <!-- Row 1 -->
-        <mxCell id="r1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="r1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="405" width="1260" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r1c1" value="Cloud Support" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="410" width="180" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r1c2" value="Multi-cloud" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r1c2" value="Multi-cloud" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="295" y="412" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r1c3" value="Multi-cloud" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r1c3" value="Multi-cloud" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="475" y="412" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r1c4" value="Azure only" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r1c4" value="Azure only" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="655" y="412" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r1c5" value="AWS only" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r1c5" value="AWS only" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="835" y="412" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r1c6" value="Multi-cloud*" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r1c6" value="Multi-cloud*" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1015" y="412" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r1c7" value="Multi-cloud" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r1c7" value="Multi-cloud" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1195" y="412" width="110" height="20" as="geometry" />
         </mxCell>
 
         <!-- Row 2 -->
-        <mxCell id="r2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="r2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="440" width="1260" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r2c1" value="State Management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
@@ -163,33 +163,33 @@
         </mxCell>
 
         <!-- Row 3 -->
-        <mxCell id="r3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="r3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="475" width="1260" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r3c1" value="Learning Curve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="480" width="180" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r3c2" value="Medium" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r3c2" value="Medium" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="295" y="482" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r3c3" value="Low*" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r3c3" value="Low*" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="475" y="482" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r3c4" value="Medium" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r3c4" value="Medium" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="655" y="482" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r3c5" value="Medium" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r3c5" value="Medium" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="835" y="482" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r3c6" value="Low*" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r3c6" value="Low*" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1015" y="482" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r3c7" value="Low" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r3c7" value="Low" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1195" y="482" width="110" height="20" as="geometry" />
         </mxCell>
 
         <!-- Row 4 -->
-        <mxCell id="r4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="r4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="510" width="1260" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r4c1" value="Approach" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
@@ -220,40 +220,40 @@
         </mxCell>
 
         <!-- Decision boxes -->
-        <mxCell id="dec1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="dec1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="620" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dec1-title" value="💡 Use Terraform when:" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="dec1-title" value="💡 Use Terraform when:" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="630" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dec1-desc" value="• Multi-cloud strategy&#xa;• Need vendor neutrality&#xa;• Large ecosystem needed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;" parent="1" vertex="1">
           <mxGeometry x="90" y="655" width="240" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="dec2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="dec2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="620" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dec2-title" value="💡 Use Pulumi when:" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="dec2-title" value="💡 Use Pulumi when:" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="630" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dec2-desc" value="• Team knows TypeScript/Python&#xa;• Complex logic needed&#xa;• Standard testing required" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;" parent="1" vertex="1">
           <mxGeometry x="370" y="655" width="240" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="dec3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="dec3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="620" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dec3-title" value="💡 Use ARM/Bicep when:" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="dec3-title" value="💡 Use ARM/Bicep when:" style="text;html=1;strokeColor=none;fillColor=#d6b656;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="630" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dec3-desc" value="• Azure-only environment&#xa;• First-party support needed&#xa;• Azure Policy integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;" parent="1" vertex="1">
           <mxGeometry x="650" y="655" width="240" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="dec4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="dec4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="620" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dec4-title" value="💡 Use CloudFormation when:" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="dec4-title" value="💡 Use CloudFormation when:" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="630" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dec4-desc" value="• AWS-only environment&#xa;• AWS support needed&#xa;• StackSets for multi-region" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=10;" parent="1" vertex="1">
@@ -261,7 +261,7 @@
         </mxCell>
 
         <!-- Note -->
-        <mxCell id="note" value="* If team already knows the programming language" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="note" value="* If team already knows the programming language" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="730" width="340" height="25" as="geometry" />
         </mxCell>
 

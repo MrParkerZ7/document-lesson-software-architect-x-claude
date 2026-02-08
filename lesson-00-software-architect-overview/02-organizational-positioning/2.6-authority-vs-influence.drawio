@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-02-03T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-02-03T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="authority-influence" name="Authority vs Influence">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -16,35 +16,35 @@
         </mxCell>
 
         <!-- Direct Authority Column -->
-        <mxCell id="authority-header" value="DIRECT AUTHORITY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="authority-header" value="DIRECT AUTHORITY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="180" y="100" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="authority-sub" value="(Less Common)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="230" y="140" width="150" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="auth1" value="Technical Standards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="auth1" value="Technical Standards" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="180" y="180" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="auth1-desc" value="Define and enforce coding standards,&#xa;design patterns, and best practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="180" y="230" width="250" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="auth2" value="Architecture Approval Gates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="auth2" value="Architecture Approval Gates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="180" y="280" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="auth2-desc" value="Approve or reject designs before&#xa;implementation proceeds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="180" y="330" width="250" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="auth3" value="Technology Selection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="auth3" value="Technology Selection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="180" y="380" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="auth3-desc" value="Final say on technology choices&#xa;and tool adoption" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="180" y="430" width="250" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="auth4" value="Code/Design Review Veto" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="auth4" value="Code/Design Review Veto" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="180" y="480" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="auth4-desc" value="Block merges that violate&#xa;architectural principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
@@ -52,35 +52,35 @@
         </mxCell>
 
         <!-- Influence-Based Column -->
-        <mxCell id="influence-header" value="INFLUENCE-BASED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="influence-header" value="INFLUENCE-BASED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="530" y="100" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="influence-sub" value="(More Common)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="580" y="140" width="150" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="inf1" value="Persuasion and Education" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="inf1" value="Persuasion and Education" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="530" y="180" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="inf1-desc" value="Explain rationale, teach concepts,&#xa;help teams understand why" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="530" y="230" width="250" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="inf2" value="Building Trust and Credibility" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="inf2" value="Building Trust and Credibility" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="530" y="280" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="inf2-desc" value="Demonstrate expertise through&#xa;successful outcomes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="530" y="330" width="250" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="inf3" value="Leading by Example" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="inf3" value="Leading by Example" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="530" y="380" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="inf3-desc" value="Write quality code, follow standards,&#xa;model desired behaviors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="530" y="430" width="250" height="30" as="geometry" />
         </mxCell>
 
-        <mxCell id="inf4" value="Mentoring and Collaboration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="inf4" value="Mentoring and Collaboration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="530" y="480" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="inf4-desc" value="Work alongside teams, share knowledge,&#xa;develop others' skills" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" parent="1" vertex="1">
@@ -88,7 +88,7 @@
         </mxCell>
 
         <!-- Key Success Factors -->
-        <mxCell id="success-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+        <mxCell id="success-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="100" width="300" height="320" as="geometry" />
         </mxCell>
         <mxCell id="success-title" value="Key Success Factors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
@@ -99,7 +99,7 @@
         </mxCell>
 
         <!-- Balance Note -->
-        <mxCell id="balance-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+        <mxCell id="balance-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="590" width="600" height="80" as="geometry" />
         </mxCell>
         <mxCell id="balance-title" value="Finding the Right Balance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
@@ -110,7 +110,7 @@
         </mxCell>
 
         <!-- Warning Anti-patterns -->
-        <mxCell id="warning-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+        <mxCell id="warning-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="450" width="300" height="130" as="geometry" />
         </mxCell>
         <mxCell id="warning-title" value="⚠ Avoid These Anti-patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#b85450;" parent="1" vertex="1">

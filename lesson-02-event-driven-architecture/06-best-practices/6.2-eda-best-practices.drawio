@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
   <diagram name="EDA Best Practices" id="eda-best-practices">
     <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Event Design -->
-        <mxCell id="design-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="design-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="60" width="420" height="260" as="geometry" />
         </mxCell>
         <mxCell id="design-title" value="1. Event Design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#6c8ebf;" vertex="1" parent="1">
@@ -22,7 +22,7 @@
         </mxCell>
 
         <!-- Idempotency -->
-        <mxCell id="idemp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="idemp-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="60" width="440" height="260" as="geometry" />
         </mxCell>
         <mxCell id="idemp-title" value="2. Idempotency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1">
@@ -33,7 +33,7 @@
         </mxCell>
 
         <!-- Ordering -->
-        <mxCell id="order-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="order-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="60" width="420" height="260" as="geometry" />
         </mxCell>
         <mxCell id="order-title" value="3. Ordering &amp; Consistency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#d79b00;" vertex="1" parent="1">
@@ -44,7 +44,7 @@
         </mxCell>
 
         <!-- Monitoring -->
-        <mxCell id="monitor-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="monitor-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="340" width="420" height="260" as="geometry" />
         </mxCell>
         <mxCell id="monitor-title" value="4. Monitoring &amp; Observability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#9673a6;" vertex="1" parent="1">
@@ -55,7 +55,7 @@
         </mxCell>
 
         <!-- Error Handling -->
-        <mxCell id="error-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="error-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="340" width="440" height="260" as="geometry" />
         </mxCell>
         <mxCell id="error-title" value="5. Error Handling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
@@ -66,7 +66,7 @@
         </mxCell>
 
         <!-- Testing -->
-        <mxCell id="test-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="test-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="340" width="420" height="260" as="geometry" />
         </mxCell>
         <mxCell id="test-title" value="6. Testing Strategies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#d6b656;" vertex="1" parent="1">
@@ -77,7 +77,7 @@
         </mxCell>
 
         <!-- Security -->
-        <mxCell id="sec-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="sec-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="620" width="660" height="150" as="geometry" />
         </mxCell>
         <mxCell id="sec-title" value="7. Security" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
@@ -91,7 +91,7 @@
         </mxCell>
 
         <!-- Performance -->
-        <mxCell id="perf-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#1a1a2e;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="perf-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#1a1a2e;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="620" width="640" height="150" as="geometry" />
         </mxCell>
         <mxCell id="perf-title" value="8. Performance Optimization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
@@ -108,7 +108,7 @@
         </mxCell>
 
         <!-- Anti-patterns -->
-        <mxCell id="anti-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="anti-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="790" width="1320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="anti-title" value="Common Anti-Patterns to Avoid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">

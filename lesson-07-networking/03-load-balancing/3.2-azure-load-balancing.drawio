@@ -11,23 +11,23 @@
         </mxCell>
 
         <!-- Start -->
-        <mxCell id="start" value="Application&#xa;Load Balancing&#xa;Requirement" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="start" value="Application&#xa;Load Balancing&#xa;Requirement" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="80" width="120" height="80" as="geometry" />
         </mxCell>
 
         <!-- Q1: Global or Regional -->
-        <mxCell id="q1" value="Global or&#xa;Regional?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="q1" value="Global or&#xa;Regional?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="200" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="conn-start-q1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="start" target="q1">
+        <mxCell id="conn-start-q1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="start" target="q1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Global Branch -->
-        <mxCell id="q2-global" value="HTTP(S)&#xa;traffic?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="q2-global" value="HTTP(S)&#xa;traffic?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="conn-q1-global" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q1" target="q2-global">
+        <mxCell id="conn-q1-global" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="q1" target="q2-global">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="label-global" value="Global" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
@@ -35,10 +35,10 @@
         </mxCell>
 
         <!-- Regional Branch -->
-        <mxCell id="q2-regional" value="HTTP(S)&#xa;traffic?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="q2-regional" value="HTTP(S)&#xa;traffic?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="conn-q1-regional" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q1" target="q2-regional">
+        <mxCell id="conn-q1-regional" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="q1" target="q2-regional">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="label-regional" value="Regional" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
@@ -46,7 +46,7 @@
         </mxCell>
 
         <!-- Global HTTP: Front Door -->
-        <mxCell id="front-door" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="front-door" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="450" width="180" height="200" as="geometry" />
         </mxCell>
         <mxCell id="fd-title" value="Azure Front Door" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
@@ -55,7 +55,7 @@
         <mxCell id="fd-features" value="Global HTTP(S) load balancer&#xa;&#xa;Features:&#xa;â€¢ CDN integration&#xa;â€¢ SSL offloading&#xa;â€¢ URL-based routing&#xa;â€¢ WAF protection&#xa;â€¢ Instant failover&#xa;â€¢ Caching" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="95" y="490" width="150" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="conn-q2g-fd" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-global" target="front-door">
+        <mxCell id="conn-q2g-fd" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="q2-global" target="front-door">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="label-yes-fd" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#27ae60;" vertex="1" parent="1">
@@ -63,7 +63,7 @@
         </mxCell>
 
         <!-- Global Non-HTTP: Traffic Manager -->
-        <mxCell id="traffic-mgr" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="traffic-mgr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="450" width="180" height="200" as="geometry" />
         </mxCell>
         <mxCell id="tm-title" value="Traffic Manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
@@ -72,7 +72,7 @@
         <mxCell id="tm-features" value="DNS-based traffic routing&#xa;&#xa;Features:&#xa;â€¢ Any protocol support&#xa;â€¢ Geographic routing&#xa;â€¢ Priority routing&#xa;â€¢ Weighted routing&#xa;â€¢ Performance routing&#xa;â€¢ Nested profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="345" y="490" width="150" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="conn-q2g-tm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-global" target="traffic-mgr">
+        <mxCell id="conn-q2g-tm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="q2-global" target="traffic-mgr">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="label-no-tm" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#c0392b;" vertex="1" parent="1">
@@ -80,7 +80,7 @@
         </mxCell>
 
         <!-- Regional HTTP: App Gateway -->
-        <mxCell id="app-gw" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="app-gw" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="450" width="180" height="200" as="geometry" />
         </mxCell>
         <mxCell id="ag-title" value="Application Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
@@ -89,7 +89,7 @@
         <mxCell id="ag-features" value="Regional L7 load balancer&#xa;&#xa;Features:&#xa;â€¢ URL-based routing&#xa;â€¢ SSL termination&#xa;â€¢ WAF integration&#xa;â€¢ Cookie affinity&#xa;â€¢ Autoscaling&#xa;â€¢ Zone redundancy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="845" y="490" width="150" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="conn-q2r-ag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-regional" target="app-gw">
+        <mxCell id="conn-q2r-ag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="q2-regional" target="app-gw">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="label-yes-ag" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#27ae60;" vertex="1" parent="1">
@@ -97,7 +97,7 @@
         </mxCell>
 
         <!-- Regional Non-HTTP: Azure Load Balancer -->
-        <mxCell id="azure-lb" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="azure-lb" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="450" width="180" height="200" as="geometry" />
         </mxCell>
         <mxCell id="lb-title" value="Azure Load Balancer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
@@ -106,7 +106,7 @@
         <mxCell id="lb-features" value="Regional L4 load balancer&#xa;&#xa;Features:&#xa;â€¢ TCP/UDP support&#xa;â€¢ HA ports&#xa;â€¢ Outbound rules&#xa;â€¢ Internal/External&#xa;â€¢ Ultra-low latency&#xa;â€¢ Zone redundancy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1095" y="490" width="150" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="conn-q2r-lb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-regional" target="azure-lb">
+        <mxCell id="conn-q2r-lb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="q2-regional" target="azure-lb">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="label-no-lb" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#c0392b;" vertex="1" parent="1">
@@ -119,87 +119,87 @@
         </mxCell>
 
         <!-- Table Headers -->
-        <mxCell id="th-feature" value="Feature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="th-feature" value="Feature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="720" width="140" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="th-fd" value="Front Door" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="th-fd" value="Front Door" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="720" width="140" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="th-tm" value="Traffic Manager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="th-tm" value="Traffic Manager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="720" width="140" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="th-ag" value="App Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="th-ag" value="App Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="720" width="140" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="th-lb" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="th-lb" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="720" width="140" height="35" as="geometry" />
         </mxCell>
 
         <!-- Row 1: Scope -->
-        <mxCell id="r1-label" value="Scope" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="r1-label" value="Scope" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="755" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r1-fd" value="Global" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r1-fd" value="Global" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="755" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r1-tm" value="Global (DNS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r1-tm" value="Global (DNS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="755" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r1-ag" value="Regional" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r1-ag" value="Regional" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="755" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r1-lb" value="Regional" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r1-lb" value="Regional" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="755" width="140" height="30" as="geometry" />
         </mxCell>
 
         <!-- Row 2: Layer -->
-        <mxCell id="r2-label" value="OSI Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="r2-label" value="OSI Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="785" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r2-fd" value="Layer 7 (HTTP/S)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r2-fd" value="Layer 7 (HTTP/S)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="785" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r2-tm" value="DNS (Layer 7)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r2-tm" value="DNS (Layer 7)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="785" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r2-ag" value="Layer 7 (HTTP/S)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r2-ag" value="Layer 7 (HTTP/S)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="785" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r2-lb" value="Layer 4 (TCP/UDP)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r2-lb" value="Layer 4 (TCP/UDP)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="785" width="140" height="30" as="geometry" />
         </mxCell>
 
         <!-- Row 3: WAF -->
-        <mxCell id="r3-label" value="WAF Support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="r3-label" value="WAF Support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="815" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r3-fd" value="Yes (Premium)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r3-fd" value="Yes (Premium)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="815" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r3-tm" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r3-tm" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="815" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r3-ag" value="Yes (v2)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r3-ag" value="Yes (v2)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="815" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r3-lb" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r3-lb" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="815" width="140" height="30" as="geometry" />
         </mxCell>
 
         <!-- Row 4: SSL Termination -->
-        <mxCell id="r4-label" value="SSL Termination" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="r4-label" value="SSL Termination" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="845" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r4-fd" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r4-fd" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="845" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r4-tm" value="No (DNS only)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r4-tm" value="No (DNS only)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="845" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r4-ag" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r4-ag" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="845" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r4-lb" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="r4-lb" value="No" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="845" width="140" height="30" as="geometry" />
         </mxCell>
 
@@ -208,7 +208,7 @@
           <mxGeometry x="900" y="720" width="200" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="aws-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="aws-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="755" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="aws-title" value="AWS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
@@ -218,7 +218,7 @@
           <mxGeometry x="835" y="790" width="170" height="75" as="geometry" />
         </mxCell>
 
-        <mxCell id="gcp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="gcp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="755" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="gcp-title" value="GCP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">

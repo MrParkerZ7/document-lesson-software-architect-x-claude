@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2025-01-01T00:00:00.000Z" agent="Claude" version="21.0.0">
+﻿<mxfile host="app.diagrams.net" modified="2025-01-01T00:00:00.000Z" agent="Claude" version="21.0.0">
   <diagram name="Zero Trust Architecture" id="zero-trust">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Core Principle -->
-        <mxCell id="principle-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="principle-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;strokeWidth=3;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="70" width="1500" height="80" as="geometry" />
         </mxCell>
         <mxCell id="principle-title" value="&quot;Never Trust, Always Verify&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#c62828;" parent="1" vertex="1">
@@ -22,7 +22,7 @@
         </mxCell>
 
         <!-- Three Principles -->
-        <mxCell id="principles-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="principles-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="170" width="1500" height="180" as="geometry" />
         </mxCell>
 
@@ -31,10 +31,10 @@
         </mxCell>
 
         <!-- Principle 1 -->
-        <mxCell id="p1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="p1-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="215" width="450" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="p1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="p1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontStyle=1;fontSize=16;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="225" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="p1-title" value="Verify Explicitly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
@@ -45,10 +45,10 @@
         </mxCell>
 
         <!-- Principle 2 -->
-        <mxCell id="p2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="p2-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="215" width="450" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="p2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="p2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontStyle=1;fontSize=16;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="225" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="p2-title" value="Use Least Privilege Access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
@@ -59,10 +59,10 @@
         </mxCell>
 
         <!-- Principle 3 -->
-        <mxCell id="p3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="p3-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="215" width="480" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="p3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="p3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontStyle=1;fontSize=16;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="225" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="p3-title" value="Assume Breach" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
@@ -73,7 +73,7 @@
         </mxCell>
 
         <!-- Zero Trust Architecture Diagram -->
-        <mxCell id="arch-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#616161;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="arch-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#616161;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="370" width="1500" height="380" as="geometry" />
         </mxCell>
 
@@ -82,7 +82,7 @@
         </mxCell>
 
         <!-- Policy Decision Point -->
-        <mxCell id="pdp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7b1fa2;strokeColor=#4a148c;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="pdp-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7b1fa2;strokeColor=#4a148c;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="420" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pdp-title" value="🎯 Policy Decision Point (PDP)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
@@ -93,13 +93,13 @@
         </mxCell>
 
         <!-- Identity Plane -->
-        <mxCell id="identity-plane" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="identity-plane" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="520" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="identity-title" value="👤 Identity Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
           <mxGeometry x="150" y="530" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="identity-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#90caf9;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="identity-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#90caf9;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="565" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="id1" value="🔐 Strong Authentication (MFA)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -122,13 +122,13 @@
         </mxCell>
 
         <!-- Device Plane -->
-        <mxCell id="device-plane" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="device-plane" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="520" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="device-title" value="💻 Device Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#e65100;" parent="1" vertex="1">
           <mxGeometry x="470" y="530" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="device-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ffcc80;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="device-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ffcc80;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="565" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="dev1" value="✅ Device Registration &amp; Join" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -151,13 +151,13 @@
         </mxCell>
 
         <!-- Network Plane -->
-        <mxCell id="network-plane" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#c2185b;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="network-plane" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#c2185b;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="520" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="network-title" value="🌐 Network Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#c2185b;" parent="1" vertex="1">
           <mxGeometry x="790" y="530" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="network-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#f48fb1;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="network-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#f48fb1;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="565" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="net1" value="🔲 Micro-Segmentation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -180,13 +180,13 @@
         </mxCell>
 
         <!-- Data & Apps Plane -->
-        <mxCell id="data-plane" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="data-plane" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="520" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="data-title" value="📦 Data &amp; Apps Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#00695c;" parent="1" vertex="1">
           <mxGeometry x="1105" y="530" width="170" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="data-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#80cbc4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="data-items" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#80cbc4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="565" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="dat1" value="🏷️ Data Classification" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
@@ -209,21 +209,21 @@
         </mxCell>
 
         <!-- Visibility & Analytics -->
-        <mxCell id="visibility-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#3f51b5;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="visibility-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#3f51b5;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="420" width="170" height="300" as="geometry" />
         </mxCell>
         <mxCell id="visibility-title" value="📊 Visibility &amp;&#xa;Analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#3f51b5;" parent="1" vertex="1">
           <mxGeometry x="1380" y="430" width="130" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="visibility-list" value="• SIEM Integration&#xa;• Log Analytics&#xa;• Threat Intelligence&#xa;• User Behavior&#xa;  Analytics (UBA)&#xa;• Security Score&#xa;• Compliance&#xa;  Monitoring&#xa;• Alerting&#xa;• Reporting" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;rounded=1;" parent="1" vertex="1">
+        <mxCell id="visibility-list" value="• SIEM Integration&#xa;• Log Analytics&#xa;• Threat Intelligence&#xa;• User Behavior&#xa;  Analytics (UBA)&#xa;• Security Score&#xa;• Compliance&#xa;  Monitoring&#xa;• Alerting&#xa;• Reporting" style="text;html=1;strokeColor=none;fillColor=#ffffff;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1375" y="475" width="140" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="visibility-tools" value="Tools:&#xa;Azure Sentinel&#xa;Defender XDR&#xa;Security Center" style="text;html=1;strokeColor=none;fillColor=#c5cae9;align=center;verticalAlign=top;fontSize=9;fontColor=#3f51b5;rounded=1;" parent="1" vertex="1">
+        <mxCell id="visibility-tools" value="Tools:&#xa;Azure Sentinel&#xa;Defender XDR&#xa;Security Center" style="text;html=1;strokeColor=none;fillColor=#c5cae9;align=center;verticalAlign=top;fontSize=9;fontColor=#3f51b5;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1375" y="620" width="140" height="55" as="geometry" />
         </mxCell>
 
         <!-- Arrows from planes to PDP -->
-        <mxCell id="arrow-id" value="" style="endArrow=classic;html=1;strokeColor=#7b1fa2;strokeWidth=2;curved=1;" parent="1" edge="1">
+        <mxCell id="arrow-id" value="" style="endArrow=classic;html=1;strokeColor=#7b1fa2;strokeWidth=2;curved=1;shadow=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="520" as="sourcePoint" />
             <mxPoint x="650" y="460" as="targetPoint" />
@@ -232,7 +232,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="arrow-dev" value="" style="endArrow=classic;html=1;strokeColor=#7b1fa2;strokeWidth=2;curved=1;" parent="1" edge="1">
+        <mxCell id="arrow-dev" value="" style="endArrow=classic;html=1;strokeColor=#7b1fa2;strokeWidth=2;curved=1;shadow=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="520" as="sourcePoint" />
             <mxPoint x="650" y="470" as="targetPoint" />
@@ -241,7 +241,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="arrow-net" value="" style="endArrow=classic;html=1;strokeColor=#7b1fa2;strokeWidth=2;curved=1;" parent="1" edge="1">
+        <mxCell id="arrow-net" value="" style="endArrow=classic;html=1;strokeColor=#7b1fa2;strokeWidth=2;curved=1;shadow=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="870" y="520" as="sourcePoint" />
             <mxPoint x="950" y="470" as="targetPoint" />
@@ -250,7 +250,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="arrow-data" value="" style="endArrow=classic;html=1;strokeColor=#7b1fa2;strokeWidth=2;curved=1;" parent="1" edge="1">
+        <mxCell id="arrow-data" value="" style="endArrow=classic;html=1;strokeColor=#7b1fa2;strokeWidth=2;curved=1;shadow=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1190" y="520" as="sourcePoint" />
             <mxPoint x="950" y="460" as="targetPoint" />
@@ -261,79 +261,79 @@
         </mxCell>
 
         <!-- Microsoft Zero Trust Implementation -->
-        <mxCell id="ms-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#0078d4;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="ms-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#0078d4;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="770" width="1500" height="200" as="geometry" />
         </mxCell>
 
-        <mxCell id="ms-title" value="Microsoft Zero Trust Implementation" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ms-title" value="Microsoft Zero Trust Implementation" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#ffffff;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="785" width="440" height="25" as="geometry" />
         </mxCell>
 
         <!-- Microsoft Products -->
-        <mxCell id="ms1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="ms1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="820" width="190" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="ms1-title" value="Identity" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ms1-title" value="Identity" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="125" y="830" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ms1-list" value="• Microsoft Entra ID&#xa;• Conditional Access&#xa;• Identity Protection&#xa;• PIM&#xa;• Passwordless auth" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
           <mxGeometry x="95" y="855" width="165" height="90" as="geometry" />
         </mxCell>
 
-        <mxCell id="ms2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="ms2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="820" width="190" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="ms2-title" value="Endpoints" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ms2-title" value="Endpoints" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="830" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ms2-list" value="• Microsoft Intune&#xa;• Defender for Endpoint&#xa;• Windows Autopilot&#xa;• Windows Hello&#xa;• Entra Join" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
           <mxGeometry x="305" y="855" width="165" height="90" as="geometry" />
         </mxCell>
 
-        <mxCell id="ms3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="ms3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="820" width="190" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="ms3-title" value="Applications" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ms3-title" value="Applications" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="545" y="830" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ms3-list" value="• Defender for Cloud Apps&#xa;• App proxy&#xa;• OAuth app governance&#xa;• App consent policies&#xa;• Managed identities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
           <mxGeometry x="515" y="855" width="165" height="90" as="geometry" />
         </mxCell>
 
-        <mxCell id="ms4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="ms4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="820" width="190" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="ms4-title" value="Data" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ms4-title" value="Data" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="755" y="830" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ms4-list" value="• Microsoft Purview&#xa;• Information Protection&#xa;• Data Loss Prevention&#xa;• Insider Risk Mgmt&#xa;• Data classification" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
           <mxGeometry x="725" y="855" width="165" height="90" as="geometry" />
         </mxCell>
 
-        <mxCell id="ms5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="ms5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="820" width="190" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="ms5-title" value="Infrastructure" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ms5-title" value="Infrastructure" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="965" y="830" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ms5-list" value="• Defender for Cloud&#xa;• Azure Firewall&#xa;• Azure Front Door&#xa;• Private Link&#xa;• Network segmentation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
           <mxGeometry x="935" y="855" width="165" height="90" as="geometry" />
         </mxCell>
 
-        <mxCell id="ms6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="ms6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="820" width="190" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="ms6-title" value="Network" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ms6-title" value="Network" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1175" y="830" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ms6-list" value="• Entra Internet Access&#xa;• Entra Private Access&#xa;• Azure VPN Gateway&#xa;• ExpressRoute&#xa;• Azure Bastion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">
           <mxGeometry x="1145" y="855" width="165" height="90" as="geometry" />
         </mxCell>
 
-        <mxCell id="ms7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="ms7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0078d4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="820" width="190" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="ms7-title" value="Security Ops" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ms7-title" value="Security Ops" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#ffffff;rounded=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1385" y="830" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ms7-list" value="• Microsoft Sentinel&#xa;• Defender XDR&#xa;• Security Copilot&#xa;• Attack simulation&#xa;• Secure Score" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#424242;" parent="1" vertex="1">

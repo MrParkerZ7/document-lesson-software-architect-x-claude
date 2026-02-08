@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="twelve-factor-app" version="22.1.5" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="twelve-factor-app" version="22.1.5" type="device">
   <diagram name="12-Factor App Methodology" id="twelve-factor-app">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -14,10 +14,10 @@
         </mxCell>
 
         <!-- Factor 1 - Codebase -->
-        <mxCell id="f1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f1-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="100" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#1976D2;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#1976D2;fontColor=#FFFFFF;fontSize=16;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="110" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f1-title" value="Codebase" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1976D2;" parent="1" vertex="1">
@@ -28,10 +28,10 @@
         </mxCell>
 
         <!-- Factor 2 - Dependencies -->
-        <mxCell id="f2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#388E3C;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f2-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#388E3C;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="100" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#388E3C;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#388E3C;strokeColor=#388E3C;fontColor=#FFFFFF;fontSize=16;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="110" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f2-title" value="Dependencies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#388E3C;" parent="1" vertex="1">
@@ -42,10 +42,10 @@
         </mxCell>
 
         <!-- Factor 3 - Config -->
-        <mxCell id="f3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f3-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="100" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=#F57C00;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F57C00;strokeColor=#F57C00;fontColor=#FFFFFF;fontSize=16;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="110" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f3-title" value="Config" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#F57C00;" parent="1" vertex="1">
@@ -56,10 +56,10 @@
         </mxCell>
 
         <!-- Factor 4 - Backing Services -->
-        <mxCell id="f4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#C2185B;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f4-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#C2185B;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="100" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C2185B;strokeColor=#C2185B;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#C2185B;strokeColor=#C2185B;fontColor=#FFFFFF;fontSize=16;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="110" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f4-title" value="Backing Services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#C2185B;" parent="1" vertex="1">
@@ -70,10 +70,10 @@
         </mxCell>
 
         <!-- Factor 5 - Build, Release, Run -->
-        <mxCell id="f5-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f5-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="250" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f5-num" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#7B1FA2;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f5-num" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7B1FA2;strokeColor=#7B1FA2;fontColor=#FFFFFF;fontSize=16;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="260" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f5-title" value="Build, Release, Run" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#7B1FA2;" parent="1" vertex="1">
@@ -84,10 +84,10 @@
         </mxCell>
 
         <!-- Factor 6 - Processes -->
-        <mxCell id="f6-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F7FA;strokeColor=#0097A7;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f6-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0F7FA;strokeColor=#0097A7;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="250" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f6-num" value="6" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0097A7;strokeColor=#0097A7;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f6-num" value="6" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0097A7;strokeColor=#0097A7;fontColor=#FFFFFF;fontSize=16;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="260" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f6-title" value="Processes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#0097A7;" parent="1" vertex="1">
@@ -98,10 +98,10 @@
         </mxCell>
 
         <!-- Factor 7 - Port Binding -->
-        <mxCell id="f7-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#5D4037;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f7-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#5D4037;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="250" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f7-num" value="7" style="ellipse;whiteSpace=wrap;html=1;fillColor=#5D4037;strokeColor=#5D4037;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f7-num" value="7" style="ellipse;whiteSpace=wrap;html=1;fillColor=#5D4037;strokeColor=#5D4037;fontColor=#FFFFFF;fontSize=16;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="260" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f7-title" value="Port Binding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#5D4037;" parent="1" vertex="1">
@@ -112,10 +112,10 @@
         </mxCell>
 
         <!-- Factor 8 - Concurrency -->
-        <mxCell id="f8-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE9E7;strokeColor=#BF360C;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f8-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FBE9E7;strokeColor=#BF360C;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="250" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f8-num" value="8" style="ellipse;whiteSpace=wrap;html=1;fillColor=#BF360C;strokeColor=#BF360C;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f8-num" value="8" style="ellipse;whiteSpace=wrap;html=1;fillColor=#BF360C;strokeColor=#BF360C;fontColor=#FFFFFF;fontSize=16;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="260" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f8-title" value="Concurrency" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#BF360C;" parent="1" vertex="1">
@@ -126,10 +126,10 @@
         </mxCell>
 
         <!-- Factor 9 - Disposability -->
-        <mxCell id="f9-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#303F9F;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f9-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#303F9F;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f9-num" value="9" style="ellipse;whiteSpace=wrap;html=1;fillColor=#303F9F;strokeColor=#303F9F;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f9-num" value="9" style="ellipse;whiteSpace=wrap;html=1;fillColor=#303F9F;strokeColor=#303F9F;fontColor=#FFFFFF;fontSize=16;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="410" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f9-title" value="Disposability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#303F9F;" parent="1" vertex="1">
@@ -140,10 +140,10 @@
         </mxCell>
 
         <!-- Factor 10 - Dev/Prod Parity -->
-        <mxCell id="f10-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#689F38;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f10-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#689F38;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="400" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f10-num" value="10" style="ellipse;whiteSpace=wrap;html=1;fillColor=#689F38;strokeColor=#689F38;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f10-num" value="10" style="ellipse;whiteSpace=wrap;html=1;fillColor=#689F38;strokeColor=#689F38;fontColor=#FFFFFF;fontSize=14;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="410" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f10-title" value="Dev/Prod Parity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#689F38;" parent="1" vertex="1">
@@ -154,10 +154,10 @@
         </mxCell>
 
         <!-- Factor 11 - Logs -->
-        <mxCell id="f11-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FFA000;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f11-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FFA000;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="400" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f11-num" value="11" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFA000;strokeColor=#FFA000;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f11-num" value="11" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFA000;strokeColor=#FFA000;fontColor=#FFFFFF;fontSize=14;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="410" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f11-title" value="Logs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFA000;" parent="1" vertex="1">
@@ -168,10 +168,10 @@
         </mxCell>
 
         <!-- Factor 12 - Admin Processes -->
-        <mxCell id="f12-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#455A64;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="f12-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#455A64;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="400" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="f12-num" value="12" style="ellipse;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#455A64;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="f12-num" value="12" style="ellipse;whiteSpace=wrap;html=1;fillColor=#455A64;strokeColor=#455A64;fontColor=#FFFFFF;fontSize=14;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="410" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f12-title" value="Admin Processes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#455A64;" parent="1" vertex="1">
@@ -187,10 +187,10 @@
         </mxCell>
 
         <!-- AWS Implementation -->
-        <mxCell id="aws-impl" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="aws-impl" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="590" width="420" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="aws-impl-title" value="AWS Implementation" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="aws-impl-title" value="AWS Implementation" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="600" width="180" height="25" as="geometry" />
         </mxCell>
         <mxCell id="aws-impl-content" value="Factor 1-2: CodeCommit/GitHub + CodeBuild&#xa;Factor 3: AWS Secrets Manager, Parameter Store&#xa;Factor 4: RDS, ElastiCache, SQS, SNS&#xa;Factor 5: CodePipeline, ECR&#xa;Factor 6: ECS Fargate, Lambda (stateless)&#xa;Factor 7: ALB, API Gateway&#xa;Factor 8: Auto Scaling Groups, ECS Services&#xa;Factor 9: Fargate (fast spin-up), ALB draining&#xa;Factor 10: CDK/CloudFormation IaC&#xa;Factor 11: CloudWatch Logs&#xa;Factor 12: ECS RunTask, Lambda invocations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
@@ -198,10 +198,10 @@
         </mxCell>
 
         <!-- Azure Implementation -->
-        <mxCell id="azure-impl" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0078D4;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="azure-impl" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0078D4;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="590" width="420" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="azure-impl-title" value="Azure Implementation" style="text;html=1;strokeColor=none;fillColor=#0078D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="azure-impl-title" value="Azure Implementation" style="text;html=1;strokeColor=none;fillColor=#0078D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="600" width="180" height="25" as="geometry" />
         </mxCell>
         <mxCell id="azure-impl-content" value="Factor 1-2: Azure DevOps Repos + Pipelines&#xa;Factor 3: Azure Key Vault, App Configuration&#xa;Factor 4: Azure SQL, Redis Cache, Service Bus&#xa;Factor 5: Azure Pipelines, ACR&#xa;Factor 6: Container Apps, Azure Functions&#xa;Factor 7: App Gateway, Azure Front Door&#xa;Factor 8: VMSS, AKS HPA&#xa;Factor 9: Container Apps (fast scale), graceful&#xa;Factor 10: Bicep/ARM Templates&#xa;Factor 11: Azure Monitor, Log Analytics&#xa;Factor 12: Azure Functions, AKS Jobs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;" parent="1" vertex="1">
@@ -209,10 +209,10 @@
         </mxCell>
 
         <!-- GCP Implementation -->
-        <mxCell id="gcp-impl" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4285F4;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="gcp-impl" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4285F4;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="590" width="420" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="gcp-impl-title" value="GCP Implementation" style="text;html=1;strokeColor=none;fillColor=#4285F4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="gcp-impl-title" value="GCP Implementation" style="text;html=1;strokeColor=none;fillColor=#4285F4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="600" width="180" height="25" as="geometry" />
         </mxCell>
         <mxCell id="gcp-impl-content" value="Factor 1-2: Cloud Source Repos + Cloud Build&#xa;Factor 3: Secret Manager, Runtime Configurator&#xa;Factor 4: Cloud SQL, Memorystore, Pub/Sub&#xa;Factor 5: Cloud Build, Artifact Registry&#xa;Factor 6: Cloud Run, Cloud Functions (stateless)&#xa;Factor 7: Cloud Load Balancing&#xa;Factor 8: GKE Autopilot, Cloud Run auto-scale&#xa;Factor 9: Cloud Run (cold start &lt;100ms)&#xa;Factor 10: Terraform, Deployment Manager&#xa;Factor 11: Cloud Logging (Stackdriver)&#xa;Factor 12: Cloud Run Jobs, Cloud Scheduler" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;" parent="1" vertex="1">

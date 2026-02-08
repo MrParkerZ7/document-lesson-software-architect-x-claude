@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="cost-optimization" version="22.1.5" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" etag="cost-optimization" version="22.1.5" type="device">
   <diagram name="Cloud Cost Optimization" id="cost-optimization">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         </mxCell>
 
         <!-- Pillar 1: Right-Sizing -->
-        <mxCell id="p1-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="p1-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="100" width="250" height="200" as="geometry" />
         </mxCell>
         <mxCell id="p1-icon" value="📐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" parent="1" vertex="1">
@@ -25,7 +25,7 @@
         <mxCell id="p1-title" value="1. Right-Sizing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#4CAF50;" parent="1" vertex="1">
           <mxGeometry x="85" y="150" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p1-savings" value="💰 20-40% savings" style="text;html=1;strokeColor=none;fillColor=#4CAF50;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="p1-savings" value="💰 20-40% savings" style="text;html=1;strokeColor=none;fillColor=#4CAF50;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="172" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p1-desc" value="• Match instance size to workload&#xa;• Analyze CPU/memory utilization&#xa;• Use auto-scaling groups&#xa;• Downsize over-provisioned resources&#xa;• Tools: AWS Compute Optimizer,&#xa;  Azure Advisor, GCP Recommender" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -33,7 +33,7 @@
         </mxCell>
 
         <!-- Pillar 2: Reserved/Committed -->
-        <mxCell id="p2-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="p2-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="100" width="250" height="200" as="geometry" />
         </mxCell>
         <mxCell id="p2-icon" value="📋" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" parent="1" vertex="1">
@@ -42,7 +42,7 @@
         <mxCell id="p2-title" value="2. Reservations &amp; Commitments" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#1976D2;" parent="1" vertex="1">
           <mxGeometry x="330" y="150" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p2-savings" value="💰 30-72% savings" style="text;html=1;strokeColor=none;fillColor=#1976D2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="p2-savings" value="💰 30-72% savings" style="text;html=1;strokeColor=none;fillColor=#1976D2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="172" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p2-desc" value="• Reserved Instances (1-3 years)&#xa;• Savings Plans (flexible)&#xa;• Committed Use Discounts (GCP)&#xa;• Azure Reserved VM Instances&#xa;• Buy vs rent analysis&#xa;• Mix on-demand with reserved" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -50,7 +50,7 @@
         </mxCell>
 
         <!-- Pillar 3: Spot/Preemptible -->
-        <mxCell id="p3-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="p3-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="100" width="250" height="200" as="geometry" />
         </mxCell>
         <mxCell id="p3-icon" value="⚡" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" parent="1" vertex="1">
@@ -59,7 +59,7 @@
         <mxCell id="p3-title" value="3. Spot/Preemptible Instances" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#FF9800;" parent="1" vertex="1">
           <mxGeometry x="600" y="150" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p3-savings" value="💰 60-90% savings" style="text;html=1;strokeColor=none;fillColor=#FF9800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="p3-savings" value="💰 60-90% savings" style="text;html=1;strokeColor=none;fillColor=#FF9800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="172" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p3-desc" value="• Spare capacity at deep discount&#xa;• Can be interrupted (2 min notice)&#xa;• Great for: batch, CI/CD, big data&#xa;• Use with checkpointing&#xa;• Mix with on-demand for reliability&#xa;• Spot.io, Karpenter for automation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -67,7 +67,7 @@
         </mxCell>
 
         <!-- Pillar 4: Storage Optimization -->
-        <mxCell id="p4-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="p4-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="100" width="250" height="200" as="geometry" />
         </mxCell>
         <mxCell id="p4-icon" value="💾" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" parent="1" vertex="1">
@@ -76,7 +76,7 @@
         <mxCell id="p4-title" value="4. Storage Optimization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#9C27B0;" parent="1" vertex="1">
           <mxGeometry x="890" y="150" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-savings" value="💰 30-80% savings" style="text;html=1;strokeColor=none;fillColor=#9C27B0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="p4-savings" value="💰 30-80% savings" style="text;html=1;strokeColor=none;fillColor=#9C27B0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="172" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p4-desc" value="• Use appropriate storage tiers&#xa;• Lifecycle policies (auto-archive)&#xa;• Delete unused snapshots/volumes&#xa;• Compress before storing&#xa;• Intelligent tiering (S3/GCS)&#xa;• Avoid default gp2, use gp3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -84,7 +84,7 @@
         </mxCell>
 
         <!-- Pillar 5: Serverless -->
-        <mxCell id="p5-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#E91E63;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="p5-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#E91E63;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="100" width="250" height="200" as="geometry" />
         </mxCell>
         <mxCell id="p5-icon" value="🚀" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" parent="1" vertex="1">
@@ -93,7 +93,7 @@
         <mxCell id="p5-title" value="5. Serverless &amp; Managed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#E91E63;" parent="1" vertex="1">
           <mxGeometry x="1155" y="150" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p5-savings" value="💰 Pay only for use" style="text;html=1;strokeColor=none;fillColor=#E91E63;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="p5-savings" value="💰 Pay only for use" style="text;html=1;strokeColor=none;fillColor=#E91E63;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1185" y="172" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p5-desc" value="• Lambda/Functions (pay per invoke)&#xa;• Fargate/Cloud Run (no idle cost)&#xa;• Aurora Serverless, DynamoDB&#xa;• Managed services vs DIY&#xa;• Scale to zero capability&#xa;• No ops overhead costs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -101,42 +101,42 @@
         </mxCell>
 
         <!-- Cost Optimization Lifecycle -->
-        <mxCell id="lifecycle-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="lifecycle-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="320" width="660" height="180" as="geometry" />
         </mxCell>
         <mxCell id="lifecycle-title" value="Cost Optimization Lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="250" y="330" width="200" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="step1" value="1. Visibility&#xa;(Tag, Track)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="step1" value="1. Visibility&#xa;(Tag, Track)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="370" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="step2" value="2. Analyze&#xa;(Reports, Anomalies)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="step2" value="2. Analyze&#xa;(Reports, Anomalies)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="370" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="step3" value="3. Optimize&#xa;(Right-size, Reserve)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="step3" value="3. Optimize&#xa;(Right-size, Reserve)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="370" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="step4" value="4. Govern&#xa;(Budgets, Policies)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="step4" value="4. Govern&#xa;(Budgets, Policies)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="370" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="step5" value="5. Monitor&#xa;(Continuous)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="step5" value="5. Monitor&#xa;(Continuous)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBC02D;strokeColor=#F9A825;fontColor=#333333;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="370" width="100" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step1" target="step2" edge="1">
+        <mxCell id="arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;shadow=1;" parent="1" source="step1" target="step2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step2" target="step3" edge="1">
+        <mxCell id="arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;shadow=1;" parent="1" source="step2" target="step3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step3" target="step4" edge="1">
+        <mxCell id="arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;shadow=1;" parent="1" source="step3" target="step4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;" parent="1" source="step4" target="step5" edge="1">
+        <mxCell id="arr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;shadow=1;" parent="1" source="step4" target="step5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="step5" target="step1" edge="1">
+        <mxCell id="arr5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;strokeWidth=2;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shadow=1;" parent="1" source="step5" target="step1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="620" y="460" />
@@ -146,7 +146,7 @@
         </mxCell>
 
         <!-- Key Actions -->
-        <mxCell id="actions-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#FBC02D;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="actions-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#FBC02D;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="435" width="620" height="50" as="geometry" />
         </mxCell>
         <mxCell id="actions-content" value="Key Actions: Tag everything • Set budgets &amp; alerts • Weekly cost reviews • Automate cleanup • FinOps culture • Cost as non-functional requirement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -154,7 +154,7 @@
         </mxCell>
 
         <!-- Tools Section -->
-        <mxCell id="tools-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#607D8B;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="tools-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#607D8B;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="320" width="640" height="180" as="geometry" />
         </mxCell>
         <mxCell id="tools-title" value="Cost Management Tools" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
@@ -162,10 +162,10 @@
         </mxCell>
 
         <!-- AWS Tools -->
-        <mxCell id="aws-tools" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="aws-tools" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9900;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="365" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aws-tools-title" value="AWS" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="aws-tools-title" value="AWS" style="text;html=1;strokeColor=none;fillColor=#FF9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="372" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aws-tools-content" value="• Cost Explorer&#xa;• AWS Budgets&#xa;• Compute Optimizer&#xa;• Trusted Advisor&#xa;• Cost &amp; Usage Reports" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -173,10 +173,10 @@
         </mxCell>
 
         <!-- Azure Tools -->
-        <mxCell id="azure-tools" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0078D4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="azure-tools" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#0078D4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="945" y="365" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="azure-tools-title" value="Azure" style="text;html=1;strokeColor=none;fillColor=#0078D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="azure-tools-title" value="Azure" style="text;html=1;strokeColor=none;fillColor=#0078D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1005" y="372" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="azure-tools-content" value="• Cost Management&#xa;• Azure Advisor&#xa;• Azure Budgets&#xa;• Pricing Calculator&#xa;• Resource Graph" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -184,10 +184,10 @@
         </mxCell>
 
         <!-- GCP Tools -->
-        <mxCell id="gcp-tools" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4285F4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="gcp-tools" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4285F4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1150" y="365" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gcp-tools-title" value="GCP" style="text;html=1;strokeColor=none;fillColor=#4285F4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="gcp-tools-title" value="GCP" style="text;html=1;strokeColor=none;fillColor=#4285F4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="372" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gcp-tools-content" value="• Cost Management&#xa;• Recommender&#xa;• Billing Reports&#xa;• Budget Alerts&#xa;• Active Assist" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
@@ -200,7 +200,7 @@
         </mxCell>
 
         <!-- Quick Win 1 -->
-        <mxCell id="qw1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#EF5350;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="qw1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#EF5350;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="560" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qw1-title" value="🗑️ Delete Unused Resources" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#EF5350;" parent="1" vertex="1">
@@ -211,7 +211,7 @@
         </mxCell>
 
         <!-- Quick Win 2 -->
-        <mxCell id="qw2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="qw2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#4CAF50;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="560" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qw2-title" value="⏰ Schedule Non-Prod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#4CAF50;" parent="1" vertex="1">
@@ -222,7 +222,7 @@
         </mxCell>
 
         <!-- Quick Win 3 -->
-        <mxCell id="qw3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="qw3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="560" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qw3-title" value="🔄 Use Latest Generation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1976D2;" parent="1" vertex="1">
@@ -233,7 +233,7 @@
         </mxCell>
 
         <!-- Quick Win 4 -->
-        <mxCell id="qw4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="qw4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="560" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qw4-title" value="🏷️ Tag Everything" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FF9800;" parent="1" vertex="1">
@@ -244,7 +244,7 @@
         </mxCell>
 
         <!-- Quick Win 5 -->
-        <mxCell id="qw5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="qw5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="560" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qw5-title" value="📊 Review Data Transfer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#9C27B0;" parent="1" vertex="1">
@@ -255,7 +255,7 @@
         </mxCell>
 
         <!-- Quick Win 6 -->
-        <mxCell id="qw6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F7FA;strokeColor=#00BCD4;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="qw6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F7FA;strokeColor=#00BCD4;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1140" y="560" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qw6-title" value="💳 Review Billing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#00BCD4;" parent="1" vertex="1">
@@ -266,14 +266,14 @@
         </mxCell>
 
         <!-- FinOps Framework -->
-        <mxCell id="finops-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#3F51B5;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="finops-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#3F51B5;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="720" width="1300" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="finops-title" value="FinOps Framework - Cloud Financial Management" style="text;html=1;strokeColor=none;fillColor=#3F51B5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="finops-title" value="FinOps Framework - Cloud Financial Management" style="text;html=1;strokeColor=none;fillColor=#3F51B5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="730" width="340" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="finops-inform" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C5CAE9;strokeColor=#3F51B5;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="finops-inform" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C5CAE9;strokeColor=#3F51B5;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="770" width="380" height="95" as="geometry" />
         </mxCell>
         <mxCell id="inform-title" value="📊 Inform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#3F51B5;" parent="1" vertex="1">
@@ -283,7 +283,7 @@
           <mxGeometry x="75" y="800" width="350" height="60" as="geometry" />
         </mxCell>
 
-        <mxCell id="finops-optimize" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C5CAE9;strokeColor=#3F51B5;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="finops-optimize" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C5CAE9;strokeColor=#3F51B5;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="770" width="380" height="95" as="geometry" />
         </mxCell>
         <mxCell id="optimize-title" value="⚙️ Optimize" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#3F51B5;" parent="1" vertex="1">
@@ -293,7 +293,7 @@
           <mxGeometry x="475" y="800" width="350" height="60" as="geometry" />
         </mxCell>
 
-        <mxCell id="finops-operate" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C5CAE9;strokeColor=#3F51B5;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="finops-operate" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C5CAE9;strokeColor=#3F51B5;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="770" width="460" height="95" as="geometry" />
         </mxCell>
         <mxCell id="operate-title" value="🔧 Operate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#3F51B5;" parent="1" vertex="1">

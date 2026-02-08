@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" etag="nosql-patterns" version="22.1.5" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" etag="nosql-patterns" version="22.1.5" type="device">
   <diagram name="NoSQL Data Modeling Patterns" id="nosql-patterns-diagram">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Document DB Patterns Section -->
-        <mxCell id="doc-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="doc-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="650" height="380" as="geometry" />
         </mxCell>
         <mxCell id="doc-title" value="🎯 Document Database Patterns (MongoDB, Cosmos DB)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
@@ -19,13 +19,13 @@
         </mxCell>
 
         <!-- Embedding Pattern -->
-        <mxCell id="embed-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="embed-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="125" width="300" height="160" as="geometry" />
         </mxCell>
         <mxCell id="embed-title" value="🔹 Embedding Pattern (1:Few)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
           <mxGeometry x="110" y="130" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="embed-doc" value="{&#xa;  &quot;_id&quot;: &quot;post_1&quot;,&#xa;  &quot;title&quot;: &quot;My Blog Post&quot;,&#xa;  &quot;content&quot;: &quot;...&quot;,&#xa;  &quot;comments&quot;: [&#xa;    { &quot;user&quot;: &quot;alice&quot;, &quot;text&quot;: &quot;Great!&quot; },&#xa;    { &quot;user&quot;: &quot;bob&quot;, &quot;text&quot;: &quot;Nice post&quot; }&#xa;  ]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+        <mxCell id="embed-doc" value="{&#xa;  &quot;_id&quot;: &quot;post_1&quot;,&#xa;  &quot;title&quot;: &quot;My Blog Post&quot;,&#xa;  &quot;content&quot;: &quot;...&quot;,&#xa;  &quot;comments&quot;: [&#xa;    { &quot;user&quot;: &quot;alice&quot;, &quot;text&quot;: &quot;Great!&quot; },&#xa;    { &quot;user&quot;: &quot;bob&quot;, &quot;text&quot;: &quot;Nice post&quot; }&#xa;  ]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="155" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="embed-pros" value="✓ Single read&#xa;✓ Atomic updates&#xa;✓ Data locality" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=8;fontColor=#27ae60;" vertex="1" parent="1">
@@ -36,13 +36,13 @@
         </mxCell>
 
         <!-- Referencing Pattern -->
-        <mxCell id="ref-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="ref-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="375" y="125" width="300" height="160" as="geometry" />
         </mxCell>
         <mxCell id="ref-title" value="🔹 Referencing Pattern (1:Many, M:N)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
           <mxGeometry x="415" y="130" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ref-doc1" value="{&#xa;  &quot;_id&quot;: &quot;order_1&quot;,&#xa;  &quot;customerId&quot;: &quot;cust_123&quot;,&#xa;  &quot;items&quot;: [&#xa;    { &quot;productId&quot;: &quot;prod_1&quot; },&#xa;    { &quot;productId&quot;: &quot;prod_2&quot; }&#xa;  ]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+        <mxCell id="ref-doc1" value="{&#xa;  &quot;_id&quot;: &quot;order_1&quot;,&#xa;  &quot;customerId&quot;: &quot;cust_123&quot;,&#xa;  &quot;items&quot;: [&#xa;    { &quot;productId&quot;: &quot;prod_1&quot; },&#xa;    { &quot;productId&quot;: &quot;prod_2&quot; }&#xa;  ]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="385" y="155" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ref-pros" value="✓ No size limits&#xa;✓ Independent&#xa;   queries&#xa;✓ Avoids dup" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=8;fontColor=#27ae60;" vertex="1" parent="1">
@@ -53,13 +53,13 @@
         </mxCell>
 
         <!-- Bucket Pattern -->
-        <mxCell id="bucket-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="bucket-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="295" width="300" height="155" as="geometry" />
         </mxCell>
         <mxCell id="bucket-title" value="🔹 Bucket Pattern (Time-Series)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
           <mxGeometry x="115" y="300" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bucket-doc" value="{&#xa;  &quot;sensor_id&quot;: &quot;sensor_1&quot;,&#xa;  &quot;date&quot;: &quot;2026-01-15&quot;,&#xa;  &quot;readings&quot;: [&#xa;    { &quot;time&quot;: &quot;10:00&quot;, &quot;temp&quot;: 23.5 },&#xa;    { &quot;time&quot;: &quot;10:05&quot;, &quot;temp&quot;: 24.1 },&#xa;    { &quot;time&quot;: &quot;10:10&quot;, &quot;temp&quot;: 23.8 }&#xa;  ]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+        <mxCell id="bucket-doc" value="{&#xa;  &quot;sensor_id&quot;: &quot;sensor_1&quot;,&#xa;  &quot;date&quot;: &quot;2026-01-15&quot;,&#xa;  &quot;readings&quot;: [&#xa;    { &quot;time&quot;: &quot;10:00&quot;, &quot;temp&quot;: 23.5 },&#xa;    { &quot;time&quot;: &quot;10:05&quot;, &quot;temp&quot;: 24.1 },&#xa;    { &quot;time&quot;: &quot;10:10&quot;, &quot;temp&quot;: 23.8 }&#xa;  ]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="325" width="200" height="115" as="geometry" />
         </mxCell>
         <mxCell id="bucket-note" value="Groups related&#xa;data into buckets&#xa;(e.g., by hour/day)&#xa;&#xa;Reduces doc count&#xa;Improves query perf" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
@@ -67,13 +67,13 @@
         </mxCell>
 
         <!-- Extended Reference Pattern -->
-        <mxCell id="extref-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="extref-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="375" y="295" width="300" height="155" as="geometry" />
         </mxCell>
         <mxCell id="extref-title" value="🔹 Extended Reference (Denormalized)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
           <mxGeometry x="415" y="300" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="extref-doc" value="{&#xa;  &quot;_id&quot;: &quot;order_1&quot;,&#xa;  &quot;customer&quot;: {&#xa;    &quot;_id&quot;: &quot;cust_123&quot;,&#xa;    &quot;name&quot;: &quot;John Doe&quot;,   // copied&#xa;    &quot;email&quot;: &quot;john@...&quot;   // copied&#xa;  },&#xa;  &quot;items&quot;: [...]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+        <mxCell id="extref-doc" value="{&#xa;  &quot;_id&quot;: &quot;order_1&quot;,&#xa;  &quot;customer&quot;: {&#xa;    &quot;_id&quot;: &quot;cust_123&quot;,&#xa;    &quot;name&quot;: &quot;John Doe&quot;,   // copied&#xa;    &quot;email&quot;: &quot;john@...&quot;   // copied&#xa;  },&#xa;  &quot;items&quot;: [...]&#xa;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;verticalAlign=top;spacingTop=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="385" y="325" width="180" height="115" as="geometry" />
         </mxCell>
         <mxCell id="extref-note" value="Copy frequently&#xa;accessed fields&#xa;&#xa;Trade-off:&#xa;Storage vs Reads&#xa;&#xa;Good for rarely&#xa;changing data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=8;" vertex="1" parent="1">
@@ -81,7 +81,7 @@
         </mxCell>
 
         <!-- Key-Value Patterns Section -->
-        <mxCell id="kv-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="kv-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="80" width="650" height="380" as="geometry" />
         </mxCell>
         <mxCell id="kv-title" value="🎯 Key-Value &amp; DynamoDB Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
@@ -89,49 +89,49 @@
         </mxCell>
 
         <!-- Redis Data Structures -->
-        <mxCell id="redis-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="redis-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="125" width="300" height="160" as="geometry" />
         </mxCell>
         <mxCell id="redis-title" value="📦 Redis Data Structures" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#922b21;" vertex="1" parent="1">
           <mxGeometry x="810" y="130" width="140" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="redis-string" value="Strings: SET user:1:name &quot;John&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="redis-string" value="Strings: SET user:1:name &quot;John&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="155" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="redis-hash" value="Hashes: HSET user:1 name &quot;John&quot; email &quot;...&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="redis-hash" value="Hashes: HSET user:1 name &quot;John&quot; email &quot;...&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="180" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="redis-list" value="Lists: LPUSH queue:orders &quot;order_123&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="redis-list" value="Lists: LPUSH queue:orders &quot;order_123&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="205" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="redis-set" value="Sets: SADD user:1:tags &quot;premium&quot; &quot;verified&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="redis-set" value="Sets: SADD user:1:tags &quot;premium&quot; &quot;verified&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="230" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="redis-zset" value="Sorted Sets: ZADD leaderboard 1000 &quot;player1&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="redis-zset" value="Sorted Sets: ZADD leaderboard 1000 &quot;player1&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="255" width="270" height="20" as="geometry" />
         </mxCell>
 
         <!-- DynamoDB Single Table -->
-        <mxCell id="dynamo-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="dynamo-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1045" y="125" width="300" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dynamo-title" value="🎯 DynamoDB Single-Table Design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
           <mxGeometry x="1100" y="130" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="dynamo-header" value="PK              | SK                  | Attrs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="dynamo-header" value="PK              | SK                  | Attrs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1055" y="155" width="280" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="dynamo-r1" value="USER#123       | PROFILE             | name, email" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="dynamo-r1" value="USER#123       | PROFILE             | name, email" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1055" y="173" width="280" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="dynamo-r2" value="USER#123       | ORDER#2026-01-15#01 | total, status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="dynamo-r2" value="USER#123       | ORDER#2026-01-15#01 | total, status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1055" y="191" width="280" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="dynamo-r3" value="USER#123       | ORDER#2026-01-14#02 | total, status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="dynamo-r3" value="USER#123       | ORDER#2026-01-14#02 | total, status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1055" y="209" width="280" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="dynamo-r4" value="PRODUCT#abc    | METADATA            | name, price" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="dynamo-r4" value="PRODUCT#abc    | METADATA            | name, price" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=8;fontFamily=Courier New;align=left;spacingLeft=5;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1055" y="227" width="280" height="18" as="geometry" />
         </mxCell>
         <mxCell id="dynamo-note" value="All entities in ONE table&#xa;PK + SK = access patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=8;fontStyle=2;" vertex="1" parent="1">
@@ -139,7 +139,7 @@
         </mxCell>
 
         <!-- Access Patterns -->
-        <mxCell id="access-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="access-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="295" width="300" height="155" as="geometry" />
         </mxCell>
         <mxCell id="access-title" value="💡 DynamoDB Access Patterns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
@@ -150,7 +150,7 @@
         </mxCell>
 
         <!-- GSI Pattern -->
-        <mxCell id="gsi-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gsi-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1045" y="295" width="300" height="155" as="geometry" />
         </mxCell>
         <mxCell id="gsi-title" value="📦 Global Secondary Index (GSI)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
@@ -159,18 +159,18 @@
         <mxCell id="gsi-content" value="Main Table: PK=USER#id, SK=PROFILE&#xa;GSI1: PK=email (for login by email)&#xa;GSI2: PK=status, SK=created_at&#xa;&#xa;Enables alternate query patterns&#xa;without scanning entire table" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1060" y="330" width="270" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="gsi-viz" value="Table&#xa;─────&#xa;PK|SK|..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontFamily=Courier New;align=center;" vertex="1" parent="1">
+        <mxCell id="gsi-viz" value="Table&#xa;─────&#xa;PK|SK|..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontFamily=Courier New;align=center;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1065" y="410" width="60" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="gsi-viz2" value="GSI1&#xa;────&#xa;email|..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontFamily=Courier New;align=center;" vertex="1" parent="1">
+        <mxCell id="gsi-viz2" value="GSI1&#xa;────&#xa;email|..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontFamily=Courier New;align=center;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1145" y="410" width="60" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="gsi-viz3" value="GSI2&#xa;────&#xa;status|..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontFamily=Courier New;align=center;" vertex="1" parent="1">
+        <mxCell id="gsi-viz3" value="GSI2&#xa;────&#xa;status|..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontFamily=Courier New;align=center;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1225" y="410" width="60" height="35" as="geometry" />
         </mxCell>
 
         <!-- When to Use Which -->
-        <mxCell id="decision-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="decision-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="1320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="decision-title" value="🎯 Pattern Selection Guide" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
@@ -178,77 +178,77 @@
         </mxCell>
 
         <!-- Decision Table -->
-        <mxCell id="dt-h1" value="Relationship" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dt-h1" value="Relationship" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="525" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dt-h2" value="Pattern" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dt-h2" value="Pattern" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="525" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dt-h3" value="Example" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dt-h3" value="Example" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="525" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dt-h4" value="Reason" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dt-h4" value="Reason" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;fontColor=#ffffff;fontStyle=1;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="525" width="240" height="30" as="geometry" />
         </mxCell>
 
         <!-- Row 1 -->
-        <mxCell id="dt-r1c1" value="1:1 or 1:Few" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dt-r1c1" value="1:1 or 1:Few" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="555" width="140" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r1c2" value="Embedding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="dt-r1c2" value="Embedding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="555" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r1c3" value="User → Address, Post → Author" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="dt-r1c3" value="User → Address, Post → Author" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="555" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r1c4" value="Single read, atomic updates, related data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="dt-r1c4" value="Single read, atomic updates, related data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="555" width="240" height="35" as="geometry" />
         </mxCell>
 
         <!-- Row 2 -->
-        <mxCell id="dt-r2c1" value="1:Many (bounded)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dt-r2c1" value="1:Many (bounded)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="590" width="140" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r2c2" value="Embedding (array)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="dt-r2c2" value="Embedding (array)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="590" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r2c3" value="Post → Comments (limited)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="dt-r2c3" value="Post → Comments (limited)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="590" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r2c4" value="Always read together, array won't grow huge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="dt-r2c4" value="Always read together, array won't grow huge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="590" width="240" height="35" as="geometry" />
         </mxCell>
 
         <!-- Row 3 -->
-        <mxCell id="dt-r3c1" value="1:Many (unbounded)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dt-r3c1" value="1:Many (unbounded)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="625" width="140" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r3c2" value="Referencing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="dt-r3c2" value="Referencing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="625" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r3c3" value="User → Orders, Blog → Comments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="dt-r3c3" value="User → Orders, Blog → Comments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="625" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r3c4" value="Can grow indefinitely, query independently" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="dt-r3c4" value="Can grow indefinitely, query independently" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="625" width="240" height="35" as="geometry" />
         </mxCell>
 
         <!-- Row 4 -->
-        <mxCell id="dt-r4c1" value="Many:Many" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dt-r4c1" value="Many:Many" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="660" width="140" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r4c2" value="Reference arrays / Junction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="dt-r4c2" value="Reference arrays / Junction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="660" width="150" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r4c3" value="Students ↔ Courses, Tags ↔ Posts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="dt-r4c3" value="Students ↔ Courses, Tags ↔ Posts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="660" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dt-r4c4" value="Store IDs in arrays or separate collection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="dt-r4c4" value="Store IDs in arrays or separate collection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="660" width="240" height="35" as="geometry" />
         </mxCell>
 
         <!-- Key Principles -->
-        <mxCell id="principles-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="principles-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="525" width="530" height="170" as="geometry" />
         </mxCell>
         <mxCell id="principles-title" value="✨ NoSQL Data Modeling Principles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-02-03T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-02-03T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="stakeholder-interactions" name="Stakeholder Interactions">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -16,100 +16,100 @@
         </mxCell>
 
         <!-- Executives -->
-        <mxCell id="executives" value="Executives / C-Suite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="executives" value="Executives / C-Suite" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="560" y="90" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="exec-comm" value="Strategy alignment&#xa;Budget justification&#xa;Risk communication" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="exec-comm" value="Strategy alignment&#xa;Budget justification&#xa;Risk communication" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="145" width="180" height="45" as="geometry" />
         </mxCell>
         <mxCell id="exec-style" value="High-level, Business-focused, ROI-oriented" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="560" y="195" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="exec-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="executives" target="architect" edge="1">
+        <mxCell id="exec-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="executives" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Product Management -->
-        <mxCell id="product" value="Product Managers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="product" value="Product Managers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="140" y="180" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="product-comm" value="Requirements clarification&#xa;Feasibility assessment&#xa;Timeline estimation" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="product-comm" value="Requirements clarification&#xa;Feasibility assessment&#xa;Timeline estimation" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="235" width="180" height="45" as="geometry" />
         </mxCell>
         <mxCell id="product-style" value="Feature-focused, Trade-off discussions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="140" y="285" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="product-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="product" target="architect" edge="1">
+        <mxCell id="product-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="product" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Development Teams -->
-        <mxCell id="devteam" value="Development Teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="devteam" value="Development Teams" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="140" y="440" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="devteam-comm" value="Technical guidance&#xa;Design reviews&#xa;Mentoring" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="devteam-comm" value="Technical guidance&#xa;Design reviews&#xa;Mentoring" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="495" width="180" height="45" as="geometry" />
         </mxCell>
         <mxCell id="devteam-style" value="Detailed, Technical, Collaborative" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="140" y="545" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="devteam-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="devteam" target="architect" edge="1">
+        <mxCell id="devteam-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="devteam" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Project Manager -->
-        <mxCell id="pm" value="Project Managers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="pm" value="Project Managers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="980" y="180" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pm-comm" value="Estimates &amp; risks&#xa;Planning support&#xa;Progress tracking" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="pm-comm" value="Estimates &amp; risks&#xa;Planning support&#xa;Progress tracking" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="235" width="180" height="45" as="geometry" />
         </mxCell>
         <mxCell id="pm-style" value="Timeline-focused, Risk-aware" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="980" y="285" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pm-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="pm" target="architect" edge="1">
+        <mxCell id="pm-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#d79b00;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="pm" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- DevOps -->
-        <mxCell id="devops" value="DevOps / Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="devops" value="DevOps / Platform" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="560" y="560" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="devops-comm" value="Deployment strategy&#xa;Infrastructure decisions&#xa;Operational concerns" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="devops-comm" value="Deployment strategy&#xa;Infrastructure decisions&#xa;Operational concerns" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="615" width="180" height="45" as="geometry" />
         </mxCell>
         <mxCell id="devops-style" value="Practical, Operations-focused" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="560" y="665" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="devops-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#9673a6;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="devops" target="architect" edge="1">
+        <mxCell id="devops-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#9673a6;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="devops" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Security Team -->
-        <mxCell id="security" value="Security Team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="security" value="Security Team" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="980" y="440" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="security-comm" value="Security architecture&#xa;Compliance&#xa;Threat modeling" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="security-comm" value="Security architecture&#xa;Compliance&#xa;Threat modeling" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="495" width="180" height="45" as="geometry" />
         </mxCell>
         <mxCell id="security-style" value="Risk-focused, Compliance-oriented" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="980" y="545" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="security-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;" parent="1" source="security" target="architect" edge="1">
+        <mxCell id="security-line" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;endFill=1;startArrow=classic;startFill=1;jumpStyle=arc;jumpSize=10;shadow=1;flowAnimation=1" parent="1" source="security" target="architect" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
         <!-- Legend -->
-        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=1;dashed=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="85" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="legend-stakeholder" value="Stakeholder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="legend-stakeholder" value="Stakeholder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="105" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="legend-interaction" value="Interactions" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="legend-interaction" value="Interactions" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="105" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="legend-style" value="Communication Style" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#666666;" parent="1" vertex="1">

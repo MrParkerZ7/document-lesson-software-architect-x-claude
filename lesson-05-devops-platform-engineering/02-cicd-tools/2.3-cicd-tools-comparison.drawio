@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="cicd-comparison" name="CI/CD Tools Comparison">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Table Header -->
-        <mxCell id="header-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;" parent="1" vertex="1">
+        <mxCell id="header-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="1240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h1" value="Feature" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
@@ -37,7 +37,7 @@
         </mxCell>
 
         <!-- Row 1: Hosting -->
-        <mxCell id="row1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="row1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="120" width="1240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r1c1" value="Hosting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
@@ -63,7 +63,7 @@
         </mxCell>
 
         <!-- Row 2: Configuration -->
-        <mxCell id="row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="170" width="1240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r2c1" value="Configuration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
@@ -89,7 +89,7 @@
         </mxCell>
 
         <!-- Row 3: Best Integration -->
-        <mxCell id="row3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="row3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="220" width="1240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r3c1" value="Best Integration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
@@ -115,7 +115,7 @@
         </mxCell>
 
         <!-- Row 4: Marketplace -->
-        <mxCell id="row4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="row4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="270" width="1240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r4c1" value="Extensions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
@@ -141,7 +141,7 @@
         </mxCell>
 
         <!-- Row 5: Free Tier -->
-        <mxCell id="row5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="row5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="320" width="1240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r5c1" value="Free Tier" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
@@ -167,28 +167,28 @@
         </mxCell>
 
         <!-- Row 6: Learning Curve -->
-        <mxCell id="row6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="row6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="370" width="1240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r6c1" value="Learning Curve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="380" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r6c2" value="Medium" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="r6c2" value="Medium" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="380" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r6c3" value="Easy" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="r6c3" value="Easy" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="380" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r6c4" value="Medium" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="r6c4" value="Medium" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="380" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r6c5" value="Steep" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="r6c5" value="Steep" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="380" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r6c6" value="Easy" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="r6c6" value="Easy" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="380" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r6c7" value="Easy" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="r6c7" value="Easy" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="380" width="100" height="25" as="geometry" />
         </mxCell>
 
@@ -198,50 +198,50 @@
         </mxCell>
 
         <!-- Recommendation Boxes -->
-        <mxCell id="rec1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="rec1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="500" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rec1-title" value="Azure DevOps" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="rec1-title" value="Azure DevOps" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="510" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rec1-desc" value="Enterprise Azure shops&#xa;Full ALM needed&#xa;Microsoft stack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="90" y="535" width="180" height="55" as="geometry" />
         </mxCell>
 
-        <mxCell id="rec2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="rec2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="500" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rec2-title" value="GitHub Actions" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="rec2-title" value="GitHub Actions" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="510" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rec2-desc" value="GitHub repositories&#xa;Quick setup&#xa;Open source projects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="310" y="535" width="180" height="55" as="geometry" />
         </mxCell>
 
-        <mxCell id="rec3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="rec3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="500" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rec3-title" value="GitLab CI" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="rec3-title" value="GitLab CI" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="510" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rec3-desc" value="Self-hosted GitLab&#xa;All-in-one DevOps&#xa;On-premise needs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="530" y="535" width="180" height="55" as="geometry" />
         </mxCell>
 
-        <mxCell id="rec4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="rec4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="500" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rec4-title" value="Jenkins" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="rec4-title" value="Jenkins" style="text;html=1;strokeColor=none;fillColor=#b85450;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="510" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rec4-desc" value="Complex pipelines&#xa;Full customization&#xa;Legacy systems" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="750" y="535" width="180" height="55" as="geometry" />
         </mxCell>
 
-        <mxCell id="rec5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="rec5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="500" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rec5-title" value="CircleCI" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="rec5-title" value="CircleCI" style="text;html=1;strokeColor=none;fillColor=#9673a6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="510" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rec5-desc" value="Fast builds&#xa;Docker-first&#xa;Parallel execution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">

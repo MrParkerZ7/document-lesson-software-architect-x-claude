@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="managed-k8s" name="Managed Kubernetes Comparison">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,13 +11,13 @@
         </mxCell>
 
         <!-- AKS Box -->
-        <mxCell id="aks-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="aks-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="90" width="400" height="300" as="geometry" />
         </mxCell>
         <mxCell id="aks-logo" value="☁️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" parent="1" vertex="1">
           <mxGeometry x="250" y="95" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aks-title" value="Azure Kubernetes Service (AKS)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="aks-title" value="Azure Kubernetes Service (AKS)" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="145" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aks-features" value="Key Features:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
@@ -38,21 +38,21 @@
         <mxCell id="aks-feat5" value="• Free control plane" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="100" y="285" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="aks-best" value="Best For: Azure-centric workloads, .NET/Windows containers" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="aks-best" value="Best For: Azure-centric workloads, .NET/Windows containers" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="320" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aks-pricing" value="Pricing: Free control plane, pay for worker nodes" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="aks-pricing" value="Pricing: Free control plane, pay for worker nodes" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="355" width="360" height="25" as="geometry" />
         </mxCell>
 
         <!-- EKS Box -->
-        <mxCell id="eks-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="eks-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="90" width="400" height="300" as="geometry" />
         </mxCell>
         <mxCell id="eks-logo" value="🔶" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" parent="1" vertex="1">
           <mxGeometry x="670" y="95" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="eks-title" value="Amazon Elastic Kubernetes Service (EKS)" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="eks-title" value="Amazon Elastic Kubernetes Service (EKS)" style="text;html=1;strokeColor=none;fillColor=#d79b00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="545" y="145" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eks-features" value="Key Features:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
@@ -73,21 +73,21 @@
         <mxCell id="eks-feat5" value="• Managed node groups" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="520" y="285" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="eks-best" value="Best For: AWS-heavy environments, Fargate serverless" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="eks-best" value="Best For: AWS-heavy environments, Fargate serverless" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="320" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eks-pricing" value="Pricing: $0.10/hr per cluster + worker nodes" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="eks-pricing" value="Pricing: $0.10/hr per cluster + worker nodes" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="355" width="360" height="25" as="geometry" />
         </mxCell>
 
         <!-- GKE Box -->
-        <mxCell id="gke-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="gke-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="90" width="400" height="300" as="geometry" />
         </mxCell>
         <mxCell id="gke-logo" value="🔵" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" parent="1" vertex="1">
           <mxGeometry x="1090" y="95" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gke-title" value="Google Kubernetes Engine (GKE)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="gke-title" value="Google Kubernetes Engine (GKE)" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="145" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gke-features" value="Key Features:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" parent="1" vertex="1">
@@ -108,10 +108,10 @@
         <mxCell id="gke-feat5" value="• Native Istio integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="940" y="285" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gke-best" value="Best For: Advanced features, ML/AI workloads, Autopilot" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="gke-best" value="Best For: Advanced features, ML/AI workloads, Autopilot" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="320" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gke-pricing" value="Pricing: $0.10/hr + Autopilot pricing per pod" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="gke-pricing" value="Pricing: $0.10/hr + Autopilot pricing per pod" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="355" width="360" height="25" as="geometry" />
         </mxCell>
 
@@ -121,7 +121,7 @@
         </mxCell>
 
         <!-- Table Header -->
-        <mxCell id="th-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;" parent="1" vertex="1">
+        <mxCell id="th-row" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#333333;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="450" width="1240" height="35" as="geometry" />
         </mxCell>
         <mxCell id="th1" value="Feature" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
@@ -141,27 +141,27 @@
         </mxCell>
 
         <!-- Row 1 -->
-        <mxCell id="r1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="r1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="485" width="1240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r1c1" value="Control Plane Cost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="490" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r1c2" value="Free" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r1c2" value="Free" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="355" y="490" width="110" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="r1c3" value="$0.10/hr" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r1c3" value="$0.10/hr" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="615" y="490" width="110" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="r1c4" value="$0.10/hr (Autopilot free)" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r1c4" value="$0.10/hr (Autopilot free)" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="490" width="140" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="r1c5" value="Included in subscription" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="r1c5" value="Included in subscription" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="490" width="130" height="18" as="geometry" />
         </mxCell>
 
         <!-- Row 2 -->
-        <mxCell id="r2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="r2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="515" width="1240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r2c1" value="Serverless Containers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
@@ -181,7 +181,7 @@
         </mxCell>
 
         <!-- Row 3 -->
-        <mxCell id="r3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="r3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="545" width="1240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r3c1" value="Identity Integration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
@@ -201,7 +201,7 @@
         </mxCell>
 
         <!-- Row 4 -->
-        <mxCell id="r4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="r4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="575" width="1240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r4c1" value="Multi-cloud Support" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" parent="1" vertex="1">
@@ -225,16 +225,16 @@
           <mxGeometry x="560" y="620" width="280" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="dec1" value="Azure shop? → AKS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="dec1" value="Azure shop? → AKS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="660" width="260" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dec2" value="AWS shop? → EKS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="dec2" value="AWS shop? → EKS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="660" width="260" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dec3" value="Want Autopilot? → GKE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="dec3" value="Want Autopilot? → GKE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="660" width="260" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="dec4" value="Enterprise + Multi-cloud? → OpenShift" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="dec4" value="Enterprise + Multi-cloud? → OpenShift" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="660" width="280" height="35" as="geometry" />
         </mxCell>
 

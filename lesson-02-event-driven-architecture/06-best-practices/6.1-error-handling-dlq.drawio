@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.0.0">
   <diagram name="Error Handling and Dead Letter Queues" id="error-handling-dlq">
     <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Message Flow with Error Handling -->
-        <mxCell id="flow-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="flow-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="1320" height="280" as="geometry" />
         </mxCell>
 
@@ -20,73 +20,73 @@
         </mxCell>
 
         <!-- Producer -->
-        <mxCell id="producer" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="producer" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="180" width="100" height="50" as="geometry" />
         </mxCell>
 
         <!-- Main Queue -->
-        <mxCell id="main-queue" value="Main Queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="main-queue" value="Main Queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="180" width="120" height="50" as="geometry" />
         </mxCell>
 
         <!-- Consumer with retry logic -->
-        <mxCell id="consumer-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+        <mxCell id="consumer-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;dashed=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="130" width="300" height="180" as="geometry" />
         </mxCell>
 
-        <mxCell id="consumer" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="consumer" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="145" width="100" height="40" as="geometry" />
         </mxCell>
 
-        <mxCell id="process" value="Process&#xa;Message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="process" value="Process&#xa;Message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="210" width="80" height="45" as="geometry" />
         </mxCell>
 
-        <mxCell id="retry-check" value="Retry&#xa;&lt; Max?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="retry-check" value="Retry&#xa;&lt; Max?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="575" y="200" width="70" height="60" as="geometry" />
         </mxCell>
 
-        <mxCell id="retry-delay" value="Retry with&#xa;Backoff" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="retry-delay" value="Retry with&#xa;Backoff" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="665" y="210" width="65" height="45" as="geometry" />
         </mxCell>
 
         <!-- Success path -->
-        <mxCell id="success" value="Success&#xa;(ACK)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="success" value="Success&#xa;(ACK)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="140" width="80" height="45" as="geometry" />
         </mxCell>
 
         <!-- Dead Letter Queue -->
-        <mxCell id="dlq" value="Dead Letter&#xa;Queue (DLQ)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="dlq" value="Dead Letter&#xa;Queue (DLQ)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="260" width="120" height="50" as="geometry" />
         </mxCell>
 
         <!-- DLQ Consumer -->
-        <mxCell id="dlq-consumer" value="DLQ Handler&#xa;(Manual Review)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="dlq-consumer" value="DLQ Handler&#xa;(Manual Review)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="260" width="120" height="50" as="geometry" />
         </mxCell>
 
         <!-- Monitoring -->
-        <mxCell id="monitoring" value="Monitoring&#xa;&amp; Alerts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="monitoring" value="Monitoring&#xa;&amp; Alerts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="260" width="100" height="50" as="geometry" />
         </mxCell>
 
         <!-- Arrows -->
-        <mxCell id="arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="producer" target="main-queue">
+        <mxCell id="arr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="producer" target="main-queue">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="main-queue" target="consumer">
+        <mxCell id="arr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="main-queue" target="consumer">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;" edge="1" parent="1" source="consumer" target="process">
+        <mxCell id="arr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=1;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="consumer" target="process">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr4" value="Fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;endArrow=classic;fontSize=9;" edge="1" parent="1" source="process" target="retry-check">
+        <mxCell id="arr4" value="Fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;endArrow=classic;fontSize=9;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="process" target="retry-check">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=1;endArrow=classic;fontSize=9;" edge="1" parent="1" source="retry-check" target="retry-delay">
+        <mxCell id="arr5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=1;endArrow=classic;fontSize=9;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="retry-check" target="retry-delay">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=1;endArrow=classic;dashed=1;" edge="1" parent="1" source="retry-delay" target="process">
+        <mxCell id="arr6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=1;endArrow=classic;dashed=1;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="retry-delay" target="process">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="698" y="270" />
@@ -95,24 +95,24 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr7" value="Success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;fontSize=9;" edge="1" parent="1" source="process" target="success">
+        <mxCell id="arr7" value="Success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=classic;fontSize=9;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="process" target="success">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="510" y="163" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr8" value="No (Max retries)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;fontSize=9;" edge="1" parent="1" source="retry-check" target="dlq">
+        <mxCell id="arr8" value="No (Max retries)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;endArrow=classic;fontSize=9;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="retry-check" target="dlq">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="610" y="285" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;endArrow=classic;" edge="1" parent="1" source="dlq" target="dlq-consumer">
+        <mxCell id="arr9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=1;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="dlq" target="dlq-consumer">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arr10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;strokeWidth=1;endArrow=classic;" edge="1" parent="1" source="dlq-consumer" target="monitoring">
+        <mxCell id="arr10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;strokeWidth=1;endArrow=classic;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" edge="1" parent="1" source="dlq-consumer" target="monitoring">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
@@ -121,7 +121,7 @@
           <mxGeometry x="200" y="380" width="160" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="retry-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="retry-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="415" width="520" height="210" as="geometry" />
         </mxCell>
 
@@ -153,7 +153,7 @@
           <mxGeometry x="280" y="525" width="210" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="retry-formula" value="delay = min(cap, base * 2^attempt) + random(0, jitter)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontFamily=Courier New;" vertex="1" parent="1">
+        <mxCell id="retry-formula" value="delay = min(cap, base * 2^attempt) + random(0, jitter)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontFamily=Courier New;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="585" width="480" height="25" as="geometry" />
         </mxCell>
 
@@ -162,7 +162,7 @@
           <mxGeometry x="760" y="380" width="240" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="dlq-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="dlq-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="415" width="780" height="210" as="geometry" />
         </mxCell>
 
@@ -197,7 +197,7 @@
           <mxGeometry x="580" y="645" width="240" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="error-transient" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="error-transient" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="680" width="440" height="100" as="geometry" />
         </mxCell>
         <mxCell id="transient-title" value="Transient Errors (Retry)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1">
@@ -210,7 +210,7 @@
           <mxGeometry x="280" y="720" width="180" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="error-permanent" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="error-permanent" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="680" width="440" height="100" as="geometry" />
         </mxCell>
         <mxCell id="permanent-title" value="Permanent Errors (DLQ)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#b85450;" vertex="1" parent="1">
@@ -223,7 +223,7 @@
           <mxGeometry x="740" y="720" width="190" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="error-unknown" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="error-unknown" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="680" width="400" height="100" as="geometry" />
         </mxCell>
         <mxCell id="unknown-title" value="Unknown Errors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#d6b656;" vertex="1" parent="1">
@@ -237,7 +237,7 @@
         </mxCell>
 
         <!-- Best Practices -->
-        <mxCell id="bp-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="bp-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="800" width="1320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bp-title" value="Best Practices:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#9673a6;" vertex="1" parent="1">

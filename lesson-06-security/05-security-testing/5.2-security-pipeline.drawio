@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="security-pipeline" name="Security Testing Pipeline">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Pipeline Flow -->
-        <mxCell id="pipeline-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="pipeline-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="1240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="pipeline-title" value="CI/CD Security Pipeline" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
@@ -19,12 +19,12 @@
         </mxCell>
 
         <!-- Trigger -->
-        <mxCell id="trigger" value="Push /&#xa;PR" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="trigger" value="Push /&#xa;PR" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="140" width="80" height="50" as="geometry" />
         </mxCell>
 
         <!-- SAST Job -->
-        <mxCell id="sast-job" value="SAST" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="sast-job" value="SAST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="130" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sast-tools" value="Semgrep&#xa;CodeQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -32,7 +32,7 @@
         </mxCell>
 
         <!-- SCA Job -->
-        <mxCell id="sca-job" value="SCA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="sca-job" value="SCA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="130" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sca-tools" value="Snyk&#xa;npm audit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -40,7 +40,7 @@
         </mxCell>
 
         <!-- Secrets Scan -->
-        <mxCell id="secrets-job" value="Secrets&#xa;Scan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="secrets-job" value="Secrets&#xa;Scan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="130" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="secrets-tools" value="TruffleHog&#xa;GitLeaks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -48,7 +48,7 @@
         </mxCell>
 
         <!-- Build -->
-        <mxCell id="build-job" value="Build" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="build-job" value="Build" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="130" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="build-tools" value="Docker Build&#xa;npm build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -56,7 +56,7 @@
         </mxCell>
 
         <!-- Container Scan -->
-        <mxCell id="container-job" value="Container&#xa;Scan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="container-job" value="Container&#xa;Scan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="130" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="container-tools" value="Trivy&#xa;Grype" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -64,7 +64,7 @@
         </mxCell>
 
         <!-- DAST -->
-        <mxCell id="dast-job" value="DAST" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="dast-job" value="DAST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="130" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="dast-tools" value="OWASP ZAP&#xa;(staging)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -72,7 +72,7 @@
         </mxCell>
 
         <!-- Deploy -->
-        <mxCell id="deploy-job" value="Deploy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="deploy-job" value="Deploy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="130" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="deploy-note" value="Production" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -80,7 +80,7 @@
         </mxCell>
 
         <!-- Monitor -->
-        <mxCell id="monitor-job" value="Monitor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="monitor-job" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1200" y="130" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="monitor-tools" value="SIEM&#xa;Alerts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
@@ -88,49 +88,49 @@
         </mxCell>
 
         <!-- Arrows -->
-        <mxCell id="arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+        <mxCell id="arr1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="165" as="sourcePoint" />
             <mxPoint x="220" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+        <mxCell id="arr2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="165" as="sourcePoint" />
             <mxPoint x="360" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+        <mxCell id="arr3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="165" as="sourcePoint" />
             <mxPoint x="500" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+        <mxCell id="arr4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="165" as="sourcePoint" />
             <mxPoint x="640" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+        <mxCell id="arr5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="165" as="sourcePoint" />
             <mxPoint x="780" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr6" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+        <mxCell id="arr6" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880" y="165" as="sourcePoint" />
             <mxPoint x="920" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr7" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+        <mxCell id="arr7" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1020" y="165" as="sourcePoint" />
             <mxPoint x="1060" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="arr8" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+        <mxCell id="arr8" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;shadow=1;curved=1;flowAnimation=1;jumpStyle=arc" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="165" as="sourcePoint" />
             <mxPoint x="1200" y="165" as="targetPoint" />
@@ -138,27 +138,27 @@
         </mxCell>
 
         <!-- Parallel indicator -->
-        <mxCell id="parallel-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;strokeWidth=1;strokeDashArray=3;" parent="1" vertex="1">
+        <mxCell id="parallel-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;strokeWidth=1;strokeDashArray=3;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="120" width="400" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="parallel-label" value="Parallel Jobs" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;" parent="1" vertex="1">
+        <mxCell id="parallel-label" value="Parallel Jobs" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontStyle=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="240" width="90" height="20" as="geometry" />
         </mxCell>
 
         <!-- GitHub Actions Example -->
-        <mxCell id="yaml-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="yaml-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="300" width="600" height="400" as="geometry" />
         </mxCell>
         <mxCell id="yaml-title" value="GitHub Actions Security Pipeline Example" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="310" width="360" height="25" as="geometry" />
         </mxCell>
 
-        <mxCell id="yaml-code" value="name: Security Pipeline&#xa;&#xa;on: [push, pull_request]&#xa;&#xa;jobs:&#xa;  sast:&#xa;    runs-on: ubuntu-latest&#xa;    steps:&#xa;      - uses: actions/checkout@v4&#xa;      - name: Run Semgrep&#xa;        uses: returntocorp/semgrep-action@v1&#xa;&#xa;  sca:&#xa;    runs-on: ubuntu-latest&#xa;    steps:&#xa;      - uses: actions/checkout@v4&#xa;      - name: Run Snyk&#xa;        uses: snyk/actions/node@master&#xa;        env:&#xa;          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}&#xa;&#xa;  secrets-scan:&#xa;    runs-on: ubuntu-latest&#xa;    steps:&#xa;      - uses: actions/checkout@v4&#xa;      - name: Detect secrets&#xa;        uses: trufflesecurity/trufflehog@main&#xa;&#xa;  container-scan:&#xa;    runs-on: ubuntu-latest&#xa;    needs: [sast, sca, secrets-scan]&#xa;    steps:&#xa;      - name: Build image&#xa;        run: docker build -t myapp:${{ github.sha }} .&#xa;      - name: Run Trivy&#xa;        uses: aquasecurity/trivy-action@master" style="text;html=1;strokeColor=#6c8ebf;fillColor=#f0f5ff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;fontFamily=Courier New;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+        <mxCell id="yaml-code" value="name: Security Pipeline&#xa;&#xa;on: [push, pull_request]&#xa;&#xa;jobs:&#xa;  sast:&#xa;    runs-on: ubuntu-latest&#xa;    steps:&#xa;      - uses: actions/checkout@v4&#xa;      - name: Run Semgrep&#xa;        uses: returntocorp/semgrep-action@v1&#xa;&#xa;  sca:&#xa;    runs-on: ubuntu-latest&#xa;    steps:&#xa;      - uses: actions/checkout@v4&#xa;      - name: Run Snyk&#xa;        uses: snyk/actions/node@master&#xa;        env:&#xa;          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}&#xa;&#xa;  secrets-scan:&#xa;    runs-on: ubuntu-latest&#xa;    steps:&#xa;      - uses: actions/checkout@v4&#xa;      - name: Detect secrets&#xa;        uses: trufflesecurity/trufflehog@main&#xa;&#xa;  container-scan:&#xa;    runs-on: ubuntu-latest&#xa;    needs: [sast, sca, secrets-scan]&#xa;    steps:&#xa;      - name: Build image&#xa;        run: docker build -t myapp:${{ github.sha }} .&#xa;      - name: Run Trivy&#xa;        uses: aquasecurity/trivy-action@master" style="text;html=1;strokeColor=#6c8ebf;fillColor=#f0f5ff;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=9;fontFamily=Courier New;spacingLeft=10;spacingTop=5;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="345" width="560" height="340" as="geometry" />
         </mxCell>
 
         <!-- Findings & Actions -->
-        <mxCell id="findings-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="findings-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="300" width="620" height="180" as="geometry" />
         </mxCell>
         <mxCell id="findings-title" value="Security Findings Actions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
@@ -166,7 +166,7 @@
         </mxCell>
 
         <!-- Critical -->
-        <mxCell id="critical" value="CRITICAL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="critical" value="CRITICAL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="350" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="critical-action" value="→ Block deployment, immediate fix required" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
@@ -174,7 +174,7 @@
         </mxCell>
 
         <!-- High -->
-        <mxCell id="high" value="HIGH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="high" value="HIGH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="395" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="high-action" value="→ Block deployment, fix within 24-48 hours" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
@@ -182,7 +182,7 @@
         </mxCell>
 
         <!-- Medium -->
-        <mxCell id="medium" value="MEDIUM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="medium" value="MEDIUM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="440" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="medium-action" value="→ Warning, fix within sprint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
@@ -190,7 +190,7 @@
         </mxCell>
 
         <!-- Low -->
-        <mxCell id="low" value="LOW" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="low" value="LOW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1090" y="350" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="low-action" value="→ Track in backlog" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
@@ -198,7 +198,7 @@
         </mxCell>
 
         <!-- Scan Frequency -->
-        <mxCell id="freq-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="freq-bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="500" width="620" height="200" as="geometry" />
         </mxCell>
         <mxCell id="freq-title" value="Recommended Scan Frequency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
@@ -206,72 +206,72 @@
         </mxCell>
 
         <!-- Frequency Table -->
-        <mxCell id="ft-h1" value="Scan Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="ft-h1" value="Scan Type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="545" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-h2" value="Frequency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="ft-h2" value="Frequency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="545" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-h3" value="Blocking?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="ft-h3" value="Blocking?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="545" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-h4" value="Stage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=10;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="ft-h4" value="Stage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#999999;fontSize=10;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="545" width="120" height="30" as="geometry" />
         </mxCell>
 
         <!-- SAST Row -->
-        <mxCell id="ft-sast" value="SAST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-sast" value="SAST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="575" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-sast-freq" value="Every commit/PR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-sast-freq" value="Every commit/PR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="575" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-sast-block" value="Yes (Critical/High)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-sast-block" value="Yes (Critical/High)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="575" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-sast-stage" value="CI (pre-build)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-sast-stage" value="CI (pre-build)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="575" width="120" height="30" as="geometry" />
         </mxCell>
 
         <!-- SCA Row -->
-        <mxCell id="ft-sca" value="SCA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-sca" value="SCA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="605" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-sca-freq" value="Every build + daily" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-sca-freq" value="Every build + daily" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="605" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-sca-block" value="Yes (Critical)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-sca-block" value="Yes (Critical)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="605" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-sca-stage" value="CI (pre-build)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-sca-stage" value="CI (pre-build)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="605" width="120" height="30" as="geometry" />
         </mxCell>
 
         <!-- Container Row -->
-        <mxCell id="ft-container" value="Container" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-container" value="Container" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="635" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-container-freq" value="Every build" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-container-freq" value="Every build" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="635" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-container-block" value="Yes (Critical/High)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-container-block" value="Yes (Critical/High)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="635" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-container-stage" value="CI (post-build)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-container-stage" value="CI (post-build)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="635" width="120" height="30" as="geometry" />
         </mxCell>
 
         <!-- DAST Row -->
-        <mxCell id="ft-dast" value="DAST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-dast" value="DAST" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="665" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-dast-freq" value="Daily/Weekly (staging)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-dast-freq" value="Daily/Weekly (staging)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="665" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-dast-block" value="No (async)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-dast-block" value="No (async)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="665" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ft-dast-stage" value="CD (staging)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="ft-dast-stage" value="CD (staging)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="665" width="120" height="30" as="geometry" />
         </mxCell>
 

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-01-31T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="artifact-management" name="Artifact Management">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,21 +11,21 @@
         </mxCell>
 
         <!-- Container Registries Section -->
-        <mxCell id="container-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="container-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="620" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="container-title" value="Container Registries" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="container-title" value="Container Registries" style="text;html=1;strokeColor=none;fillColor=#6c8ebf;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="90" width="220" height="30" as="geometry" />
         </mxCell>
 
         <!-- ACR -->
-        <mxCell id="acr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="acr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="140" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="acr-icon" value="☁️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="160" y="145" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="acr-title" value="Azure Container Registry" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="acr-title" value="Azure Container Registry" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="175" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="acr-features" value="• Geo-replication&#xa;• ACR Tasks (build)&#xa;• Azure AD integration&#xa;• Content trust" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -33,13 +33,13 @@
         </mxCell>
 
         <!-- ECR -->
-        <mxCell id="ecr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="ecr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="140" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ecr-icon" value="🔶" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="360" y="145" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ecr-title" value="Amazon ECR" style="text;html=1;strokeColor=none;fillColor=#ff9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="ecr-title" value="Amazon ECR" style="text;html=1;strokeColor=none;fillColor=#ff9900;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="175" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ecr-features" value="• Lifecycle policies&#xa;• IAM integration&#xa;• Cross-region replication&#xa;• Vulnerability scanning" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -47,13 +47,13 @@
         </mxCell>
 
         <!-- GCR/GAR -->
-        <mxCell id="gcr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="gcr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="140" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gcr-icon" value="🔵" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="560" y="145" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gcr-title" value="Google Artifact Registry" style="text;html=1;strokeColor=none;fillColor=#4285f4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="gcr-title" value="Google Artifact Registry" style="text;html=1;strokeColor=none;fillColor=#4285f4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="175" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gcr-features" value="• Multi-format support&#xa;• Regional/Multi-region&#xa;• IAM policies&#xa;• Vulnerability scanning" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -61,13 +61,13 @@
         </mxCell>
 
         <!-- Docker Hub -->
-        <mxCell id="docker-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="docker-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="285" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="docker-icon" value="🐳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="160" y="290" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="docker-title" value="Docker Hub" style="text;html=1;strokeColor=none;fillColor=#2496ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="docker-title" value="Docker Hub" style="text;html=1;strokeColor=none;fillColor=#2496ed;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="125" y="320" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="docker-features" value="• Public registry&#xa;• Official images&#xa;• Automated builds&#xa;• Rate limits on free" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -75,13 +75,13 @@
         </mxCell>
 
         <!-- Harbor -->
-        <mxCell id="harbor-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="harbor-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="285" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="harbor-icon" value="⚓" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="360" y="290" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="harbor-title" value="Harbor (CNCF)" style="text;html=1;strokeColor=none;fillColor=#60b932;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="harbor-title" value="Harbor (CNCF)" style="text;html=1;strokeColor=none;fillColor=#60b932;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="325" y="320" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="harbor-features" value="• Self-hosted&#xa;• Vulnerability scanning&#xa;• Content trust/signing&#xa;• Replication" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -89,13 +89,13 @@
         </mxCell>
 
         <!-- GHCR -->
-        <mxCell id="ghcr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="ghcr-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="285" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ghcr-icon" value="🐙" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="560" y="290" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ghcr-title" value="GitHub Container Registry" style="text;html=1;strokeColor=none;fillColor=#24292e;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="ghcr-title" value="GitHub Container Registry" style="text;html=1;strokeColor=none;fillColor=#24292e;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="320" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ghcr-features" value="• GitHub integration&#xa;• Free for public repos&#xa;• Fine-grained permissions&#xa;• Actions integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -103,18 +103,18 @@
         </mxCell>
 
         <!-- Package Managers Section -->
-        <mxCell id="package-section" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="package-section" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="80" width="600" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="package-title" value="Package Managers &amp; Repositories" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="package-title" value="Package Managers &amp; Repositories" style="text;html=1;strokeColor=none;fillColor=#82b366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="90" width="300" height="30" as="geometry" />
         </mxCell>
 
         <!-- npm -->
-        <mxCell id="npm-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="npm-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="140" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="npm-title" value="npm / Node.js" style="text;html=1;strokeColor=none;fillColor=#cb3837;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="npm-title" value="npm / Node.js" style="text;html=1;strokeColor=none;fillColor=#cb3837;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="150" width="90" height="22" as="geometry" />
         </mxCell>
         <mxCell id="npm-features" value="• npmjs.com (public)&#xa;• Azure Artifacts&#xa;• GitHub Packages&#xa;• Verdaccio (private)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -122,10 +122,10 @@
         </mxCell>
 
         <!-- NuGet -->
-        <mxCell id="nuget-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="nuget-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="140" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="nuget-title" value="NuGet / .NET" style="text;html=1;strokeColor=none;fillColor=#004880;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="nuget-title" value="NuGet / .NET" style="text;html=1;strokeColor=none;fillColor=#004880;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="150" width="90" height="22" as="geometry" />
         </mxCell>
         <mxCell id="nuget-features" value="• NuGet.org (public)&#xa;• Azure Artifacts&#xa;• GitHub Packages&#xa;• ProGet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -133,10 +133,10 @@
         </mxCell>
 
         <!-- Maven -->
-        <mxCell id="maven-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="maven-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="140" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="maven-title" value="Maven / Java" style="text;html=1;strokeColor=none;fillColor=#c71a36;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="maven-title" value="Maven / Java" style="text;html=1;strokeColor=none;fillColor=#c71a36;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="150" width="90" height="22" as="geometry" />
         </mxCell>
         <mxCell id="maven-features" value="• Maven Central&#xa;• JFrog Artifactory&#xa;• Nexus Repository&#xa;• Azure Artifacts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -144,10 +144,10 @@
         </mxCell>
 
         <!-- PyPI -->
-        <mxCell id="pypi-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="pypi-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="255" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="pypi-title" value="PyPI / Python" style="text;html=1;strokeColor=none;fillColor=#3776ab;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="pypi-title" value="PyPI / Python" style="text;html=1;strokeColor=none;fillColor=#3776ab;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="265" width="90" height="22" as="geometry" />
         </mxCell>
         <mxCell id="pypi-features" value="• pypi.org (public)&#xa;• Azure Artifacts&#xa;• Devpi (private)&#xa;• Artifactory" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -155,10 +155,10 @@
         </mxCell>
 
         <!-- Helm -->
-        <mxCell id="helm-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="helm-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="255" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="helm-title" value="Helm Charts" style="text;html=1;strokeColor=none;fillColor=#0f1689;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="helm-title" value="Helm Charts" style="text;html=1;strokeColor=none;fillColor=#0f1689;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="265" width="90" height="22" as="geometry" />
         </mxCell>
         <mxCell id="helm-features" value="• Artifact Hub&#xa;• Harbor (OCI)&#xa;• ChartMuseum&#xa;• ACR/ECR/GCR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -166,10 +166,10 @@
         </mxCell>
 
         <!-- Generic -->
-        <mxCell id="generic-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="generic-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="255" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="generic-title" value="Universal/Generic" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="generic-title" value="Universal/Generic" style="text;html=1;strokeColor=none;fillColor=#666666;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1145" y="265" width="120" height="22" as="geometry" />
         </mxCell>
         <mxCell id="generic-features" value="• Azure Artifacts&#xa;• JFrog Artifactory&#xa;• Nexus Repository&#xa;• GitHub Releases" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;spacingLeft=5;" parent="1" vertex="1">
@@ -182,10 +182,10 @@
         </mxCell>
 
         <!-- JFrog -->
-        <mxCell id="jfrog-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="jfrog-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="490" width="320" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="jfrog-title" value="JFrog Artifactory" style="text;html=1;strokeColor=none;fillColor=#40be46;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="jfrog-title" value="JFrog Artifactory" style="text;html=1;strokeColor=none;fillColor=#40be46;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="165" y="500" width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jfrog-features" value="• All package formats (Docker, npm, NuGet, Maven, PyPI, Helm, etc.)&#xa;• Enterprise-grade&#xa;• Xray security scanning&#xa;• CI/CD integration&#xa;• High availability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
@@ -193,10 +193,10 @@
         </mxCell>
 
         <!-- Azure Artifacts -->
-        <mxCell id="azure-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="azure-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="490" width="320" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="azure-title" value="Azure Artifacts" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="azure-title" value="Azure Artifacts" style="text;html=1;strokeColor=none;fillColor=#0078d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="505" y="500" width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="azure-features" value="• npm, NuGet, Maven, Python, Universal packages&#xa;• Azure DevOps integration&#xa;• Upstream sources&#xa;• Feed permissions (RBAC)&#xa;• Free tier included" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
@@ -204,10 +204,10 @@
         </mxCell>
 
         <!-- Nexus -->
-        <mxCell id="nexus-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="nexus-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="490" width="320" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="nexus-title" value="Sonatype Nexus" style="text;html=1;strokeColor=none;fillColor=#1b1c1d;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="nexus-title" value="Sonatype Nexus" style="text;html=1;strokeColor=none;fillColor=#1b1c1d;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="845" y="500" width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="nexus-features" value="• Docker, npm, Maven, NuGet, PyPI, etc.&#xa;• Open source (OSS) and Pro versions&#xa;• Component intelligence&#xa;• Proxy remote repos&#xa;• Self-hosted" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
@@ -215,10 +215,10 @@
         </mxCell>
 
         <!-- GitHub Packages -->
-        <mxCell id="ghpkg-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="ghpkg-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="490" width="220" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="ghpkg-title" value="GitHub Packages" style="text;html=1;strokeColor=none;fillColor=#24292e;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="ghpkg-title" value="GitHub Packages" style="text;html=1;strokeColor=none;fillColor=#24292e;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;fontColor=#ffffff;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1145" y="500" width="130" height="25" as="geometry" />
         </mxCell>
         <mxCell id="ghpkg-features" value="• Container, npm, Maven,&#xa;  NuGet, RubyGems&#xa;• GitHub native&#xa;• Free for public repos&#xa;• Actions integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;spacingLeft=10;" parent="1" vertex="1">
