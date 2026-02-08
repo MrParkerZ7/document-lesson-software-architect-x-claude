@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
 
         <!-- Title -->
-        <mxCell id="title" value="Architect Involvement Across SDLC Phases" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1a1a1a;" parent="1" vertex="1">
+        <mxCell id="title" value="🔄 Architect Involvement Across SDLC Phases" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1a1a1a;" parent="1" vertex="1">
           <mxGeometry x="400" y="20" width="500" height="40" as="geometry" />
         </mxCell>
 
@@ -109,7 +109,7 @@
         </mxCell>
 
         <!-- Legend -->
-        <mxCell id="legend-title" value="Involvement Level Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="legend-title" value="📊 Involvement Level Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="530" width="180" height="25" as="geometry" />
         </mxCell>
         <mxCell id="legend-high" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;" parent="1" vertex="1">
