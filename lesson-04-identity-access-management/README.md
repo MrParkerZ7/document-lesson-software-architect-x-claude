@@ -18,17 +18,33 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Sub-lessons
+## 📁 Files in This Lesson
 
-| # | Topic | Diagrams |
-|---|-------|----------|
-| 01 | [Core Concepts](./01-core-concepts/README.md) | 2 |
-| 02 | [Authentication Protocols](./02-authentication-protocols/README.md) | 2 |
-| 03 | [Microsoft Entra ID (Azure AD)](./03-microsoft-entra-id/README.md) | 3 |
-| 04 | [Access Control Models](./04-access-control-models/README.md) | 1 |
-| 05 | [Zero Trust Architecture](./05-zero-trust-architecture/README.md) | 1 |
-| 06 | [B2B and B2C Scenarios](./06-b2b-b2c-scenarios/README.md) | 1 |
-| 07 | [Best Practices](./07-best-practices/README.md) | 1 |
+### 📚 Sub-Lessons
+| # | Topic | README |
+|---|-------|--------|
+| 01 | Core Concepts | [README](./01-core-concepts/README.md) |
+| 02 | Authentication Protocols | [README](./02-authentication-protocols/README.md) |
+| 03 | Microsoft Entra ID (Azure AD) | [README](./03-microsoft-entra-id/README.md) |
+| 04 | Access Control Models | [README](./04-access-control-models/README.md) |
+| 05 | Zero Trust Architecture | [README](./05-zero-trust-architecture/README.md) |
+| 06 | B2B and B2C Scenarios | [README](./06-b2b-b2c-scenarios/README.md) |
+| 07 | Best Practices | [README](./07-best-practices/README.md) |
+
+### 📊 Diagrams & Images
+| Diagram | Image |
+|---------|-------|
+| [1.1-authn-vs-authz.drawio](./01-core-concepts/1.1-authn-vs-authz.drawio) | [PNG](./01-core-concepts/1.1-authn-vs-authz.png) |
+| [1.2-identity-terminology.drawio](./01-core-concepts/1.2-identity-terminology.drawio) | [PNG](./01-core-concepts/1.2-identity-terminology.png) |
+| [2.1-oauth2-flows.drawio](./02-authentication-protocols/2.1-oauth2-flows.drawio) | [PNG](./02-authentication-protocols/2.1-oauth2-flows.png) |
+| [2.2-oidc-and-saml.drawio](./02-authentication-protocols/2.2-oidc-and-saml.drawio) | [PNG](./02-authentication-protocols/2.2-oidc-and-saml.png) |
+| [3.1-entra-id-overview.drawio](./03-microsoft-entra-id/3.1-entra-id-overview.drawio) | [PNG](./03-microsoft-entra-id/3.1-entra-id-overview.png) |
+| [3.2-app-registration-managed-identity.drawio](./03-microsoft-entra-id/3.2-app-registration-managed-identity.drawio) | [PNG](./03-microsoft-entra-id/3.2-app-registration-managed-identity.png) |
+| [3.3-conditional-access.drawio](./03-microsoft-entra-id/3.3-conditional-access.drawio) | [PNG](./03-microsoft-entra-id/3.3-conditional-access.png) |
+| [4.1-rbac-abac-models.drawio](./04-access-control-models/4.1-rbac-abac-models.drawio) | [PNG](./04-access-control-models/4.1-rbac-abac-models.png) |
+| [5.1-zero-trust-architecture.drawio](./05-zero-trust-architecture/5.1-zero-trust-architecture.drawio) | [PNG](./05-zero-trust-architecture/5.1-zero-trust-architecture.png) |
+| [6.1-b2b-b2c-scenarios.drawio](./06-b2b-b2c-scenarios/6.1-b2b-b2c-scenarios.drawio) | [PNG](./06-b2b-b2c-scenarios/6.1-b2b-b2c-scenarios.png) |
+| [7.1-iam-best-practices.drawio](./07-best-practices/7.1-iam-best-practices.drawio) | [PNG](./07-best-practices/7.1-iam-best-practices.png) |
 
 ---
 

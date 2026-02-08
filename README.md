@@ -28,6 +28,26 @@ Software Architects serve as the technical visionaries who define the blueprint 
 
 ---
 
+## 📁 Repository Structure
+
+| # | Lesson | README | Sub-Lessons | Diagrams | Images |
+|---|--------|--------|-------------|----------|--------|
+| 00 | [Software Architect Overview](./lesson-00-software-architect-overview/) | [README](./lesson-00-software-architect-overview/README.md) | 4 | 14 | 14 |
+| 01 | [Software Design & Architecture](./lesson-01-software-design-architecture/) | [README](./lesson-01-software-design-architecture/README.md) | 5 | 27 | 27 |
+| 02 | [Event-Driven Architecture](./lesson-02-event-driven-architecture/) | [README](./lesson-02-event-driven-architecture/README.md) | 6 | 22 | 22 |
+| 03 | [Cloud Platforms & Services](./lesson-03-cloud-platforms-services/) | [README](./lesson-03-cloud-platforms-services/README.md) | 8 | 19 | 19 |
+| 04 | [Identity & Access Management](./lesson-04-identity-access-management/) | [README](./lesson-04-identity-access-management/README.md) | 7 | 11 | 11 |
+| 05 | [DevOps & Platform Engineering](./lesson-05-devops-platform-engineering/) | [README](./lesson-05-devops-platform-engineering/README.md) | 8 | 19 | 19 |
+| 06 | [Security](./lesson-06-security/) | [README](./lesson-06-security/README.md) | 6 | 11 | 11 |
+| 07 | [Networking](./lesson-07-networking/) | [README](./lesson-07-networking/README.md) | 5 | 10 | 10 |
+| 08 | [Databases & Storage](./lesson-08-databases-storage/) | [README](./lesson-08-databases-storage/README.md) | 7 | 7 | 7 |
+| 09 | [Observability & Monitoring](./lesson-09-observability-monitoring/) | [README](./lesson-09-observability-monitoring/README.md) | 6 | 6 | 6 |
+| 10 | [Soft Skills](./lesson-10-soft-skills/) | [README](./lesson-10-soft-skills/README.md) | 7 | 6 | 6 |
+
+**Total:** 69 Sub-Lessons | 152 Diagrams | 152 Images
+
+---
+
 ## Knowledge Level Legend
 
 | Icon | Meaning |

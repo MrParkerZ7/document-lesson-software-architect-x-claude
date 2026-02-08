@@ -65,3 +65,33 @@ A Software Architect operates at the intersection of technology and business, tr
 Success as an architect comes not from having all the answers, but from asking the right questions, facilitating good decisions, and enabling teams to build effective systems. Understanding both the daily operational aspects of the role and its organizational positioning is essential for anyone aspiring to or currently working as a Software Architect.
 
 > 💡 **Key Insight**: The architect's effectiveness is measured not just by the quality of their designs, but by the success of the teams they work with and the systems they help create.
+
+---
+
+## 📁 Files in This Lesson
+
+### 📚 Sub-Lessons
+| # | Topic | README |
+|---|-------|--------|
+| 01 | How a Software Architect Works | [README](./01-how-a-software-architect-works/README.md) |
+| 02 | Organizational Positioning | [README](./02-organizational-positioning/README.md) |
+| 03 | Common Challenges | [README](./03-common-challenges/README.md) |
+| 04 | Success Metrics | [README](./04-success-metrics/README.md) |
+
+### 📊 Diagrams
+| File | Preview |
+|------|---------|
+| [1.1-core-responsibilities.drawio](./01-how-a-software-architect-works/1.1-core-responsibilities.drawio) | [PNG](./01-how-a-software-architect-works/1.1-core-responsibilities.png) |
+| [1.2-daily-activities-time.drawio](./01-how-a-software-architect-works/1.2-daily-activities-time.drawio) | [PNG](./01-how-a-software-architect-works/1.2-daily-activities-time.png) |
+| [1.3-key-deliverables.drawio](./01-how-a-software-architect-works/1.3-key-deliverables.drawio) | [PNG](./01-how-a-software-architect-works/1.3-key-deliverables.png) |
+| [1.4-decision-making-process.drawio](./01-how-a-software-architect-works/1.4-decision-making-process.drawio) | [PNG](./01-how-a-software-architect-works/1.4-decision-making-process.png) |
+| [1.5-stakeholder-interactions.drawio](./01-how-a-software-architect-works/1.5-stakeholder-interactions.drawio) | [PNG](./01-how-a-software-architect-works/1.5-stakeholder-interactions.png) |
+| [1.6-sdlc-involvement.drawio](./01-how-a-software-architect-works/1.6-sdlc-involvement.drawio) | [PNG](./01-how-a-software-architect-works/1.6-sdlc-involvement.png) |
+| [2.1-org-structure-small.drawio](./02-organizational-positioning/2.1-org-structure-small.drawio) | [PNG](./02-organizational-positioning/2.1-org-structure-small.png) |
+| [2.2-org-structure-medium.drawio](./02-organizational-positioning/2.2-org-structure-medium.drawio) | [PNG](./02-organizational-positioning/2.2-org-structure-medium.png) |
+| [2.3-org-structure-large.drawio](./02-organizational-positioning/2.3-org-structure-large.drawio) | [PNG](./02-organizational-positioning/2.3-org-structure-large.png) |
+| [2.4-architect-role-hierarchy.drawio](./02-organizational-positioning/2.4-architect-role-hierarchy.drawio) | [PNG](./02-organizational-positioning/2.4-architect-role-hierarchy.png) |
+| [2.5-relationship-map.drawio](./02-organizational-positioning/2.5-relationship-map.drawio) | [PNG](./02-organizational-positioning/2.5-relationship-map.png) |
+| [2.6-authority-vs-influence.drawio](./02-organizational-positioning/2.6-authority-vs-influence.drawio) | [PNG](./02-organizational-positioning/2.6-authority-vs-influence.png) |
+| [3.1-challenges-antipatterns.drawio](./03-common-challenges/3.1-challenges-antipatterns.drawio) | [PNG](./03-common-challenges/3.1-challenges-antipatterns.png) |
+| [4.1-success-metrics-kpis.drawio](./04-success-metrics/4.1-success-metrics-kpis.drawio) | [PNG](./04-success-metrics/4.1-success-metrics-kpis.png) |

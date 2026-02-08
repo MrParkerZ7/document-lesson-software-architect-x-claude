@@ -6,18 +6,42 @@ DevOps is a set of practices that combines software development (Dev) and IT ope
 
 ---
 
-## Sub-Lessons Index
+## 📁 Files in This Lesson
 
-| No. | Topic | Description | Diagrams |
-|-----|-------|-------------|----------|
-| 1 | [DevOps Fundamentals](./01-devops-fundamentals/README.md) | DevOps lifecycle, principles, and DORA metrics | 3 |
-| 2 | [CI/CD Tools](./02-cicd-tools/README.md) | Azure DevOps, GitHub Actions, Jenkins | 4 |
-| 3 | [Infrastructure as Code](./03-infrastructure-as-code/README.md) | Terraform workflow and IaC tools comparison | 2 |
-| 4 | [Containerization](./04-containerization/README.md) | Docker architecture and container security | 2 |
-| 5 | [Container Orchestration](./05-container-orchestration/README.md) | Kubernetes architecture and managed services | 3 |
-| 6 | [GitOps](./06-gitops/README.md) | GitOps flow and ArgoCD workflow | 2 |
-| 7 | [Artifact Management](./07-artifact-management/README.md) | Container registries and package managers | 1 |
-| 8 | [Platform Engineering](./08-platform-engineering/README.md) | Internal developer platforms and tooling | 2 |
+### 📚 Sub-Lessons
+| # | Topic | README |
+|---|-------|--------|
+| 01 | DevOps Fundamentals | [README](./01-devops-fundamentals/README.md) |
+| 02 | CI/CD Tools | [README](./02-cicd-tools/README.md) |
+| 03 | Infrastructure as Code | [README](./03-infrastructure-as-code/README.md) |
+| 04 | Containerization | [README](./04-containerization/README.md) |
+| 05 | Container Orchestration | [README](./05-container-orchestration/README.md) |
+| 06 | GitOps | [README](./06-gitops/README.md) |
+| 07 | Artifact Management | [README](./07-artifact-management/README.md) |
+| 08 | Platform Engineering | [README](./08-platform-engineering/README.md) |
+
+### 📊 Diagrams & Images
+| Diagram | Image |
+|---------|-------|
+| [1.1-devops-lifecycle.drawio](./01-devops-fundamentals/1.1-devops-lifecycle.drawio) | [PNG](./01-devops-fundamentals/1.1-devops-lifecycle.png) |
+| [1.2-devops-principles.drawio](./01-devops-fundamentals/1.2-devops-principles.drawio) | [PNG](./01-devops-fundamentals/1.2-devops-principles.png) |
+| [1.3-dora-metrics.drawio](./01-devops-fundamentals/1.3-dora-metrics.drawio) | [PNG](./01-devops-fundamentals/1.3-dora-metrics.png) |
+| [2.1-azure-devops-architecture.drawio](./02-cicd-tools/2.1-azure-devops-architecture.drawio) | [PNG](./02-cicd-tools/2.1-azure-devops-architecture.png) |
+| [2.2-github-actions-workflow.drawio](./02-cicd-tools/2.2-github-actions-workflow.drawio) | [PNG](./02-cicd-tools/2.2-github-actions-workflow.png) |
+| [2.3-cicd-tools-comparison.drawio](./02-cicd-tools/2.3-cicd-tools-comparison.drawio) | [PNG](./02-cicd-tools/2.3-cicd-tools-comparison.png) |
+| [2.4-jenkins-architecture.drawio](./02-cicd-tools/2.4-jenkins-architecture.drawio) | [PNG](./02-cicd-tools/2.4-jenkins-architecture.png) |
+| [3.1-terraform-workflow.drawio](./03-infrastructure-as-code/3.1-terraform-workflow.drawio) | [PNG](./03-infrastructure-as-code/3.1-terraform-workflow.png) |
+| [3.2-iac-tools-comparison.drawio](./03-infrastructure-as-code/3.2-iac-tools-comparison.drawio) | [PNG](./03-infrastructure-as-code/3.2-iac-tools-comparison.png) |
+| [4.1-docker-architecture.drawio](./04-containerization/4.1-docker-architecture.drawio) | [PNG](./04-containerization/4.1-docker-architecture.png) |
+| [4.2-container-security-layers.drawio](./04-containerization/4.2-container-security-layers.drawio) | [PNG](./04-containerization/4.2-container-security-layers.png) |
+| [5.1-kubernetes-architecture.drawio](./05-container-orchestration/5.1-kubernetes-architecture.drawio) | [PNG](./05-container-orchestration/5.1-kubernetes-architecture.png) |
+| [5.2-kubernetes-resources.drawio](./05-container-orchestration/5.2-kubernetes-resources.drawio) | [PNG](./05-container-orchestration/5.2-kubernetes-resources.png) |
+| [5.3-managed-k8s-comparison.drawio](./05-container-orchestration/5.3-managed-k8s-comparison.drawio) | [PNG](./05-container-orchestration/5.3-managed-k8s-comparison.png) |
+| [6.1-gitops-flow.drawio](./06-gitops/6.1-gitops-flow.drawio) | [PNG](./06-gitops/6.1-gitops-flow.png) |
+| [6.2-argocd-workflow.drawio](./06-gitops/6.2-argocd-workflow.drawio) | [PNG](./06-gitops/6.2-argocd-workflow.png) |
+| [7.1-artifact-management.drawio](./07-artifact-management/7.1-artifact-management.drawio) | [PNG](./07-artifact-management/7.1-artifact-management.png) |
+| [8.1-internal-developer-platform.drawio](./08-platform-engineering/8.1-internal-developer-platform.drawio) | [PNG](./08-platform-engineering/8.1-internal-developer-platform.png) |
+| [8.2-platform-engineering-tools.drawio](./08-platform-engineering/8.2-platform-engineering-tools.drawio) | [PNG](./08-platform-engineering/8.2-platform-engineering-tools.png) |
 
 ---
 

@@ -662,3 +662,28 @@ Solution: Implement mandatory DBA review for schema changes
 Soft skills are the multiplier for technical expertise. An architect who can communicate clearly, lead effectively, understand business context, make sound decisions, and continuously learn will have far greater impact than one with only technical skills. Developing these skills takes deliberate practice and self-reflection, but they are essential for career growth and organizational success.
 
 The best architects combine deep technical knowledge with the ability to translate that knowledge into business value, influence stakeholders, and build high-performing teams. Investing in soft skills is investing in your effectiveness as an architect.
+
+---
+
+## 📁 Files in This Lesson
+
+### 📚 Sub-Lessons
+| # | Topic | README |
+|---|-------|--------|
+| 01 | Communication | [README](./01-communication/README.md) |
+| 02 | Leadership | [README](./02-leadership/README.md) |
+| 03 | Business Acumen | [README](./03-business-acumen/README.md) |
+| 04 | Decision Making | [README](./04-decision-making/README.md) |
+| 05 | Problem Solving | [README](./05-problem-solving/README.md) |
+| 06 | Continuous Learning | [README](./06-continuous-learning/README.md) |
+| 07 | Work-Life Balance | [README](./07-work-life-balance/README.md) |
+
+### 📊 Diagrams & Images
+| Diagram | Image |
+|---------|-------|
+| [1.1-communication-skills.drawio](./01-communication/1.1-communication-skills.drawio) | [PNG](./01-communication/1.1-communication-skills.png) |
+| [2.1-leadership-mentoring.drawio](./02-leadership/2.1-leadership-mentoring.drawio) | [PNG](./02-leadership/2.1-leadership-mentoring.png) |
+| [3.1-business-acumen.drawio](./03-business-acumen/3.1-business-acumen.drawio) | [PNG](./03-business-acumen/3.1-business-acumen.png) |
+| [4.1-decision-frameworks.drawio](./04-decision-making/4.1-decision-frameworks.drawio) | [PNG](./04-decision-making/4.1-decision-frameworks.png) |
+| [5.1-problem-solving.drawio](./05-problem-solving/5.1-problem-solving.drawio) | [PNG](./05-problem-solving/5.1-problem-solving.png) |
+| [6.1-career-growth.drawio](./06-continuous-learning/6.1-career-growth.drawio) | [PNG](./06-continuous-learning/6.1-career-growth.png) |

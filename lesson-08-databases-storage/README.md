@@ -18,17 +18,29 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Sub-lessons
+## 📁 Files in This Lesson
 
-| # | Topic | Diagrams |
-|---|-------|----------|
-| 01 | [Database Types Overview](./01-database-types-overview/README.md) | 1 |
-| 02 | [Relational Databases](./02-relational-databases/README.md) | 1 |
-| 03 | [NoSQL Databases](./03-nosql-databases/README.md) | 1 |
-| 04 | [CAP Theorem & Consistency](./04-cap-theorem-consistency/README.md) | 1 |
-| 05 | [Caching](./05-caching/README.md) | 1 |
-| 06 | [Storage Solutions](./06-storage-solutions/README.md) | 1 |
-| 07 | [Database Selection Guide](./07-database-selection-guide/README.md) | 1 |
+### 📚 Sub-Lessons
+| # | Topic | README |
+|---|-------|--------|
+| 01 | Database Types Overview | [README](./01-database-types-overview/README.md) |
+| 02 | Relational Databases | [README](./02-relational-databases/README.md) |
+| 03 | NoSQL Databases | [README](./03-nosql-databases/README.md) |
+| 04 | CAP Theorem & Consistency | [README](./04-cap-theorem-consistency/README.md) |
+| 05 | Caching | [README](./05-caching/README.md) |
+| 06 | Storage Solutions | [README](./06-storage-solutions/README.md) |
+| 07 | Database Selection Guide | [README](./07-database-selection-guide/README.md) |
+
+### 📊 Diagrams & Images
+| Diagram | Image |
+|---------|-------|
+| [1.1-database-landscape.drawio](./01-database-types-overview/1.1-database-landscape.drawio) | [PNG](./01-database-types-overview/1.1-database-landscape.png) |
+| [2.1-normalization-indexing.drawio](./02-relational-databases/2.1-normalization-indexing.drawio) | [PNG](./02-relational-databases/2.1-normalization-indexing.png) |
+| [3.1-nosql-patterns.drawio](./03-nosql-databases/3.1-nosql-patterns.drawio) | [PNG](./03-nosql-databases/3.1-nosql-patterns.png) |
+| [4.1-cap-theorem.drawio](./04-cap-theorem-consistency/4.1-cap-theorem.drawio) | [PNG](./04-cap-theorem-consistency/4.1-cap-theorem.png) |
+| [5.1-caching-strategies.drawio](./05-caching/5.1-caching-strategies.drawio) | [PNG](./05-caching/5.1-caching-strategies.png) |
+| [6.1-storage-types.drawio](./06-storage-solutions/6.1-storage-types.drawio) | [PNG](./06-storage-solutions/6.1-storage-types.png) |
+| [7.1-database-selection.drawio](./07-database-selection-guide/7.1-database-selection.drawio) | [PNG](./07-database-selection-guide/7.1-database-selection.png) |
 
 ---
 

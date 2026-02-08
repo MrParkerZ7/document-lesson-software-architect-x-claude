@@ -19,16 +19,32 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Sub-Lessons
+## 📁 Files in This Lesson
 
-| # | Sub-Lesson | Topics | Diagrams |
-|---|----------|--------|----------|
-| 1 | [Application Security](./01-application-security/README.md) | OWASP Top 10, STRIDE | 2 |
-| 2 | [Secure Coding Practices](./02-secure-coding-practices/README.md) | Input Validation | 1 |
-| 3 | [Secrets Management](./03-secrets-management/README.md) | Vault, Key Management | 1 |
-| 4 | [Network Security](./04-network-security/README.md) | Defense in Depth, WAF | 2 |
-| 5 | [Security Testing](./05-security-testing/README.md) | SAST, DAST, SCA | 2 |
-| 6 | [Compliance and Governance](./06-compliance-governance/README.md) | GDPR, HIPAA, Incident Response | 3 |
+### 📚 Sub-Lessons
+| # | Topic | README |
+|---|-------|--------|
+| 01 | Application Security | [README](./01-application-security/README.md) |
+| 02 | Secure Coding Practices | [README](./02-secure-coding-practices/README.md) |
+| 03 | Secrets Management | [README](./03-secrets-management/README.md) |
+| 04 | Network Security | [README](./04-network-security/README.md) |
+| 05 | Security Testing | [README](./05-security-testing/README.md) |
+| 06 | Compliance and Governance | [README](./06-compliance-governance/README.md) |
+
+### 📊 Diagrams & Images
+| Diagram | Image |
+|---------|-------|
+| [1.1-owasp-top-10.drawio](./01-application-security/1.1-owasp-top-10.drawio) | [PNG](./01-application-security/1.1-owasp-top-10.png) |
+| [1.2-stride-threat-model.drawio](./01-application-security/1.2-stride-threat-model.drawio) | [PNG](./01-application-security/1.2-stride-threat-model.png) |
+| [2.1-input-validation-strategy.drawio](./02-secure-coding-practices/2.1-input-validation-strategy.drawio) | [PNG](./02-secure-coding-practices/2.1-input-validation-strategy.png) |
+| [3.1-secrets-management.drawio](./03-secrets-management/3.1-secrets-management.drawio) | [PNG](./03-secrets-management/3.1-secrets-management.png) |
+| [4.1-defense-in-depth.drawio](./04-network-security/4.1-defense-in-depth.drawio) | [PNG](./04-network-security/4.1-defense-in-depth.png) |
+| [4.2-waf-network-segmentation.drawio](./04-network-security/4.2-waf-network-segmentation.drawio) | [PNG](./04-network-security/4.2-waf-network-segmentation.png) |
+| [5.1-security-testing-types.drawio](./05-security-testing/5.1-security-testing-types.drawio) | [PNG](./05-security-testing/5.1-security-testing-types.png) |
+| [5.2-security-pipeline.drawio](./05-security-testing/5.2-security-pipeline.drawio) | [PNG](./05-security-testing/5.2-security-pipeline.png) |
+| [6.1-regulatory-frameworks.drawio](./06-compliance-governance/6.1-regulatory-frameworks.drawio) | [PNG](./06-compliance-governance/6.1-regulatory-frameworks.png) |
+| [6.2-data-classification.drawio](./06-compliance-governance/6.2-data-classification.drawio) | [PNG](./06-compliance-governance/6.2-data-classification.png) |
+| [6.3-incident-response.drawio](./06-compliance-governance/6.3-incident-response.drawio) | [PNG](./06-compliance-governance/6.3-incident-response.png) |
 
 ---
 

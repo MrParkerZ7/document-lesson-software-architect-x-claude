@@ -18,18 +18,42 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Sub-lessons
+## 📁 Files in This Lesson
 
-| # | Topic | Diagrams |
-|---|-------|----------|
-| 01 | [Cloud Computing Fundamentals](./01-cloud-computing-fundamentals/README.md) | 2 |
-| 02 | [Microsoft Azure](./02-microsoft-azure/README.md) | 3 |
-| 03 | [Amazon Web Services](./03-amazon-web-services/README.md) | 3 |
-| 04 | [Google Cloud Platform](./04-google-cloud-platform/README.md) | 2 |
-| 05 | [Service Comparison](./05-service-comparison/README.md) | 3 |
-| 06 | [Cloud-Native Design Principles](./06-cloud-native-design-principles/README.md) | 2 |
-| 07 | [Multi-Cloud & Hybrid Strategies](./07-multi-cloud-hybrid-strategies/README.md) | 2 |
-| 08 | [Cost Optimization & Well-Architected](./08-cost-optimization-well-architected/README.md) | 2 |
+### 📚 Sub-Lessons
+| # | Topic | README |
+|---|-------|--------|
+| 01 | Cloud Computing Fundamentals | [README](./01-cloud-computing-fundamentals/README.md) |
+| 02 | Microsoft Azure | [README](./02-microsoft-azure/README.md) |
+| 03 | Amazon Web Services | [README](./03-amazon-web-services/README.md) |
+| 04 | Google Cloud Platform | [README](./04-google-cloud-platform/README.md) |
+| 05 | Service Comparison | [README](./05-service-comparison/README.md) |
+| 06 | Cloud-Native Design Principles | [README](./06-cloud-native-design-principles/README.md) |
+| 07 | Multi-Cloud & Hybrid Strategies | [README](./07-multi-cloud-hybrid-strategies/README.md) |
+| 08 | Cost Optimization & Well-Architected | [README](./08-cost-optimization-well-architected/README.md) |
+
+### 📊 Diagrams & Images
+| Diagram | Image |
+|---------|-------|
+| [1.1-service-models-iaas-paas-saas.drawio](./01-cloud-computing-fundamentals/1.1-service-models-iaas-paas-saas.drawio) | [PNG](./01-cloud-computing-fundamentals/1.1-service-models-iaas-paas-saas.png) |
+| [1.2-deployment-models.drawio](./01-cloud-computing-fundamentals/1.2-deployment-models.drawio) | [PNG](./01-cloud-computing-fundamentals/1.2-deployment-models.png) |
+| [2.1-azure-compute-services.drawio](./02-microsoft-azure/2.1-azure-compute-services.drawio) | [PNG](./02-microsoft-azure/2.1-azure-compute-services.png) |
+| [2.2-azure-data-services.drawio](./02-microsoft-azure/2.2-azure-data-services.drawio) | [PNG](./02-microsoft-azure/2.2-azure-data-services.png) |
+| [2.3-azure-architecture-example.drawio](./02-microsoft-azure/2.3-azure-architecture-example.drawio) | [PNG](./02-microsoft-azure/2.3-azure-architecture-example.png) |
+| [3.1-aws-compute-services.drawio](./03-amazon-web-services/3.1-aws-compute-services.drawio) | [PNG](./03-amazon-web-services/3.1-aws-compute-services.png) |
+| [3.2-aws-data-services.drawio](./03-amazon-web-services/3.2-aws-data-services.drawio) | [PNG](./03-amazon-web-services/3.2-aws-data-services.png) |
+| [3.3-aws-architecture-example.drawio](./03-amazon-web-services/3.3-aws-architecture-example.drawio) | [PNG](./03-amazon-web-services/3.3-aws-architecture-example.png) |
+| [4.1-gcp-compute-services.drawio](./04-google-cloud-platform/4.1-gcp-compute-services.drawio) | [PNG](./04-google-cloud-platform/4.1-gcp-compute-services.png) |
+| [4.2-gcp-data-services.drawio](./04-google-cloud-platform/4.2-gcp-data-services.drawio) | [PNG](./04-google-cloud-platform/4.2-gcp-data-services.png) |
+| [5.1-compute-comparison.drawio](./05-service-comparison/5.1-compute-comparison.drawio) | [PNG](./05-service-comparison/5.1-compute-comparison.png) |
+| [5.2-database-comparison.drawio](./05-service-comparison/5.2-database-comparison.drawio) | [PNG](./05-service-comparison/5.2-database-comparison.png) |
+| [5.3-storage-comparison.drawio](./05-service-comparison/5.3-storage-comparison.drawio) | [PNG](./05-service-comparison/5.3-storage-comparison.png) |
+| [6.1-twelve-factor-app.drawio](./06-cloud-native-design-principles/6.1-twelve-factor-app.drawio) | [PNG](./06-cloud-native-design-principles/6.1-twelve-factor-app.png) |
+| [6.2-cloud-native-patterns.drawio](./06-cloud-native-design-principles/6.2-cloud-native-patterns.drawio) | [PNG](./06-cloud-native-design-principles/6.2-cloud-native-patterns.png) |
+| [7.1-multi-cloud-architecture.drawio](./07-multi-cloud-hybrid-strategies/7.1-multi-cloud-architecture.drawio) | [PNG](./07-multi-cloud-hybrid-strategies/7.1-multi-cloud-architecture.png) |
+| [7.2-hybrid-cloud-patterns.drawio](./07-multi-cloud-hybrid-strategies/7.2-hybrid-cloud-patterns.drawio) | [PNG](./07-multi-cloud-hybrid-strategies/7.2-hybrid-cloud-patterns.png) |
+| [8.1-cost-optimization-strategies.drawio](./08-cost-optimization-well-architected/8.1-cost-optimization-strategies.drawio) | [PNG](./08-cost-optimization-well-architected/8.1-cost-optimization-strategies.png) |
+| [8.2-well-architected-framework.drawio](./08-cost-optimization-well-architected/8.2-well-architected-framework.drawio) | [PNG](./08-cost-optimization-well-architected/8.2-well-architected-framework.png) |
 
 ---
 

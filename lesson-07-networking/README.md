@@ -18,15 +18,30 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Sub-Lessons
+## 📁 Files in This Lesson
 
-| # | Topic | Description | Diagrams |
-|---|-------|-------------|----------|
-| 1 | [Networking Fundamentals](./01-networking-fundamentals/README.md) | OSI model, TCP/IP, DNS, HTTP | 4 |
-| 2 | [Cloud Networking](./02-cloud-networking/README.md) | Virtual networks, NSGs, peering, private endpoints | 2 |
-| 3 | [Load Balancing](./03-load-balancing/README.md) | L4/L7 load balancing, Azure options | 2 |
-| 4 | [Service Mesh](./04-service-mesh/README.md) | Istio, traffic management, mTLS | 1 |
-| 5 | [API Gateway](./05-api-gateway/README.md) | APIM, Kong, gateway patterns | 1 |
+### 📚 Sub-Lessons
+| # | Topic | README |
+|---|-------|--------|
+| 01 | Networking Fundamentals | [README](./01-networking-fundamentals/README.md) |
+| 02 | Cloud Networking | [README](./02-cloud-networking/README.md) |
+| 03 | Load Balancing | [README](./03-load-balancing/README.md) |
+| 04 | Service Mesh | [README](./04-service-mesh/README.md) |
+| 05 | API Gateway | [README](./05-api-gateway/README.md) |
+
+### 📊 Diagrams & Images
+| Diagram | Image |
+|---------|-------|
+| [1.1-osi-model.drawio](./01-networking-fundamentals/1.1-osi-model.drawio) | [PNG](./01-networking-fundamentals/1.1-osi-model.png) |
+| [1.2-tcp-udp-comparison.drawio](./01-networking-fundamentals/1.2-tcp-udp-comparison.drawio) | [PNG](./01-networking-fundamentals/1.2-tcp-udp-comparison.png) |
+| [1.3-dns-resolution.drawio](./01-networking-fundamentals/1.3-dns-resolution.drawio) | [PNG](./01-networking-fundamentals/1.3-dns-resolution.png) |
+| [1.4-http-overview.drawio](./01-networking-fundamentals/1.4-http-overview.drawio) | [PNG](./01-networking-fundamentals/1.4-http-overview.png) |
+| [2.1-virtual-network.drawio](./02-cloud-networking/2.1-virtual-network.drawio) | [PNG](./02-cloud-networking/2.1-virtual-network.png) |
+| [2.2-private-connectivity.drawio](./02-cloud-networking/2.2-private-connectivity.drawio) | [PNG](./02-cloud-networking/2.2-private-connectivity.png) |
+| [3.1-load-balancing-types.drawio](./03-load-balancing/3.1-load-balancing-types.drawio) | [PNG](./03-load-balancing/3.1-load-balancing-types.png) |
+| [3.2-azure-load-balancing.drawio](./03-load-balancing/3.2-azure-load-balancing.drawio) | [PNG](./03-load-balancing/3.2-azure-load-balancing.png) |
+| [4.1-service-mesh.drawio](./04-service-mesh/4.1-service-mesh.drawio) | [PNG](./04-service-mesh/4.1-service-mesh.png) |
+| [5.1-api-gateway.drawio](./05-api-gateway/5.1-api-gateway.drawio) | [PNG](./05-api-gateway/5.1-api-gateway.png) |
 
 ---
 

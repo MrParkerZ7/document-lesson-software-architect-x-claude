@@ -85,3 +85,27 @@ By the end of this lesson, you will be able to:
 ## Summary
 
 Observability is essential for operating reliable distributed systems. By combining logs, metrics, and traces, teams gain comprehensive visibility into system behavior. Effective alerting transforms observability data into actionable insights, enabling rapid incident response. Modern observability architectures integrate these pillars into unified platforms for efficient troubleshooting and proactive monitoring.
+
+---
+
+## 📁 Files in This Lesson
+
+### 📚 Sub-Lessons
+| # | Topic | README |
+|---|-------|--------|
+| 01 | Three Pillars of Observability | [README](./01-three-pillars-of-observability/README.md) |
+| 02 | Logging | [README](./02-logging/README.md) |
+| 03 | Metrics | [README](./03-metrics/README.md) |
+| 04 | Distributed Tracing | [README](./04-distributed-tracing/README.md) |
+| 05 | Alerting | [README](./05-alerting/README.md) |
+| 06 | Observability Architecture | [README](./06-observability-architecture/README.md) |
+
+### 📊 Diagrams & Images
+| Diagram | Image |
+|---------|-------|
+| [1.1-three-pillars.drawio](./01-three-pillars-of-observability/1.1-three-pillars.drawio) | [PNG](./01-three-pillars-of-observability/1.1-three-pillars.png) |
+| [2.1-logging-stack.drawio](./02-logging/2.1-logging-stack.drawio) | [PNG](./02-logging/2.1-logging-stack.png) |
+| [3.1-metrics-types.drawio](./03-metrics/3.1-metrics-types.drawio) | [PNG](./03-metrics/3.1-metrics-types.png) |
+| [4.1-distributed-tracing.drawio](./04-distributed-tracing/4.1-distributed-tracing.drawio) | [PNG](./04-distributed-tracing/4.1-distributed-tracing.png) |
+| [5.1-alerting-strategy.drawio](./05-alerting/5.1-alerting-strategy.drawio) | [PNG](./05-alerting/5.1-alerting-strategy.png) |
+| [6.1-observability-architecture.drawio](./06-observability-architecture/6.1-observability-architecture.drawio) | [PNG](./06-observability-architecture/6.1-observability-architecture.png) |
