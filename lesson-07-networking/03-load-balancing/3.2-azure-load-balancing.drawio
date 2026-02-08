@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" etag="azure-load-balancing" version="22.1.5" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" etag="azure-load-balancing" version="22.1.5" type="device">
   <diagram name="Azure Load Balancing Decision" id="azure-load-balancing-diagram">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
 
         <!-- Title -->
-        <mxCell id="title" value="🌐 Azure Load Balancing Decision Tree" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="title" value="ðŸŒ Azure Load Balancing Decision Tree" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="450" y="20" width="500" height="40" as="geometry" />
         </mxCell>
 
@@ -52,7 +52,7 @@
         <mxCell id="fd-title" value="Azure Front Door" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
           <mxGeometry x="100" y="460" width="140" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="fd-features" value="Global HTTP(S) load balancer&#xa;&#xa;Features:&#xa;• CDN integration&#xa;• SSL offloading&#xa;• URL-based routing&#xa;• WAF protection&#xa;• Instant failover&#xa;• Caching" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="fd-features" value="Global HTTP(S) load balancer&#xa;&#xa;Features:&#xa;â€¢ CDN integration&#xa;â€¢ SSL offloading&#xa;â€¢ URL-based routing&#xa;â€¢ WAF protection&#xa;â€¢ Instant failover&#xa;â€¢ Caching" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="95" y="490" width="150" height="140" as="geometry" />
         </mxCell>
         <mxCell id="conn-q2g-fd" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-global" target="front-door">
@@ -69,7 +69,7 @@
         <mxCell id="tm-title" value="Traffic Manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
           <mxGeometry x="360" y="460" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="tm-features" value="DNS-based traffic routing&#xa;&#xa;Features:&#xa;• Any protocol support&#xa;• Geographic routing&#xa;• Priority routing&#xa;• Weighted routing&#xa;• Performance routing&#xa;• Nested profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="tm-features" value="DNS-based traffic routing&#xa;&#xa;Features:&#xa;â€¢ Any protocol support&#xa;â€¢ Geographic routing&#xa;â€¢ Priority routing&#xa;â€¢ Weighted routing&#xa;â€¢ Performance routing&#xa;â€¢ Nested profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="345" y="490" width="150" height="140" as="geometry" />
         </mxCell>
         <mxCell id="conn-q2g-tm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-global" target="traffic-mgr">
@@ -86,7 +86,7 @@
         <mxCell id="ag-title" value="Application Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#6c3483;" vertex="1" parent="1">
           <mxGeometry x="850" y="460" width="140" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ag-features" value="Regional L7 load balancer&#xa;&#xa;Features:&#xa;• URL-based routing&#xa;• SSL termination&#xa;• WAF integration&#xa;• Cookie affinity&#xa;• Autoscaling&#xa;• Zone redundancy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ag-features" value="Regional L7 load balancer&#xa;&#xa;Features:&#xa;â€¢ URL-based routing&#xa;â€¢ SSL termination&#xa;â€¢ WAF integration&#xa;â€¢ Cookie affinity&#xa;â€¢ Autoscaling&#xa;â€¢ Zone redundancy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="845" y="490" width="150" height="140" as="geometry" />
         </mxCell>
         <mxCell id="conn-q2r-ag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-regional" target="app-gw">
@@ -103,7 +103,7 @@
         <mxCell id="lb-title" value="Azure Load Balancer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b9770e;" vertex="1" parent="1">
           <mxGeometry x="1100" y="460" width="140" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="lb-features" value="Regional L4 load balancer&#xa;&#xa;Features:&#xa;• TCP/UDP support&#xa;• HA ports&#xa;• Outbound rules&#xa;• Internal/External&#xa;• Ultra-low latency&#xa;• Zone redundancy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="lb-features" value="Regional L4 load balancer&#xa;&#xa;Features:&#xa;â€¢ TCP/UDP support&#xa;â€¢ HA ports&#xa;â€¢ Outbound rules&#xa;â€¢ Internal/External&#xa;â€¢ Ultra-low latency&#xa;â€¢ Zone redundancy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1095" y="490" width="150" height="140" as="geometry" />
         </mxCell>
         <mxCell id="conn-q2r-lb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="q2-regional" target="azure-lb">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2026-02-02T00:00:00.000Z" agent="Claude" version="21.0.0" type="device">
   <diagram id="dns-resolution" name="DNS Resolution">
     <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
 
         <!-- Title -->
-        <mxCell id="title" value="🌐 DNS Resolution Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="title" value="ðŸŒ DNS Resolution Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="450" y="20" width="500" height="40" as="geometry" />
         </mxCell>
 
@@ -172,7 +172,7 @@
         <mxCell id="ra-purpose" value="Maps domain to IPv4 address" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f5ff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="180" y="475" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ra-example" value="example.com → 93.184.216.34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="ra-example" value="example.com â†’ 93.184.216.34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
           <mxGeometry x="430" y="475" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ra-usecase" value="Web servers, primary DNS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
@@ -186,7 +186,7 @@
         <mxCell id="raaaa-purpose" value="Maps domain to IPv6 address" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="180" y="505" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="raaaa-example" value="example.com → 2606:2800:220:1:..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="raaaa-example" value="example.com â†’ 2606:2800:220:1:..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
           <mxGeometry x="430" y="505" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="raaaa-usecase" value="IPv6 connectivity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
@@ -200,7 +200,7 @@
         <mxCell id="rcname-purpose" value="Alias (points to another domain)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffef5;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="180" y="535" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcname-example" value="www.example.com → example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="rcname-example" value="www.example.com â†’ example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
           <mxGeometry x="430" y="535" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rcname-usecase" value="CDN, load balancing aliases" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
@@ -214,7 +214,7 @@
         <mxCell id="rmx-purpose" value="Mail server for domain" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fffaf0;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="180" y="565" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rmx-example" value="example.com → 10 mail.example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="rmx-example" value="example.com â†’ 10 mail.example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
           <mxGeometry x="430" y="565" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rmx-usecase" value="Email routing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
@@ -242,7 +242,7 @@
         <mxCell id="rns-purpose" value="Authoritative name server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff5f5;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="180" y="625" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rns-example" value="example.com → ns1.example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
+        <mxCell id="rns-example" value="example.com â†’ ns1.example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Courier New;" parent="1" vertex="1">
           <mxGeometry x="430" y="625" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rns-usecase" value="DNS delegation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;" parent="1" vertex="1">

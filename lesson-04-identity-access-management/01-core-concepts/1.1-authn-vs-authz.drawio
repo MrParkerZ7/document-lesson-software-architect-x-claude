@@ -11,7 +11,7 @@
         </mxCell>
 
         <!-- Authentication Section -->
-        <mxCell id="authn-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="authn-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="80" width="600" height="380" as="geometry" />
         </mxCell>
 
@@ -29,7 +29,7 @@
         </mxCell>
 
         <!-- Something You Know -->
-        <mxCell id="factor1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976d2;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="factor1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976d2;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="180" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="factor1-icon" value="🧠" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" parent="1" vertex="1">
@@ -43,7 +43,7 @@
         </mxCell>
 
         <!-- Something You Have -->
-        <mxCell id="factor2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976d2;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="factor2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976d2;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="180" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="factor2-icon" value="📱" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" parent="1" vertex="1">
@@ -57,7 +57,7 @@
         </mxCell>
 
         <!-- Something You Are -->
-        <mxCell id="factor3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976d2;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="factor3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976d2;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="180" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="factor3-icon" value="👆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" parent="1" vertex="1">
@@ -71,7 +71,7 @@
         </mxCell>
 
         <!-- MFA -->
-        <mxCell id="mfa-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1565c0;strokeWidth=2;strokeDashPattern=3 3;" parent="1" vertex="1">
+        <mxCell id="mfa-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1565c0;strokeWidth=2;strokeDashPattern=3 3;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="295" width="550" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mfa-title" value="Multi-Factor Authentication (MFA)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1565c0;" parent="1" vertex="1">
@@ -105,7 +105,7 @@
         </mxCell>
 
         <!-- Authorization Section -->
-        <mxCell id="authz-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="authz-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="80" width="650" height="380" as="geometry" />
         </mxCell>
 
@@ -123,7 +123,7 @@
         </mxCell>
 
         <!-- RBAC -->
-        <mxCell id="rbac" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="rbac" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="180" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="rbac-title" value="RBAC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
@@ -137,7 +137,7 @@
         </mxCell>
 
         <!-- ABAC -->
-        <mxCell id="abac" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="abac" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="180" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="abac-title" value="ABAC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
@@ -151,7 +151,7 @@
         </mxCell>
 
         <!-- ACL -->
-        <mxCell id="acl" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="acl" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#43a047;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1140" y="180" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="acl-title" value="ACL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
@@ -165,7 +165,7 @@
         </mxCell>
 
         <!-- Permissions Example -->
-        <mxCell id="perm-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;strokeWidth=2;strokeDashPattern=3 3;" parent="1" vertex="1">
+        <mxCell id="perm-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;strokeWidth=2;strokeDashPattern=3 3;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="285" width="600" height="80" as="geometry" />
         </mxCell>
         <mxCell id="perm-title" value="Common Permission Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#2e7d32;" parent="1" vertex="1">
@@ -215,7 +215,7 @@
         </mxCell>
 
         <!-- Flow Diagram -->
-        <mxCell id="flow-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="flow-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="480" width="1300" height="180" as="geometry" />
         </mxCell>
 
@@ -224,12 +224,12 @@
         </mxCell>
 
         <!-- User -->
-        <mxCell id="flow-user" value="👤&#xa;User" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ff8f00;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-user" value="👤&#xa;User" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#ff8f00;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="550" width="80" height="80" as="geometry" />
         </mxCell>
 
         <!-- Arrow 1 -->
-        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;jumpStyle=arc;jumpSize=10;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="590" as="sourcePoint" />
             <mxPoint x="250" y="590" as="targetPoint" />
@@ -240,12 +240,12 @@
         </mxCell>
 
         <!-- IdP -->
-        <mxCell id="flow-idp" value="🔐&#xa;Identity Provider" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-idp" value="🔐&#xa;Identity Provider" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="550" width="120" height="80" as="geometry" />
         </mxCell>
 
         <!-- Arrow 2 -->
-        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;jumpStyle=arc;jumpSize=10;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="590" as="sourcePoint" />
             <mxPoint x="470" y="590" as="targetPoint" />
@@ -256,12 +256,12 @@
         </mxCell>
 
         <!-- Token -->
-        <mxCell id="flow-token" value="🎫&#xa;Token/Claims" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#c2185b;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-token" value="🎫&#xa;Token/Claims" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#c2185b;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="550" width="100" height="80" as="geometry" />
         </mxCell>
 
         <!-- Arrow 3 -->
-        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;jumpStyle=arc;jumpSize=10;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="590" as="sourcePoint" />
             <mxPoint x="670" y="590" as="targetPoint" />
@@ -272,12 +272,12 @@
         </mxCell>
 
         <!-- Application -->
-        <mxCell id="flow-app" value="📱&#xa;Application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-app" value="📱&#xa;Application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="550" width="100" height="80" as="geometry" />
         </mxCell>
 
         <!-- Arrow 4 -->
-        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;jumpStyle=arc;jumpSize=10;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="590" as="sourcePoint" />
             <mxPoint x="870" y="590" as="targetPoint" />
@@ -288,12 +288,12 @@
         </mxCell>
 
         <!-- Policy Engine -->
-        <mxCell id="flow-policy" value="⚙️&#xa;Policy Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-policy" value="⚙️&#xa;Policy Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;fontSize=11;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="550" width="110" height="80" as="geometry" />
         </mxCell>
 
         <!-- Arrow 5 -->
-        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeColor=#e65100;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;jumpStyle=arc;jumpSize=10;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="590" as="sourcePoint" />
             <mxPoint x="1080" y="590" as="targetPoint" />
@@ -304,7 +304,7 @@
         </mxCell>
 
         <!-- Resource -->
-        <mxCell id="flow-resource" value="📦&#xa;Resource" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="flow-resource" value="📦&#xa;Resource" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;strokeWidth=2;fontSize=12;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1090" y="550" width="100" height="80" as="geometry" />
         </mxCell>
 
@@ -317,7 +317,7 @@
         </mxCell>
 
         <!-- Key Differences -->
-        <mxCell id="diff-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#616161;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="diff-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#616161;strokeWidth=2;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="680" width="1300" height="200" as="geometry" />
         </mxCell>
 

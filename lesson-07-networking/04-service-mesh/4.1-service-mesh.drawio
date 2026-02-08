@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" etag="service-mesh" version="22.1.5" type="device">
+﻿<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Mozilla/5.0" etag="service-mesh" version="22.1.5" type="device">
   <diagram name="Service Mesh Architecture" id="service-mesh-diagram">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
 
         <!-- Title -->
-        <mxCell id="title" value="🌐 Service Mesh Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="title" value="ðŸŒ Service Mesh Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="500" y="20" width="400" height="40" as="geometry" />
         </mxCell>
 
@@ -82,7 +82,7 @@
         <mxCell id="cp-title" value="Control Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="140" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="cp-desc" value="• Configuration management&#xa;• Service discovery&#xa;• Certificate management&#xa;• Policy distribution&#xa;&#xa;Example: Istio's istiod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="cp-desc" value="â€¢ Configuration management&#xa;â€¢ Service discovery&#xa;â€¢ Certificate management&#xa;â€¢ Policy distribution&#xa;&#xa;Example: Istio's istiod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="735" y="165" width="170" height="90" as="geometry" />
         </mxCell>
 
@@ -93,7 +93,7 @@
         <mxCell id="dp-title" value="Data Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="1005" y="140" width="90" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="dp-desc" value="• Sidecar proxies (Envoy)&#xa;• Traffic handling&#xa;• Load balancing&#xa;• mTLS encryption&#xa;&#xa;Runs alongside each service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="dp-desc" value="â€¢ Sidecar proxies (Envoy)&#xa;â€¢ Traffic handling&#xa;â€¢ Load balancing&#xa;â€¢ mTLS encryption&#xa;&#xa;Runs alongside each service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="965" y="165" width="170" height="90" as="geometry" />
         </mxCell>
 
@@ -269,7 +269,7 @@
         <mxCell id="traffic-title" value="Traffic Management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1a5276;" vertex="1" parent="1">
           <mxGeometry x="90" y="780" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="traffic-features" value="• Load balancing (round robin, least conn)&#xa;• Traffic splitting (canary, A/B)&#xa;• Circuit breaking&#xa;• Retries with backoff&#xa;• Timeouts&#xa;• Rate limiting&#xa;• Request mirroring&#xa;• Fault injection (testing)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="traffic-features" value="â€¢ Load balancing (round robin, least conn)&#xa;â€¢ Traffic splitting (canary, A/B)&#xa;â€¢ Circuit breaking&#xa;â€¢ Retries with backoff&#xa;â€¢ Timeouts&#xa;â€¢ Rate limiting&#xa;â€¢ Request mirroring&#xa;â€¢ Fault injection (testing)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="55" y="810" width="230" height="130" as="geometry" />
         </mxCell>
 
@@ -280,7 +280,7 @@
         <mxCell id="security-title" value="Security" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#196f3d;" vertex="1" parent="1">
           <mxGeometry x="405" y="780" width="90" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="security-features" value="• mTLS (automatic encryption)&#xa;• Certificate rotation&#xa;• Service identity (SPIFFE)&#xa;• Authorization policies&#xa;• JWT validation&#xa;• Namespace isolation&#xa;• Network policies&#xa;• Audit logging" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="security-features" value="â€¢ mTLS (automatic encryption)&#xa;â€¢ Certificate rotation&#xa;â€¢ Service identity (SPIFFE)&#xa;â€¢ Authorization policies&#xa;â€¢ JWT validation&#xa;â€¢ Namespace isolation&#xa;â€¢ Network policies&#xa;â€¢ Audit logging" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="335" y="810" width="230" height="130" as="geometry" />
         </mxCell>
 
@@ -291,7 +291,7 @@
         <mxCell id="observability-title" value="Observability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#b7950b;" vertex="1" parent="1">
           <mxGeometry x="680" y="780" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="observability-features" value="• Distributed tracing (Jaeger, Zipkin)&#xa;• Metrics collection (Prometheus)&#xa;• Access logging&#xa;• Service dependency graphs&#xa;• Latency percentiles&#xa;• Error rates&#xa;• Request volume&#xa;• Golden signals (RED method)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="observability-features" value="â€¢ Distributed tracing (Jaeger, Zipkin)&#xa;â€¢ Metrics collection (Prometheus)&#xa;â€¢ Access logging&#xa;â€¢ Service dependency graphs&#xa;â€¢ Latency percentiles&#xa;â€¢ Error rates&#xa;â€¢ Request volume&#xa;â€¢ Golden signals (RED method)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="615" y="810" width="230" height="130" as="geometry" />
         </mxCell>
 
