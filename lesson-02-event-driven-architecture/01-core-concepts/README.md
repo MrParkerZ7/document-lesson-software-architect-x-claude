@@ -1,15 +1,15 @@
-# Core Concepts
+# ⚡ Core Concepts
 
-> **Navigation**: [Back to Lesson Overview](../README.md) | [Next: Message Brokers](../02-message-brokers/README.md)
+> **Navigation**: [⬅️ Back to Lesson Overview](../README.md) | [Next: Message Brokers ➡️](../02-message-brokers/README.md)
 
 ---
 
-## 1.1 What is an Event?
+## 📋 1.1 What is an Event?
 
 An **event** is a record of something that happened in the system. Events are:
-- **Immutable**: Once created, cannot be changed
-- **Past tense**: Represent something that already occurred
-- **Self-contained**: Include all necessary information
+- **📌 Immutable**: Once created, cannot be changed
+- **⏮️ Past tense**: Represent something that already occurred
+- **📦 Self-contained**: Include all necessary information
 
 ```json
 {
@@ -29,15 +29,15 @@ An **event** is a record of something that happened in the system. Events are:
 }
 ```
 
-## 1.2 Event Types
+## 🏷️ 1.2 Event Types
 
 | Type | Description | Example |
 |------|-------------|---------|
-| **Domain Event** | Business-significant occurrence | `OrderPlaced`, `PaymentReceived` |
-| **Integration Event** | Cross-boundary communication | `CustomerCreated` (shared) |
-| **System Event** | Technical/infrastructure event | `ServiceStarted`, `HealthCheckPassed` |
+| **🎯 Domain Event** | Business-significant occurrence | `OrderPlaced`, `PaymentReceived` |
+| **🔗 Integration Event** | Cross-boundary communication | `CustomerCreated` (shared) |
+| **⚙️ System Event** | Technical/infrastructure event | `ServiceStarted`, `HealthCheckPassed` |
 
-## 1.3 Event-Driven Components
+## 🧩 1.3 Event-Driven Components
 
 ```
 ┌──────────────┐         ┌──────────────┐         ┌──────────────┐
@@ -46,13 +46,13 @@ An **event** is a record of something that happened in the system. Events are:
 └──────────────┘         └──────────────┘         └──────────────┘
 ```
 
-- **Producer/Publisher**: Emits events when something happens
-- **Broker/Channel**: Routes events to interested consumers
-- **Consumer/Subscriber**: Reacts to events
+- **📤 Producer/Publisher**: Emits events when something happens
+- **📬 Broker/Channel**: Routes events to interested consumers
+- **📥 Consumer/Subscriber**: Reacts to events
 
 ---
 
-## Diagrams in This Section
+## 📊 Diagrams in This Section
 
 - [1.1-eda-overview.drawio](./1.1-eda-overview.drawio)
 - [1.2-event-types-structure.drawio](./1.2-event-types-structure.drawio)

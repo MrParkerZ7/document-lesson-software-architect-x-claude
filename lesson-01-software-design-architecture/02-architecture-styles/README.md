@@ -1,43 +1,43 @@
-# Architecture Styles
+# 🏛️ Architecture Styles
 
-> **Navigation**: [Back to Lesson Overview](../README.md) | [Previous: Design Patterns](../01-design-patterns/README.md) | [Next: Architecture Principles](../03-architecture-principles/README.md)
+> **Navigation**: [⬅️ Back to Lesson Overview](../README.md) | [Previous: Design Patterns](../01-design-patterns/README.md) | [Next: Architecture Principles ➡️](../03-architecture-principles/README.md)
 
 ---
 
-## 2.1 Monolithic Architecture
+## 🏛️ 2.1 Monolithic Architecture
 
-**Description**: Single deployable unit containing all application functionality.
+**📋 Description**: Single deployable unit containing all application functionality.
 
 ```
 ┌────────────────────────────────────────┐
-│            Monolithic App              │
+│            🏛️ Monolithic App           │
 │  ┌──────────┬──────────┬────────────┐ │
-│  │    UI    │ Business │   Data     │ │
+│  │  🖥️ UI   │ ⚙️ Biz   │   💾 Data  │ │
 │  │   Layer  │  Logic   │   Layer    │ │
 │  └──────────┴──────────┴────────────┘ │
 │                  │                     │
 │            ┌─────┴─────┐               │
-│            │ Database  │               │
+│            │🗄️ Database│               │
 │            └───────────┘               │
 └────────────────────────────────────────┘
 ```
 
-| Pros | Cons |
+| ✅ Pros | ⚠️ Cons |
 |------|------|
 | Simple to develop and deploy | Difficult to scale individual components |
 | Easy debugging and testing | Technology lock-in |
 | Low operational complexity | Large codebase becomes unwieldy |
 | Good for small teams | Long deployment cycles |
 
-**When to Use**: Small applications, startups, MVPs, small teams
+**💡 When to Use**: Small applications, startups, MVPs, small teams
 
-## 2.2 Microservices Architecture
+## 🔲 2.2 Microservices Architecture
 
-**Description**: Application as suite of small, independently deployable services.
+**📋 Description**: Application as suite of small, independently deployable services.
 
 ```
 ┌─────────┐  ┌─────────┐  ┌─────────┐
-│Service A│  │Service B│  │Service C│
+│🔲 Svc A │  │🔲 Svc B │  │🔲 Svc C │
 │   API   │  │   API   │  │   API   │
 │   DB    │  │   DB    │  │   DB    │
 └────┬────┘  └────┬────┘  └────┬────┘
@@ -45,85 +45,86 @@
      └────────────┼────────────┘
                   │
             ┌─────┴─────┐
-            │API Gateway│
+            │🚪 API GW  │
             └───────────┘
 ```
 
-| Pros | Cons |
+| ✅ Pros | ⚠️ Cons |
 |------|------|
 | Independent scaling | Distributed system complexity |
 | Technology flexibility | Network latency |
 | Fault isolation | Data consistency challenges |
 | Team autonomy | Operational overhead |
 
-**When to Use**: Large applications, multiple teams, need for independent scaling
+**💡 When to Use**: Large applications, multiple teams, need for independent scaling
 
-## 2.3 Service-Oriented Architecture (SOA)
+## 🔌 2.3 Service-Oriented Architecture (SOA)
 
-**Description**: Services communicate over a network using an Enterprise Service Bus (ESB).
+**📋 Description**: Services communicate over a network using an Enterprise Service Bus (ESB).
 
 ```
 ┌─────────┐  ┌─────────┐  ┌─────────┐
-│Service 1│  │Service 2│  │Service 3│
+│🔌 Svc 1 │  │🔌 Svc 2 │  │🔌 Svc 3 │
 └────┬────┘  └────┬────┘  └────┬────┘
      │            │            │
 ┌────┴────────────┴────────────┴────┐
-│       Enterprise Service Bus       │
+│       🚌 Enterprise Service Bus    │
 └───────────────────────────────────┘
 ```
 
-**Key Concepts**:
-- Service contracts
-- Service reusability
-- Service composability
-- Enterprise Service Bus (ESB)
+**🔑 Key Concepts**:
+- 📋 Service contracts
+- ♻️ Service reusability
+- 🧩 Service composability
+- 🚌 Enterprise Service Bus (ESB)
 
-## 2.4 Serverless Architecture
+## ☁️ 2.4 Serverless Architecture
 
-**Description**: Application logic runs in stateless compute containers, event-triggered and fully managed.
+**📋 Description**: Application logic runs in stateless compute containers, event-triggered and fully managed.
 
 ```
 ┌──────────┐    ┌──────────┐    ┌──────────┐
-│  Event   │───▶│ Function │───▶│ Database │
-│  Source  │    │ (Lambda) │    │ (DynamoDB│
+│⚡ Event  │───▶│λ Function│───▶│🗄️ DynamoDB│
+│  Source  │    │ (Lambda) │    │          │
 └──────────┘    └──────────┘    └──────────┘
      │
      ▼
 ┌──────────┐    ┌──────────┐
-│  API     │───▶│ Function │
+│🚪 API    │───▶│λ Function│
 │ Gateway  │    │          │
 └──────────┘    └──────────┘
 ```
 
-| Pros | Cons |
+| ✅ Pros | ⚠️ Cons |
 |------|------|
 | No server management | Cold start latency |
 | Auto-scaling | Vendor lock-in |
 | Pay-per-use | Limited execution time |
 | Reduced operational cost | Debugging complexity |
 
-**When to Use**: Event-driven workloads, variable traffic, rapid prototyping
+**💡 When to Use**: Event-driven workloads, variable traffic, rapid prototyping
 
-## 2.5 Event-Driven Architecture (EDA)
+## ⚡ 2.5 Event-Driven Architecture (EDA)
 
-**Description**: Communication through events; producers emit events, consumers react to them.
+**📋 Description**: Communication through events; producers emit events, consumers react to them.
 
 ```
 ┌──────────┐    ┌─────────────┐    ┌──────────┐
-│ Producer │───▶│Event Broker │───▶│ Consumer │
-└──────────┘    │(Kafka/RMQ)  │    └──────────┘
+│📤 Producer│───▶│📬 Event     │───▶│📥 Consumer│
+└──────────┘    │   Broker    │    └──────────┘
+                │(Kafka/RMQ)  │
                 └──────┬──────┘
                        │
                 ┌──────┴──────┐
-                │  Consumer   │
+                │📥 Consumer  │
                 └─────────────┘
 ```
 
-*(Covered in detail in Lesson 02)*
+*(🔗 Covered in detail in Lesson 02)*
 
 ---
 
-## Diagrams in This Section
+## 📊 Diagrams in This Section
 
 - [2.1-monolithic-architecture.drawio](./2.1-monolithic-architecture.drawio)
 - [2.2-microservices-architecture.drawio](./2.2-microservices-architecture.drawio)

@@ -1,10 +1,10 @@
-# Async Communication Patterns
+# 🔄 Async Communication Patterns
 
-> **Navigation**: [Back to Lesson Overview](../README.md) | [Previous: Stream Processing](../04-stream-processing/README.md) | [Next: Best Practices](../06-best-practices/README.md)
+> **Navigation**: [⬅️ Back to Lesson Overview](../README.md) | [Previous: Stream Processing](../04-stream-processing/README.md) | [Next: Best Practices ➡️](../06-best-practices/README.md)
 
 ---
 
-## 5.1 Pub/Sub (Publish/Subscribe)
+## 📡 5.1 Pub/Sub (Publish/Subscribe)
 
 ```
 Publisher ──▶ Topic ──▶ Subscriber A
@@ -12,24 +12,24 @@ Publisher ──▶ Topic ──▶ Subscriber A
                   └───▶ Subscriber C
 ```
 
-**Characteristics**:
-- One-to-many communication
-- Publishers don't know subscribers
-- Subscribers receive all messages
+**📋 Characteristics**:
+- 📢 One-to-many communication
+- 🔒 Publishers don't know subscribers
+- 📥 Subscribers receive all messages
 
-## 5.2 Message Queues
+## 📬 5.2 Message Queues
 
 ```
 Producer ──▶ Queue ──▶ Consumer A
                   ◀── Consumer B (competing)
 ```
 
-**Characteristics**:
-- Point-to-point communication
-- Message consumed once
-- Load balancing across consumers
+**📋 Characteristics**:
+- 🎯 Point-to-point communication
+- 1️⃣ Message consumed once
+- ⚖️ Load balancing across consumers
 
-## 5.3 Event Streams
+## 🌊 5.3 Event Streams
 
 ```
 Producer ──▶ Stream ──▶ Consumer A (offset: 100)
@@ -37,12 +37,12 @@ Producer ──▶ Stream ──▶ Consumer A (offset: 100)
                    └──▶ Consumer C (offset: 100)
 ```
 
-**Characteristics**:
-- Ordered, immutable log
-- Multiple consumers at different positions
-- Replay capability
+**📋 Characteristics**:
+- 📊 Ordered, immutable log
+- 👥 Multiple consumers at different positions
+- 🔄 Replay capability
 
-## 5.4 Request/Reply over Messaging
+## 🔁 5.4 Request/Reply over Messaging
 
 ```
 ┌──────────┐    Request    ┌──────────┐
@@ -56,7 +56,7 @@ Producer ──▶ Stream ──▶ Consumer A (offset: 100)
 
 ---
 
-## Diagrams in This Section
+## 📊 Diagrams in This Section
 
 - [5.1-pubsub-pattern.drawio](./5.1-pubsub-pattern.drawio)
 - [5.2-message-queue-pattern.drawio](./5.2-message-queue-pattern.drawio)
