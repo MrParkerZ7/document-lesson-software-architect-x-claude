@@ -23,8 +23,9 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 08 | Databases & Storage | ✅ |
 | 09 | Observability & Monitoring | ✅ |
 | 10 | Soft Skills | ✅ |
+| 11 | Career Path | ✅ |
 
-**Diagrams: 5/11 lessons completed**
+**Diagrams: 12/12 lessons completed**
 
 ---
 
@@ -143,7 +144,18 @@ Software Architects serve as the technical visionaries who define the blueprint 
 | 06 - Continuous Learning | [README](./lesson-10-soft-skills/06-continuous-learning/README.md) | [6.1 Career Growth](./lesson-10-soft-skills/06-continuous-learning/6.1-career-growth.drawio) / [png](./lesson-10-soft-skills/06-continuous-learning/6.1-career-growth.png) |
 | 07 - Work-Life Balance | [README](./lesson-10-soft-skills/07-work-life-balance/README.md) | No diagrams |
 
-**Total:** 69 Sub-Lessons | 152 Diagrams | 152 Images
+### Lesson 11 - Career Path
+| Sub-lesson | README | Diagrams |
+|------------|--------|----------|
+| 01 - Career Progression Stages | [README](./lesson-11-career-path/01-career-progression-stages/README.md) | [1.1 Career Ladder](./lesson-11-career-path/01-career-progression-stages/1.1-career-ladder.drawio) / [png](./lesson-11-career-path/01-career-progression-stages/1.1-career-ladder.png) |
+| 02 - Architect Specializations | [README](./lesson-11-career-path/02-architect-specializations/README.md) | [2.1 Specializations](./lesson-11-career-path/02-architect-specializations/2.1-specializations.drawio) / [png](./lesson-11-career-path/02-architect-specializations/2.1-specializations.png) |
+| 03 - Certifications & Credentials | [README](./lesson-11-career-path/03-certifications-credentials/README.md) | [3.1 Certification Paths](./lesson-11-career-path/03-certifications-credentials/3.1-certification-paths.drawio) / [png](./lesson-11-career-path/03-certifications-credentials/3.1-certification-paths.png) |
+| 04 - Building Your Portfolio | [README](./lesson-11-career-path/04-building-your-portfolio/README.md) | [4.1 Portfolio Components](./lesson-11-career-path/04-building-your-portfolio/4.1-portfolio-components.drawio) / [png](./lesson-11-career-path/04-building-your-portfolio/4.1-portfolio-components.png) |
+| 05 - Interview Preparation | [README](./lesson-11-career-path/05-interview-preparation/README.md) | [5.1 Interview Framework](./lesson-11-career-path/05-interview-preparation/5.1-interview-framework.drawio) / [png](./lesson-11-career-path/05-interview-preparation/5.1-interview-framework.png) |
+| 06 - Networking & Community | [README](./lesson-11-career-path/06-networking-community/README.md) | [6.1 Networking Channels](./lesson-11-career-path/06-networking-community/6.1-networking-channels.drawio) / [png](./lesson-11-career-path/06-networking-community/6.1-networking-channels.png) |
+| 07 - Continuous Learning Strategy | [README](./lesson-11-career-path/07-continuous-learning-strategy/README.md) | [7.1 Learning Strategy](./lesson-11-career-path/07-continuous-learning-strategy/7.1-learning-strategy.drawio) / [png](./lesson-11-career-path/07-continuous-learning-strategy/7.1-learning-strategy.png) |
+
+**Total:** 76 Sub-Lessons | 159 Diagrams | 159 Images
 
 ---
 
