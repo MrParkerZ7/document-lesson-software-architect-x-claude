@@ -281,4 +281,4 @@
 
 ## Diagrams in This Section
 
-_No diagrams yet - contributions welcome_
+- [6.1-networking-channels.drawio](./6.1-networking-channels.drawio)

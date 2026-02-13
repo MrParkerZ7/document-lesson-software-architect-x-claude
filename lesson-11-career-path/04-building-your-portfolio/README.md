@@ -282,4 +282,4 @@ Why did we choose this approach?
 
 ## Diagrams in This Section
 
-_No diagrams yet - contributions welcome_
+- [4.1-portfolio-components.drawio](./4.1-portfolio-components.drawio)

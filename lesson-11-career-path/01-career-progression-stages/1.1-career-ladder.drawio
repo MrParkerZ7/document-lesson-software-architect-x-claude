@@ -1,0 +1,290 @@
+<mxfile host="app.diagrams.net" modified="2026-02-13T00:00:00.000Z" agent="5.0" etag="career-ladder" version="21.0.0" type="device">
+  <diagram name="Career Ladder" id="career-ladder">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🚀 Software Architect Career Ladder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Career Ladder Section -->
+        <mxCell id="ladder-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="500" height="720" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ladder-title" value="📈 Career Progression Stages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Level 7: Distinguished -->
+        <mxCell id="l7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-icon" value="⭐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="130" y="145" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-title" value="Distinguished / Fellow Architect" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="175" y="140" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l7-desc" value="Industry-wide influence • Research • Standards bodies • Thought leadership" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="175" y="165" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Level 6: Chief -->
+        <mxCell id="l6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6-icon" value="👔" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="130" y="235" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l6-title" value="Chief Architect / VP of Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="175" y="230" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l6-desc" value="Organization-wide strategy • Multiple domains • Executive reporting" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="175" y="255" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Level 5: Principal -->
+        <mxCell id="l5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-icon" value="🏛️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="130" y="325" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-title" value="Principal / Enterprise Architect" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="175" y="320" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-desc" value="Cross-team impact • Long-term vision • Architecture governance • Mentors architects" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="175" y="345" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Level 4: Senior Architect -->
+        <mxCell id="l4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-icon" value="🎯" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="130" y="415" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-title" value="Senior Software Architect" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="175" y="410" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-desc" value="Leads architecture for complex systems • Establishes standards • Cross-team collaboration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="175" y="435" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Level 3: Architect -->
+        <mxCell id="l3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="490" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-icon" value="📐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="130" y="505" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-title" value="Software Architect / Solutions Architect" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="175" y="500" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-desc" value="Designs systems • Makes technology decisions • Guides implementation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="175" y="525" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Level 2: Senior Engineer -->
+        <mxCell id="l2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-icon" value="💻" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="130" y="595" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-title" value="Senior Software Engineer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="175" y="590" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-desc" value="Deep technical expertise • Mentors others • Owns complex features" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="175" y="615" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Level 1: Engineer -->
+        <mxCell id="l1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="670" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-icon" value="👨‍💻" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="130" y="685" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-title" value="Software Engineer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="175" y="680" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-desc" value="Foundation: Coding • Design patterns • Testing • Teamwork" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="175" y="705" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;curved=1;shadow=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="670" as="sourcePoint" />
+            <mxPoint x="330" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;curved=1;shadow=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="580" as="sourcePoint" />
+            <mxPoint x="330" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;curved=1;shadow=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="490" as="sourcePoint" />
+            <mxPoint x="330" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;curved=1;shadow=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="400" as="sourcePoint" />
+            <mxPoint x="330" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;curved=1;shadow=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="330" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow6" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;curved=1;shadow=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="220" as="sourcePoint" />
+            <mxPoint x="330" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Mindset Shift Section -->
+        <mxCell id="mindset-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="700" height="350" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mindset-title" value="🧠 Engineer vs Architect Mindset Shift" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="820" y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Engineer Mindset -->
+        <mxCell id="eng-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="130" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="eng-title" value="💻 Engineer Mindset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="725" y="140" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="eng-item1" value="&quot;How do I build this?&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="175" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eng-item2" value="Focus on implementation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="670" y="215" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eng-item3" value="Optimize for code quality" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="670" y="255" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eng-item4" value="Single system depth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="670" y="295" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eng-item5" value="Technical excellence" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="670" y="335" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eng-item6" value="Team scope" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="670" y="375" width="260" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow between mindsets -->
+        <mxCell id="mindset-arrow" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#82b366;curved=1;shadow=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="270" as="sourcePoint" />
+            <mxPoint x="990" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Architect Mindset -->
+        <mxCell id="arch-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="130" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-title" value="📐 Architect Mindset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="140" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-item1" value="&quot;Should we build this?&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="175" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-item2" value="Focus on decisions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="215" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-item3" value="Optimize for outcomes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="255" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-item4" value="Multiple system breadth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="295" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-item5" value="Business alignment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="335" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-item6" value="Organization scope" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="375" width="260" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Transition Indicators -->
+        <mxCell id="trans-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="450" width="700" height="350" as="geometry" />
+        </mxCell>
+
+        <mxCell id="trans-title" value="✅ Transition Readiness Indicators" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="820" y="460" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Indicator boxes -->
+        <mxCell id="ind1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="500" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ind1-title" value="🔧 Technical" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="700" y="510" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ind1-content" value="✓ Comfortable with system design&#xa;✓ Understand multiple stacks&#xa;✓ See beyond current project&#xa;✓ Make trade-off decisions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="660" y="535" width="180" height="85" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ind2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="500" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ind2-title" value="💬 Communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="910" y="510" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ind2-content" value="✓ Explain to non-technical&#xa;✓ Write clear documentation&#xa;✓ Present to stakeholders&#xa;✓ Lead design discussions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="880" y="535" width="180" height="85" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ind3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="500" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ind3-title" value="💼 Influence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="510" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ind3-content" value="✓ Others seek your opinion&#xa;✓ Shape technical direction&#xa;✓ Mentor team members&#xa;✓ Drive initiatives" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="535" width="180" height="85" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ind4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="650" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ind4-title" value="📊 Business" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="810" y="660" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ind4-content" value="✓ Understand business impact&#xa;✓ Translate tech to value&#xa;✓ Consider cost/ROI&#xa;✓ Align with strategy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="770" y="685" width="180" height="85" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ind5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="650" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ind5-title" value="🔮 Vision" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="660" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ind5-content" value="✓ Think long-term&#xa;✓ Anticipate changes&#xa;✓ Plan for scale&#xa;✓ See the big picture" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="990" y="685" width="180" height="85" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

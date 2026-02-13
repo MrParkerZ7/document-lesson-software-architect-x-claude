@@ -24,13 +24,13 @@ By the end of this lesson, you will be able to:
 
 | # | Topic | Diagrams |
 |---|-------|----------|
-| 01 | [Career Progression Stages](./01-career-progression-stages/README.md) | 0 |
-| 02 | [Architect Specializations](./02-architect-specializations/README.md) | 0 |
-| 03 | [Certifications & Credentials](./03-certifications-credentials/README.md) | 0 |
-| 04 | [Building Your Portfolio](./04-building-your-portfolio/README.md) | 0 |
-| 05 | [Interview Preparation](./05-interview-preparation/README.md) | 0 |
-| 06 | [Networking & Community](./06-networking-community/README.md) | 0 |
-| 07 | [Continuous Learning Strategy](./07-continuous-learning-strategy/README.md) | 0 |
+| 01 | [Career Progression Stages](./01-career-progression-stages/README.md) | 1 |
+| 02 | [Architect Specializations](./02-architect-specializations/README.md) | 1 |
+| 03 | [Certifications & Credentials](./03-certifications-credentials/README.md) | 1 |
+| 04 | [Building Your Portfolio](./04-building-your-portfolio/README.md) | 1 |
+| 05 | [Interview Preparation](./05-interview-preparation/README.md) | 1 |
+| 06 | [Networking & Community](./06-networking-community/README.md) | 1 |
+| 07 | [Continuous Learning Strategy](./07-continuous-learning-strategy/README.md) | 1 |
 
 ---
 
@@ -415,3 +415,14 @@ Building a successful architecture career requires intentional planning and cont
 | 05 | Interview Preparation | [README](./05-interview-preparation/README.md) |
 | 06 | Networking & Community | [README](./06-networking-community/README.md) |
 | 07 | Continuous Learning Strategy | [README](./07-continuous-learning-strategy/README.md) |
+
+### 📊 Diagrams
+| Diagram | Source |
+|---------|--------|
+| [1.1-career-ladder.drawio](./01-career-progression-stages/1.1-career-ladder.drawio) | Career Progression |
+| [2.1-specializations.drawio](./02-architect-specializations/2.1-specializations.drawio) | Specializations |
+| [3.1-certification-paths.drawio](./03-certifications-credentials/3.1-certification-paths.drawio) | Certifications |
+| [4.1-portfolio-components.drawio](./04-building-your-portfolio/4.1-portfolio-components.drawio) | Portfolio |
+| [5.1-interview-framework.drawio](./05-interview-preparation/5.1-interview-framework.drawio) | Interviews |
+| [6.1-networking-channels.drawio](./06-networking-community/6.1-networking-channels.drawio) | Networking |
+| [7.1-learning-strategy.drawio](./07-continuous-learning-strategy/7.1-learning-strategy.drawio) | Learning |

@@ -1,0 +1,245 @@
+<mxfile host="app.diagrams.net" modified="2026-02-13T00:00:00.000Z" agent="5.0" etag="networking" version="21.0.0" type="device">
+  <diagram name="Networking Channels" id="networking">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🤝 Networking &amp; Community Engagement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="640" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Community Channels Section -->
+        <mxCell id="channels-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="1320" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="channels-title" value="📡 Community Channels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Conferences -->
+        <mxCell id="conf-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="conf-icon" value="🎪" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="conf-title" value="Conferences" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="115" y="180" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="conf-list" value="QCon - Software Architecture&#xa;GOTO - Software Development&#xa;KubeCon - Cloud Native&#xa;re:Invent - AWS&#xa;Build - Microsoft&#xa;Next - Google Cloud&#xa;DevOpsDays - DevOps" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="conf-benefit" value="Learning • Visibility • Connections" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;shadow=1;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="75" y="320" width="210" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Meetups -->
+        <mxCell id="meet-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="meet-icon" value="👥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="meet-title" value="Local Meetups" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="375" y="180" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="meet-list" value="Technology-specific groups&#xa;(K8s, AWS, Azure meetups)&#xa;&#xa;Architecture-focused groups&#xa;&#xa;Methodology groups&#xa;(DevOps, Agile, DDD)&#xa;&#xa;Language user groups" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="meet-benefit" value="Local Network • Practice Speaking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;shadow=1;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="320" width="210" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Online Communities -->
+        <mxCell id="online-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="130" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="online-icon" value="💻" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="670" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="online-title" value="Online Communities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="online-list" value="Slack - Tech communities&#xa;Discord - Programming groups&#xa;Reddit - r/softwarearchitecture&#xa;LinkedIn - Architecture groups&#xa;Twitter/X - Tech discussions&#xa;Stack Overflow - Q&amp;A" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="600" y="210" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="online-benefit" value="Daily Learning • Q&amp;A • Trends" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;shadow=1;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="595" y="320" width="210" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Open Source -->
+        <mxCell id="oss-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="130" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oss-icon" value="🔓" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="930" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oss-title" value="Open Source" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="905" y="180" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="oss-list" value="Contribute to projects&#xa;Maintain your own tools&#xa;Improve documentation&#xa;Review pull requests&#xa;Report and fix bugs&#xa;Help newcomers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="860" y="210" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oss-benefit" value="Skills • Reputation • Collaboration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;shadow=1;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="855" y="320" width="210" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Writing -->
+        <mxCell id="write-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="130" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="write-icon" value="✍️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="write-title" value="Writing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="180" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="write-list" value="Personal blog&#xa;Medium articles&#xa;Dev.to posts&#xa;LinkedIn articles&#xa;Company tech blog&#xa;Newsletter" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="210" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="write-benefit" value="Thought Leadership • Reflection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;shadow=1;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="320" width="210" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Networking Philosophy -->
+        <mxCell id="phil-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="660" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phil-title" value="💡 Networking Philosophy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="250" y="410" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Give First -->
+        <mxCell id="give-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="give-icon" value="🎁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="130" y="460" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="give-title" value="GIVE FIRST" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="495" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="give-content" value="&quot;How can I help you?&quot;&#xa;before&#xa;&quot;What can you do for me?&quot;&#xa;&#xa;• Share knowledge freely&#xa;• Make introductions&#xa;• Offer feedback&#xa;• Celebrate others' wins" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="520" width="180" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Be Authentic -->
+        <mxCell id="auth-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="auth-icon" value="💎" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="auth-title" value="BE AUTHENTIC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="315" y="495" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="auth-content" value="Build genuine relationships,&#xa;not transactional contacts&#xa;&#xa;• Be curious about others&#xa;• Share real experiences&#xa;• Include your failures&#xa;• Don't pretend expertise&#xa;• Follow up because you care" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="180" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Play Long Game -->
+        <mxCell id="long-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="long-icon" value="🎯" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="560" y="460" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="long-title" value="LONG GAME" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="530" y="495" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="long-content" value="Networks compound&#xa;over time&#xa;&#xa;• Maintain relationships&#xa;• Invest before you need&#xa;• Small consistent touches&#xa;  beat sporadic big ones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="510" y="520" width="160" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- Mentorship Section -->
+        <mxCell id="mentor-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="400" width="640" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mentor-title" value="🧭 Mentorship" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="970" y="410" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Find a Mentor -->
+        <mxCell id="find-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="450" width="290" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="find-title" value="🔍 Finding a Mentor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="820" y="460" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="find-content" value="Internal: Ask someone 1-2 levels senior&#xa;&#xa;Network: Reach out to connections you admire&#xa;&#xa;Conferences: Follow up with inspiring speakers&#xa;&#xa;Online: Engage with thought leaders&#xa;&#xa;Formal: Company programs, associations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="755" y="490" width="260" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- The Ask -->
+        <mxCell id="ask-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="580" width="260" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ask-content" value="&quot;Would you be open to a 30-minute&#xa;conversation about [topic]?&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="765" y="590" width="240" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Be a Mentor -->
+        <mxCell id="be-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="450" width="290" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="be-title" value="🌱 Being a Mentor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="460" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="be-content" value="Benefits of mentoring:&#xa;&#xa;• Deepens YOUR understanding&#xa;• Builds leadership skills&#xa;• Expands your network&#xa;• Pays forward what you received&#xa;• Fresh perspectives from mentees&#xa;&#xa;Types: Direct, Peer, Reverse (learn new tech from juniors)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="490" width="260" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- Content Calendar -->
+        <mxCell id="cal-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="700" width="1320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cal-title" value="📅 Content &amp; Engagement Calendar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="540" y="710" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cal-weekly" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="740" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cal-weekly-title" value="📆 Weekly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="75" y="745" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cal-weekly-content" value="Share article • Engage with posts • Answer questions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="75" y="765" width="270" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cal-biweekly" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="740" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cal-biweekly-title" value="📆 Bi-weekly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="395" y="745" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cal-biweekly-content" value="Write short post • Share tool/technique" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="395" y="765" width="270" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cal-monthly" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="740" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cal-monthly-title" value="📆 Monthly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="715" y="745" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cal-monthly-content" value="Long-form article • Create diagram/visualization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="715" y="765" width="270" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cal-quarterly" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="740" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cal-quarterly-title" value="📆 Quarterly" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="745" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cal-quarterly-content" value="Give a talk • OSS contribution • Publish case study" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="765" width="290" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

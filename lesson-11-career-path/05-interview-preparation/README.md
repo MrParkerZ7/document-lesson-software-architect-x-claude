@@ -302,4 +302,4 @@ Create 5-7 stories that can be adapted for multiple questions:
 
 ## Diagrams in This Section
 
-_No diagrams yet - contributions welcome_
+- [5.1-interview-framework.drawio](./5.1-interview-framework.drawio)

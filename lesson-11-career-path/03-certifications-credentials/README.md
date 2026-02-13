@@ -203,4 +203,4 @@
 
 ## Diagrams in This Section
 
-_No diagrams yet - contributions welcome_
+- [3.1-certification-paths.drawio](./3.1-certification-paths.drawio)

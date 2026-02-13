@@ -242,4 +242,4 @@ Security Architect → Principal Security Architect → CISO
 
 ## Diagrams in This Section
 
-_No diagrams yet - contributions welcome_
+- [2.1-specializations.drawio](./2.1-specializations.drawio)

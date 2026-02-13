@@ -320,4 +320,4 @@
 
 ## Diagrams in This Section
 
-_No diagrams yet - contributions welcome_
+- [7.1-learning-strategy.drawio](./7.1-learning-strategy.drawio)

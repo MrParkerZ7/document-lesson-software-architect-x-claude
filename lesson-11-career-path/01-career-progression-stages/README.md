@@ -179,4 +179,4 @@
 
 ## Diagrams in This Section
 
-_No diagrams yet - contributions welcome_
+- [1.1-career-ladder.drawio](./1.1-career-ladder.drawio)
